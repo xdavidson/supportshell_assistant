@@ -1,0 +1,6 @@
+instructlab
+transformers
+datasets
+torch
+sentence-transformers
+pymilvus
