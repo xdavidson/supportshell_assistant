@@ -1,0 +1,44 @@
+P: /devices/virtual/block/dm-1
+M: dm-1
+R: 1
+U: block
+T: disk
+D: b 253:1
+N: dm-1
+L: 0
+S: disk/by-id/dm-name-root_vg-lv_swap
+S: mapper/root_vg-lv_swap
+S: disk/by-uuid/4a53:4f:53:9d:a6:2f729ba56fdd
+S: disk/by-label/lv_swap
+S: root_vg/lv_swap
+S: disk/by-id/dm-uuid-LVM-0czQa6vnpMIdWSsf2U4s4t43edqtiI84gMlBWsxIzw82SAQqxMTxl5NTLEKuY47l
+Q: 5
+E: DEVPATH=/devices/virtual/block/dm-1
+E: DEVNAME=/dev/dm-1
+E: DEVTYPE=disk
+E: DISKSEQ=5
+E: MAJOR=253
+E: MINOR=1
+E: SUBSYSTEM=block
+E: USEC_INITIALIZED=2408245
+E: DM_UDEV_DISABLE_LIBRARY_FALLBACK_FLAG=1
+E: DM_UDEV_PRIMARY_SOURCE_FLAG=1
+E: DM_UDEV_RULES_VSN=2
+E: DM_NAME=root_vg-lv_swap
+E: DM_UUID=LVM-0czQa6vnpMIdWSsf2U4s4t43edqtiI84gMlBWsxIzw82SAQqxMTxl5NTLEKuY47l
+E: DM_SUSPENDED=0
+E: DM_VG_NAME=root_vg
+E: DM_LV_NAME=lv_swap
+E: ID_FS_LABEL=lv_swap
+E: ID_FS_LABEL_ENC=lv_swap
+E: ID_FS_UUID=4a53:4f:53:9d:a6:2f729ba56fdd
+E: ID_FS_UUID_ENC=4a53:4f:53:9d:a6:2f729ba56fdd
+E: ID_FS_VERSION=1
+E: ID_FS_TYPE=swap
+E: ID_FS_USAGE=other
+E: NVME_HOST_IFACE=none
+E: SYSTEMD_READY=1
+E: DEVLINKS=/dev/disk/by-id/dm-name-root_vg-lv_swap /dev/mapper/root_vg-lv_swap /dev/disk/by-uuid/4a53:4f:53:9d:a6:2f729ba56fdd /dev/disk/by-label/lv_swap /dev/root_vg/lv_swap /dev/disk/by-id/dm-uuid-LVM-0czQa6vnpMIdWSsf2U4s4t43edqtiI84gMlBWsxIzw82SAQqxMTxl5NTLEKuY47l
+E: TAGS=:systemd:
+E: CURRENT_TAGS=:systemd:
+

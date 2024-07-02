@@ -1,0 +1,556 @@
+0xffffbde540000000-0xffffbde540005000   20480 irq_init_percpu_irqstack+0xcf/0x100 vmap
+0xffffbde540005000-0xffffbde540007000    8192 acpi_os_map_iomem+0x1c7/0x1e0 phys=0x000000007ffe1000 ioremap
+0xffffbde540008000-0xffffbde54000b000   12288 acpi_os_map_iomem+0x1c7/0x1e0 phys=0x000000007ffe0000 ioremap
+0xffffbde54000c000-0xffffbde54000f000   12288 acpi_os_map_iomem+0x1c7/0x1e0 phys=0x000000007ffe1000 ioremap
+0xffffbde54000f000-0xffffbde540011000    8192 gen_pool_add_owner+0x3a/0xc0 pages=1 vmalloc N0=1
+0xffffbde540011000-0xffffbde540013000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540014000-0xffffbde540019000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540019000-0xffffbde54001b000    8192 gen_pool_add_owner+0x3a/0xc0 pages=1 vmalloc N0=1
+0xffffbde54001c000-0xffffbde540021000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540021000-0xffffbde540023000    8192 gen_pool_add_owner+0x3a/0xc0 pages=1 vmalloc N0=1
+0xffffbde540024000-0xffffbde540029000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540029000-0xffffbde54002b000    8192 gen_pool_add_owner+0x3a/0xc0 pages=1 vmalloc N0=1
+0xffffbde54002c000-0xffffbde540031000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540031000-0xffffbde540033000    8192 memremap+0x7e/0x110 phys=0x00000000000f5000 ioremap
+0xffffbde540034000-0xffffbde540039000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540039000-0xffffbde54003b000    8192 __load_microcode_amd+0x62/0x280 pages=1 vmalloc N0=1
+0xffffbde54003c000-0xffffbde540041000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540041000-0xffffbde540044000   12288 pcpu_alloc_chunk+0x91/0x120 pages=2 vmalloc N0=2
+0xffffbde540044000-0xffffbde540046000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540049000-0xffffbde54004b000    8192 __pci_enable_msix_range+0x2dc/0x520 phys=0x00000000fd012000 ioremap
+0xffffbde54004b000-0xffffbde54004f000   16384 n_tty_open+0x14/0xa0 pages=3 vmalloc N0=3
+0xffffbde540051000-0xffffbde540053000    8192 __pci_enable_msix_range+0x2dc/0x520 phys=0x00000000fd013000 ioremap
+0xffffbde540053000-0xffffbde540057000   16384 n_tty_open+0x14/0xa0 pages=3 vmalloc N0=3
+0xffffbde540059000-0xffffbde54005b000    8192 __pci_enable_msix_range+0x2dc/0x520 phys=0x00000000fd014000 ioremap
+0xffffbde54005c000-0xffffbde540061000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540061000-0xffffbde540063000    8192 __pci_enable_msix_range+0x2dc/0x520 phys=0x00000000fd015000 ioremap
+0xffffbde540069000-0xffffbde54006b000    8192 __pci_enable_msix_range+0x2dc/0x520 phys=0x00000000fd016000 ioremap
+0xffffbde54006c000-0xffffbde540071000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540071000-0xffffbde540073000    8192 __pci_enable_msix_range+0x2dc/0x520 phys=0x00000000fd017000 ioremap
+0xffffbde540074000-0xffffbde540079000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540079000-0xffffbde54007b000    8192 __pci_enable_msix_range+0x2dc/0x520 phys=0x00000000fd018000 ioremap
+0xffffbde54007c000-0xffffbde540081000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540081000-0xffffbde540083000    8192 __pci_enable_msix_range+0x2dc/0x520 phys=0x00000000fd019000 ioremap
+0xffffbde540084000-0xffffbde540089000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540089000-0xffffbde54008b000    8192 vp_modern_map_capability+0x139/0x1c0 phys=0x00000000fea00000 ioremap
+0xffffbde54008c000-0xffffbde540091000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540091000-0xffffbde540093000    8192 vp_modern_map_capability+0x139/0x1c0 phys=0x00000000fea01000 ioremap
+0xffffbde540094000-0xffffbde540099000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540099000-0xffffbde54009b000    8192 vp_modern_map_capability+0x139/0x1c0 phys=0x00000000fea03000 ioremap
+0xffffbde54009c000-0xffffbde5400a1000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5400a1000-0xffffbde5400a3000    8192 vp_modern_map_capability+0x139/0x1c0 phys=0x00000000fea02000 ioremap
+0xffffbde5400a4000-0xffffbde5400a9000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5400a9000-0xffffbde5400ab000    8192 vp_modern_map_capability+0x139/0x1c0 phys=0x00000000fe600000 ioremap
+0xffffbde5400b1000-0xffffbde5400b3000    8192 vp_modern_map_capability+0x139/0x1c0 phys=0x00000000fe601000 ioremap
+0xffffbde5400b4000-0xffffbde5400b9000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5400b9000-0xffffbde5400bb000    8192 vp_modern_map_capability+0x139/0x1c0 phys=0x00000000fe603000 ioremap
+0xffffbde5400bc000-0xffffbde5400c1000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5400c1000-0xffffbde5400c3000    8192 vp_modern_map_capability+0x139/0x1c0 phys=0x00000000fe602000 ioremap
+0xffffbde5400c4000-0xffffbde5400c9000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5400c9000-0xffffbde5400cb000    8192 vp_modern_map_capability+0x139/0x1c0 phys=0x00000000fe400000 ioremap
+0xffffbde5400cc000-0xffffbde5400d1000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5400d1000-0xffffbde5400d3000    8192 vp_modern_map_capability+0x139/0x1c0 phys=0x00000000fe401000 ioremap
+0xffffbde5400d4000-0xffffbde5400d9000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5400d9000-0xffffbde5400db000    8192 vp_modern_map_capability+0x139/0x1c0 phys=0x00000000fe403000 ioremap
+0xffffbde5400dc000-0xffffbde5400e1000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5400e1000-0xffffbde5400e3000    8192 vp_modern_map_capability+0x139/0x1c0 phys=0x00000000fe402000 ioremap
+0xffffbde5400e9000-0xffffbde5400eb000    8192 vp_modern_map_capability+0x139/0x1c0 phys=0x00000000fe200000 ioremap
+0xffffbde5400f1000-0xffffbde5400f6000   20480 irq_init_percpu_irqstack+0xcf/0x100 vmap
+0xffffbde5400f6000-0xffffbde5400f8000    8192 vp_modern_map_capability+0x139/0x1c0 phys=0x00000000fe201000 ioremap
+0xffffbde5400f8000-0xffffbde5400fa000    8192 __devm_ioremap+0xa3/0xc0 phys=0x00000000fed1f000 ioremap
+0xffffbde5400fa000-0xffffbde5400fc000    8192 __pci_enable_msix_range+0x2dc/0x520 phys=0x00000000fc800000 ioremap
+0xffffbde5400fd000-0xffffbde5400ff000    8192 vp_modern_map_capability+0x139/0x1c0 phys=0x00000000fe203000 ioremap
+0xffffbde540100000-0xffffbde540105000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540105000-0xffffbde540107000    8192 vp_modern_map_capability+0x139/0x1c0 phys=0x00000000fe202000 ioremap
+0xffffbde540108000-0xffffbde54010d000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde54010d000-0xffffbde54010f000    8192 vp_modern_map_capability+0x139/0x1c0 phys=0x00000000fe000000 ioremap
+0xffffbde540110000-0xffffbde540115000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540115000-0xffffbde540117000    8192 vp_modern_map_capability+0x139/0x1c0 phys=0x00000000fe001000 ioremap
+0xffffbde540118000-0xffffbde54011d000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde54011d000-0xffffbde54011f000    8192 vp_modern_map_capability+0x139/0x1c0 phys=0x00000000fe003000 ioremap
+0xffffbde540120000-0xffffbde540125000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540125000-0xffffbde540127000    8192 vp_modern_map_capability+0x139/0x1c0 phys=0x00000000fe002000 ioremap
+0xffffbde54012d000-0xffffbde54012f000    8192 vp_modern_map_capability+0x139/0x1c0 phys=0x00000000fde00000 ioremap
+0xffffbde540130000-0xffffbde540135000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540135000-0xffffbde540137000    8192 vp_modern_map_capability+0x139/0x1c0 phys=0x00000000fde01000 ioremap
+0xffffbde540138000-0xffffbde54013d000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde54013d000-0xffffbde54013f000    8192 vp_modern_map_capability+0x139/0x1c0 phys=0x00000000fde03000 ioremap
+0xffffbde540140000-0xffffbde540145000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540145000-0xffffbde540147000    8192 vp_modern_map_capability+0x139/0x1c0 phys=0x00000000fde02000 ioremap
+0xffffbde540148000-0xffffbde54014d000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde54014d000-0xffffbde54014f000    8192 __pci_enable_msix_range+0x2dc/0x520 phys=0x00000000fcc03000 ioremap
+0xffffbde540150000-0xffffbde540155000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540155000-0xffffbde540157000    8192 __pci_enable_msix_range+0x2dc/0x520 phys=0x00000000fca00000 ioremap
+0xffffbde540158000-0xffffbde54015d000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540160000-0xffffbde540165000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540165000-0xffffbde540167000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540168000-0xffffbde54016d000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde54016d000-0xffffbde54016f000    8192 __pci_enable_msix_range+0x2dc/0x520 phys=0x00000000fce40000 ioremap
+0xffffbde540170000-0xffffbde540175000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540175000-0xffffbde540177000    8192 __pci_enable_msix_range+0x2dc/0x520 phys=0x00000000fc200000 ioremap
+0xffffbde540178000-0xffffbde54017d000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde54017d000-0xffffbde54017f000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540180000-0xffffbde540185000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540185000-0xffffbde540187000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540188000-0xffffbde54018d000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde54018d000-0xffffbde54018f000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540195000-0xffffbde54019e000   36864 pcpu_alloc_chunk+0x50/0x120 pages=8 vmalloc N0=8
+0xffffbde54019e000-0xffffbde5401a8000   40960 pcpu_alloc_chunk+0x77/0x120 pages=9 vmalloc N0=9
+0xffffbde5401a8000-0xffffbde5403a9000 2101248 pcpu_alloc_chunk+0xbf/0x120 pages=512 vmalloc N0=512
+0xffffbde5403a9000-0xffffbde5403ab000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde5403b1000-0xffffbde5403b3000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde5403b4000-0xffffbde5403b9000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5403b9000-0xffffbde5403bb000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde5403bc000-0xffffbde5403c1000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5403c1000-0xffffbde5403c3000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde5403c4000-0xffffbde5403c9000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5403c9000-0xffffbde5403cb000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde5403cc000-0xffffbde5403d1000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5403d1000-0xffffbde5403d3000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde5403d9000-0xffffbde5403db000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde5403dc000-0xffffbde5403e1000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5403e1000-0xffffbde5403e3000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde5403e4000-0xffffbde5403e9000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5403e9000-0xffffbde5403eb000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde5403ec000-0xffffbde5403f1000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5403f1000-0xffffbde5403f3000    8192 bpf_jit_blind_constants+0x7c/0x1d0 pages=1 vmalloc N0=1
+0xffffbde5403f4000-0xffffbde5403f9000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5403fc000-0xffffbde540401000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540404000-0xffffbde540409000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde54040c000-0xffffbde540411000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540414000-0xffffbde540419000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde54041c000-0xffffbde540421000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540424000-0xffffbde540429000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde54042c000-0xffffbde540431000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540434000-0xffffbde540439000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde54043c000-0xffffbde540441000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540444000-0xffffbde540449000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde54044c000-0xffffbde540451000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540454000-0xffffbde540459000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540459000-0xffffbde54045b000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54045c000-0xffffbde540461000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540464000-0xffffbde540469000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde54046c000-0xffffbde540471000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540471000-0xffffbde540473000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540474000-0xffffbde540479000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540479000-0xffffbde54047b000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54047c000-0xffffbde540481000   20480 devm_ioremap+0x45/0x90 phys=0x00000000fcc00000 ioremap
+0xffffbde540481000-0xffffbde540483000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540484000-0xffffbde540489000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540489000-0xffffbde54048b000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54048c000-0xffffbde540491000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540494000-0xffffbde540499000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde54049c000-0xffffbde5404a1000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5404a5000-0xffffbde5404a7000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde5404a7000-0xffffbde5404a9000    8192 pcim_iomap_regions+0x9e/0x160 phys=0x00000000fd01a000 ioremap
+0xffffbde5404ac000-0xffffbde5404b1000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5404b4000-0xffffbde5404b7000   12288 qxl_device_init+0x2ba/0x470 [qxl] phys=0x00000000fd010000 ioremap
+0xffffbde5404b7000-0xffffbde5404b9000    8192 ttm_bo_vmap+0x1a5/0x1b0 [ttm] phys=0x00000000f7ffd000 ioremap
+0xffffbde5404b9000-0xffffbde5404bb000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde5404bc000-0xffffbde5404c1000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5404c4000-0xffffbde5404c9000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5404cc000-0xffffbde5404d1000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5404d4000-0xffffbde5404d9000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5404e0000-0xffffbde5404e3000   12288 drm_fbdev_fb_probe+0xfe/0x1c0 [drm_kms_helper] pages=2 vmalloc N0=2
+0xffffbde5404e4000-0xffffbde5404e9000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5404e9000-0xffffbde5404eb000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde5404ec000-0xffffbde5404f1000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5404f4000-0xffffbde5404f9000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5404f9000-0xffffbde5404fb000    8192 bpf_jit_blind_constants+0x7c/0x1d0 pages=1 vmalloc N0=1
+0xffffbde5404fc000-0xffffbde540501000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540504000-0xffffbde540509000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540511000-0xffffbde540513000    8192 bpf_jit_blind_constants+0x7c/0x1d0 pages=1 vmalloc N0=1
+0xffffbde540514000-0xffffbde540519000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde54051c000-0xffffbde540521000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540524000-0xffffbde540529000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde54052c000-0xffffbde540531000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540531000-0xffffbde540533000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540534000-0xffffbde540539000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540539000-0xffffbde54053b000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54053c000-0xffffbde540541000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540541000-0xffffbde540543000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540543000-0xffffbde540545000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540549000-0xffffbde54054b000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54054c000-0xffffbde540551000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540551000-0xffffbde540553000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540554000-0xffffbde540559000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540559000-0xffffbde54055b000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54055f000-0xffffbde540561000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540561000-0xffffbde540563000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540563000-0xffffbde540565000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540565000-0xffffbde540567000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540567000-0xffffbde540569000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540569000-0xffffbde54056b000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54056c000-0xffffbde540571000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540571000-0xffffbde540573000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540573000-0xffffbde540577000   16384 n_tty_open+0x14/0xa0 pages=3 vmalloc N0=3
+0xffffbde540577000-0xffffbde540579000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540579000-0xffffbde54057b000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54057c000-0xffffbde540581000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540581000-0xffffbde540583000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540583000-0xffffbde540585000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540585000-0xffffbde540587000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540588000-0xffffbde54058d000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde54058d000-0xffffbde54058f000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54058f000-0xffffbde540591000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540591000-0xffffbde540593000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540594000-0xffffbde540599000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540599000-0xffffbde54059b000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54059b000-0xffffbde54059d000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54059d000-0xffffbde54059f000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54059f000-0xffffbde5405a1000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde5405a1000-0xffffbde5405a3000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde5405a4000-0xffffbde5405a9000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5405a9000-0xffffbde5405ab000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde5405ac000-0xffffbde5405b1000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5405b1000-0xffffbde5405b3000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde5405b3000-0xffffbde5405b5000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde5405b5000-0xffffbde5405d6000  135168 crypto_scomp_init_tfm+0xc3/0xe0 pages=32 vmalloc N0=32
+0xffffbde5405d6000-0xffffbde5405f7000  135168 crypto_scomp_init_tfm+0x7a/0xe0 pages=32 vmalloc N0=32
+0xffffbde5405f7000-0xffffbde540618000  135168 crypto_scomp_init_tfm+0xc3/0xe0 pages=32 vmalloc N0=32
+0xffffbde540618000-0xffffbde540639000  135168 crypto_scomp_init_tfm+0x7a/0xe0 pages=32 vmalloc N0=32
+0xffffbde540639000-0xffffbde54063b000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54063c000-0xffffbde540641000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540641000-0xffffbde540643000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540643000-0xffffbde540645000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540646000-0xffffbde540649000   12288 qxl_device_init.cold+0x8f/0x322 [qxl] phys=0x00000000f7ffe000 ioremap
+0xffffbde540649000-0xffffbde54064b000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54064b000-0xffffbde54064d000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54064d000-0xffffbde54064f000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54064f000-0xffffbde540651000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540651000-0xffffbde540653000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540654000-0xffffbde540659000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540659000-0xffffbde54065b000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54065b000-0xffffbde54065d000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54065d000-0xffffbde54065f000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54065f000-0xffffbde540661000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540661000-0xffffbde540663000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540664000-0xffffbde540669000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540669000-0xffffbde54066b000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54066c000-0xffffbde540671000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540671000-0xffffbde540673000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540679000-0xffffbde54067b000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54067c000-0xffffbde540681000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540681000-0xffffbde540683000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540684000-0xffffbde540689000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540689000-0xffffbde54068b000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54068c000-0xffffbde540691000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540691000-0xffffbde540693000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540694000-0xffffbde540699000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540699000-0xffffbde54069b000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54069c000-0xffffbde5406a1000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5406a1000-0xffffbde5406a3000    8192 swap_cgroup_swapon+0x2d/0x150 pages=1 vmalloc N0=1
+0xffffbde5406a4000-0xffffbde5406a9000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5406a9000-0xffffbde5406ab000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde5406ac000-0xffffbde5406b1000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5406b1000-0xffffbde5406b3000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde5406b4000-0xffffbde5406b9000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5406b9000-0xffffbde5406bb000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde5406bc000-0xffffbde5406c1000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5406c5000-0xffffbde5406c7000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde5406c8000-0xffffbde5406cd000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5406d1000-0xffffbde5406d3000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde5406d4000-0xffffbde5406d9000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5406d9000-0xffffbde5406db000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde5406dc000-0xffffbde5406e1000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5406e1000-0xffffbde5406e3000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde5406e4000-0xffffbde5406e9000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5406e9000-0xffffbde5406eb000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde5406ec000-0xffffbde5406f1000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5406f1000-0xffffbde5406f3000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde5406f4000-0xffffbde5406f9000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5406f9000-0xffffbde5406fb000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540701000-0xffffbde540703000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540703000-0xffffbde540705000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540705000-0xffffbde540707000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540707000-0xffffbde540709000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540709000-0xffffbde54070b000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54070b000-0xffffbde54070d000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54070d000-0xffffbde54070f000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54070f000-0xffffbde540711000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540711000-0xffffbde540713000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540719000-0xffffbde54071b000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54071b000-0xffffbde54071d000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54071d000-0xffffbde54071f000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54071f000-0xffffbde540721000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540721000-0xffffbde540723000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540724000-0xffffbde540729000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540729000-0xffffbde54072b000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540731000-0xffffbde540733000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540739000-0xffffbde54073b000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54073b000-0xffffbde54073d000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54073d000-0xffffbde54073f000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54073f000-0xffffbde540741000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540741000-0xffffbde540743000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540743000-0xffffbde540745000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540745000-0xffffbde540747000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540747000-0xffffbde540749000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540749000-0xffffbde54074b000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54074f000-0xffffbde540751000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540751000-0xffffbde540753000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540757000-0xffffbde540759000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540759000-0xffffbde54075b000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54075f000-0xffffbde540761000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540761000-0xffffbde540763000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540764000-0xffffbde540769000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540769000-0xffffbde540a6a000 3149824 drm_fbdev_fb_probe+0xfe/0x1c0 [drm_kms_helper] pages=768 vmalloc vpages N0=768
+0xffffbde540a6a000-0xffffbde540a6c000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540a71000-0xffffbde540a73000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540a74000-0xffffbde540a79000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540a79000-0xffffbde540a7b000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540a7b000-0xffffbde540a7d000    8192 kimage_crash_copy_vmcoreinfo+0x8b/0xc0 vmap
+0xffffbde540a7f000-0xffffbde540a81000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540a81000-0xffffbde540a83000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540a87000-0xffffbde540a89000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540a89000-0xffffbde540a8b000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540a8b000-0xffffbde540a8d000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540a8d000-0xffffbde540a8f000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540a8f000-0xffffbde540a91000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540a91000-0xffffbde540a93000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540a94000-0xffffbde540a99000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540a99000-0xffffbde540a9b000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde540a9c000-0xffffbde540aa1000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540aa4000-0xffffbde540aa9000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540aac000-0xffffbde540ab1000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540ab4000-0xffffbde540ab9000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540abc000-0xffffbde540ac1000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540ac4000-0xffffbde540ac9000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540acc000-0xffffbde540ad1000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540ad4000-0xffffbde540ad9000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540adc000-0xffffbde540ae1000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540ae4000-0xffffbde540ae9000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540aec000-0xffffbde540af1000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540af4000-0xffffbde540af9000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540afc000-0xffffbde540b01000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540b0c000-0xffffbde540b11000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540b14000-0xffffbde540b19000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540b24000-0xffffbde540b29000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540b2c000-0xffffbde540b31000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540b34000-0xffffbde540b39000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540b3c000-0xffffbde540b41000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540b44000-0xffffbde540b49000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540b4c000-0xffffbde540b51000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540b54000-0xffffbde540b59000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540b5c000-0xffffbde540b61000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540b64000-0xffffbde540b69000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540b74000-0xffffbde540b79000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540b84000-0xffffbde540b89000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540c54000-0xffffbde540c59000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540c64000-0xffffbde540c69000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540c6c000-0xffffbde540c71000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540c74000-0xffffbde540c79000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540c7c000-0xffffbde540c81000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540c8c000-0xffffbde540c91000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540ca4000-0xffffbde540ca9000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540cb4000-0xffffbde540cb9000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540ccc000-0xffffbde540cd1000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540cd4000-0xffffbde540cd9000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540ce4000-0xffffbde540ce9000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540cfc000-0xffffbde540d01000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540de4000-0xffffbde540de9000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540e3c000-0xffffbde540e41000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540e4c000-0xffffbde540e51000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540e7c000-0xffffbde540e81000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540e84000-0xffffbde540e89000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540ea4000-0xffffbde540ea9000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540fb4000-0xffffbde540fb9000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540fc4000-0xffffbde540fc9000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde540fec000-0xffffbde540ff1000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde541024000-0xffffbde541029000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde541054000-0xffffbde541059000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5410a0000-0xffffbde5410a5000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5410b0000-0xffffbde5410b5000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5410d0000-0xffffbde5410d5000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5410d8000-0xffffbde5410dd000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5410e8000-0xffffbde5410ed000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde541405000-0xffffbde541407000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde541408000-0xffffbde54140d000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde54140d000-0xffffbde54140f000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde541410000-0xffffbde541415000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde541415000-0xffffbde541417000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54141d000-0xffffbde54141f000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde541420000-0xffffbde541425000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde541425000-0xffffbde541427000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde541428000-0xffffbde54142d000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde54142d000-0xffffbde54142f000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde541435000-0xffffbde541437000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54143d000-0xffffbde54143f000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde541440000-0xffffbde541445000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde541445000-0xffffbde541447000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde541448000-0xffffbde54144d000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde54144d000-0xffffbde54144f000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54144f000-0xffffbde541451000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde541451000-0xffffbde541453000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde541453000-0xffffbde541455000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde541455000-0xffffbde541457000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde541457000-0xffffbde541459000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde541459000-0xffffbde54145b000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54145b000-0xffffbde54145d000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54145d000-0xffffbde54145f000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54145f000-0xffffbde541461000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde541461000-0xffffbde541463000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde541463000-0xffffbde541465000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde541465000-0xffffbde541467000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde541467000-0xffffbde541469000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde541469000-0xffffbde54146b000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54146c000-0xffffbde541471000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde541473000-0xffffbde541475000    8192 bpf_jit_blind_constants+0x7c/0x1d0 pages=1 vmalloc N0=1
+0xffffbde541498000-0xffffbde54149d000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5414a8000-0xffffbde5414ad000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5414b3000-0xffffbde5414b5000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde5414b5000-0xffffbde5414b7000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde5414b7000-0xffffbde5414b9000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde5414b9000-0xffffbde5414bb000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde5414c9000-0xffffbde5414cb000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde5414db000-0xffffbde5414df000   16384 n_tty_open+0x14/0xa0 pages=3 vmalloc N0=3
+0xffffbde5414e1000-0xffffbde5414e3000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde5414e9000-0xffffbde5414eb000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde5414f1000-0xffffbde5414f3000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde5414f9000-0xffffbde5414fb000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde541501000-0xffffbde541503000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde541504000-0xffffbde541509000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde541509000-0xffffbde54150b000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde541511000-0xffffbde541513000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde541519000-0xffffbde54151b000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde541521000-0xffffbde541523000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde541529000-0xffffbde54152b000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde541531000-0xffffbde541533000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde541534000-0xffffbde541539000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde541595000-0xffffbde541597000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde5415a9000-0xffffbde5415b1000   32768 __do_sys_swapon+0x1b2/0xc80 pages=7 vmalloc N0=7
+0xffffbde5415b5000-0xffffbde5415b7000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde5415c1000-0xffffbde5415c3000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde5415cd000-0xffffbde5415cf000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde5415d9000-0xffffbde5415db000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde5415dc000-0xffffbde5415e1000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5415e5000-0xffffbde5415e7000    8192 bpf_prog_alloc_no_stats+0x37/0x230 pages=1 vmalloc N0=1
+0xffffbde54160c000-0xffffbde541611000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde5426e4000-0xffffbde5426e9000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde54270c000-0xffffbde542711000   20480 dup_task_struct+0x57/0x1a0 pages=4 vmalloc N0=4
+0xffffbde544000000-0xffffbde548001000 67112960 qxl_device_init+0x115/0x470 [qxl] phys=0x00000000f4000000 ioremap
+0xffffbde550000000-0xffffbde560001000 268439552 pci_mmcfg_arch_map+0x2b/0x70 phys=0x00000000b0000000 ioremap
+0xffffbde564000000-0xffffbde568001000 67112960 qxl_device_init+0x3a0/0x470 [qxl] phys=0x00000000f8000000 ioremap
+0xffffdde53fc00000-0xffffdde53fe00000 2097152 pcpu_get_vm_areas+0x0/0x1060 vmalloc
+0xffffffffc0237000-0xffffffffc0438000 2101248 alloc_new_pack+0x5e/0x170 pages=512 vmalloc N0=512
+0xffffffffc0438000-0xffffffffc043a000    8192 bpf_trampoline_update+0x332/0x580 pages=1 vmalloc N0=1
+0xffffffffc043a000-0xffffffffc046f000  217088 move_module+0x1e/0x170 pages=52 vmalloc N0=52
+0xffffffffc046f000-0xffffffffc04aa000  241664 move_module+0x1e/0x170 pages=58 vmalloc N0=58
+0xffffffffc04aa000-0xffffffffc04b3000   36864 move_module+0x1e/0x170 pages=8 vmalloc N0=8
+0xffffffffc04b3000-0xffffffffc04b9000   24576 move_module+0x1e/0x170 pages=5 vmalloc N0=5
+0xffffffffc04b9000-0xffffffffc04be000   20480 move_module+0x1e/0x170 pages=4 vmalloc N0=4
+0xffffffffc04bf000-0xffffffffc04c7000   32768 move_module+0x1e/0x170 pages=7 vmalloc N0=7
+0xffffffffc04cb000-0xffffffffc04d3000   32768 move_module+0x1e/0x170 pages=7 vmalloc N0=7
+0xffffffffc04d3000-0xffffffffc04df000   49152 move_module+0x1e/0x170 pages=11 vmalloc N0=11
+0xffffffffc04df000-0xffffffffc04e9000   40960 move_module+0x1e/0x170 pages=9 vmalloc N0=9
+0xffffffffc04e9000-0xffffffffc04ee000   20480 move_module+0x1e/0x170 pages=4 vmalloc N0=4
+0xffffffffc04ee000-0xffffffffc04f3000   20480 move_module+0x1e/0x170 pages=4 vmalloc N0=4
+0xffffffffc04f3000-0xffffffffc04fa000   28672 move_module+0x1e/0x170 pages=6 vmalloc N0=6
+0xffffffffc04fe000-0xffffffffc05ab000  708608 move_module+0x1e/0x170 pages=172 vmalloc N0=172
+0xffffffffc05ab000-0xffffffffc05b0000   20480 move_module+0x1e/0x170 pages=4 vmalloc N0=4
+0xffffffffc05b0000-0xffffffffc05b5000   20480 move_module+0x1e/0x170 pages=4 vmalloc N0=4
+0xffffffffc05b5000-0xffffffffc05cd000   98304 move_module+0x1e/0x170 pages=23 vmalloc N0=23
+0xffffffffc05cd000-0xffffffffc05d2000   20480 move_module+0x1e/0x170 pages=4 vmalloc N0=4
+0xffffffffc05d6000-0xffffffffc05dd000   28672 move_module+0x1e/0x170 pages=6 vmalloc N0=6
+0xffffffffc05dd000-0xffffffffc05e2000   20480 move_module+0x1e/0x170 pages=4 vmalloc N0=4
+0xffffffffc05e3000-0xffffffffc05eb000   32768 move_module+0x1e/0x170 pages=7 vmalloc N0=7
+0xffffffffc05eb000-0xffffffffc0600000   86016 move_module+0x1e/0x170 pages=20 vmalloc N0=20
+0xffffffffc0600000-0xffffffffc0605000   20480 move_module+0x1e/0x170 pages=4 vmalloc N0=4
+0xffffffffc0605000-0xffffffffc060d000   32768 move_module+0x1e/0x170 pages=7 vmalloc N0=7
+0xffffffffc0610000-0xffffffffc0615000   20480 move_module+0x1e/0x170 pages=4 vmalloc N0=4
+0xffffffffc0615000-0xffffffffc068b000  483328 move_module+0x1e/0x170 pages=117 vmalloc N0=117
+0xffffffffc068b000-0xffffffffc06c8000  249856 move_module+0x1e/0x170 pages=60 vmalloc N0=60
+0xffffffffc06c8000-0xffffffffc06d8000   65536 move_module+0x1e/0x170 pages=15 vmalloc N0=15
+0xffffffffc06d8000-0xffffffffc06e0000   32768 move_module+0x1e/0x170 pages=7 vmalloc N0=7
+0xffffffffc06e4000-0xffffffffc06fd000  102400 move_module+0x1e/0x170 pages=24 vmalloc N0=24
+0xffffffffc06fd000-0xffffffffc0702000   20480 move_module+0x1e/0x170 pages=4 vmalloc N0=4
+0xffffffffc0702000-0xffffffffc0707000   20480 move_module+0x1e/0x170 pages=4 vmalloc N0=4
+0xffffffffc0707000-0xffffffffc0714000   53248 move_module+0x1e/0x170 pages=12 vmalloc N0=12
+0xffffffffc0714000-0xffffffffc0722000   57344 move_module+0x1e/0x170 pages=13 vmalloc N0=13
+0xffffffffc0722000-0xffffffffc0739000   94208 move_module+0x1e/0x170 pages=22 vmalloc N0=22
+0xffffffffc0739000-0xffffffffc076f000  221184 move_module+0x1e/0x170 pages=53 vmalloc N0=53
+0xffffffffc076f000-0xffffffffc088d000 1171456 move_module+0x1e/0x170 pages=285 vmalloc N0=285
+0xffffffffc088d000-0xffffffffc0895000   32768 move_module+0x1e/0x170 pages=7 vmalloc N0=7
+0xffffffffc0895000-0xffffffffc089b000   24576 move_module+0x1e/0x170 pages=5 vmalloc N0=5
+0xffffffffc089b000-0xffffffffc08a3000   32768 move_module+0x1e/0x170 pages=7 vmalloc N0=7
+0xffffffffc08a3000-0xffffffffc08ad000   40960 move_module+0x1e/0x170 pages=9 vmalloc N0=9
+0xffffffffc08ad000-0xffffffffc08b3000   24576 move_module+0x1e/0x170 pages=5 vmalloc N0=5
+0xffffffffc08b3000-0xffffffffc08b8000   20480 move_module+0x1e/0x170 pages=4 vmalloc N0=4
+0xffffffffc08b8000-0xffffffffc08c3000   45056 move_module+0x1e/0x170 pages=10 vmalloc N0=10
+0xffffffffc08c3000-0xffffffffc08c9000   24576 move_module+0x1e/0x170 pages=5 vmalloc N0=5
+0xffffffffc08c9000-0xffffffffc08ce000   20480 move_module+0x1e/0x170 pages=4 vmalloc N0=4
+0xffffffffc08ce000-0xffffffffc091f000  331776 move_module+0x1e/0x170 pages=80 vmalloc N0=80
+0xffffffffc091f000-0xffffffffc092a000   45056 move_module+0x1e/0x170 pages=10 vmalloc N0=10
+0xffffffffc092a000-0xffffffffc092f000   20480 move_module+0x1e/0x170 pages=4 vmalloc N0=4
+0xffffffffc0930000-0xffffffffc0941000   69632 move_module+0x1e/0x170 pages=16 vmalloc N0=16
+0xffffffffc0941000-0xffffffffc0948000   28672 move_module+0x1e/0x170 pages=6 vmalloc N0=6
+0xffffffffc0948000-0xffffffffc097d000  217088 move_module+0x1e/0x170 pages=52 vmalloc N0=52
+0xffffffffc097d000-0xffffffffc0984000   28672 move_module+0x1e/0x170 pages=6 vmalloc N0=6
+0xffffffffc0984000-0xffffffffc0989000   20480 move_module+0x1e/0x170 pages=4 vmalloc N0=4
+0xffffffffc0989000-0xffffffffc0990000   28672 move_module+0x1e/0x170 pages=6 vmalloc N0=6
+0xffffffffc0990000-0xffffffffc09a0000   65536 move_module+0x1e/0x170 pages=15 vmalloc N0=15
+0xffffffffc09a0000-0xffffffffc09a5000   20480 move_module+0x1e/0x170 pages=4 vmalloc N0=4
+0xffffffffc09a7000-0xffffffffc09ac000   20480 move_module+0x1e/0x170 pages=4 vmalloc N0=4
+0xffffffffc09ac000-0xffffffffc09b1000   20480 move_module+0x1e/0x170 pages=4 vmalloc N0=4
+0xffffffffc09b1000-0xffffffffc09b6000   20480 move_module+0x1e/0x170 pages=4 vmalloc N0=4
+0xffffffffc09b6000-0xffffffffc09bb000   20480 move_module+0x1e/0x170 pages=4 vmalloc N0=4
+0xffffffffc09bb000-0xffffffffc09c0000   20480 move_module+0x1e/0x170 pages=4 vmalloc N0=4
+0xffffffffc09c0000-0xffffffffc09c5000   20480 move_module+0x1e/0x170 pages=4 vmalloc N0=4
+0xffffffffc09c5000-0xffffffffc09eb000  155648 move_module+0x1e/0x170 pages=37 vmalloc N0=37
+0xffffffffc09eb000-0xffffffffc0a1d000  204800 move_module+0x1e/0x170 pages=49 vmalloc N0=49
+0xffffffffc0a1d000-0xffffffffc0a25000   32768 move_module+0x1e/0x170 pages=7 vmalloc N0=7
+0xffffbde540046000-0xffffbde540048000    8192 unpurged vm_area
+0xffffbde54004f000-0xffffbde540051000    8192 unpurged vm_area
+0xffffbde540057000-0xffffbde540059000    8192 unpurged vm_area
+0xffffbde540063000-0xffffbde540069000   24576 unpurged vm_area
+0xffffbde5400ab000-0xffffbde5400ad000    8192 unpurged vm_area
+0xffffbde54072c000-0xffffbde540731000   20480 unpurged vm_area
+0xffffbde540b04000-0xffffbde540b09000   20480 unpurged vm_area
+0xffffbde540b1c000-0xffffbde540b21000   20480 unpurged vm_area
+0xffffbde540b6c000-0xffffbde540b71000   20480 unpurged vm_area
+0xffffbde540b7c000-0xffffbde540b81000   20480 unpurged vm_area
+0xffffbde540b8c000-0xffffbde540b91000   20480 unpurged vm_area
+0xffffbde540b94000-0xffffbde540b99000   20480 unpurged vm_area
+0xffffbde540b9c000-0xffffbde540ba1000   20480 unpurged vm_area
+0xffffbde540ba4000-0xffffbde540ba9000   20480 unpurged vm_area
+0xffffbde540bac000-0xffffbde540bb1000   20480 unpurged vm_area
+0xffffbde540bb4000-0xffffbde540bb9000   20480 unpurged vm_area
+0xffffbde540bbc000-0xffffbde540bc1000   20480 unpurged vm_area
+0xffffbde540bc4000-0xffffbde540bc9000   20480 unpurged vm_area
+0xffffbde540bcc000-0xffffbde540bd1000   20480 unpurged vm_area
+0xffffbde540bd4000-0xffffbde540bd9000   20480 unpurged vm_area
+0xffffbde540bdc000-0xffffbde540be1000   20480 unpurged vm_area
+0xffffbde540be4000-0xffffbde540be9000   20480 unpurged vm_area
+0xffffbde540bec000-0xffffbde540bf1000   20480 unpurged vm_area
+0xffffbde540bf4000-0xffffbde540bf9000   20480 unpurged vm_area
+0xffffbde540bfc000-0xffffbde540c01000   20480 unpurged vm_area
+0xffffbde540c04000-0xffffbde540c09000   20480 unpurged vm_area
+0xffffbde540c0c000-0xffffbde540c11000   20480 unpurged vm_area
+0xffffbde540c14000-0xffffbde540c19000   20480 unpurged vm_area
+0xffffbde540c1c000-0xffffbde540c21000   20480 unpurged vm_area
+0xffffbde540c24000-0xffffbde540c29000   20480 unpurged vm_area
+0xffffbde540c2c000-0xffffbde540c31000   20480 unpurged vm_area
+0xffffbde540c34000-0xffffbde540c39000   20480 unpurged vm_area
+0xffffbde540c3c000-0xffffbde540c41000   20480 unpurged vm_area
+0xffffbde540c44000-0xffffbde540c49000   20480 unpurged vm_area
+0xffffbde540c4c000-0xffffbde540c51000   20480 unpurged vm_area
+0xffffbde540c5c000-0xffffbde540c61000   20480 unpurged vm_area
+0xffffbde540c84000-0xffffbde540c89000   20480 unpurged vm_area
+0xffffbde540c94000-0xffffbde540c99000   20480 unpurged vm_area
+0xffffbde540c9c000-0xffffbde540ca1000   20480 unpurged vm_area
+0xffffbde540cac000-0xffffbde540cb1000   20480 unpurged vm_area
+0xffffbde540cbc000-0xffffbde540cc1000   20480 unpurged vm_area
+0xffffbde540cc4000-0xffffbde540cc9000   20480 unpurged vm_area
+0xffffbde540cdc000-0xffffbde540ce1000   20480 unpurged vm_area
+0xffffbde540cec000-0xffffbde540cf1000   20480 unpurged vm_area
+0xffffbde540cf4000-0xffffbde540cf9000   20480 unpurged vm_area
+0xffffbde540fe4000-0xffffbde540fe9000   20480 unpurged vm_area
+0xffffbde54102c000-0xffffbde541031000   20480 unpurged vm_area
+0xffffbde54105c000-0xffffbde541061000   20480 unpurged vm_area
+0xffffbde5410ed000-0xffffbde5413ee000 3149824 unpurged vm_area
+0xffffbde5413f0000-0xffffbde5413f5000   20480 unpurged vm_area
+0xffffbde541524000-0xffffbde541529000   20480 unpurged vm_area
+0xffffbde541574000-0xffffbde541579000   20480 unpurged vm_area
+0xffffbde54157c000-0xffffbde541581000   20480 unpurged vm_area
+0xffffbde541584000-0xffffbde541589000   20480 unpurged vm_area
+0xffffbde541611000-0xffffbde542516000 15749120 unpurged vm_area
+0xffffbde542711000-0xffffbde543f19000 25198592 unpurged vm_area

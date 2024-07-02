@@ -1,0 +1,7 @@
+[0]    virtio_scsi   
+[1]    ahci          
+[2]    ahci          
+[3]    ahci          
+[4]    ahci          
+[5]    ahci          
+[6]    ahci          

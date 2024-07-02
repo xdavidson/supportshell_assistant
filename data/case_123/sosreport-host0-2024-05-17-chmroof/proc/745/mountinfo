@@ -1,0 +1,30 @@
+170 146 253:0 / / rw,relatime shared:68 master:1 - ext4 /dev/mapper/root_vg-lv_root rw,seclabel
+171 170 0:21 / /sys rw,nosuid,nodev,noexec,relatime shared:73 master:2 - sysfs sysfs rw,seclabel
+172 171 0:6 / /sys/kernel/security rw,nosuid,nodev,noexec,relatime shared:74 master:3 - securityfs securityfs rw
+173 171 0:25 / /sys/fs/cgroup rw,nosuid,nodev,noexec,relatime shared:75 master:4 - cgroup2 cgroup2 rw,seclabel,nsdelegate,memory_recursiveprot
+174 171 0:26 / /sys/fs/pstore rw,nosuid,nodev,noexec,relatime shared:76 master:5 - pstore pstore rw,seclabel
+175 171 0:27 / /sys/fs/bpf rw,nosuid,nodev,noexec,relatime shared:77 master:6 - bpf bpf rw,mode=700
+176 171 0:19 / /sys/fs/selinux rw,nosuid,noexec,relatime shared:78 master:7 - selinuxfs selinuxfs rw
+177 171 0:7 / /sys/kernel/debug rw,nosuid,nodev,noexec,relatime shared:79 master:16 - debugfs debugfs rw,seclabel
+178 171 0:12 / /sys/kernel/tracing rw,nosuid,nodev,noexec,relatime shared:80 master:17 - tracefs tracefs rw,seclabel
+179 171 0:30 / /sys/kernel/config rw,nosuid,nodev,noexec,relatime shared:81 master:18 - configfs configfs rw
+180 171 0:31 / /sys/fs/fuse/connections rw,nosuid,nodev,noexec,relatime shared:82 master:19 - fusectl fusectl rw
+186 170 0:24 / /run rw,nosuid,nodev shared:83 master:11 - tmpfs tmpfs rw,seclabel,size=1571616k,nr_inodes=819200,mode=755,inode64
+190 170 0:20 / /proc rw,nosuid,nodev,noexec,relatime shared:86 master:12 - proc proc rw
+191 190 0:28 / /proc/sys/fs/binfmt_misc rw,relatime shared:87 master:13 - autofs systemd-1 rw,fd=29,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=16045
+192 170 0:33 / /tmp rw,nosuid,nodev shared:88 master:20 - tmpfs tmpfs rw,seclabel,nr_inodes=1048576,inode64
+193 170 252:1 / /boot ro,relatime shared:90 master:41 - ext4 /dev/vda1 rw,seclabel
+194 170 0:38 / /dev ro,nosuid,noexec shared:91 - tmpfs tmpfs rw,seclabel,size=4096k,nr_inodes=65536,mode=755,inode64
+195 194 0:23 / /dev/pts rw,nosuid,noexec,relatime shared:92 master:10 - devpts devpts rw,seclabel,gid=5,mode=620,ptmxmode=000
+196 194 0:22 / /dev/shm rw,nosuid,nodev shared:93 master:9 - tmpfs tmpfs rw,seclabel,inode64
+197 194 0:18 / /dev/mqueue rw,nosuid,nodev,noexec,relatime shared:94 master:14 - mqueue mqueue rw,seclabel
+198 194 0:29 / /dev/hugepages rw,relatime shared:95 master:15 - hugetlbfs hugetlbfs rw,seclabel,pagesize=2M
+181 170 253:0 /etc /etc ro,relatime shared:96 master:1 - ext4 /dev/mapper/root_vg-lv_root rw,seclabel
+182 186 0:24 /systemd/inaccessible/dir /run/credentials ro,nosuid,nodev,noexec shared:84 master:11 - tmpfs tmpfs rw,seclabel,size=1571616k,nr_inodes=819200,mode=755,inode64
+183 186 0:24 /systemd/propagate/dbus-broker.service /run/systemd/incoming ro,nosuid,nodev master:11 - tmpfs tmpfs rw,seclabel,size=1571616k,nr_inodes=819200,mode=755,inode64
+184 192 0:33 /systemd-private-098b80264a054738963026d738ef8a54-dbus-broker.service-vb1VgI/tmp /tmp rw,nosuid,nodev shared:89 master:20 - tmpfs tmpfs rw,seclabel,nr_inodes=1048576,inode64
+185 170 253:0 /usr /usr ro,relatime shared:97 master:1 - ext4 /dev/mapper/root_vg-lv_root rw,seclabel
+187 170 253:0 /var/tmp/systemd-private-098b80264a054738963026d738ef8a54-dbus-broker.service-rso6rB/tmp /var/tmp rw,relatime shared:98 master:1 - ext4 /dev/mapper/root_vg-lv_root rw,seclabel
+410 186 0:40 / /run/user/0 rw,nosuid,nodev,relatime shared:106 master:85 - tmpfs tmpfs rw,seclabel,size=785804k,nr_inodes=196451,mode=700,inode64
+428 177 0:12 / /sys/kernel/debug/tracing rw,nosuid,nodev,noexec,relatime shared:116 master:109 - tracefs tracefs rw,seclabel
+450 191 0:43 / /proc/sys/fs/binfmt_misc rw,nosuid,nodev,noexec,relatime shared:123 master:120 - binfmt_misc binfmt_misc rw

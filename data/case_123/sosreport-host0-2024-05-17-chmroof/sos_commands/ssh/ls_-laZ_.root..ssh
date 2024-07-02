@@ -1,0 +1,5 @@
+total 16
+drwx------. 2 root root system_u:object_r:ssh_home_t:s0     4096 Dec 12 16:16 .
+dr-xr-x---. 7 root root system_u:object_r:admin_home_t:s0   4096 Mar 28 17:02 ..
+-rw-------. 1 root root system_u:object_r:ssh_home_t:s0      408 May 24  2023 authorized_keys
+-rw-r--r--. 1 root root unconfined_u:object_r:ssh_home_t:s0   92 Dec 12 16:16 known_hosts

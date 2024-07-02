@@ -1,0 +1,4 @@
+libnssckbi.so.x86_64 - status is auto.
+ link currently points to /usr/lib64/pkcs11/p11-kit-trust.so
+/usr/lib64/pkcs11/p11-kit-trust.so - priority 30
+Current `best' version is /usr/lib64/pkcs11/p11-kit-trust.so.

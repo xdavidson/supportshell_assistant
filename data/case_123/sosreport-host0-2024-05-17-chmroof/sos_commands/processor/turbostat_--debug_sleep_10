@@ -1,0 +1,20 @@
+turbostat version 2023.03.17 - Len Brown <lenb@kernel.org>
+Kernel command line: BOOT_IMAGE=(hd0,msdos1)/vmlinuz-5.14.0-362.8.1.el9_3.x86_64 root=/dev/mapper/root_vg-lv_root ro crashkernel=1G-4G:192M,4G-64G:256M,64G-:512M resume=/dev/mapper/root_vg-lv_swap rd.lvm.lv=root_vg/lv_root rd.lvm.lv=root_vg/lv_swap rhgb quiet
+cpu 0 pkg 0 die 0 node 0 lnode 0 core 0 thread 0
+cpu 1 pkg 1 die 1 node 0 lnode -1 core 0 thread 0
+CPUID(0): AuthenticAMD 0xd CPUID levels
+CPUID(1): family:model:stepping 0x17:31:0 (23:49:0) microcode 0x0
+CPUID(0x80000000): max_extended_levels: 0x8000001e
+CPUID(1): SSE3 - - - - TSC MSR - - -
+CPUID(6): No-APERF, No-TURBO, No-DTS, No-PTM, No-HWP, No-HWPnotify, No-HWPwindow, No-HWPepp, No-HWPpkg, No-EPB
+CPUID(7): No-SGX No-Hybrid
+/dev/cpu_dma_latency: 2000000000 usec (default)
+current_driver: none
+current_governor: menu
+current_governor_ro: menu
+NSFOD /sys/devices/system/cpu/cpu1/cpufreq/scaling_driver
+10.009334 sec
+usec	Time_Of_Day_Seconds	Package	Die	CPU	APIC	X2APIC	TSC_MHz	IPC	IRQ
+  375	1715971552.532660	-	-	-	-	-	3500	inf	34456
+  325	1715971552.532610	0	0	0	0	0	3500	inf	16132
+   13	1715971552.532660	1	1	1	1	1	3500	inf	18324

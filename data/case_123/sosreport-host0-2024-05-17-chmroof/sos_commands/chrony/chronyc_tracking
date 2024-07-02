@@ -1,0 +1,13 @@
+Reference ID    : 2D20CF88 (vps4.drown.org)
+Stratum         : 3
+Ref time (UTC)  : Fri May 17 18:34:58 2024
+System time     : 0.000885356 seconds slow of NTP time
+Last offset     : -0.000845783 seconds
+RMS offset      : 0.000480323 seconds
+Frequency       : 17.207 ppm slow
+Residual freq   : +0.000 ppm
+Skew            : 0.025 ppm
+Root delay      : 0.056120403 seconds
+Root dispersion : 0.001911356 seconds
+Update interval : 1039.7 seconds
+Leap status     : Normal

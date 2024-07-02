@@ -1,0 +1,21 @@
+Updating Subscription Management repositories.
+ID     | Command line                                                                                            | Date and time    | Action(s)      | Altered
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+    18 | install allspark-0.0.0-1.el9.noarch.rpm allspark-hooks-0.0.0-1.el9.noarch.rpm                           | 2024-03-28 16:30 | Install        |    3   
+    17 | install python-crash-0.0.0-1.el9.noarch.rpm                                                             | 2024-03-28 16:30 | Install        |    2   
+    16 | install python3-flask                                                                                   | 2024-03-20 09:12 | Install        |    4   
+    15 | install systemd-journal-remote                                                                          | 2024-01-29 10:07 | Install        |    2  <
+    14 | install python3-devel                                                                                   | 2023-12-12 16:55 | Install        |    5 > 
+    13 | install rpm-build                                                                                       | 2023-12-12 16:52 | Install        |   20   
+    12 | install insights-facts-1.2-1.el9.noarch.rpm                                                             | 2023-12-12 13:20 | Install        |    2   
+    11 | install insights-core-3.2.26-1.el9.noarch.rpm                                                           | 2023-12-12 13:15 | Install        |    7   
+    10 | install python3-CacheControl-0.12.10-1.el9.noarch.rpm python3-CacheControl+filecache-0.12.10-1.el9.noar | 2023-12-12 13:10 | Install        |   11   
+     9 | remove retrace-server                                                                                   | 2023-12-12 10:54 | Removed        |   39 EE
+     8 | update                                                                                                  | 2023-12-12 10:45 | C, E, I, U     |  341 EE
+     7 | install perl-Math-BigInt                                                                                | 2023-10-02 10:14 | Install        |    2   
+     6 | update                                                                                                  | 2023-08-31 08:39 | I, U           |  104   
+     5 | install retrace-server-1.24.2-1.el9.noarch.rpm                                                          | 2023-05-24 16:59 | Install        |   38   
+     4 | install htop strace make git                                                                            | 2023-05-24 15:54 | Install        |   68  <
+     3 | update                                                                                                  | 2023-05-24 14:39 | I, O, U        |  387 ><
+     2 | install https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm                          | 2023-05-24 14:08 | Install        |    1 >E
+     1 |                                                                                                         | 2023-05-24 13:48 | Install        |  612 EE

@@ -1,0 +1,6 @@
+CPUidle driver: none
+CPUidle governor: menu
+analyzing CPU 0:
+
+CPU 0: No idle states
+

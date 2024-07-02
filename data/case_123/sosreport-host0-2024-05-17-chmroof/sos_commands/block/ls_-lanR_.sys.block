@@ -1,0 +1,8 @@
+/sys/block:
+total 0
+drwxr-xr-x.  2 0 0 0 May 17 08:23 .
+dr-xr-xr-x. 13 0 0 0 May 17 08:23 ..
+lrwxrwxrwx.  1 0 0 0 May 17 08:23 dm-0 -> ../devices/virtual/block/dm-0
+lrwxrwxrwx.  1 0 0 0 May 17 08:23 dm-1 -> ../devices/virtual/block/dm-1
+lrwxrwxrwx.  1 0 0 0 May 17 14:45 sr0 -> ../devices/pci0000:00/0000:00:1f.2/ata1/host1/target1:0:0/1:0:0:0/block/sr0
+lrwxrwxrwx.  1 0 0 0 May 17 08:23 vda -> ../devices/pci0000:00/0000:00:02.3/0000:04:00.0/virtio2/block/vda

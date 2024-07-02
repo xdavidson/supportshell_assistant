@@ -1,0 +1,1 @@
+6 5 0:5 / / rw,nosuid,noexec,relatime - devtmpfs devtmpfs rw,seclabel,size=4096k,nr_inodes=977200,mode=755,inode64

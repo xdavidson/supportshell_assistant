@@ -1,0 +1,17 @@
+CgroupPath
+ID       AttachType      AttachFlags     Name           
+/sys/fs/cgroup/system.slice/systemd-udevd.service
+    25       cgroup_inet_ingress multi           sd_fw_ingress                  
+    24       cgroup_inet_egress multi           sd_fw_egress                   
+/sys/fs/cgroup/system.slice/dbus-broker.service
+    26       cgroup_device   multi           sd_devices                     
+/sys/fs/cgroup/system.slice/chronyd.service
+    27       cgroup_device   multi           sd_devices                     
+/sys/fs/cgroup/system.slice/systemd-journald.service
+    23       cgroup_inet_ingress multi           sd_fw_ingress                  
+    22       cgroup_inet_egress multi           sd_fw_egress                   
+    21       cgroup_device   multi           sd_devices                     
+/sys/fs/cgroup/system.slice/systemd-logind.service
+    30       cgroup_inet_ingress multi           sd_fw_ingress                  
+    29       cgroup_inet_egress multi           sd_fw_egress                   
+    28       cgroup_device   multi           sd_devices                     

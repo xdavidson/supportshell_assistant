@@ -1,0 +1,43 @@
+Character devices:
+  1 mem
+  4 /dev/vc/0
+  4 tty
+  4 ttyS
+  5 /dev/tty
+  5 /dev/console
+  5 /dev/ptmx
+  7 vcs
+ 10 misc
+ 13 input
+ 21 sg
+ 29 fb
+128 ptm
+136 pts
+180 usb
+188 ttyUSB
+189 usb_device
+202 cpu/msr
+203 cpu/cpuid
+226 drm
+241 virtio-portsdev
+242 hidraw
+243 ttyDBC
+244 usbmon
+245 wwan_port
+246 bsg
+247 watchdog
+248 ptp
+249 pps
+250 rtc
+251 dma_heap
+252 dax
+253 tpm
+254 gpiochip
+
+Block devices:
+  9 md
+ 11 sr
+252 virtblk
+253 device-mapper
+254 mdp
+259 blkext

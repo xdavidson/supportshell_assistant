@@ -1,0 +1,19 @@
+Running Connection Tests...
+=== Begin Upload URL Connection Test ===
+Testing: https://cert-api.access.redhat.com/r/insights/uploads/
+POST https://cert-api.access.redhat.com/r/insights/uploads/
+HTTP Status: 200 OK
+HTTP Response Text: {"request_id":"09935a107e1a4eb287ae06fa17ca8d18","upload":{"account_number":"540155","org_id":"1979710"}}
+Successfully connected to: https://cert-api.access.redhat.com/r/insights/uploads/
+=== End Upload URL Connection Test: SUCCESS ===
+
+=== Begin API URL Connection Test ===
+Testing: https://cert-api.access.redhat.com/r/insights/
+GET https://cert-api.access.redhat.com/r/insights/
+HTTP Status: 200 OK
+HTTP Response Text: lub-dub
+Successfully connected to: https://cert-api.access.redhat.com/r/insights/
+=== End API URL Connection Test: SUCCESS ===
+
+Connectivity tests completed successfully
+See /var/log/insights-client/insights-client.log for more details.

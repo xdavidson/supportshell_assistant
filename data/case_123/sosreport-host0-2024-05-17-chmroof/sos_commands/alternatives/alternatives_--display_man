@@ -1,0 +1,9 @@
+man - status is manual.
+ link currently points to /usr/bin/man.man-db
+/usr/bin/man.man-db - priority 300
+ follower apropos: /usr/bin/apropos.man-db
+ follower whatis: /usr/bin/whatis.man-db
+ follower apropos.1.gz: /usr/share/man/man1/apropos.man-db.1.gz
+ follower man.1.gz: /usr/share/man/man1/man.man-db.1.gz
+ follower whatis.1.gz: /usr/share/man/man1/whatis.man-db.1.gz
+Current `best' version is /usr/bin/man.man-db.

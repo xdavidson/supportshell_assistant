@@ -1,0 +1,8 @@
+[EQUIVALENT] /etc/systemd/system/ctrl-alt-del.target → /usr/lib/systemd/system/ctrl-alt-del.target
+[REDIRECTED] /etc/systemd/system/default.target → /usr/lib/systemd/system/default.target
+[EXTENDED]   /usr/lib/systemd/system/systemd-hostnamed.service → /usr/lib/systemd/system/systemd-hostnamed.service.d/disable-privatedevices.conf
+[EXTENDED]   /usr/lib/systemd/system/systemd-logind.service → /usr/lib/systemd/system/systemd-logind.service.d/10-grub2-logind-service.conf
+[EXTENDED]   /usr/lib/systemd/system/systemd-udev-trigger.service → /usr/lib/systemd/system/systemd-udev-trigger.service.d/systemd-udev-trigger-no-reload.conf
+[EXTENDED]   /usr/lib/systemd/system/user@.service → /usr/lib/systemd/system/user@.service.d/10-login-barrier.conf
+
+6 overridden configuration files found.

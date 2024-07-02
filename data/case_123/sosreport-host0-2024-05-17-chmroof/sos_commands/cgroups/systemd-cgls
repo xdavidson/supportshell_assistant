@@ -1,0 +1,118 @@
+Control group /:
+-.slice
+├─user.slice (#1214)
+│ → user.invocation_id: 75e02133bff3464e833f2ee10da9a019
+│ → trusted.invocation_id: 75e02133bff3464e833f2ee10da9a019
+│ └─user-0.slice (#4156)
+│   → user.invocation_id: 5b8c651f8cb84db3ab7fbbfe3800d1a8
+│   → trusted.invocation_id: 5b8c651f8cb84db3ab7fbbfe3800d1a8
+│   ├─session-1.scope (#4401)
+│   │ ├─1966 sshd: root [priv]
+│   │ ├─1985 sshd: root@pts/0
+│   │ ├─1986 -bash
+│   │ ├─2017 /usr/bin/python3 -s /usr/sbin/sosreport --clean
+│   │ ├─2349 timeout 300s lsinitrd
+│   │ ├─2357 /usr/bin/bash /usr/bin/lsinitrd
+│   │ ├─2385 /usr/bin/bash /usr/bin/lsinitrd
+│   │ ├─2386 /usr/bin/bash /usr/bin/lsinitrd
+│   │ ├─2387 cpio --extract --verbose --quiet --to-stdout -- lib64/dracut/dracu…
+│   │ ├─2388 /usr/lib/dracut/skipcpio /boot/initramfs-5.14.0-362.8.1.el9_3.x86_…
+│   │ ├─2389 gzip -cd --
+│   │ ├─2497 timeout 300s systemd-cgls
+│   │ ├─2501 systemd-cgls
+│   │ ├─2502 timeout 300s udevadm info /dev/sr0
+│   │ ├─2503 /usr/bin/python3 -s /usr/sbin/sosreport --clean
+│   │ └─2505 udevadm info /dev/sr0
+│   └─user@0.service … (#4226)
+│     → user.delegate: 1
+│     → trusted.delegate: 1
+│     → user.invocation_id: 0d895a13ad8b4da286f493c55077422d
+│     → trusted.invocation_id: 0d895a13ad8b4da286f493c55077422d
+│     └─init.scope (#4261)
+│       ├─1970 /usr/lib/systemd/systemd --user
+│       └─1973 (sd-pam)
+├─init.scope (#17)
+│ └─1 /usr/lib/systemd/systemd rhgb --switched-root --system --deserialize 31
+└─system.slice (#52)
+  ├─irqbalance.service (#2889)
+  │ → user.invocation_id: 9bc6b135baa5400f81b877937b4a15cb
+  │ → trusted.invocation_id: 9bc6b135baa5400f81b877937b4a15cb
+  │ └─750 /usr/sbin/irqbalance --foreground
+  ├─libstoragemgmt.service (#2933)
+  │ → user.invocation_id: ceddf06bca80492ab5abed3e87986dda
+  │ → trusted.invocation_id: ceddf06bca80492ab5abed3e87986dda
+  │ └─751 /usr/bin/lsmd -d
+  ├─systemd-udevd.service … (#2243)
+  │ → user.delegate: 1
+  │ → trusted.delegate: 1
+  │ → user.invocation_id: 6d417cee8efb41189848b1fe5ad6b3d4
+  │ → trusted.invocation_id: 6d417cee8efb41189848b1fe5ad6b3d4
+  │ └─udev (#2287)
+  │   ├─ 654 /usr/lib/systemd/systemd-udevd
+  │   ├─2238 /usr/lib/systemd/systemd-udevd
+  │   └─2483 /usr/lib/systemd/systemd-udevd
+  ├─dbus-broker.service (#2713)
+  │ → user.invocation_id: 2f618700971a42c182e2faeea9ae2012
+  │ → trusted.invocation_id: 2f618700971a42c182e2faeea9ae2012
+  │ ├─745 /usr/bin/dbus-broker-launch --scope system --audit
+  │ └─746 dbus-broker --log 4 --controller 9 --machine-id 9d450dda0eb545b4851a4…
+  ├─polkit.service (#3461)
+  │ → user.invocation_id: b87a92b4959d47cb867446d6dee14c0f
+  │ → trusted.invocation_id: b87a92b4959d47cb867446d6dee14c0f
+  │ └─855 /usr/lib/polkit-1/polkitd --no-debug
+  ├─chronyd.service (#2757)
+  │ → user.invocation_id: ce43242ec3824cedbea145f689eed95a
+  │ → trusted.invocation_id: ce43242ec3824cedbea145f689eed95a
+  │ └─763 /usr/sbin/chronyd -F 2
+  ├─auditd.service (#2625)
+  │ → user.invocation_id: 8ad29444df494f7c9000c7dd2bd41a34
+  │ → trusted.invocation_id: 8ad29444df494f7c9000c7dd2bd41a34
+  │ ├─722 /sbin/auditd
+  │ └─724 /usr/sbin/sedispatch
+  ├─systemd-journald.service (#1715)
+  │ → user.invocation_id: 38774214a66b435aabf5f77733832bcb
+  │ → trusted.invocation_id: 38774214a66b435aabf5f77733832bcb
+  │ └─638 /usr/lib/systemd/systemd-journald
+  ├─atd.service (#3637)
+  │ → user.invocation_id: bceda2d42f094e029eaa4bc9b4a047a8
+  │ → trusted.invocation_id: bceda2d42f094e029eaa4bc9b4a047a8
+  │ └─872 /usr/sbin/atd -f
+  ├─sshd.service (#3417)
+  │ → user.invocation_id: e43a69fadc184c4aa808d37b4755e87a
+  │ → trusted.invocation_id: e43a69fadc184c4aa808d37b4755e87a
+  │ └─797 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+  ├─crond.service (#3681)
+  │ → user.invocation_id: cfc49005eec2457180609e336034f2dc
+  │ → trusted.invocation_id: cfc49005eec2457180609e336034f2dc
+  │ └─873 /usr/sbin/crond -n
+  ├─NetworkManager.service (#3197)
+  │ → user.invocation_id: 6bdd16a83fae420baf0197c1ea581d37
+  │ → trusted.invocation_id: 6bdd16a83fae420baf0197c1ea581d37
+  │ └─767 /usr/sbin/NetworkManager --no-daemon
+  ├─rsyslog.service (#3549)
+  │ → user.invocation_id: c23882d2941340acb47d177d20c1b9a8
+  │ → trusted.invocation_id: c23882d2941340acb47d177d20c1b9a8
+  │ └─870 /usr/sbin/rsyslogd -n
+  ├─firewalld.service (#2845)
+  │ → user.invocation_id: d7042cd16bc44db7bdf2a16715a18e58
+  │ → trusted.invocation_id: d7042cd16bc44db7bdf2a16715a18e58
+  │ └─749 /usr/bin/python3 -s /usr/sbin/firewalld --nofork --nopid
+  ├─qemu-guest-agent.service (#3021)
+  │ → user.invocation_id: 1f187801e48742f2b2c4f49437d671bb
+  │ → trusted.invocation_id: 1f187801e48742f2b2c4f49437d671bb
+  │ └─753 /usr/bin/qemu-ga --method=virtio-serial --path=/dev/virtio-ports/org.…
+  ├─rhsmcertd.service (#3373)
+  │ → user.invocation_id: c5cb3dc01cfc4a749c17f33a44fa1a96
+  │ → trusted.invocation_id: c5cb3dc01cfc4a749c17f33a44fa1a96
+  │ └─798 /usr/bin/rhsmcertd
+  ├─system-getty.slice (#1038)
+  │ → user.invocation_id: 4a1ac51d36b147cab8de462c16189024
+  │ → trusted.invocation_id: 4a1ac51d36b147cab8de462c16189024
+  │ └─getty@tty1.service (#3813)
+  │   → user.invocation_id: 6c56098943d4422199bb4801d4b4a1bf
+  │   → trusted.invocation_id: 6c56098943d4422199bb4801d4b4a1bf
+  │   └─880 /sbin/agetty -o -p -- \u --noclear - linux
+  └─systemd-logind.service (#3065)
+    → user.invocation_id: ebbb2d4b0e6c409eafb15c4a46f63a4a
+    → trusted.invocation_id: ebbb2d4b0e6c409eafb15c4a46f63a4a
+    └─754 /usr/lib/systemd/systemd-logind

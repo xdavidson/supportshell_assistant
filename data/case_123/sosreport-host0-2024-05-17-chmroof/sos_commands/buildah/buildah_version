@@ -1,0 +1,11 @@
+Version:         1.31.3
+Go Version:      go1.20.6
+Image Spec:      1.1.0-rc.3
+Runtime Spec:    1.1.0-rc.3
+CNI Spec:        1.0.0
+libcni Version:  v1.1.2
+image Version:   5.26.2
+Git Commit:      
+Built:           Fri Aug 25 07:10:36 2023
+OS/Arch:         linux/amd64
+BuildPlatform:   linux/amd64

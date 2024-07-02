@@ -1,0 +1,4 @@
+root_vg-lv_root (253:0)
+ └─ (252:2)
+root_vg-lv_swap (253:1)
+ └─ (252:2)

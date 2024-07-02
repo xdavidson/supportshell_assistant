@@ -1,0 +1,27 @@
+Filesystem                  1K-blocks    Used Available Use% Mounted on
+proc                                0       0         0    - /proc
+sysfs                               0       0         0    - /sys
+devtmpfs                         4096       0      4096   0% /dev
+securityfs                          0       0         0    - /sys/kernel/security
+tmpfs                         3929036      84   3928952   1% /dev/shm
+devpts                              0       0         0    - /dev/pts
+tmpfs                         1571616     604   1571012   1% /run
+cgroup2                             0       0         0    - /sys/fs/cgroup
+pstore                              0       0         0    - /sys/fs/pstore
+bpf                                 0       0         0    - /sys/fs/bpf
+/dev/mapper/root_vg-lv_root   9081588 3466788   5131884  41% /
+selinuxfs                           0       0         0    - /sys/fs/selinux
+mqueue                              0       0         0    - /dev/mqueue
+hugetlbfs                           0       0         0    - /dev/hugepages
+debugfs                             0       0         0    - /sys/kernel/debug
+tracefs                             0       0         0    - /sys/kernel/tracing
+configfs                            0       0         0    - /sys/kernel/config
+fusectl                             0       0         0    - /sys/fs/fuse/connections
+tmpfs                         3929036       0   3929036   0% /tmp
+none                                0       0         0    - /run/credentials/systemd-sysctl.service
+none                                0       0         0    - /run/credentials/systemd-tmpfiles-setup-dev.service
+/dev/vda1                      996780  359036    568932  39% /boot
+none                                0       0         0    - /run/credentials/systemd-tmpfiles-setup.service
+tmpfs                          785804       0    785804   0% /run/user/0
+tracefs                             0       0         0    - /sys/kernel/debug/tracing
+binfmt_misc                         0       0         0    - /proc/sys/fs/binfmt_misc

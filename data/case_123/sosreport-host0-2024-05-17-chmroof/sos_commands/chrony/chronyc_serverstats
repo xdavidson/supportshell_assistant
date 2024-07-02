@@ -1,0 +1,11 @@
+NTP packets received       : 0
+NTP packets dropped        : 0
+Command packets received   : 15
+Command packets dropped    : 0
+Client log records dropped : 0
+NTS-KE connections accepted: 0
+NTS-KE connections dropped : 0
+Authenticated NTP packets  : 0
+Interleaved NTP packets    : 0
+NTP timestamps held        : 0
+NTP timestamp span         : 0

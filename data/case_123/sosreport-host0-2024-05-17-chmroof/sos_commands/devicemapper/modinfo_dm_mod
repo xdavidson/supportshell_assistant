@@ -1,0 +1,47 @@
+filename:       /lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/md/dm-mod.ko.xz
+license:        GPL
+author:         Joe Thornber <dm-devel@redhat.com>
+description:    device-mapper driver
+alias:          devname:mapper/control
+alias:          char-major-10-236
+rhelversion:    9.3
+srcversion:     B211085A3BDC0508DB724E5
+depends:        
+retpoline:      Y
+intree:         Y
+name:           dm_mod
+vermagic:       5.14.0-362.8.1.el9_3.x86_64 SMP preempt mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        1F:F0:D0:D7:72:A6:ED:12:E3:1B:CC:C9:E0:49:15:03:79:D5:1F:69
+sig_hashalgo:   sha256
+signature:      0C:E0:44:B5:C2:E5:41:0F:76:72:D1:12:E9:86:6A:D4:1A:87:8E:28:
+		81:76:EB:A7:51:6C:21:71:63:4A:1C:E7:77:BE:AB:5F:F1:D7:58:58:
+		E1:4D:67:53:78:55:CA:16:DF:E4:64:05:D7:40:06:7C:C4:82:05:17:
+		22:5D:67:C4:D6:8E:A9:20:21:07:E9:3F:20:58:1C:A7:1D:26:68:E8:
+		EC:00:E5:A4:33:97:5A:6F:AB:9E:08:60:2B:A4:60:A6:34:7E:5E:AD:
+		69:16:50:73:52:81:92:76:BA:0E:64:07:58:AD:59:83:08:7B:43:86:
+		58:99:33:E4:EF:D1:6E:35:BD:03:E2:17:55:19:EA:30:BA:D2:9E:11:
+		C3:DB:BC:BF:CC:7E:5F:3E:9B:8C:C8:12:0C:C8:5A:5C:B0:D7:D5:BE:
+		EF:16:90:E2:34:47:54:7C:88:7A:E7:2C:FF:41:26:E5:4E:64:98:A7:
+		05:BC:4D:EF:E8:D6:A2:98:08:87:71:A5:F7:9F:E6:C8:AD:0C:55:B6:
+		40:12:A1:E7:72:A4:15:8D:89:51:18:B6:D1:9F:80:A8:CA:1F:54:90:
+		FD:F2:D1:4C:C0:9A:39:4C:67:33:A1:8D:E8:25:63:43:1D:A8:F2:18:
+		3F:18:81:C9:FF:F8:54:74:4F:80:3F:A1:66:22:0B:43:9B:ED:20:9D:
+		1B:88:E7:64:D0:39:D6:92:D8:DF:EF:D3:33:BA:ED:8F:64:D0:99:1F:
+		1D:C7:EA:29:EC:5E:EE:F0:EC:AC:C5:38:BA:27:75:7E:B1:A1:EA:47:
+		20:6A:29:57:08:76:7F:73:33:B2:2B:B5:90:55:F2:0D:F8:E6:26:7A:
+		02:BF:FA:17:56:DA:02:24:C7:ED:95:11:46:72:9B:F0:9B:F5:EF:BE:
+		FC:9E:BB:AA:75:E0:65:47:9F:2D:07:49:3E:FB:29:A5:ED:55:9B:25:
+		10:4F:DC:7D:44:58:75:4B:70:E8:49:F2:51:B3:23:79:57:AF:65:24:
+		F2:32:72:59
+parm:           reserved_rq_based_ios:Reserved IOs in request-based mempools (uint)
+parm:           use_blk_mq:Use block multiqueue for request-based DM devices (bool)
+parm:           dm_mq_nr_hw_queues:Number of hardware queues for request-based dm-mq devices (uint)
+parm:           dm_mq_queue_depth:Queue depth for request-based dm-mq devices (uint)
+parm:           stats_current_allocated_bytes:Memory currently used by statistics (ulong)
+parm:           kcopyd_subjob_size_kb:Sub-job size for dm-kcopyd clients (uint)
+parm:           major:The major number of the device mapper (uint)
+parm:           reserved_bio_based_ios:Reserved IOs in bio-based mempools (uint)
+parm:           dm_numa_node:NUMA node for DM device memory allocations (int)
+parm:           swap_bios:Maximum allowed inflight swap IOs (int)

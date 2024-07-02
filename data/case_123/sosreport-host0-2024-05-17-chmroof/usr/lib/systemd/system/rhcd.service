@@ -1,0 +1,12 @@
+[Unit]
+Description=Remote Host Configuration daemon
+Documentation=https://github.com/redhatinsights/yggdrasil
+After=network-online.target
+Requires=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/sbin/rhcd
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,13 @@
+-[0000:00]-+-00.0  Intel Corporation 82G33/G31/P35/P31 Express DRAM Controller
+           +-01.0  Red Hat, Inc. QXL paravirtual graphic card
+           +-02.0-[01]----00.0  Red Hat, Inc. Virtio 1.0 network device
+           +-02.1-[02]----00.0  Red Hat, Inc. QEMU XHCI Host Controller
+           +-02.2-[03]----00.0  Red Hat, Inc. Virtio 1.0 console
+           +-02.3-[04]----00.0  Red Hat, Inc. Virtio 1.0 block device
+           +-02.4-[05]----00.0  Red Hat, Inc. Virtio 1.0 memory balloon
+           +-02.5-[06]----00.0  Red Hat, Inc. Virtio 1.0 RNG
+           +-02.6-[07]----00.0  Red Hat, Inc. Virtio 1.0 SCSI
+           +-02.7-[08]--
+           +-1f.0  Intel Corporation 82801IB (ICH9) LPC Interface Controller
+           +-1f.2  Intel Corporation 82801IR/IO/IH (ICH9R/DO/DH) 6 port SATA Controller [AHCI mode]
+           \-1f.3  Intel Corporation 82801I (ICH9 Family) SMBus Controller

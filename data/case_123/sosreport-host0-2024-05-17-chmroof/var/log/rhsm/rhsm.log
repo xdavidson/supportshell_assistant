@@ -1,0 +1,70 @@
+2024-05-15 09:11:18,693 [INFO] rhsmcertd-worker:1398:host1Thread @entcertlib.py:107 - certs updated:
+Total updates: 0
+Found (local) serial# [5854190301971336043, 4196184951571702286]
+Expected (UEP) serial# [5854190301971336043, 4196184951571702286]
+Added (new)
+  <NONE>
+Deleted (rogue):
+  <NONE>
+2024-05-15 09:11:23,084 [INFO] rhsmcertd-worker:1398:host1Thread @factlib.py:105 - Facts have been updated.
+2024-05-15 09:27:20,963 [WARNING] rhsmcertd-worker:1591:host1Thread @healinglib.py:119 - Got valid status from server but no valid until date.
+2024-05-15 09:27:21,374 [INFO] rhsmcertd-worker:1591:host1Thread @entcertlib.py:107 - certs updated:
+Total updates: 0
+Found (local) serial# [5854190301971336043, 4196184951571702286]
+Expected (UEP) serial# [5854190301971336043, 4196184951571702286]
+Added (new)
+  <NONE>
+Deleted (rogue):
+  <NONE>
+2024-05-15 13:11:26,214 [INFO] rhsmcertd-worker:1813:host1Thread @entcertlib.py:107 - certs updated:
+Total updates: 0
+Found (local) serial# [5854190301971336043, 4196184951571702286]
+Expected (UEP) serial# [5854190301971336043, 4196184951571702286]
+Added (new)
+  <NONE>
+Deleted (rogue):
+  <NONE>
+2024-05-15 13:11:28,705 [INFO] rhsmcertd-worker:1813:host1Thread @factlib.py:105 - Facts have been updated.
+2024-05-15 17:11:26,240 [INFO] rhsmcertd-worker:2184:host1Thread @entcertlib.py:107 - certs updated:
+Total updates: 0
+Found (local) serial# [5854190301971336043, 4196184951571702286]
+Expected (UEP) serial# [5854190301971336043, 4196184951571702286]
+Added (new)
+  <NONE>
+Deleted (rogue):
+  <NONE>
+2024-05-16 09:21:09,925 [INFO] rhsmcertd-worker:1411:host1Thread @entcertlib.py:107 - certs updated:
+Total updates: 0
+Found (local) serial# [5854190301971336043, 4196184951571702286]
+Expected (UEP) serial# [5854190301971336043, 4196184951571702286]
+Added (new)
+  <NONE>
+Deleted (rogue):
+  <NONE>
+2024-05-16 09:21:14,170 [INFO] rhsmcertd-worker:1411:host1Thread @factlib.py:105 - Facts have been updated.
+2024-05-16 13:21:17,144 [INFO] rhsmcertd-worker:1841:host1Thread @entcertlib.py:107 - certs updated:
+Total updates: 0
+Found (local) serial# [5854190301971336043, 4196184951571702286]
+Expected (UEP) serial# [5854190301971336043, 4196184951571702286]
+Added (new)
+  <NONE>
+Deleted (rogue):
+  <NONE>
+2024-05-16 13:21:19,737 [INFO] rhsmcertd-worker:1841:host1Thread @factlib.py:105 - Facts have been updated.
+2024-05-17 08:53:24,685 [INFO] rhsmcertd-worker:1421:host1Thread @entcertlib.py:107 - certs updated:
+Total updates: 0
+Found (local) serial# [5854190301971336043, 4196184951571702286]
+Expected (UEP) serial# [5854190301971336043, 4196184951571702286]
+Added (new)
+  <NONE>
+Deleted (rogue):
+  <NONE>
+2024-05-17 08:53:28,585 [INFO] rhsmcertd-worker:1421:host1Thread @factlib.py:105 - Facts have been updated.
+2024-05-17 12:53:33,578 [INFO] rhsmcertd-worker:1778:host1Thread @entcertlib.py:107 - certs updated:
+Total updates: 0
+Found (local) serial# [5854190301971336043, 4196184951571702286]
+Expected (UEP) serial# [5854190301971336043, 4196184951571702286]
+Added (new)
+  <NONE>
+Deleted (rogue):
+  <NONE>

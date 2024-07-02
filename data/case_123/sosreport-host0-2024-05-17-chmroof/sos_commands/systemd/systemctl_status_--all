@@ -1,0 +1,2956 @@
+Unit boot.automount could not be found.
+● unknown.obfuscateddomain0.com
+    State: degraded
+    Units: 316 loaded (incl. loaded aliases)
+     Jobs: 0 queued
+   Failed: 2 units
+    Since: Fri 2024-05-17 08:23:54 EDT; 6h ago
+  systemd: 252-18.el9
+   CGroup: /
+           ├─init.scope
+           │ └─1 /usr/lib/systemd/systemd rhgb --switched-root --system --deserialize 31
+           ├─system.slice
+           │ ├─NetworkManager.service
+           │ │ └─767 /usr/sbin/NetworkManager --no-daemon
+           │ ├─atd.service
+           │ │ └─872 /usr/sbin/atd -f
+           │ ├─auditd.service
+           │ │ ├─722 /sbin/auditd
+           │ │ └─724 /usr/sbin/sedispatch
+           │ ├─chronyd.service
+           │ │ └─763 /usr/sbin/chronyd -F 2
+           │ ├─crond.service
+           │ │ └─873 /usr/sbin/crond -n
+           │ ├─dbus-broker.service
+           │ │ ├─745 /usr/bin/dbus-broker-launch --scope system --audit
+           │ │ └─746 dbus-broker --log 4 --controller 9 --machine-id 9d450dda0eb545b4851a4dc8aa51f0de --max-bytes 536870912 --max-fds 4096 --max-matches 131072 --audit
+           │ ├─firewalld.service
+           │ │ └─749 /usr/bin/python3 -s /usr/sbin/firewalld --nofork --nopid
+           │ ├─irqbalance.service
+           │ │ └─750 /usr/sbin/irqbalance --foreground
+           │ ├─libstoragemgmt.service
+           │ │ └─751 /usr/bin/lsmd -d
+           │ ├─polkit.service
+           │ │ └─855 /usr/lib/polkit-1/polkitd --no-debug
+           │ ├─qemu-guest-agent.service
+           │ │ └─753 /usr/bin/qemu-ga --method=virtio-serial --path=/dev/virtio-ports/org.qemu.guest_agent.0 --block-rpcs=guest-file-open,guest-file-close,guest-file-read,guest-file-write,guest-file-seek,guest-file-flush,guest-exec,guest-exec-status -F/etc/qemu-ga/fsfreeze-hook
+           │ ├─rhsm.service
+           │ │ └─5254 /usr/bin/python3 /usr/libexec/rhsm-service
+           │ ├─rhsmcertd.service
+           │ │ └─798 /usr/bin/rhsmcertd
+           │ ├─rsyslog.service
+           │ │ └─870 /usr/sbin/rsyslogd -n
+           │ ├─sshd.service
+           │ │ └─797 "sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups"
+           │ ├─system-getty.slice
+           │ │ └─getty@tty1.service
+           │ │   └─880 /sbin/agetty -o "-p -- \\u" --noclear - linux
+           │ ├─systemd-hostnamed.service
+           │ │ └─4348 /usr/lib/systemd/systemd-hostnamed
+           │ ├─systemd-journald.service
+           │ │ └─638 /usr/lib/systemd/systemd-journald
+           │ ├─systemd-logind.service
+           │ │ └─754 /usr/lib/systemd/systemd-logind
+           │ ├─systemd-udevd.service
+           │ │ └─udev
+           │ │   └─654 /usr/lib/systemd/systemd-udevd
+           │ └─udisks2.service
+           │   └─5516 /usr/libexec/udisks2/udisksd
+           └─user.slice
+             └─user-0.slice
+               ├─session-1.scope
+               │ ├─1966 "sshd: root [priv]"
+               │ ├─1985 "sshd: root@pts/0"
+               │ ├─1986 -bash
+               │ ├─2017 /usr/bin/python3 -s /usr/sbin/sosreport --clean
+               │ ├─5135 timeout 300s turbostat --debug sleep 10
+               │ ├─5140 turbostat --debug sleep 10
+               │ ├─5148 sleep 10
+               │ ├─5473 timeout 300s subscription-manager list --installed
+               │ ├─5475 /usr/bin/python3 /usr/sbin/subscription-manager list --installed
+               │ ├─5541 timeout 180s rpm -qal
+               │ ├─5542 rpm -qal
+               │ ├─5547 timeout 300s systemctl status --all
+               │ └─5549 systemctl status --all
+               └─user@0.service
+                 └─init.scope
+                   ├─1970 /usr/lib/systemd/systemd --user
+                   └─1973 "(sd-pam)"
+
+● proc-sys-fs-binfmt_misc.automount - Arbitrary Executable File Formats File System Automount Point
+     Loaded: loaded (/usr/lib/systemd/system/proc-sys-fs-binfmt_misc.automount; static)
+     Active: active (running) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+   Triggers: ● proc-sys-fs-binfmt_misc.mount
+      Where: /proc/sys/fs/binfmt_misc
+       Docs: https://docs.kernel.org/admin-guide/binfmt-misc.html
+             https://www.freedesktop.org/wiki/Software/systemd/APIFileSystems
+
+May 17 14:45:30 unknown.obfuscateddomain0.com systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 2017 (sosreport)
+
+● dev-cdrom.device - QEMU_DVD-ROM
+    Follows: unit currently follows state of sys-devices-pci0000:00-0000:00:1f.2-ata1-host1-target1:0:0-1:0:0:0-block-sr0.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/pci0000:00/0000:00:1f.2/ata1/host1/target1:0:0/1:0:0:0/block/sr0
+
+● dev-disk-by\x2ddiskseq-1.device - /dev/disk/by-diskseq/1
+    Follows: unit currently follows state of sys-devices-pci0000:00-0000:00:02.3-0000:04:00.0-virtio2-block-vda.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/pci0000:00/0000:00:02.3/0000:04:00.0/virtio2/block/vda
+
+● dev-disk-by\x2ddiskseq-3.device - QEMU_DVD-ROM
+    Follows: unit currently follows state of sys-devices-pci0000:00-0000:00:1f.2-ata1-host1-target1:0:0-1:0:0:0-block-sr0.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/pci0000:00/0000:00:1f.2/ata1/host1/target1:0:0/1:0:0:0/block/sr0
+
+● dev-disk-by\x2did-ata\x2dQEMU_DVD\x2dROM_QM00001.device - QEMU_DVD-ROM
+    Follows: unit currently follows state of sys-devices-pci0000:00-0000:00:1f.2-ata1-host1-target1:0:0-1:0:0:0-block-sr0.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/pci0000:00/0000:00:1f.2/ata1/host1/target1:0:0/1:0:0:0/block/sr0
+
+● dev-disk-by\x2did-dm\x2dname\x2droot_vg\x2dlv_root.device - /dev/disk/by-id/dm-name-root_vg-lv_root
+    Follows: unit currently follows state of sys-devices-virtual-block-dm\x2d0.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:54 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:54 EDT; 6h ago
+     Device: /sys/devices/virtual/block/dm-0
+
+● dev-disk-by\x2did-dm\x2dname\x2droot_vg\x2dlv_swap.device - /dev/disk/by-id/dm-name-root_vg-lv_swap
+    Follows: unit currently follows state of sys-devices-virtual-block-dm\x2d1.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:54 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:54 EDT; 6h ago
+     Device: /sys/devices/virtual/block/dm-1
+
+● dev-disk-by\x2did-dm\x2duuid\x2dLVM\x2d0czQa6vnpMIdWSsf2U4s4t43edqtiI84DMbXF6VSQdng1Qah1VJgoDdDAa3ramzg.device - /dev/disk/by-id/dm-uuid-LVM-0czQa6vnpMIdWSsf2U4s4t43edqtiI84DMbXF6VSQdng1Qah1VJgoDdDAa3ramzg
+    Follows: unit currently follows state of sys-devices-virtual-block-dm\x2d0.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:54 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:54 EDT; 6h ago
+     Device: /sys/devices/virtual/block/dm-0
+
+● dev-disk-by\x2did-dm\x2duuid\x2dLVM\x2d0czQa6vnpMIdWSsf2U4s4t43edqtiI84gMlBWsxIzw82SAQqxMTxl5NTLEKuY47l.device - /dev/disk/by-id/dm-uuid-LVM-0czQa6vnpMIdWSsf2U4s4t43edqtiI84gMlBWsxIzw82SAQqxMTxl5NTLEKuY47l
+    Follows: unit currently follows state of sys-devices-virtual-block-dm\x2d1.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:54 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:54 EDT; 6h ago
+     Device: /sys/devices/virtual/block/dm-1
+
+● dev-disk-by\x2did-lvm\x2dpv\x2duuid\x2dvPDur2\x2dIuHb\x2dbvHd\x2dJMtS\x2dYKXh\x2dlrwA\x2dMaEGb7.device - /dev/disk/by-id/lvm-pv-uuid-vPDur2-IuHb-bvHd-JMtS-YKXh-lrwA-MaEGb7
+    Follows: unit currently follows state of sys-devices-pci0000:00-0000:00:02.3-0000:04:00.0-virtio2-block-vda-vda2.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/pci0000:00/0000:00:02.3/0000:04:00.0/virtio2/block/vda/vda2
+
+● dev-disk-by\x2dlabel-boot.device - /dev/disk/by-label/boot
+    Follows: unit currently follows state of sys-devices-pci0000:00-0000:00:02.3-0000:04:00.0-virtio2-block-vda-vda1.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/pci0000:00/0000:00:02.3/0000:04:00.0/virtio2/block/vda/vda1
+
+● dev-disk-by\x2dlabel-lv_root.device - /dev/disk/by-label/lv_root
+    Follows: unit currently follows state of sys-devices-virtual-block-dm\x2d0.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:54 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:54 EDT; 6h ago
+     Device: /sys/devices/virtual/block/dm-0
+
+● dev-disk-by\x2dlabel-lv_swap.device - /dev/disk/by-label/lv_swap
+    Follows: unit currently follows state of sys-devices-virtual-block-dm\x2d1.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:54 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:54 EDT; 6h ago
+     Device: /sys/devices/virtual/block/dm-1
+
+● dev-disk-by\x2dpartuuid-2b0740da\x2d01.device - /dev/disk/by-partuuid/2b0740da-01
+    Follows: unit currently follows state of sys-devices-pci0000:00-0000:00:02.3-0000:04:00.0-virtio2-block-vda-vda1.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/pci0000:00/0000:00:02.3/0000:04:00.0/virtio2/block/vda/vda1
+
+● dev-disk-by\x2dpartuuid-2b0740da\x2d02.device - /dev/disk/by-partuuid/2b0740da-02
+    Follows: unit currently follows state of sys-devices-pci0000:00-0000:00:02.3-0000:04:00.0-virtio2-block-vda-vda2.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/pci0000:00/0000:00:02.3/0000:04:00.0/virtio2/block/vda/vda2
+
+● dev-disk-by\x2dpath-pci\x2d0000:00:1f.2\x2data\x2d1.0.device - QEMU_DVD-ROM
+    Follows: unit currently follows state of sys-devices-pci0000:00-0000:00:1f.2-ata1-host1-target1:0:0-1:0:0:0-block-sr0.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/pci0000:00/0000:00:1f.2/ata1/host1/target1:0:0/1:0:0:0/block/sr0
+
+● dev-disk-by\x2dpath-pci\x2d0000:00:1f.2\x2data\x2d1.device - QEMU_DVD-ROM
+    Follows: unit currently follows state of sys-devices-pci0000:00-0000:00:1f.2-ata1-host1-target1:0:0-1:0:0:0-block-sr0.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/pci0000:00/0000:00:1f.2/ata1/host1/target1:0:0/1:0:0:0/block/sr0
+
+● dev-disk-by\x2dpath-pci\x2d0000:04:00.0.device - /dev/disk/by-path/pci-0000:04:00.0
+    Follows: unit currently follows state of sys-devices-pci0000:00-0000:00:02.3-0000:04:00.0-virtio2-block-vda.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/pci0000:00/0000:00:02.3/0000:04:00.0/virtio2/block/vda
+
+● dev-disk-by\x2dpath-pci\x2d0000:04:00.0\x2dpart1.device - /dev/disk/by-path/pci-0000:04:00.0-part1
+    Follows: unit currently follows state of sys-devices-pci0000:00-0000:00:02.3-0000:04:00.0-virtio2-block-vda-vda1.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/pci0000:00/0000:00:02.3/0000:04:00.0/virtio2/block/vda/vda1
+
+● dev-disk-by\x2dpath-pci\x2d0000:04:00.0\x2dpart2.device - /dev/disk/by-path/pci-0000:04:00.0-part2
+    Follows: unit currently follows state of sys-devices-pci0000:00-0000:00:02.3-0000:04:00.0-virtio2-block-vda-vda2.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/pci0000:00/0000:00:02.3/0000:04:00.0/virtio2/block/vda/vda2
+
+● dev-disk-by\x2dpath-virtio\x2dpci\x2d0000:04:00.0.device - /dev/disk/by-path/virtio-pci-0000:04:00.0
+    Follows: unit currently follows state of sys-devices-pci0000:00-0000:00:02.3-0000:04:00.0-virtio2-block-vda.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/pci0000:00/0000:00:02.3/0000:04:00.0/virtio2/block/vda
+
+● dev-disk-by\x2dpath-virtio\x2dpci\x2d0000:04:00.0\x2dpart1.device - /dev/disk/by-path/virtio-pci-0000:04:00.0-part1
+    Follows: unit currently follows state of sys-devices-pci0000:00-0000:00:02.3-0000:04:00.0-virtio2-block-vda-vda1.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/pci0000:00/0000:00:02.3/0000:04:00.0/virtio2/block/vda/vda1
+
+● dev-disk-by\x2dpath-virtio\x2dpci\x2d0000:04:00.0\x2dpart2.device - /dev/disk/by-path/virtio-pci-0000:04:00.0-part2
+    Follows: unit currently follows state of sys-devices-pci0000:00-0000:00:02.3-0000:04:00.0-virtio2-block-vda-vda2.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/pci0000:00/0000:00:02.3/0000:04:00.0/virtio2/block/vda/vda2
+
+● dev-disk-by\x2duuid-4a1a8024\x2d234e\x2d424e\x2dacff\x2d37729ba56fdd.device - /dev/disk/by-uuid/4a53:4f:53:9d:a6:2f729ba56fdd
+    Follows: unit currently follows state of sys-devices-virtual-block-dm\x2d1.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:54 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:54 EDT; 6h ago
+     Device: /sys/devices/virtual/block/dm-1
+
+● dev-disk-by\x2duuid-5d89178b\x2d605c\x2d4c76\x2db9b7\x2d835bfac8954c.device - /dev/disk/by-uuid/5d53:4f:53:1a:9b:455bfac8954c
+    Follows: unit currently follows state of sys-devices-virtual-block-dm\x2d0.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:54 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:54 EDT; 6h ago
+     Device: /sys/devices/virtual/block/dm-0
+
+● dev-disk-by\x2duuid-628206c9\x2d748b\x2d45a1\x2d88e2\x2d6e47767a441d.device - /dev/disk/by-uuid/6253:4f:53:99:54:0247767a441d
+    Follows: unit currently follows state of sys-devices-pci0000:00-0000:00:02.3-0000:04:00.0-virtio2-block-vda-vda1.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/pci0000:00/0000:00:02.3/0000:04:00.0/virtio2/block/vda/vda1
+
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd[1]: Condition check resulted in /dev/disk/by-uuid/6253:4f:53:99:54:0247767a441d being skipped.
+
+● dev-dm\x2d0.device - /dev/dm-0
+    Follows: unit currently follows state of sys-devices-virtual-block-dm\x2d0.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:54 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:54 EDT; 6h ago
+     Device: /sys/devices/virtual/block/dm-0
+
+● dev-dm\x2d1.device - /dev/dm-1
+    Follows: unit currently follows state of sys-devices-virtual-block-dm\x2d1.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:54 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:54 EDT; 6h ago
+     Device: /sys/devices/virtual/block/dm-1
+
+● dev-mapper-root_vg\x2dlv_root.device - /dev/mapper/root_vg-lv_root
+    Follows: unit currently follows state of sys-devices-virtual-block-dm\x2d0.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:54 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:54 EDT; 6h ago
+     Device: /sys/devices/virtual/block/dm-0
+
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: Found device /dev/mapper/root_vg-lv_root.
+
+● dev-mapper-root_vg\x2dlv_swap.device - /dev/mapper/root_vg-lv_swap
+    Follows: unit currently follows state of sys-devices-virtual-block-dm\x2d1.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:54 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:54 EDT; 6h ago
+     Device: /sys/devices/virtual/block/dm-1
+
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: Found device /dev/mapper/root_vg-lv_swap.
+
+● dev-rfkill.device - /dev/rfkill
+    Follows: unit currently follows state of sys-devices-virtual-misc-rfkill.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:56 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:56 EDT; 6h ago
+     Device: /sys/devices/virtual/misc/rfkill
+
+● dev-root_vg-lv_root.device - /dev/root_vg/lv_root
+    Follows: unit currently follows state of sys-devices-virtual-block-dm\x2d0.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:54 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:54 EDT; 6h ago
+     Device: /sys/devices/virtual/block/dm-0
+
+● dev-root_vg-lv_swap.device - /dev/root_vg/lv_swap
+    Follows: unit currently follows state of sys-devices-virtual-block-dm\x2d1.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:54 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:54 EDT; 6h ago
+     Device: /sys/devices/virtual/block/dm-1
+
+● dev-sr0.device - QEMU_DVD-ROM
+    Follows: unit currently follows state of sys-devices-pci0000:00-0000:00:1f.2-ata1-host1-target1:0:0-1:0:0:0-block-sr0.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/pci0000:00/0000:00:1f.2/ata1/host1/target1:0:0/1:0:0:0/block/sr0
+
+● dev-ttyS0.device - /dev/ttyS0
+    Follows: unit currently follows state of sys-devices-pnp0-00:00-tty-ttyS0.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/pnp0/00:00/tty/ttyS0
+
+● dev-ttyS1.device - /dev/ttyS1
+    Follows: unit currently follows state of sys-devices-platform-serial8250-tty-ttyS1.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/platform/serial8250/tty/ttyS1
+
+● dev-ttyS2.device - /dev/ttyS2
+    Follows: unit currently follows state of sys-devices-platform-serial8250-tty-ttyS2.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/platform/serial8250/tty/ttyS2
+
+● dev-ttyS3.device - /dev/ttyS3
+    Follows: unit currently follows state of sys-devices-platform-serial8250-tty-ttyS3.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/platform/serial8250/tty/ttyS3
+
+● dev-vda.device - /dev/vda
+    Follows: unit currently follows state of sys-devices-pci0000:00-0000:00:02.3-0000:04:00.0-virtio2-block-vda.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/pci0000:00/0000:00:02.3/0000:04:00.0/virtio2/block/vda
+
+● dev-vda1.device - /dev/vda1
+    Follows: unit currently follows state of sys-devices-pci0000:00-0000:00:02.3-0000:04:00.0-virtio2-block-vda-vda1.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/pci0000:00/0000:00:02.3/0000:04:00.0/virtio2/block/vda/vda1
+
+● dev-vda2.device - /dev/vda2
+    Follows: unit currently follows state of sys-devices-pci0000:00-0000:00:02.3-0000:04:00.0-virtio2-block-vda-vda2.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/pci0000:00/0000:00:02.3/0000:04:00.0/virtio2/block/vda/vda2
+
+● dev-virtio\x2dports-com.redhat.spice.0.device - /dev/virtio-ports/com.redhat.spice.0
+    Follows: unit currently follows state of sys-devices-pci0000:00-0000:00:02.2-0000:03:00.0-virtio1-virtio\x2dports-vport1p2.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/pci0000:00/0000:00:02.2/0000:03:00.0/virtio1/virtio-ports/vport1p2
+
+● dev-virtio\x2dports-org.qemu.guest_agent.0.device - /dev/virtio-ports/org.qemu.guest_agent.0
+    Follows: unit currently follows state of sys-devices-pci0000:00-0000:00:02.2-0000:03:00.0-virtio1-virtio\x2dports-vport1p1.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/pci0000:00/0000:00:02.2/0000:03:00.0/virtio1/virtio-ports/vport1p1
+
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd[1]: Condition check resulted in /dev/virtio-ports/org.qemu.guest_agent.0 being skipped.
+
+● dev-vport1p1.device - /dev/vport1p1
+    Follows: unit currently follows state of sys-devices-pci0000:00-0000:00:02.2-0000:03:00.0-virtio1-virtio\x2dports-vport1p1.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/pci0000:00/0000:00:02.2/0000:03:00.0/virtio1/virtio-ports/vport1p1
+
+● dev-vport1p2.device - /dev/vport1p2
+    Follows: unit currently follows state of sys-devices-pci0000:00-0000:00:02.2-0000:03:00.0-virtio1-virtio\x2dports-vport1p2.device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/pci0000:00/0000:00:02.2/0000:03:00.0/virtio1/virtio-ports/vport1p2
+
+● sys-devices-pci0000:00-0000:00:02.0-0000:01:00.0-virtio0-net-enp1s0.device - Virtio network device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/pci0000:00/0000:00:02.0/0000:01:00.0/virtio0/net/enp1s0
+
+● sys-devices-pci0000:00-0000:00:02.2-0000:03:00.0-virtio1-virtio\x2dports-vport1p1.device - /sys/devices/pci0000:00/0000:00:02.2/0000:03:00.0/virtio1/virtio-ports/vport1p1
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/pci0000:00/0000:00:02.2/0000:03:00.0/virtio1/virtio-ports/vport1p1
+
+● sys-devices-pci0000:00-0000:00:02.2-0000:03:00.0-virtio1-virtio\x2dports-vport1p2.device - /sys/devices/pci0000:00/0000:00:02.2/0000:03:00.0/virtio1/virtio-ports/vport1p2
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/pci0000:00/0000:00:02.2/0000:03:00.0/virtio1/virtio-ports/vport1p2
+
+● sys-devices-pci0000:00-0000:00:02.3-0000:04:00.0-virtio2-block-vda-vda1.device - /sys/devices/pci0000:00/0000:00:02.3/0000:04:00.0/virtio2/block/vda/vda1
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/pci0000:00/0000:00:02.3/0000:04:00.0/virtio2/block/vda/vda1
+
+● sys-devices-pci0000:00-0000:00:02.3-0000:04:00.0-virtio2-block-vda-vda2.device - /sys/devices/pci0000:00/0000:00:02.3/0000:04:00.0/virtio2/block/vda/vda2
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/pci0000:00/0000:00:02.3/0000:04:00.0/virtio2/block/vda/vda2
+
+● sys-devices-pci0000:00-0000:00:02.3-0000:04:00.0-virtio2-block-vda.device - /sys/devices/pci0000:00/0000:00:02.3/0000:04:00.0/virtio2/block/vda
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/pci0000:00/0000:00:02.3/0000:04:00.0/virtio2/block/vda
+
+● sys-devices-pci0000:00-0000:00:1f.2-ata1-host1-target1:0:0-1:0:0:0-block-sr0.device - QEMU_DVD-ROM
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/pci0000:00/0000:00:1f.2/ata1/host1/target1:0:0/1:0:0:0/block/sr0
+
+● sys-devices-platform-serial8250-tty-ttyS1.device - /sys/devices/platform/serial8250/tty/ttyS1
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/platform/serial8250/tty/ttyS1
+
+● sys-devices-platform-serial8250-tty-ttyS2.device - /sys/devices/platform/serial8250/tty/ttyS2
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/platform/serial8250/tty/ttyS2
+
+● sys-devices-platform-serial8250-tty-ttyS3.device - /sys/devices/platform/serial8250/tty/ttyS3
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/platform/serial8250/tty/ttyS3
+
+● sys-devices-pnp0-00:00-tty-ttyS0.device - /sys/devices/pnp0/00:00/tty/ttyS0
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/pnp0/00:00/tty/ttyS0
+
+● sys-devices-virtual-block-dm\x2d0.device - /sys/devices/virtual/block/dm-0
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:54 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:54 EDT; 6h ago
+     Device: /sys/devices/virtual/block/dm-0
+
+● sys-devices-virtual-block-dm\x2d1.device - /sys/devices/virtual/block/dm-1
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:54 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:54 EDT; 6h ago
+     Device: /sys/devices/virtual/block/dm-1
+
+● sys-devices-virtual-misc-rfkill.device - /sys/devices/virtual/misc/rfkill
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:56 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:56 EDT; 6h ago
+     Device: /sys/devices/virtual/misc/rfkill
+
+● sys-module-configfs.device - /sys/module/configfs
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/module/configfs
+
+● sys-module-fuse.device - /sys/module/fuse
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/module/fuse
+
+May 17 08:23:53 unknown.obfuscateddomain0.com systemd[1]: sys-module-fuse.device: Failed to enqueue SYSTEMD_WANTS= job, ignoring: Unit sys-fs-fuse-connections.mount not found.
+
+● sys-subsystem-net-devices-enp1s0.device - Virtio network device
+     Loaded: loaded
+     Active: active (plugged) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+     Device: /sys/devices/pci0000:00/0000:00:02.0/0000:01:00.0/virtio0/net/enp1s0
+
+● -.mount - Root Mount
+     Loaded: loaded (/etc/fstab; generated)
+     Active: active (mounted)
+      Where: /
+       What: /dev/mapper/root_vg-lv_root
+       Docs: man:fstab(5)
+             man:systemd-fstab-generator(8)
+
+● boot.mount - /boot
+     Loaded: loaded (/etc/fstab; generated)
+     Active: active (mounted) since Fri 2024-05-17 08:23:56 EDT; 6h ago
+  Unit home.mount could not be found.
+    Until: Fri 2024-05-17 08:23:56 EDT; 6h ago
+      Where: /boot
+       What: /dev/vda1
+       Docs: man:fstab(5)
+             man:systemd-fstab-generator(8)
+      Tasks: 0 (limit: 48859)
+     Memory: 40.0K
+        CPU: 3ms
+     CGroup: /system.slice/boot.mount
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Mounting /boot...
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Mounted /boot.
+
+● dev-hugepages.mount - Huge Pages File System
+     Loaded: loaded (/usr/lib/systemd/system/dev-hugepages.mount; static)
+     Active: active (mounted) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Where: /dev/hugepages
+       What: hugetlbfs
+       Docs: https://docs.kernel.org/admin-guide/mm/hugetlbpage.html
+             https://www.freedesktop.org/wiki/Software/systemd/APIFileSystems
+      Tasks: 0 (limit: 48859)
+     Memory: 20.0K
+        CPU: 2ms
+     CGroup: /dev-hugepages.mount
+
+● dev-mqueue.mount - POSIX Message Queue File System
+     Loaded: loaded (/usr/lib/systemd/system/dev-mqueue.mount; static)
+     Active: active (mounted) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Where: /dev/mqueue
+       What: mqueue
+       Docs: man:mq_overview(7)
+             https://www.freedesktop.org/wiki/Software/systemd/APIFileSystems
+      Tasks: 0 (limit: 48859)
+     Memory: 36.0K
+        CPU: 1ms
+     CGroup: /dev-mqueue.mount
+
+● proc-sys-fs-binfmt_misc.mount - Arbitrary Executable File Formats File System
+     Loaded: loaded (/usr/lib/systemd/system/proc-sys-fs-binfmt_misc.mount; disabled; preset: disabled)
+     Active: active (mounted) since Fri 2024-05-17 14:45:30 EDT; 17s ago
+      Until: Fri 2024-05-17 14:45:30 EDT; 17s ago
+TriggeredBy: ● proc-sys-fs-binfmt_misc.automount
+      Where: /proc/sys/fs/binfmt_misc
+       What: binfmt_misc
+       Docs: https://docs.kernel.org/admin-guide/binfmt-misc.html
+             https://www.freedesktop.org/wiki/Software/systemd/APIFileSystems
+      Tasks: 0 (limit: 48859)
+     Memory: 8.0K
+        CPU: 3ms
+     CGroup: /proc-sys-fs-binfmt_misc.mount
+
+May 17 14:45:30 unknown.obfuscateddomain0.com systemd[1]: Mounting Arbitrary Executable File Formats File System...
+May 17 14:45:30 unknown.obfuscateddomain0.com systemd[1]: Mounted Arbitrary Executable File Formats File System.
+
+● run-credentials-systemd\x2dsysctl.service.mount - /run/credentials/systemd-sysctl.service
+     Loaded: loaded (/proc/self/mountinfo)
+     Active: active (mounted) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Where: /run/credentials/systemd-sysctl.service
+       What: none
+
+● run-credentials-systemd\x2dtmpfiles\x2dsetup.service.mount - /run/credentials/systemd-tmpfiles-setup.service
+     Loaded: loaded (/proc/self/mountinfo)
+     Active: active (mounted) since Fri 2024-05-17 08:23:56 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:56 EDT; 6h ago
+      Where: /run/credentials/systemd-tmpfiles-setup.service
+       What: none
+
+● run-credentials-systemd\x2dtmpfiles\x2dsetup\x2ddev.service.mount - /run/credentials/systemd-tmpfiles-setup-dev.service
+     Loaded: loaded (/proc/self/mountinfo)
+     Active: active (mounted) since Fri 2024-05-17 08:23:56 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:56 EDT; 6h ago
+      Where: /run/credentials/systemd-tmpfiles-setup-dev.service
+       What: none
+
+● run-user-0.mount - /run/user/0
+     Loaded: loaded (/proc/self/mountinfo)
+     Active: active (mounted) since Fri 2024-05-17 14:44:42 EDT; 1min 6s ago
+      Until: Fri 2024-05-17 14:44:42 EDT; 1min 6s ago
+      Where: /run/user/0
+       What: tmpfs
+
+● sys-fs-fuse-connections.mount - FUSE Control File System
+     Loaded: loaded (/usr/lib/systemd/system/sys-fs-fuse-connections.mount; static)
+     Active: active (mounted) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Where: /sys/fs/fuse/connections
+       What: fusectl
+       Docs: https://docs.kernel.org/filesystems/fuse.html
+             https://www.freedesktop.org/wiki/Software/systemd/APIFileSystems
+      Tasks: 0 (lUnit sysroot.mount could not be found.
+imit: 48859)
+     Memory: 4.0K
+        CPU: 1ms
+     CGroup: /sys-fs-fuse-connections.mount
+
+● sys-kernel-config.mount - Kernel Configuration File System
+     Loaded: loaded (/usr/lib/systemd/system/sys-kernel-config.mount; static)
+     Active: active (mounted) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Where: /sys/kernel/config
+       What: configfs
+       Docs: https://docs.kernel.org/filesystems/configfs.html
+             https://www.freedesktop.org/wiki/Software/systemd/APIFileSystems
+      Tasks: 0 (limit: 48859)
+     Memory: 4.0K
+        CPU: 831us
+     CGroup: /sys-kernel-config.mount
+
+● sys-kernel-debug-tracing.mount - /sys/kernel/debug/tracing
+     Loaded: loaded (/proc/self/mountinfo)
+     Active: active (mounted) since Fri 2024-05-17 14:45:29 EDT; 18s ago
+      Until: Fri 2024-05-17 14:45:29 EDT; 18s ago
+      Where: /sys/kernel/debug/tracing
+       What: tracefs
+
+● sys-kernel-debug.mount - Kernel Debug File System
+     Loaded: loaded (/usr/lib/systemd/system/sys-kernel-debug.mount; static)
+     Active: active (mounted) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Where: /sys/kernel/debug
+       What: debugfs
+       Docs: https://docs.kernel.org/filesystems/debugfs.html
+             https://www.freedesktop.org/wiki/Software/systemd/APIFileSystems
+      Tasks: 0 (limit: 48859)
+     Memory: 4.0K
+        CPU: 841us
+     CGroup: /sys-kernel-debug.mount
+
+● sys-kernel-tracing.mount - Kernel Trace File System
+     Loaded: loaded (/usr/lib/systemd/system/sys-kernel-tracing.mount; static)
+     Active: active (mounted) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Where: /sys/kernel/tracing
+       What: tracefs
+       Docs: https://docs.kernel.org/trace/ftrace.html
+             https://www.freedesktop.org/wiki/Software/systemd/APIFileSystems
+      Tasks: 0 (limit: 48859)
+     Memory: 4.0K
+        CPU: 1ms
+     CGroup: /sys-kernel-tracing.mount
+
+● tmp.mount - Temporary Directory /tmp
+     Loaded: loaded (/usr/lib/systemd/system/tmp.mount; enabled; preset: disabled)
+     Active: active (mounted) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Where: /tmp
+       What: tmpfs
+       Docs: https://systemd.io/TEMPORARY_DIRECTORIES
+             man:file-hierarchy(7)
+             https://www.freedesktop.org/wiki/Software/systemd/APIFileSystems
+      Tasks: 0 (limit: 48859)
+     Memory: 4.0K
+        CPU: 1ms
+     CGroup: /system.slice/tmp.mount
+
+● insights-client-results.path - Monitor /etc/insights-client/.lastupload for modifications
+     Loaded: loaded (/usr/lib/systemd/system/insights-client-results.path; enabled; preset: disabled)
+     Active: active (waiting) since Fri 2024-05-17 08:23:56 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:56 EDT; 6h ago
+   Triggers: ● insights-client-results.service
+       Docs: man:insights-client(8)
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Started Monitor /etc/insights-client/.lastupload for modifications.
+
+○ systemd-ask-password-console.path - Dispatch Password Requests to Console Directory Watch
+     Loaded: loaded (/usr/lib/systemd/system/systemd-ask-password-console.path; static)
+     Active: inactive (dead)
+   Triggers: ● systemd-ask-password-console.service
+  Condition: start condition failed at Fri 2024-05-17 08:23:55 EDT; 6h ago
+             └─ ConditionPathExists=!/run/plymouth/pid was not met
+       Docs: man:systemd-ask-password-console.path(8)
+
+May 17 08:23:53 unknown.obfuscateddomain0.com systemd[1]: Dispatch Password Requests to Console Directory Watch was skipped because of an unmet condition check (ConditionPathExists=!/run/plymouth/pid).
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd[1]: Dispatch Password Requests to Console Directory Watch was skipped because of an unmet condition check (ConditionPathExists=!/run/plymouth/pid).
+
+● systemd-ask-password-plymouth.path - Forward Password Requests to Plymouth Directory Watch
+     Loaded: loaded (/usr/lib/systemd/system/systemd-ask-password-plymouth.path; static)
+     Active: active (waiting) since Fri 2024-05-17 08:23:53 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:53 EDT; 6h ago
+   Triggers: ● systemd-ask-password-plymouth.service
+       Docs: http://www.freedesktop.org/wiki/Software/systemd/PasswordAgents
+
+May 17 08:23:53 unknown.obfuscateddomain0.com systemd[1]: Started Forward Password Requests to Plymouth Directory Watch.
+
+● systemd-ask-password-wall.path - Forward Password Requests to Wall Directory Watch
+     Loaded: loaded (/usr/lib/systemd/system/systemd-ask-password-wall.path; static)
+     Active: active (waiting) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+   Triggers: ● systemd-ask-password-wall.service
+       Docs: man:systemd-ask-password-wall.path(8)
+
+● init.scope - System and Service Manager
+     Loaded: loaded
+  Transient: yes
+     Active: active (running) since Fri 2024-05-17 08:23:53 EDT; 6h ago
+       Docs: man:systemd(1)
+
+May 17 14:45:30 unknown.obfuscateddomain0.com systemd[1]: Mounting Arbitrary Executable File Formats File System...
+May 17 14:45:30 unknown.obfuscateddomain0.com systemd[1]: Mounted Arbitrary Executable File Formats File System.
+May 17 14:45:38 unknown.obfuscateddomain0.com systemd[1]: Starting Hostname Service...
+May 17 14:45:38 unknown.obfuscateddomain0.com systemd[1]: Started Hostname Service.
+May 17 14:45:42 unknown.obfuscateddomain0.com systemd[1]: tmp-crun.QoCQn8.mount: Deactivated successfully.
+May 17 14:45:42 unknown.obfuscateddomain0.com systemd[1]: var-lib-containers-storage-overlay.mount: Deactivated successfully.
+May 17 14:45:43 unknown.obfuscateddomain0.com systemd[1]: Starting RHSM dbus service...
+May 17 14:45:43 unknown.obfuscateddomain0.com systemd[1]: Started RHSM dbus service.
+May 17 14:45:47 unknown.obfuscateddomain0.com systemd[1]: Starting Disk Manager...
+May 17 14:45:47 unknown.obfuscateddomain0.com systemd[1]: Started Disk Manager.
+
+● session-1.scope - Session 1 of User root
+     Loaded: loaded (/run/systemd/transient/session-1.scope; transient)
+  Transient: yes
+     Active: active (running) since Fri 2024-05-17 14:44:42 EDT; 1min 5s ago
+      Tasks: 26
+     Memory: 548.5M
+        CPU: 35.825s
+     CGroup: /user.slice/user-0.slice/session-1.scope
+             ├─1966 "sshd: root [priv]"
+             ├─1985 "sshd: root@pts/0"
+             ├─1986 -bash
+             ├─2017 /usr/bin/python3 -s /usr/sbin/sosreport --clean
+             ├─5135 timeout 300s turbostat --debug sleep 10
+             ├─5140 turbostat --debug sleep 10
+             ├─5148 sleep 10
+             ├─5473 timeout 300s subscription-manager list --installed
+             ├─5475 /usr/bin/python3 /usr/sbin/subscription-manager list --installed
+             ├─5541 timeout 180s rpm -qal
+             ├─5542 rpm -qal
+             ├─5547 timeout 300s systemctl status --all
+             └─5549 systemctl status --all
+
+May 17 14:44:42 unknown.obfuscateddomain0.com systemd[1]: Started Session 1 of User root.
+May 17 14:45:22 unknown.obfuscateddomain0.com podman[2030]: 2024-05-17 14:45:22.647266765 -0400 EDT m=+0.107382823 system refresh
+May 17 14:45:31 unknown.obfuscateddomain0.com crontab[2569]: (root) LIST (root)
+May 17 14:45:31 unknown.obfuscateddomain0.com dracut[2686]: Executing: /usr/bin/dracut --list-modules
+
+● atd.service - Deferred execution scheduler
+     Loaded: loaded (/usr/lib/systemd/system/atd.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2024-05-17 08:23:57 EDT; 6h ago
+       Docs: man:atd(8)
+   Main PID: 872 (atd)
+      Tasks: 1 (limit: 48859)
+     Memory: 304.0K
+        CPU: 2ms
+     CGroup: /system.slice/atd.service
+             └─872 /usr/sbin/atd -f
+
+May 17 08:23:57 unknown.obfuscateddomain0.com systemd[1]: Started Deferred execution scheduler.
+
+● auditd.service - Security Auditing Service
+     Loaded: loaded (/usr/lib/systemd/system/auditd.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2024-05-17 08:23:56 EDT; 6h ago
+       Docs: man:auditd(8)
+             https://github.com/linux-audit/audit-documentation
+    Process: 721 ExecStart=/sbin/auditd (code=exited, status=0/SUCCESS)
+    Process: 727 ExecStartPost=/sbin/augenrules --load (code=exited, status=0/SUCCESS)
+   Main PIUnit autofs.service could not be found.
+D: 722 (auditd)
+      Tasks: 4 (limit: 48859)
+     Memory: 7.7M
+        CPU: 58ms
+     CGroup: /system.slice/auditd.service
+             ├─722 /sbin/auditd
+             └─724 /usr/sbin/sedispatch
+
+May 17 08:23:56 unknown.obfuscateddomain0.com augenrules[737]: enabled 1
+May 17 08:23:56 unknown.obfuscateddomain0.com augenrules[737]: failure 1
+May 17 08:23:56 unknown.obfuscateddomain0.com augenrules[737]: pid 722
+May 17 08:23:56 unknown.obfuscateddomain0.com augenrules[737]: rate_limit 0
+May 17 08:23:56 unknown.obfuscateddomain0.com augenrules[737]: backlog_limit 8192
+May 17 08:23:56 unknown.obfuscateddomain0.com augenrules[737]: lost 0
+May 17 08:23:56 unknown.obfuscateddomain0.com augenrules[737]: backlog 0
+May 17 08:23:56 unknown.obfuscateddomain0.com augenrules[737]: backlog_wait_time 60000
+May 17 08:23:56 unknown.obfuscateddomain0.com augenrules[737]: backlog_wait_time_actual 0
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Started Security Auditing Service.
+
+○ blk-availability.service - Availability of block devices
+     Loaded: loaded (/usr/lib/systemd/system/blk-availability.service; disabled; preset: disabled)
+     Active: inactive (dead)
+
+● chronyd.service - NTP client/server
+     Loaded: loaded (/usr/lib/systemd/system/chronyd.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2024-05-17 08:23:56 EDT; 6h ago
+       Docs: man:chronyd(8)
+             man:chrony.conf(5)
+    Process: 747 ExecStart=/usr/sbin/chronyd $OPTIONS (code=exited, status=0/SUCCESS)
+   Main PID: 763 (chronyd)
+      Tasks: 1 (limit: 48859)
+     Memory: 4.4M
+        CPU: 81ms
+     CGroup: /system.slice/chronyd.service
+             └─763 /usr/sbin/chronyd -F 2
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Starting NTP client/server...
+May 17 08:23:56 unknown.obfuscateddomain0.com chronyd[763]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+May 17 08:23:56 unknown.obfuscateddomain0.com chronyd[763]: Frequency -16.968 +/- 0.024 ppm read from /var/lib/chrony/drift
+May 17 08:23:56 unknown.obfuscateddomain0.com chronyd[763]: Using right/UTC timezone to obtain leap second data
+May 17 08:23:56 unknown.obfuscateddomain0.com chronyd[763]: Loaded seccomp filter (level 2)
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Started NTP client/server.
+May 17 08:24:02 unknown.obfuscateddomain0.com chronyd[763]: Selected source 33.67.61.50 (2.rhel.pool.ntp.org)
+May 17 08:24:02 unknown.obfuscateddomain0.com chronyd[763]: System clock TAI offset set to 37 seconds
+May 17 08:24:03 unknown.obfuscateddomain0.com chronyd[763]: Selected source 86.16.71.63 (2.rhel.pool.ntp.org)
+May 17 08:55:18 unknown.obfuscateddomain0.com chronyd[763]: Selected source 41.11.88.34 (2.rhel.pool.ntp.org)
+
+● crond.service - Command Scheduler
+     Loaded: loaded (/usr/lib/systemd/system/crond.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2024-05-17 08:23:57 EDT; 6h ago
+   Main PID: 873 (crond)
+      Tasks: 1 (limit: 48859)
+     Memory: 1.2M
+        CPU: 121ms
+     CGroup: /system.slice/crond.service
+             └─873 /usr/sbin/crond -n
+
+May 17 11:01:01 unknown.obfuscateddomain0.com CROND[1733]: (root) CMDEND (run-parts /etc/cron.hourly)
+May 17 12:01:01 unknown.obfuscateddomain0.com CROND[1749]: (root) CMD (run-parts /etc/cron.hourly)
+May 17 12:01:01 unknown.obfuscateddomain0.com run-parts[1758]: (/etc/cron.hourly) finished 0anacron
+May 17 12:01:01 unknown.obfuscateddomain0.com CROND[1748]: (root) CMDEND (run-parts /etc/cron.hourly)
+May 17 13:01:01 unknown.obfuscateddomain0.com CROND[1909]: (root) CMD (run-parts /etc/cron.hourly)
+May 17 13:01:01 unknown.obfuscateddomain0.com run-parts[1918]: (/etc/cron.hourly) finished 0anacron
+May 17 13:01:01 unknown.obfuscateddomain0.com CROND[1908]: (root) CMDEND (run-parts /etc/cron.hourly)
+May 17 14:01:01 unknown.obfuscateddomain0.com CROND[1947]: (root) CMD (run-parts /etc/cron.hourly)
+May 17 14:01:01 unknown.obfuscateddomain0.com run-parts[1956]: (/etc/cron.hourly) finished 0anacron
+May 17 14:01:01 unknown.obfuscateddomain0.com CROND[1946]: (root) CMDEND (run-parts /etc/cron.hourly)
+
+● dbus-broker.service - D-Bus System Message Bus
+     Loaded: loaded (/usr/lib/systemd/system/dbus-broker.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2024-05-17 08:23:56 EDT; 6h ago
+TriggeredBy: ● dbus.socket
+       Docs: man:dbus-broker-launch(1)
+   Main PID: 745 (dbus-broker-lau)
+      Tasks: 2 Unit display-manager.service could not be found.
+(limit: 48859)
+     Memory: 2.5M
+        CPU: 90ms
+     CGroup: /system.slice/dbus-broker.service
+             ├─745 /usr/bin/dbus-broker-launch --scope system --audit
+             └─746 dbus-broker --log 4 --controller 9 --machine-id 9d450dda0eb545b4851a4dc8aa51f0de --max-bytes 536870912 --max-fds 4096 --max-matches 131072 --audit
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Starting D-Bus System Message Bus...
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Started D-Bus System Message Bus.
+May 17 08:23:56 unknown.obfuscateddomain0.com dbus-broker-lau[745]: Ready
+
+○ dm-event.service - Device-mapper event daemon
+     Loaded: loaded (/usr/lib/systemd/system/dm-event.service; static)
+     Active: inactive (dead)
+TriggeredBy: ● dm-event.socket
+       Docs: man:dmeventd(8)
+
+○ dnf-makecache.service - dnf makecache
+     Loaded: loaded (/usr/lib/systemd/system/dnf-makecache.service; static)
+     Active: inactive (dead) since Fri 2024-05-17 14:21:56 EDT; 23min ago
+TriggeredBy: ● dnf-makecache.timer
+    Process: 1958 ExecStart=/usr/bin/dnf makecache --timer (code=exited, status=0/SUCCESS)
+   Main PID: 1958 (code=exited, status=0/SUCCESS)
+        CPU: 1.079s
+
+May 17 14:21:55 unknown.obfuscateddomain0.com systemd[1]: Starting dnf makecache...
+May 17 14:21:55 unknown.obfuscateddomain0.com dnf[1958]: Updating Subscription Management repositories.
+May 17 14:21:56 unknown.obfuscateddomain0.com dnf[1958]: Metadata cache refreshed recently.
+May 17 14:21:56 unknown.obfuscateddomain0.com systemd[1]: dnf-makecache.service: Deactivated successfully.
+May 17 14:21:56 unknown.obfuscateddomain0.com systemd[1]: Finished dnf makecache.
+May 17 14:21:56 unknown.obfuscateddomain0.com systemd[1]: dnf-makecache.service: Consumed 1.079s CPU time.
+
+○ dracut-cmdline.service - dracut cmdline hook
+     Loaded: loaded (/usr/lib/systemd/system/dracut-cmdline.service; static)
+     Active: inactive (dead) since Fri 2024-05-17 08:23:54 EDT; 6h ago
+   Duration: 1.204s
+       Docs: man:dracut-cmdline.service(8)
+             man:dracut.bootup(7)
+   Main PID: 277 (code=exited, status=0/SUCCESS)
+        CPU: 64ms
+
+May 17 08:23:53 unknown.obfuscateddomain0.com systemd[1]: Starting dracut cmdline hook...
+May 17 08:23:53 unknown.obfuscateddomain0.com dracut-cmdline[277]: dracut-9.3 (Plow) dracut-057-44.git20230822.el9
+May 17 08:23:53 unknown.obfuscateddomain0.com dracut-cmdline[277]: Using kernel command line parameters:    BOOT_IMAGE=(hd0,msdos1)/vmlinuz-5.14.0-362.8.1.el9_3.x86_64 root=/dev/mapper/root_vg-lv_root ro crashkernel=1G-4G:192M,4G-64G:256M,64G-:512M resume=/dev/mapper/root_vg-lv_swap rd.lvm.lv=root_vg/lv_root rd.lvm.lv=root_vg/lv_swap rhgb quiet
+May 17 08:23:53 unknown.obfuscateddomain0.com systemd[1]: Finished dracut cmdline hook.
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: dracut-cmdline.service: Deactivated successfully.
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: Stopped dracut cmdline hook.
+
+○ dracut-initqueue.service - dracut initqueue hook
+     Loaded: loaded (/usr/lib/systemd/system/dracut-initqueue.service; static)
+     Active: inactive (dead) since Fri 2024-05-17 08:23:54 EDT; 6h ago
+   Duration: 232ms
+       Docs: man:dracut-initqueue.service(8)
+             man:dracut.bootup(7)
+   Main PID: 410 (code=exited, status=0/SUCCESS)
+        CPU: 88ms
+
+May 17 08:23:53 unknown.obfuscateddomain0.com systemd[1]: Starting dracut initqueue hook...
+May 17 08:23:54 unknown.obfuscateddomain0.com dracut-initqueue[512]: Scanning devices vda2  for LVM logical volumes root_vg/lv_root
+May 17 08:23:54 unknown.obfuscateddomain0.com dracut-initqueue[512]: root_vg/lv_swap
+May 17 08:23:54 unknown.obfuscateddomain0.com dracut-initqueue[512]:   root_vg/lv_root linear
+May 17 08:23:54 unknown.obfuscateddomain0.com dracut-initqueue[512]:   root_vg/lv_swap linear
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: Finished dracut initqueue hook.
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: dracut-initqueue.service: Deactivated successfully.
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: Stopped dracut initqueue hook.
+
+○ dracut-mount.service - dracut mount hook
+     Loaded: loaded (/usr/lib/systemd/system/dracut-mount.service; static)
+     Active: inactive (dead)
+  Condition: start condition failed at Fri 2024-05-17 08:23:54 EDT; 6h ago
+       Docs: man:dracut-mount.service(8)
+             man:dracut.bootup(7)
+
+MUnit ebtables.service could not be found.
+Unit fcoe.service could not be found.
+ay 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: dracut mount hook was skipped because no trigger condition checks were met.
+
+○ dracut-pre-mount.service - dracut pre-mount hook
+     Loaded: loaded (/usr/lib/systemd/system/dracut-pre-mount.service; static)
+     Active: inactive (dead) since Fri 2024-05-17 08:23:54 EDT; 6h ago
+   Duration: 222ms
+       Docs: man:dracut-pre-mount.service(8)
+             man:dracut.bootup(7)
+   Main PID: 556 (code=exited, status=0/SUCCESS)
+        CPU: 8ms
+
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: Starting dracut pre-mount hook...
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: Finished dracut pre-mount hook.
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: dracut-pre-mount.service: Deactivated successfully.
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: Stopped dracut pre-mount hook.
+
+○ dracut-pre-pivot.service - dracut pre-pivot and cleanup hook
+     Loaded: loaded (/usr/lib/systemd/system/dracut-pre-pivot.service; static)
+     Active: inactive (dead) since Fri 2024-05-17 08:23:54 EDT; 6h ago
+   Duration: 8ms
+       Docs: man:dracut-pre-pivot.service(8)
+             man:dracut.bootup(7)
+   Main PID: 571 (code=exited, status=0/SUCCESS)
+        CPU: 23ms
+
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: Starting dracut pre-pivot and cleanup hook...
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: Finished dracut pre-pivot and cleanup hook.
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: dracut-pre-pivot.service: Deactivated successfully.
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: Stopped dracut pre-pivot and cleanup hook.
+
+○ dracut-pre-trigger.service - dracut pre-trigger hook
+     Loaded: loaded (/usr/lib/systemd/system/dracut-pre-trigger.service; static)
+     Active: inactive (dead)
+  Condition: start condition failed at Fri 2024-05-17 08:23:53 EDT; 6h ago
+       Docs: man:dracut-pre-trigger.service(8)
+             man:dracut.bootup(7)
+
+May 17 08:23:53 unknown.obfuscateddomain0.com systemd[1]: dracut pre-trigger hook was skipped because no trigger condition checks were met.
+
+○ dracut-pre-udev.service - dracut pre-udev hook
+     Loaded: loaded (/usr/lib/systemd/system/dracut-pre-udev.service; static)
+     Active: inactive (dead) since Fri 2024-05-17 08:23:54 EDT; 6h ago
+   Duration: 1.167s
+       Docs: man:dracut-pre-udev.service(8)
+             man:dracut.bootup(7)
+   Main PID: 367 (code=exited, status=0/SUCCESS)
+        CPU: 36ms
+
+May 17 08:23:53 unknown.obfuscateddomain0.com systemd[1]: Starting dracut pre-udev hook...
+May 17 08:23:53 unknown.obfuscateddomain0.com systemd[1]: Finished dracut pre-udev hook.
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: dracut-pre-udev.service: Deactivated successfully.
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: Stopped dracut pre-udev hook.
+
+○ dracut-shutdown-onfailure.service - Service executing upon dracut-shutdown failure to perform cleanup
+     Loaded: loaded (/usr/lib/systemd/system/dracut-shutdown-onfailure.service; static)
+     Active: inactive (dead)
+       Docs: man:dracut-shutdown.service(8)
+
+● dracut-shutdown.service - Restore /run/initramfs on shutdown
+     Loaded: loaded (/usr/lib/systemd/system/dracut-shutdown.service; static)
+     Active: active (exited) since Fri 2024-05-17 08:23:56 EDT; 6h ago
+       Docs: man:dracut-shutdown.service(8)
+    Process: 748 ExecStart=/bin/true (code=exited, status=0/SUCCESS)
+   Main PID: 748 (code=exited, status=0/SUCCESS)
+        CPU: 1ms
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Starting Restore /run/initramfs on shutdown...
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Finished Restore /run/initramfs on shutdown.
+
+○ emergency.service - Emergency Shell
+     Loaded: loaded (/usr/lib/systemd/system/emergency.service; static)
+     Active: inactive (dead)
+       Docs: man:sulogin(8)
+
+● firewalld.service - firewalld - dynamic firewall daemon
+     Loaded: loaded (/usr/lib/systemd/system/firewalld.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2024-05-17 08:23:56 EDT; 6h ago
+       Docs: man:firewalld(1)
+   Main PID: 749 (firewalld)
+      Tasks: 2 (limit: 48859)
+     Memory: 44.5M
+        CPU: 856ms
+     CGroup: /system.slice/firewalld.service
+             └─749 /usr/bin/python3 -s /usr/sbin/firewalld --nofork --nopid
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Starting firewalld - dynamic firewall daemon...
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Started firewalld - dynamic firewall daemon.
+
+● getty@tty1.service - Getty on tty1
+     Loaded: loaded (/usr/lib/systemd/system/getty@.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2024-05-17 08:23:57 EDT; 6h ago
+       Docs: man:agetty(8)
+             man:systemd-getty-generator(8)
+             http://0pointer.de/blog/projects/serial-console.html
+   Main PID: 880 (agetty)
+      Tasks: 1 (limit: 48859)
+     Memory: 272.0K
+        CPU: 3ms
+     CGroup: /system.slice/system-getty.slice/getty@tty1.service
+             └─880 /sbin/agetty -o "-p -- \\u" --noclear - linux
+
+May 17 08:23:57 unknown.obfuscateddomain0.com systemd[1]: Started Getty on tty1.
+
+○ initrd-cleanup.service - Cleaning Up and Shutting Down Daemons
+     Loaded: loaded (/usr/lib/systemd/system/initrd-cleanup.service; static)
+     Active: inactive (dead) since Fri 2024-05-17 08:23:54 EDT; 6h ago
+   Main PID: 596 (code=exited, status=0/SUCCESS)
+        CPU: 3ms
+
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: Starting Cleaning Up and Shutting Down Daemons...
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: initrd-cleanup.service: Deactivated successfully.
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: Finished Cleaning Up and Shutting Down Daemons.
+
+○ initrd-parse-etc.service - Mountpoints Configured in the Real Root
+     Loaded: loaded (/usr/lib/systemd/system/initrd-parse-etc.service; static)
+     Active: inactive (dead) since Fri 2024-05-17 08:23:54 EDT; 6h ago
+   Main PID: 570 (code=exited, status=0/SUCCESS)
+        CPU: 4ms
+
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: Starting Mountpoints Configured in the Real Root...
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: initrd-parse-etc.service: Deactivated successfully.
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: Finished Mountpoints Configured in the Real Root.
+
+○ initrd-switch-root.service - Switch Root
+     Loaded: loaded (/usr/lib/systemd/system/initrd-switch-root.service; static)
+     Active: inactive (dead) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+    Process: 599 ExecStart=systemctl --no-block switch-root /sysroot (code=exited, status=0/SUCCESS)
+   Main PID: 599 (code=exited, status=0/SUCCESS)
+        CPU: 2ms
+
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: Starting Switch Root...
+
+○ initrd-udevadm-cleanup-db.service - Cleanup udev Database
+     Loaded: loaded (/usr/lib/systemd/system/initrd-udevadm-cleanup-db.service; static)
+     Active: inactive (dead) since Fri 2024-05-17 08:23:54 EDT; 6h ago
+   Main PID: 598 (code=exited, status=0/SUCCESS)
+        CPU: 3ms
+
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: Starting Cleanup udev Database...
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: initrd-udevadm-cleanup-db.service: Deactivated successfully.
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: Finished Cleanup udev Database.
+
+○ insights-client-boot.service - Run Insights Client at boot
+     Loaded: loaded (/usr/lib/systemd/system/insights-client-boot.service; enabled; preset: enabled)
+     Active: inactive (dead)
+  Condition: start condition failed at Fri 2024-05-17 08:23:57 EDT; 6h ago
+             └─ ConditionPathExists=/etc/insights-client/.run_insights_client_next_boot was not met
+       Docs: man:insights-client(8)
+
+May 17 08:23:57 unknown.obfuscateddomain0.com systemd[1]: Run Insights Client at boot was skipped because of an unmet condition check (ConditionPathExists=/etc/insights-client/.run_insights_client_next_boot).
+
+○ insights-client-results.service - Check for insights from Red Hat Cloud Services
+     Loaded: loaded (/usr/lib/systemd/system/insights-client-results.service; static)
+     Active: inactive (dead)
+TriggeredBy: ● insights-client-results.path
+       Docs: man:insights-client(8)
+
+× insights-client.service - Insights Client
+     Loaded: loaded (/usr/lib/systemd/system/insights-client.service; static)
+     Active: failed (Result: exit-code) since Fri 2024-05-17 08:43:09 EDT; 6h ago
+   Duration: 1Unit ip6tables.service could not be found.
+Unit ipset.service could not be found.
+Unit iptables.service could not be found.
+4.200s
+TriggeredBy: ● insights-client.timer
+       Docs: man:insights-client(8)
+    Process: 1376 ExecStart=/usr/bin/insights-client --retry 3 (code=exited, status=1/FAILURE)
+   Main PID: 1376 (code=exited, status=1/FAILURE)
+        CPU: 4.145s
+
+May 17 08:42:55 unknown.obfuscateddomain0.com systemd[1]: Started Insights Client.
+May 17 08:43:09 unknown.obfuscateddomain0.com insights-client[1397]: This machine has not yet been registered. Use --register to register this machine.
+May 17 08:43:09 unknown.obfuscateddomain0.com systemd[1]: insights-client.service: Main process exited, code=exited, status=1/FAILURE
+May 17 08:43:09 unknown.obfuscateddomain0.com systemd[1]: insights-client.service: Failed with result 'exit-code'.
+May 17 08:43:09 unknown.obfuscateddomain0.com systemd[1]: insights-client.service: Consumed 4.145s CPU time.
+
+● irqbalance.service - irqbalance daemon
+     Loaded: loaded (/usr/lib/systemd/system/irqbalance.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2024-05-17 08:23:56 EDT; 6h ago
+       Docs: man:irqbalance(1)
+             https://github.com/Irqbalance/irqbalance
+   Main PID: 750 (irqbalance)
+      Tasks: 2 (limit: 48859)
+     Memory: 2.6M
+        CPU: 365ms
+     CGroup: /system.slice/irqbalance.service
+             └─750 /usr/sbin/irqbalance --foreground
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Started irqbalance daemon.
+May 17 08:24:07 unknown.obfuscateddomain0.com /usr/sbin/irqbalance[750]: Cannot change IRQ 45 affinity: Input/output error
+May 17 08:24:07 unknown.obfuscateddomain0.com /usr/sbin/irqbalance[750]: IRQ 45 affinity is now unmanaged
+May 17 08:24:07 unknown.obfuscateddomain0.com /usr/sbin/irqbalance[750]: Cannot change IRQ 36 affinity: Input/output error
+May 17 08:24:07 unknown.obfuscateddomain0.com /usr/sbin/irqbalance[750]: IRQ 36 affinity is now unmanaged
+
+○ iscsi-init.service - One time configuration for iscsi.service
+     Loaded: loaded (/usr/lib/systemd/system/iscsi-init.service; static)
+     Active: inactive (dead)
+
+○ iscsi-onboot.service - Special handling of early boot iSCSI sessions
+     Loaded: loaded (/usr/lib/systemd/system/iscsi-onboot.service; enabled; preset: enabled)
+     Active: inactive (dead)
+  Condition: start condition failed at Fri 2024-05-17 08:23:55 EDT; 6h ago
+             └─ ConditionDirectoryNotEmpty=/sys/class/iscsi_session was not met
+       Docs: man:iscsiadm(8)
+             man:iscsid(8)
+
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd[1]: Special handling of early boot iSCSI sessions was skipped because of an unmet condition check (ConditionDirectoryNotEmpty=/sys/class/iscsi_session).
+
+○ iscsi-shutdown.service - Logout off all iSCSI sessions on shutdown
+     Loaded: loaded (/usr/lib/systemd/system/iscsi-shutdown.service; static)
+     Active: inactive (dead)
+       Docs: man:iscsid(8)
+             man:iscsiadm(8)
+
+○ iscsi.service - Login and scanning of iSCSI devices
+     Loaded: loaded (/usr/lib/systemd/system/iscsi.service; enabled; preset: enabled)
+     Active: inactive (dead)
+  Condition: start condition failed at Fri 2024-05-17 08:23:57 EDT; 6h ago
+             └─ ConditionDirectoryNotEmpty=/var/lib/iscsi/nodes was not met
+       Docs: man:iscsiadm(8)
+             man:iscsid(8)
+
+May 17 08:23:57 unknown.obfuscateddomain0.com systemd[1]: Login and scanning of iSCSI devices was skipped because of an unmet condition check (ConditionDirectoryNotEmpty=/var/lib/iscsi/nodes).
+May 17 08:23:57 unknown.obfuscateddomain0.com systemd[1]: iscsi.service: Unit cannot be reloaded because it is inactive.
+
+○ iscsid.service - Open-iSCSI
+     Loaded: loaded (/usr/lib/systemd/system/iscsid.service; disabled; preset: disabled)
+     Active: inactive (dead)
+TriggeredBy: ● iscsid.socket
+       Docs: man:iscsid(8)
+             man:iscsiuio(8)
+             man:iscsiadm(8)
+
+○ iscsiuio.service - iSCSI UserSpace I/O driver
+     Loaded: loaded (/usr/lib/systemd/system/iscsiuio.service; disabled; preset: disabled)
+     Active: inactive (dead)
+TriggeredBy: ● iscsiuio.socket
+       Docs: man:iscsiuio(8)
+
+● kdump.service - Crash recovery kernel arming
+     Loaded: loaded (/usr/lib/systemd/system/kdump.service; enabled; preset: enabled)
+     Active: active (exited) since Fri 2024-05-17 08:23:57Unit lvm2-activation-early.service could not be found.
+ EDT; 6h ago
+    Process: 869 ExecStart=/usr/bin/kdumpctl start (code=exited, status=0/SUCCESS)
+   Main PID: 869 (code=exited, status=0/SUCCESS)
+        CPU: 619ms
+
+May 17 08:23:57 unknown.obfuscateddomain0.com systemd[1]: Starting Crash recovery kernel arming...
+May 17 08:23:57 unknown.obfuscateddomain0.com kdumpctl[883]: kdump: kexec: loaded kdump kernel
+May 17 08:23:57 unknown.obfuscateddomain0.com kdumpctl[883]: kdump: Starting kdump: [OK]
+May 17 08:23:57 unknown.obfuscateddomain0.com systemd[1]: Finished Crash recovery kernel arming.
+
+● kmod-static-nodes.service - Create List of Static Device Nodes
+     Loaded: loaded (/usr/lib/systemd/system/kmod-static-nodes.service; static)
+     Active: active (exited) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+    Process: 632 ExecStart=/usr/bin/kmod static-nodes --format=tmpfiles --output=/run/tmpfiles.d/static-nodes.conf (code=exited, status=0/SUCCESS)
+   Main PID: 632 (code=exited, status=0/SUCCESS)
+        CPU: 2ms
+
+○ ldconfig.service - Rebuild Dynamic Linker Cache
+     Loaded: loaded (/usr/lib/systemd/system/ldconfig.service; static)
+     Active: inactive (dead)
+  Condition: start condition failed at Fri 2024-05-17 08:23:56 EDT; 6h ago
+             ├─ ConditionNeedsUpdate=|/etc was not met
+             └─ ConditionFileNotEmpty=|!/etc/ld.so.cache was not met
+       Docs: man:ldconfig(8)
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Rebuild Dynamic Linker Cache was skipped because no trigger condition checks were met.
+
+● libstoragemgmt.service - libstoragemgmt plug-in server daemon
+     Loaded: loaded (/usr/lib/systemd/system/libstoragemgmt.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2024-05-17 08:23:56 EDT; 6h ago
+   Main PID: 751 (lsmd)
+      Tasks: 1 (limit: 48859)
+     Memory: 1.8M
+        CPU: 52ms
+     CGroup: /system.slice/libstoragemgmt.service
+             └─751 /usr/bin/lsmd -d
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Started libstoragemgmt plug-in server daemon.
+
+○ logrotate.service - Rotate log files
+     Loaded: loaded (/usr/lib/systemd/system/logrotate.service; static)
+     Active: inactive (dead) since Fri 2024-05-17 08:23:56 EDT; 6h ago
+TriggeredBy: ● logrotate.timer
+       Docs: man:logrotate(8)
+             man:logrotate.conf(5)
+    Process: 755 ExecStart=/usr/sbin/logrotate /etc/logrotate.conf (code=exited, status=0/SUCCESS)
+   Main PID: 755 (code=exited, status=0/SUCCESS)
+        CPU: 22ms
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Starting Rotate log files...
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: logrotate.service: Deactivated successfully.
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Finished Rotate log files.
+
+○ lvm2-lvmpolld.service - LVM2 poll daemon
+     Loaded: loaded (/usr/lib/systemd/system/lvm2-lvmpolld.service; static)
+     Active: inactive (dead)
+TriggeredBy: ● lvm2-lvmpolld.socket
+       Docs: man:lvmpolld(8)
+
+● lvm2-monitor.service - Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling
+     Loaded: loaded (/usr/lib/systemd/system/lvm2-monitor.service; enabled; preset: enabled)
+     Active: active (exited) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+       Docs: man:dmeventd(8)
+             man:lvcreate(8)
+             man:lvchange(8)
+             man:vgchange(8)
+    Process: 633 ExecStart=/usr/sbin/lvm vgchange --monitor y (code=exited, status=0/SUCCESS)
+   Main PID: 633 (code=exited, status=0/SUCCESS)
+        CPU: 19ms
+
+May 17 08:23:55 unknown.obfuscateddomain0.com lvm[633]:   2 logical volume(s) in volume group "root_vg" monitored
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd[1]: Finished Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+
+× mcelog.service - Machine Check Exception Logging Daemon
+     Loaded: loaded (/usr/lib/systemd/system/mcelog.service; enabled; preset: enabled)
+     Active: failed (Result: exit-code) since Fri 2024-05-17 08:23:56 EDT; 6h ago
+   Duration: 12ms
+    Process: 752 ExecStart=/usr/sbin/mcelog --daemon --foreground (code=exited, status=1/FAILURE)
+   Main PID: 752 (code=exited, status=1/FAILURE)
+        CPU: 1ms
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Started Machine Check Exception Logging Daemon.
+May 17 08:23:56 unknown.obfuscateddomain0.com mcelog[752]: mcelog: ERROR: AMD Processor family 23: mcelog does not support this processor.  Please use the edac_mce_amd module instead.
+May 17 08:23:56 unknown.obfuscateddomain0.com mcelog[752]: CPU is unsupported
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: mcelog.service: Main process exited, code=exited, status=1/FAILURE
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: mcelog.service: Failed with result 'exit-code'.
+
+○ mdmonitor.service - Software RAID monitoring and management
+     Loaded: loaded (/usr/lib/systemd/system/mdmonitor.service; enabled; preset: enabled)
+     Active: inactive (dead)
+  Condition: start condition failed at Fri 2024-05-17 08:23:56 EDT; 6h ago
+             └─ ConditionPathExists=/etc/mdadm.conf was not met
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Software RAID monitoring and management was skipped because of an unmet condition check (ConditionPathExists=/etc/mdadm.conf).
+
+○ microcode.service - Load CPU microcode update
+     Loaded: loaded (/usr/lib/systemd/system/microcode.service; enabled; preset: enabled)
+     Active: inactive (dead)
+  Condition: start condition failed at Fri 2024-05-17 08:23:56 EDT; 6h ago
+             └─ ConditionPathExists=/sys/devices/system/cpu/microcode/reload was not met
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Load CPU microcode update was skipped because of an unmet condition check (ConditionPathExists=/sys/devices/system/cpu/microcode/reload).
+
+○ mlocate-updatedb.service - Update a database for mlocate
+     Loaded: loaded (/usr/lib/systemd/system/mlocate-updatedb.service; static)
+     Active: inactive (dead) since Fri 2024-05-17 08:23:56 EDT; 6h ago
+   Duration: 433ms
+TriggeredBy: ● mlocate-updatedb.timer
+    Process: 756 ExecStart=/usr/libexec/mlocate-run-updatedb (code=exited, status=0/SUCCESS)
+   Main PID: 756 (code=exited, status=0/SUCCESS)
+        CPU: 74ms
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Started Update a database for mlocate.
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: mlocate-updatedb.service: Deactivated successfully.
+
+○ modprobe@configfs.service - Load Kernel Module configfs
+     Loaded: loaded (/usr/lib/systemd/system/modprobe@.service; static)
+     Active: inactive (dead) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+       Docs: man:modprobe(8)
+    Process: 677 ExecStart=/sbin/modprobe -abq configfs (code=exited, status=0/SUCCESS)
+   Main PID: 677 (code=exited, status=0/SUCCESS)
+        CPU: 1ms
+
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd[1]: Starting Load Kernel Module configfs...
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd[1]: modprobe@configfs.service: Deactivated successfully.
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd[1]: Finished Load Kernel Module configfs.
+
+○ modprobe@drm.service - Load Kernel Module drm
+     Loaded: loaded (/usr/lib/systemd/system/modprobe@.service; static)
+     Active: inactive (dead) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+       Docs: man:modprobe(8)
+    Process: 635 ExecStart=/sbin/modprobe -abq drm (code=exited, status=0/SUCCESS)
+   Main PID: 635 (code=exited, status=0/SUCCESS)
+        CPU: 1ms
+
+○ modprobe@fuse.service - Load Kernel Module fuse
+     Loaded: loaded (/usr/lib/systemd/system/modprobe@.service; static)
+     Active: inactive (dead) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+       Docs: man:modprobe(8)
+    Process: 678 ExecStart=/sbin/modprobe -abq fuse (code=exited, status=0/SUCCESS)
+   Main PID: 678 (code=exited, status=0/SUCCESS)
+        CPU: 1ms
+
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd[1]: Starting Load Kernel Module fuse...
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd[1]: modprobe@fuse.service: Deactivated successfully.
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd[1]: Finished Load Kernel Module fuse.
+
+○ multipathd.service - Device-Mapper Multipath Device Controller
+     Loaded: loaded (/usr/lib/systemd/system/multipathd.service; enabled; preset: enabled)
+     Active: inactive (dead)
+TriggeredBy: ○ multipathd.socket
+  Condition: start condition failed at Fri 2024-05-17 08:23:55 EDT; 6h ago
+             └─ ConditionPathExists=/etc/multipath.conf was not meUnit network.service could not be found.
+Unit ntpd.service could not be found.
+Unit ntpdate.service could not be found.
+t
+
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd[1]: Device-Mapper Multipath Device Controller was skipped because of an unmet condition check (ConditionPathExists=/etc/multipath.conf).
+
+● NetworkManager-wait-online.service - Network Manager Wait Online
+     Loaded: loaded (/usr/lib/systemd/system/NetworkManager-wait-online.service; enabled; preset: disabled)
+     Active: active (exited) since Fri 2024-05-17 08:23:57 EDT; 6h ago
+       Docs: man:NetworkManager-wait-online.service(8)
+    Process: 795 ExecStart=/usr/bin/nm-online -s -q (code=exited, status=0/SUCCESS)
+   Main PID: 795 (code=exited, status=0/SUCCESS)
+        CPU: 12ms
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Starting Network Manager Wait Online...
+May 17 08:23:57 unknown.obfuscateddomain0.com systemd[1]: Finished Network Manager Wait Online.
+
+● NetworkManager.service - Network Manager
+     Loaded: loaded (/usr/lib/systemd/system/NetworkManager.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2024-05-17 08:23:56 EDT; 6h ago
+       Docs: man:NetworkManager(8)
+   Main PID: 767 (NetworkManager)
+      Tasks: 3 (limit: 48859)
+     Memory: 11.3M
+        CPU: 3.209s
+     CGroup: /system.slice/NetworkManager.service
+             └─767 /usr/sbin/NetworkManager --no-daemon
+
+May 17 08:23:57 unknown.obfuscateddomain0.com NetworkManager[767]: <info>  [1715948637.1836] dhcp4 (enp1s0): activation: beginning transaction (timeout in 45 seconds)
+May 17 08:23:57 unknown.obfuscateddomain0.com NetworkManager[767]: <info>  [1715948637.1892] dhcp4 (enp1s0): state changed new lease, address=100.0.0.1
+May 17 08:23:57 unknown.obfuscateddomain0.com NetworkManager[767]: <info>  [1715948637.1896] policy: set 'enp1s0' (enp1s0) as default for IPv4 routing and DNS
+May 17 08:23:57 unknown.obfuscateddomain0.com NetworkManager[767]: <info>  [1715948637.1989] device (enp1s0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+May 17 08:23:57 unknown.obfuscateddomain0.com NetworkManager[767]: <info>  [1715948637.2011] device (enp1s0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+May 17 08:23:57 unknown.obfuscateddomain0.com NetworkManager[767]: <info>  [1715948637.2014] device (enp1s0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+May 17 08:23:57 unknown.obfuscateddomain0.com NetworkManager[767]: <info>  [1715948637.2019] manager: NetworkManager state is now CONNECTED_SITE
+May 17 08:23:57 unknown.obfuscateddomain0.com NetworkManager[767]: <info>  [1715948637.2024] device (enp1s0): Activation: successful, device activated.
+May 17 08:23:57 unknown.obfuscateddomain0.com NetworkManager[767]: <info>  [1715948637.2028] manager: NetworkManager state is now CONNECTED_GLOBAL
+May 17 08:23:57 unknown.obfuscateddomain0.com NetworkManager[767]: <info>  [1715948637.2032] manager: startup complete
+
+○ nftables.service - Netfilter Tables
+     Loaded: loaded (/usr/lib/systemd/system/nftables.service; disabled; preset: disabled)
+     Active: inactive (dead)
+       Docs: man:nft(8)
+
+● nis-domainname.service - Read and set NIS domainname from /etc/sysconfig/network
+     Loaded: loaded (/usr/lib/systemd/system/nis-domainname.service; enabled; preset: enabled)
+     Active: active (exited) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+    Process: 637 ExecStart=/usr/libexec/hostname/nis-domainname (code=exited, status=0/SUCCESS)
+   Main PID: 637 (code=exited, status=0/SUCCESS)
+        CPU: 2ms
+
+○ nvmefc-boot-connections.service - Auto-connect to subsystems on FC-NVME devices found during boot
+     Loaded: loaded (/usr/lib/systemd/system/nvmefc-boot-connections.service; enabled; preset: enabled)
+     Active: inactive (dead)
+  Condition: start condition failed at Fri 2024-05-17 08:23:55 EDT; 6h ago
+             └─ ConditionPathExists=/sys/class/fc/fc_udev_device/nvme_discovery was not met
+
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd[1]: Auto-connect to subsystems on FC-NVME devices found during boot was skipped because of an unmet condition check (ConditionPathExists=/sys/class/fc/fc_udev_device/nvme_discovery).
+
+● plymouth-quit-wait.service - Hold until boot process finishes up
+     Loaded: loaded (/usr/lib/systemd/system/plymouth-quit-wait.service; static)
+     Active: active (exited) since Fri 2024-05-17 08:23:57 EDT; 6h ago
+    Process: 874 ExecStart=/usr/bin/plymouth --wait (code=exited, status=0/SUCCESS)
+   Main PID: 874 (code=exited, status=0/SUCCESS)
+        CPU: 1ms
+
+May 17 08:23:57 unknown.obfuscateddomain0.com systemd[1]: Starting Hold until boot process finishes up...
+May 17 08:23:57 unknown.obfuscateddomain0.com systemd[1]: Finished Hold until boot process finishes up.
+
+● plymouth-quit.service - Terminate Plymouth Boot Screen
+     Loaded: loaded (/usr/lib/systemd/system/plymouth-quit.service; static)
+     Active: active (exited) since Fri 2024-05-17 08:23:57 EDT; 6h ago
+    Process: 875 ExecStart=/usr/bin/plymouth quit (code=exited, status=0/SUCCESS)
+   Main PID: 875 (code=exited, status=0/SUCCESS)
+        CPU: 2ms
+
+May 17 08:23:57 unknown.obfuscateddomain0.com systemd[1]: Starting Terminate Plymouth Boot Screen...
+May 17 08:23:57 unknown.obfuscateddomain0.com systemd[1]: Finished Terminate Plymouth Boot Screen.
+
+● plymouth-read-write.service - Tell Plymouth To Write Out Runtime Data
+     Loaded: loaded (/usr/lib/systemd/system/plymouth-read-write.service; static)
+     Active: active (exited) since Fri 2024-05-17 08:23:56 EDT; 6h ago
+    Process: 718 ExecStart=/usr/bin/plymouth update-root-fs --read-write (code=exited, status=0/SUCCESS)
+   Main PID: 718 (code=exited, status=0/SUCCESS)
+        CPU: 2ms
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Finished Tell Plymouth To Write Out Runtime Data.
+
+● plymouth-start.service - Show Plymouth Boot Screen
+     Loaded: loaded (/usr/lib/systemd/system/plymouth-start.service; static)
+     Active: active (exited) since Fri 2024-05-17 08:23:53 EDT; 6h ago
+   Main PID: 412 (code=exited, status=0/SUCCESS)
+        CPU: 11ms
+
+May 17 08:23:53 unknown.obfuscateddomain0.com systemd[1]: Starting Show Plymouth Boot Screen...
+May 17 08:23:53 unknown.obfuscateddomain0.com systemd[1]: Started Show Plymouth Boot Screen.
+
+○ plymouth-switch-root.service - Plymouth switch root service
+     Loaded: loaded (/usr/lib/systemd/system/plymouth-switch-root.service; static)
+     Active: inactive (dead) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+   Duration: 390ms
+   Main PID: 597 (code=exited, status=0/SUCCESS)
+        CPU: 2ms
+
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: Starting Plymouth switch root service...
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: Finished Plymouth switch root service.
+
+● polkit.service - Authorization Manager
+     Loaded: loaded (/usr/lib/systemd/system/polkit.service; static)
+     Active: active (running) since Fri 2024-05-17 08:23:57 EDT; 6h ago
+       Docs: man:polkit(8)
+   Main PID: 855 (polkitd)
+      Tasks: 6 (limit: 48859)
+     Memory: 21.0M
+        CPU: 112ms
+     CGroup: /system.slice/polkit.service
+             └─855 /usr/lib/polkit-1/polkitd --no-debug
+
+May 17 08:23:57 unknown.obfuscateddomain0.com systemd[1]: Starting Authorization Manager...
+May 17 08:23:57 unknown.obfuscateddomain0.com polkitd[855]: Started polkitd version 0.117
+May 17 08:23:57 unknown.obfuscateddomain0.com polkitd[855]: Loading rules from directory /etc/polkit-1/rules.d
+May 17 08:23:57 unknown.obfuscateddomain0.com polkitd[855]: Loading rules from directory /usr/share/polkit-1/rules.d
+May 17 08:23:57 unknown.obfuscateddomain0.com polkitd[855]: Finished loading, compiling and executing 4 rules
+May 17 08:23:57 unknown.obfuscateddomain0.com systemd[1]: Started Authorization Manager.
+May 17 08:23:57 unknown.obfuscateddomain0.com polkitd[855]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+
+● qemu-guest-agent.service - QEMU Guest Agent
+     Loaded: loaded (/usr/lib/systemd/system/qemu-guest-agent.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2024-05-17 08:23:56 EDT; 6h ago
+   Main PID: 753 (qemu-ga)
+      Tasks: 2 (limit: 48859)
+     Memory: 3.8M
+        CPU: 3ms
+     CGroup: /system.slice/qemu-guest-agent.service
+             └─753 /usr/bin/qemu-ga --method=virtio-serial --path=/dev/virtio-ports/org.qemu.guest_agent.0 --block-rpcs=guest-file-open,guest-file-close,guest-file-read,guest-file-write,guest-file-seek,guest-file-flush,guest-exec,guest-exec-status -F/etc/qemu-ga/fUnit rbdmap.service could not be found.
+Unit sntp.service could not be found.
+sfreeze-hook
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Started QEMU Guest Agent.
+
+○ rc-local.service - /etc/rc.d/rc.local Compatibility
+     Loaded: loaded (/usr/lib/systemd/system/rc-local.service; static)
+     Active: inactive (dead)
+       Docs: man:systemd-rc-local-generator(8)
+
+○ rescue.service - Rescue Shell
+     Loaded: loaded (/usr/lib/systemd/system/rescue.service; static)
+     Active: inactive (dead)
+       Docs: man:sulogin(8)
+
+● rhsm.service - RHSM dbus service
+     Loaded: loaded (/usr/lib/systemd/system/rhsm.service; disabled; preset: disabled)
+     Active: active (running) since Fri 2024-05-17 14:45:43 EDT; 4s ago
+   Main PID: 5254 (rhsm-service)
+      Tasks: 2 (limit: 48859)
+     Memory: 30.9M
+        CPU: 175ms
+     CGroup: /system.slice/rhsm.service
+             └─5254 /usr/bin/python3 /usr/libexec/rhsm-service
+
+May 17 14:45:43 unknown.obfuscateddomain0.com systemd[1]: Starting RHSM dbus service...
+May 17 14:45:43 unknown.obfuscateddomain0.com systemd[1]: Started RHSM dbus service.
+
+● rhsmcertd.service - Enable periodic update of entitlement certificates.
+     Loaded: loaded (/usr/lib/systemd/system/rhsmcertd.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2024-05-17 08:23:56 EDT; 6h ago
+    Process: 796 ExecStart=/usr/bin/rhsmcertd (code=exited, status=0/SUCCESS)
+   Main PID: 798 (rhsmcertd)
+      Tasks: 2 (limit: 48859)
+     Memory: 207.5M
+        CPU: 6.179s
+     CGroup: /system.slice/rhsmcertd.service
+             └─798 /usr/bin/rhsmcertd
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Starting Enable periodic update of entitlement certificates....
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Started Enable periodic update of entitlement certificates..
+
+● rsyslog.service - System Logging Service
+     Loaded: loaded (/usr/lib/systemd/system/rsyslog.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2024-05-17 08:23:57 EDT; 6h ago
+       Docs: man:rsyslogd(8)
+             https://www.rsyslog.com/doc/
+   Main PID: 870 (rsyslogd)
+      Tasks: 3 (limit: 48859)
+     Memory: 13.1M
+        CPU: 1.050s
+     CGroup: /system.slice/rsyslog.service
+             └─870 /usr/sbin/rsyslogd -n
+
+May 17 08:23:57 unknown.obfuscateddomain0.com systemd[1]: Starting System Logging Service...
+May 17 08:23:57 unknown.obfuscateddomain0.com rsyslogd[870]: [origin software="rsyslogd" swVersion="8.2102.0-117.el9" x-pid="870" x-info="https://www.rsyslog.com"] start
+May 17 08:23:57 unknown.obfuscateddomain0.com systemd[1]: Started System Logging Service.
+May 17 08:23:57 unknown.obfuscateddomain0.com rsyslogd[870]: imjournal: journal files changed, reloading...  [v8.2102.0-117.el9 try https://www.rsyslog.com/e/0 ]
+
+○ selinux-autorelabel-mark.service - Mark the need to relabel after reboot
+     Loaded: loaded (/usr/lib/systemd/system/selinux-autorelabel-mark.service; enabled; preset: enabled)
+     Active: inactive (dead)
+  Condition: start condition failed at Fri 2024-05-17 08:23:56 EDT; 6h ago
+             └─ ConditionSecurity=!selinux was not met
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Mark the need to relabel after reboot was skipped because of an unmet condition check (ConditionSecurity=!selinux).
+
+○ smartd.service - Self Monitoring and Reporting Technology (SMART) Daemon
+     Loaded: loaded (/usr/lib/systemd/system/smartd.service; enabled; preset: enabled)
+     Active: inactive (dead)
+  Condition: start condition failed at Fri 2024-05-17 08:23:56 EDT; 6h ago
+             └─ ConditionVirtualization=no was not met
+       Docs: man:smartd(8)
+             man:smartd.conf(5)
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Self Monitoring and Reporting Technology (SMART) Daemon was skipped because of an unmet condition check (ConditionVirtualization=no).
+
+○ sshd-keygen@ecdsa.service - OpenSSH ecdsa Server Key Generation
+     Loaded: loaded (/usr/lib/systemd/system/sshd-keygen@.service; disabled; preset: disabled)
+     Active: inactive (dead)
+  Condition: start condition failed at Fri 2024-05-17 08:23:56 EDT; 6h ago
+             └─ ConditionFileNotEmpty=|!/etc/ssh/ssh_host_ecdsa_key was not met
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]:Unit syslog.service could not be found.
+ OpenSSH ecdsa Server Key Generation was skipped because no trigger condition checks were met.
+
+○ sshd-keygen@ed25519.service - OpenSSH ed25519 Server Key Generation
+     Loaded: loaded (/usr/lib/systemd/system/sshd-keygen@.service; disabled; preset: disabled)
+     Active: inactive (dead)
+  Condition: start condition failed at Fri 2024-05-17 08:23:56 EDT; 6h ago
+             └─ ConditionFileNotEmpty=|!/etc/ssh/ssh_host_ed25519_key was not met
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: OpenSSH ed25519 Server Key Generation was skipped because no trigger condition checks were met.
+
+○ sshd-keygen@rsa.service - OpenSSH rsa Server Key Generation
+     Loaded: loaded (/usr/lib/systemd/system/sshd-keygen@.service; disabled; preset: disabled)
+     Active: inactive (dead)
+  Condition: start condition failed at Fri 2024-05-17 08:23:56 EDT; 6h ago
+             └─ ConditionFileNotEmpty=|!/etc/ssh/ssh_host_rsa_key was not met
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: OpenSSH rsa Server Key Generation was skipped because no trigger condition checks were met.
+
+● sshd.service - OpenSSH server daemon
+     Loaded: loaded (/usr/lib/systemd/system/sshd.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2024-05-17 08:23:56 EDT; 6h ago
+       Docs: man:sshd(8)
+             man:sshd_config(5)
+   Main PID: 797 (sshd)
+      Tasks: 1 (limit: 48859)
+     Memory: 6.0M
+        CPU: 52ms
+     CGroup: /system.slice/sshd.service
+             └─797 "sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups"
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Starting OpenSSH server daemon...
+May 17 08:23:56 unknown.obfuscateddomain0.com sshd[797]: Server listening on 0.0.0.0 port 22.
+May 17 08:23:56 unknown.obfuscateddomain0.com sshd[797]: Server listening on :: port 22.
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Started OpenSSH server daemon.
+May 17 14:44:42 unknown.obfuscateddomain0.com sshd[1966]: Accepted publickey for root from 100.0.0.3/24 port 48228 ssh2: RSA SHA256:JZov33Udepn/HGn9HVQVmDBHz886ImgmSH8Sbeiwfoc
+May 17 14:44:42 unknown.obfuscateddomain0.com sshd[1966]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+
+○ sssd-kcm.service - SSSD Kerberos Cache Manager
+     Loaded: loaded (/usr/lib/systemd/system/sssd-kcm.service; indirect; preset: disabled)
+     Active: inactive (dead)
+TriggeredBy: ● sssd-kcm.socket
+       Docs: man:sssd-kcm(5)
+
+○ sssd.service - System Security Services Daemon
+     Loaded: loaded (/usr/lib/systemd/system/sssd.service; enabled; preset: enabled)
+     Active: inactive (dead)
+  Condition: start condition failed at Fri 2024-05-17 08:23:56 EDT; 6h ago
+             ├─ ConditionPathExists=|/etc/sssd/sssd.conf was not met
+             └─ ConditionDirectoryNotEmpty=|/etc/sssd/conf.d was not met
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: System Security Services Daemon was skipped because no trigger condition checks were met.
+
+○ systemd-ask-password-console.service - Dispatch Password Requests to Console
+     Loaded: loaded (/usr/lib/systemd/system/systemd-ask-password-console.service; static)
+     Active: inactive (dead)
+TriggeredBy: ○ systemd-ask-password-console.path
+       Docs: man:systemd-ask-password-console.service(8)
+
+○ systemd-ask-password-plymouth.service - Forward Password Requests to Plymouth
+     Loaded: loaded (/usr/lib/systemd/system/systemd-ask-password-plymouth.service; static)
+     Active: inactive (dead)
+TriggeredBy: ● systemd-ask-password-plymouth.path
+       Docs: http://www.freedesktop.org/wiki/Software/systemd/PasswordAgents
+
+○ systemd-ask-password-wall.service - Forward Password Requests to Wall
+     Loaded: loaded (/usr/lib/systemd/system/systemd-ask-password-wall.service; static)
+     Active: inactive (dead)
+TriggeredBy: ● systemd-ask-password-wall.path
+       Docs: man:systemd-ask-password-wall.service(8)
+
+○ systemd-binfmt.service - Set Up Additional Binary Formats
+     Loaded: loaded (/usr/lib/systemd/system/systemd-binfmt.service; static)
+     Active: inactive (dead)
+  Condition: start condition failed at Fri 2024-05-17 08:23:56 EDT; 6h ago
+             ├─ ConditionDirectoryNotEmpty=|/lib/binfmt.d was not met
+             ├─ ConditionDirectoryNotEmpty=|/usr/lib/binfmt.d was not met
+             ├─ ConditionDirectoryNotEmpty=|/usr/local/lib/binfmt.d was not met
+             ├─ ConditionDirectoryNotEmpty=|/etc/binfmt.d was not met
+             └─ ConditionDirectoryNotEmpty=|/run/binfmt.d was not met
+       Docs: man:systemd-binfmt.service(8)
+             man:binfmt.d(5)
+             https://docs.kernel.org/admin-guide/binfmt-misc.html
+             https://www.freedesktop.org/wiki/Software/systemd/APIFileSystems
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Set Up Additional Binary Formats was skipped because no trigger condition checks were met.
+
+○ systemd-boot-system-token.service - Store a System Token in an EFI Variable
+     Loaded: loaded (/usr/lib/systemd/system/systemd-boot-system-token.service; static)
+     Active: inactive (dead)
+  Condition: start condition failed at Fri 2024-05-17 08:23:56 EDT; 6h ago
+             └─ ConditionPathExists=/sys/firmware/efi/efivars/LoaderFeatures-4a53:4f:53:38:93:940b29bb8c4f was not met
+       Docs: man:systemd-boot-system-token.service(8)
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Store a System Token in an EFI Variable was skipped because of an unmet condition check (ConditionPathExists=/sys/firmware/efi/efivars/LoaderFeatures-4a53:4f:53:38:93:940b29bb8c4f).
+
+○ systemd-firstboot.service - First Boot Wizard
+     Loaded: loaded (/usr/lib/systemd/system/systemd-firstboot.service; static)
+     Active: inactive (dead)
+  Condition: start condition failed at Fri 2024-05-17 08:23:55 EDT; 6h ago
+             └─ ConditionFirstBoot=yes was not met
+       Docs: man:systemd-firstboot(1)
+
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd[1]: First Boot Wizard was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+
+● systemd-fsck-root.service - File System Check on Root Device
+     Loaded: loaded (/usr/lib/systemd/system/systemd-fsck-root.service; enabled-runtime; preset: disabled)
+     Active: active (exited) since Fri 2024-05-17 08:23:54 EDT; 6h ago
+       Docs: man:systemd-fsck-root.service(8)
+   Main PID: 560 (code=exited, status=0/SUCCESS)
+        CPU: 37ms
+
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: Starting File System Check on /dev/mapper/root_vg-lv_root...
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd-fsck[562]: lv_root: recovering journal
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd-fsck[562]: lv_root: clean, 67221/584064 files, 922504/2332672 blocks
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: Finished File System Check on /dev/mapper/root_vg-lv_root.
+
+● systemd-fsck@dev-disk-by\x2duuid-628206c9\x2d748b\x2d45a1\x2d88e2\x2d6e47767a441d.service - File System Check on /dev/disk/by-uuid/6253:4f:53:99:54:0247767a441d
+     Loaded: loaded (/usr/lib/systemd/system/systemd-fsck@.service; static)
+     Active: active (exited) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+       Docs: man:systemd-fsck@.service(8)
+    Process: 711 ExecStart=/usr/lib/systemd/systemd-fsck /dev/disk/by-uuid/6253:4f:53:99:54:0247767a441d (code=exited, status=0/SUCCESS)
+   Main PID: 711 (code=exited, status=0/SUCCESS)
+        CPU: 10ms
+
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd[1]: Starting File System Check on /dev/disk/by-uuid/6253:4f:53:99:54:0247767a441d...
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd-fsck[713]: boot: recovering journal
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd-fsck[713]: boot: clean, 382/65536 files, 102708/262144 blocks
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd[1]: Finished File System Check on /dev/disk/by-uuid/6253:4f:53:99:54:0247767a441d.
+
+● systemd-hostnamed.service - Hostname Service
+     Loaded: loaded (/usr/lib/systemd/system/systemd-hostnamed.service; static)
+    Drop-In: /usr/lib/systemd/system/systemd-hostnamed.service.d
+             └─disable-privatedevices.conf
+     Active: active (running) since Fri 2024-05-17 14:45:38 EDT; 9s ago
+       Docs: man:systemd-hostnamed.service(8)
+             man:hostname(5)
+             man:machine-info(5)
+             man:org.freedesktop.resolve1(5)
+   Main PID: 4348 (systemd-hostnam)
+      Tasks: 1 (limit: 48859)
+     Memory: 2.4M
+        CPU: 27ms
+     CGroup: /system.slice/systemd-hostnamed.service
+             └─4348 /usr/lib/systemd/systemd-hostnamed
+
+May 17 14:45:38 unknown.obfuscateddomain0.com systemd[1]: Starting Hostname Service...
+May 17 14:45:38 unknown.obfuscateddomain0.com systemd[1]: Started Hostname Service.
+
+○ systemd-hwdb-update.service - Rebuild Hardware Database
+     Loaded: loaded (/usr/lib/systemd/system/systemd-hwdb-update.service; static)
+     Active: inactive (dead)
+  Condition: start condition failed at Fri 2024-05-17 08:23:55 EDT; 6h ago
+             ├─ ConditionNeedsUpdate=/etc was not met
+             └─ ConditionDirectoryNotEmpty=|/etc/udev/hwdb.d was not met
+       Docs: man:hwdb(7)
+             man:systemd-hwdb(8)
+
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd[1]: Rebuild Hardware Database was skipped because of an unmet condition check (ConditionNeedsUpdate=/etc).
+
+○ systemd-initctl.service - initctl Compatibility Daemon
+     Loaded: loaded (/usr/lib/systemd/system/systemd-initctl.service; static)
+     Active: inactive (dead)
+TriggeredBy: ● systemd-initctl.socket
+       Docs: man:systemd-initctl.service(8)
+
+○ systemd-journal-catalog-update.service - Rebuild Journal Catalog
+     Loaded: loaded (/usr/lib/systemd/system/systemd-journal-catalog-update.service; static)
+     Active: inactive (dead)
+  Condition: start condition failed at Fri 2024-05-17 08:23:56 EDT; 6h ago
+             └─ ConditionNeedsUpdate=/var was not met
+       Docs: man:systemd-journald.service(8)
+             man:journald.conf(5)
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Rebuild Journal Catalog was skipped because of an unmet condition check (ConditionNeedsUpdate=/var).
+
+● systemd-journal-flush.service - Flush Journal to Persistent Storage
+     Loaded: loaded (/usr/lib/systemd/system/systemd-journal-flush.service; static)
+     Active: active (exited) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+       Docs: man:systemd-journald.service(8)
+             man:journald.conf(5)
+    Process: 653 ExecStart=journalctl --flush (code=exited, status=0/SUCCESS)
+   Main PID: 653 (code=exited, status=0/SUCCESS)
+        CPU: 4ms
+
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd[1]: Starting Flush Journal to Persistent Storage...
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd[1]: Finished Flush Journal to Persistent Storage.
+
+● systemd-journald.service - Journal Service
+     Loaded: loaded (/usr/lib/systemd/system/systemd-journald.service; static)
+     Active: active (running) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+TriggeredBy: ● systemd-journald-dev-log.socket
+             ● systemd-journald.socket
+       Docs: man:systemd-journald.service(8)
+             man:journald.conf(5)
+   Main PID: 638 (systemd-journal)
+     Status: "Processing requests..."
+      Tasks: 1 (limit: 48859)
+     Memory: 10.3M
+        CPU: 992ms
+     CGroup: /system.slice/systemd-journald.service
+             └─638 /usr/lib/systemd/systemd-journald
+
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd-journald[638]: Journal started
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd-journald[638]: Runtime Journal (/run/log/journal/9d450dda0eb545b4851a4dc8aa51f0de) is 8.0M, max 153.4M, 145.4M free.
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd[1]: systemd-journald.service: Deactivated successfully.
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd-journald[638]: Time spent on flushing to /var/log/journal/9d450dda0eb545b4851a4dc8aa51f0de is 29.270ms for 910 entries.
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd-journald[638]: System Journal (/var/log/journal/9d450dda0eb545b4851a4dc8aa51f0de) is 144.1M, max 886.8M, 742.7M free.
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd-journald[638]: Received client request to flush runtime journal.
+
+● systemd-logind.service - User Login Management
+     Loaded: loaded (/usr/lib/systemd/system/systemd-logind.service; static)
+    Drop-In: /usr/lib/systemd/system/systemd-logind.service.d
+             └─10-grub2-logind-service.conf
+     Active: active (running) since Fri 2024-05-17 08:23:56 EDT; 6h ago
+       Docs: man:sd-login(3)
+             man:systemd-logind.service(8)
+             man:logind.conf(5)
+             man:org.freedesktop.login1(5)
+   Main PID: 754 (systemd-logind)
+     Status: "Processing requests..."
+      Tasks: 1 (limit: 48859)
+     Memory: 3.0M
+        CPU: 56ms
+     CGroup: /system.slice/systemd-logind.service
+             └─754 /usr/lib/systemd/systemd-logind
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Starting User Login Management...
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd-logind[754]: New seat seat0.
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd-logind[754]: Watching system buttons on /dev/input/event0 (Power Button)
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd-logind[754]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Started User Login Management.
+May 17 14:44:42 unknown.obfuscateddomain0.com systemd-logind[754]: New session 1 of user root.
+
+○ systemd-machine-id-commit.service - Commit a transient machine-id on disk
+     Loaded: loaded (/usr/lib/systemd/system/systemd-machine-id-commit.service; static)
+     Active: inactive (dead)
+  Condition: start condition failed at Fri 2024-05-17 08:23:56 EDT; 6h ago
+             └─ ConditionPathIsMountPoint=/etc/machine-id was not met
+       Docs: man:systemd-machine-id-commit.service(8)
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Commit a transient machine-id on disk was skipped because of an unmet condition check (ConditionPathIsMountPoint=/etc/machine-id).
+
+● systemd-modules-load.service - Load Kernel Modules
+     Loaded: loaded (/usr/lib/systemd/system/systemd-modules-load.service; static)
+     Active: active (exited) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+       Docs: man:systemd-modules-load.service(8)
+             man:modules-load.d(5)
+    Process: 639 ExecStart=/usr/lib/systemd/systemd-modules-load (code=exited, status=0/SUCCESS)
+   Main PID: 639 (code=exited, status=0/SUCCESS)
+        CPU: 2ms
+
+● systemd-network-generator.service - Generate network units from Kernel command line
+     Loaded: loaded (/usr/lib/systemd/system/systemd-network-generator.service; enabled; preset: enabled)
+     Active: active (exited) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+       Docs: man:systemd-network-generator.service(8)
+    Process: 640 ExecStart=/usr/lib/systemd/systemd-network-generator (code=exited, status=0/SUCCESS)
+   Main PID: 640 (code=exited, status=0/SUCCESS)
+        CPU: 2ms
+
+○ systemd-pcrphase-initrd.service - TPM2 PCR Barrier (initrd)
+     Loaded: loaded (/usr/lib/systemd/system/systemd-pcrphase-initrd.service; static)
+     Active: inactive (dead)
+       Docs: man:systemd-pcrphase-initrd.service(8)
+
+○ systemd-pcrphase-sysinit.service - TPM2 PCR Barrier (Initialization)
+     Loaded: loaded (/usr/lib/systemd/system/systemd-pcrphase-sysinit.service; static)
+     Active: inactive (dead)
+  Condition: start condition failed at Fri 2024-05-17 08:23:56 EDT; 6h ago
+             └─ ConditionPathExists=/sys/firmware/efi/efivars/StubPcrKernelImage-4a53:4f:53:38:93:940b29bb8c4f was not met
+       Docs: man:systemd-pcrphase-sysinit.service(8)
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: TPM2 PCR Barrier (Initialization) was skipped because of an unmet condition check (ConditionPathExists=/sys/firmware/efi/efivars/StubPcrKernelImage-4a53:4f:53:38:93:940b29bb8c4f).
+
+○ systemd-pcrphase.service - TPM2 PCR Barrier (User)
+     Loaded: loaded (/usr/lib/systemd/system/systemd-pcrphase.service; static)
+     Active: inactive (dead)
+  Condition: start condition failed at Fri 2024-05-17 08:23:57 EDT; 6h ago
+             └─ ConditionPathExists=/sys/firmware/efi/efivars/StubPcrKernelImage-4a53:4f:53:38:93:940b29bb8c4f was not met
+       Docs: man:systemd-pcrphase.service(8)
+
+May 17 08:23:57 unknown.obfuscateddomain0.com systemd[1]: TPM2 PCR Barrier (User) was skipped because of an unmet condition check (ConditionPathExists=/sys/firmware/efi/efivars/StubPcrKernelImage-4a53:4f:53:38:93:940b29bb8c4f).
+
+○ systemd-quotacheck.service - File System Quota Check
+     Loaded: loaded (/usr/lib/systemd/system/systemd-quotacheck.service; static)
+     Active: inactive (dead)
+       Docs: man:systemd-quotacheck.service(8)
+
+● systemd-random-seed.service - Load/Save Random Seed
+     Loaded: loaded (/usr/lib/systemd/system/systemd-random-seed.service; static)
+     Active: active (exited) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+       Docs: man:systemd-random-seed.service(8)
+             man:random(4)
+    Process: 650 ExecStart=/usr/lib/systemd/systemd-random-seed load (code=exited, status=0/SUCCESS)
+   Main PID: 650 (code=exited, status=0/SUCCESS)
+        CPU: 2ms
+
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd[1]: Finished Load/Save Random Seed.
+
+● systemd-remount-fs.service - Remount Root and Kernel File Systems
+     Loaded: loaded (/usr/lib/systemd/system/systemd-remount-fs.service; enabled-runtime; preset: disabled)
+     Active: active (exited) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+       Docs: man:systemd-remount-fs.service(8)
+             https://www.freedesktop.org/wiki/Software/systemd/APIFileSystems
+    Process: 641 ExecStart=/usr/lib/systemd/systemd-remount-fs (code=exited, status=0/SUCCESS)
+   Main PID: 641 (code=exited, status=0/SUCCESS)
+        CPU: 5ms
+
+○ systemd-repart.service - Repartition Root Disk
+     Loaded: loaded (/usr/lib/systemd/system/systemd-repart.service; static)
+     Active: inactive (dead)
+  Condition: start condition failed at Fri 2024-05-17 08:23:55 EDT; 6h ago
+             ├─ ConditionDirectoryNotEmpty=|/usr/lib/repart.d was not met
+             ├─ ConditionDirectoryNotEmpty=|/usr/local/lib/repart.d was not met
+             ├─ ConditionDirectoryNotEmpty=|/etc/repart.d was not met
+             ├─ ConditionDirectoryNotEmpty=|/run/repart.d was not met
+             ├─ ConditionDirectoryNotEmpty=|/sysroot/usr/lib/repart.d was not met
+             ├─ ConditionDirectoryNotEmpty=|/sysroot/usr/local/lib/repart.d was not met
+             ├─ ConditionDirectoryNotEmpty=|/sysroot/etc/repart.d was not met
+             ├─ ConditionDirectoryNotEmpty=|/sysusr/usr/lib/repart.d was not met
+             └─ ConditionDirectoryNotEmpty=|/sysusr/usr/local/lib/repart.d was not met
+       Docs: man:systemd-repart.service(8)
+
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd[1]: Repartition Root Disk was skipped because no trigger condition checks were met.
+
+○ systemd-rfkill.service - Load/Save RF Kill Switch Status
+     Loaded: loaded (/usr/lib/systemd/system/systemd-rfkill.service; static)
+     Active: inactive (dead)
+TriggeredBy: ● systemd-rfkill.socket
+       Docs: man:systemd-rfkill.service(8)
+
+● systemd-sysctl.service - Apply Kernel Variables
+     Loaded: loaded (/usr/lib/systemd/system/systemd-sysctl.service; static)
+     Active: active (exited) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+       Docs: man:systemd-sysctl.service(8)
+             man:sysctl.d(5)
+    Process: 646 ExecStart=/usr/lib/systemd/systemd-sysctl (code=exited, status=0/SUCCESS)
+   Main PID: 646 (code=exited, status=0/SUCCESS)
+        CPU: 4ms
+
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd[1]: Finished Apply Kernel Variables.
+
+○ systemd-sysext.service - Merge System Extension Images into /usr/ and /opt/
+     Loaded: loaded (/usr/lib/systemd/system/systemd-sysext.service; disabled; preset: disabled)
+     Active: inactive (dead)
+       Docs: man:systemd-sysext.service(8)
+
+○ systemd-sysusers.service - Create System Users
+     Loaded: loaded (/usr/lib/systemd/system/systemd-sysusers.service; static)
+     Active: inactive (dead) since Fri 2024-05-17 08:23:54 EDT; 6h ago
+   Duration: 1.361s
+  Condition: start condition failed at Fri 2024-05-17 08:23:55 EDT; 6h ago
+             ├─ ConditionNeedsUpdate=|/etc was not met
+             └─ ConditionCredential=|sysusers.extra was not met
+       Docs: man:sysusers.d(5)
+             man:systemd-sysusers.service(8)
+   Main PID: 262 (code=exited, status=0/SUCCESS)
+        CPU: 7ms
+
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: systemd-sysusers.service: Deactivated successfully.
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: Stopped Create System Users.
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd[1]: Create System Users was skipped because no trigUnit systemd-timesyncd.service could not be found.
+Unit systemd-tmpfiles.service could not be found.
+ger condition checks were met.
+Notice: journal has been rotated since unit was started, output may be incomplete.
+
+○ systemd-tmpfiles-clean.service - Cleanup of Temporary Directories
+     Loaded: loaded (/usr/lib/systemd/system/systemd-tmpfiles-clean.service; static)
+     Active: inactive (dead) since Fri 2024-05-17 08:38:55 EDT; 6h ago
+TriggeredBy: ● systemd-tmpfiles-clean.timer
+       Docs: man:tmpfiles.d(5)
+             man:systemd-tmpfiles(8)
+    Process: 1372 ExecStart=systemd-tmpfiles --clean (code=exited, status=0/SUCCESS)
+   Main PID: 1372 (code=exited, status=0/SUCCESS)
+        CPU: 16ms
+
+May 17 08:38:55 unknown.obfuscateddomain0.com systemd[1]: Starting Cleanup of Temporary Directories...
+May 17 08:38:55 unknown.obfuscateddomain0.com systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+May 17 08:38:55 unknown.obfuscateddomain0.com systemd[1]: Finished Cleanup of Temporary Directories.
+
+● systemd-tmpfiles-setup-dev.service - Create Static Device Nodes in /dev
+     Loaded: loaded (/usr/lib/systemd/system/systemd-tmpfiles-setup-dev.service; static)
+     Active: active (exited) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+       Docs: man:tmpfiles.d(5)
+             man:systemd-tmpfiles(8)
+    Process: 651 ExecStart=systemd-tmpfiles --prefix=/dev --create --boot (code=exited, status=0/SUCCESS)
+   Main PID: 651 (code=exited, status=0/SUCCESS)
+        CPU: 9ms
+
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd[1]: Finished Create Static Device Nodes in /dev.
+
+● systemd-tmpfiles-setup.service - Create Volatile Files and Directories
+     Loaded: loaded (/usr/lib/systemd/system/systemd-tmpfiles-setup.service; static)
+     Active: active (exited) since Fri 2024-05-17 08:23:56 EDT; 6h ago
+       Docs: man:tmpfiles.d(5)
+             man:systemd-tmpfiles(8)
+    Process: 719 ExecStart=systemd-tmpfiles --create --remove --boot --exclude-prefix=/dev (code=exited, status=0/SUCCESS)
+   Main PID: 719 (code=exited, status=0/SUCCESS)
+        CPU: 55ms
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Starting Create Volatile Files and Directories...
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Finished Create Volatile Files and Directories.
+
+● systemd-udev-settle.service - Wait for udev To Complete Device Initialization
+     Loaded: loaded (/usr/lib/systemd/system/systemd-udev-settle.service; static)
+     Active: active (exited) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+       Docs: man:systemd-udev-settle.service(8)
+    Process: 656 ExecStart=udevadm settle (code=exited, status=0/SUCCESS)
+   Main PID: 656 (code=exited, status=0/SUCCESS)
+        CPU: 4ms
+
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd[1]: Starting Wait for udev To Complete Device Initialization...
+May 17 08:23:55 unknown.obfuscateddomain0.com udevadm[656]: systemd-udev-settle.service is deprecated. Please fix multipathd.service not to pull it in.
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd[1]: Finished Wait for udev To Complete Device Initialization.
+
+● systemd-udev-trigger.service - Coldplug All udev Devices
+     Loaded: loaded (/usr/lib/systemd/system/systemd-udev-trigger.service; static)
+    Drop-In: /usr/lib/systemd/system/systemd-udev-trigger.service.d
+             └─systemd-udev-trigger-no-reload.conf
+     Active: active (exited) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+       Docs: man:udev(7)
+             man:systemd-udevd.service(8)
+    Process: 642 ExecStart=udevadm trigger --type=all --action=add --prioritized-subsystem=module,block,tpmrm,net,tty,input (code=exited, status=0/SUCCESS)
+   Main PID: 642 (code=exited, status=0/SUCCESS)
+        CPU: 51ms
+
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd[1]: Finished Coldplug All udev Devices.
+
+● systemd-udevd.service - Rule-based Manager for Device Events and Files
+     Loaded: loaded (/usr/lib/systemd/system/systemd-udevd.service; static)
+     Active: active (running) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+TriggeredBy: ● systemd-udevd-control.socket
+             ● systemd-udevd-kernel.socket
+       Docs: man:systemd-udevd.service(8)
+             man:udev(7)
+   Main PID: 654 (systemd-udevd)
+     Status: "Processing with 20 children at max"
+      Tasks: 1
+     Memory: 16.3M
+        CPU: 480ms
+     CGroup: /system.slice/systemd-udevd.service
+             └─udev
+               └─654 /usr/lib/systemd/systemd-udevd
+
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd[1]: Starting Rule-based Manager for Device Events and Files...
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd-udevd[654]: Using default interface naming scheme 'rhel-9.0'.
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd[1]: Started Rule-based Manager for Device Events and Files.
+May 17 08:23:55 unknown.obfuscateddomain0.com lvm[685]: PV /dev/vda2 online, VG root_vg is complete.
+
+○ systemd-update-done.service - Update is Completed
+     Loaded: loaded (/usr/lib/systemd/system/systemd-update-done.service; static)
+     Active: inactive (dead)
+  Condition: start condition failed at Fri 2024-05-17 08:23:56 EDT; 6h ago
+             ├─ ConditionNeedsUpdate=|/etc was not met
+             └─ ConditionNeedsUpdate=|/var was not met
+       Docs: man:systemd-update-done.service(8)
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Update is Completed was skipped because no trigger condition checks were met.
+
+○ systemd-update-utmp-runlevel.service - Record Runlevel Change in UTMP
+     Loaded: loaded (/usr/lib/systemd/system/systemd-update-utmp-runlevel.service; static)
+     Active: inactive (dead) since Fri 2024-05-17 08:23:57 EDT; 6h ago
+       Docs: man:systemd-update-utmp-runlevel.service(8)
+             man:utmp(5)
+    Process: 899 ExecStart=/usr/lib/systemd/systemd-update-utmp runlevel (code=exited, status=0/SUCCESS)
+   Main PID: 899 (code=exited, status=0/SUCCESS)
+        CPU: 3ms
+
+May 17 08:23:57 unknown.obfuscateddomain0.com systemd[1]: Starting Record Runlevel Change in UTMP...
+May 17 08:23:57 unknown.obfuscateddomain0.com systemd[1]: systemd-update-utmp-runlevel.service: Deactivated successfully.
+May 17 08:23:57 unknown.obfuscateddomain0.com systemd[1]: Finished Record Runlevel Change in UTMP.
+
+● systemd-update-utmp.service - Record System Boot/Shutdown in UTMP
+     Loaded: loaded (/usr/lib/systemd/system/systemd-update-utmp.service; static)
+     Active: active (exited) since Fri 2024-05-17 08:23:56 EDT; 6h ago
+       Docs: man:systemd-update-utmp.service(8)
+             man:utmp(5)
+    Process: 744 ExecStart=/usr/lib/systemd/systemd-update-utmp reboot (code=exited, status=0/SUCCESS)
+   Main PID: 744 (code=exited, status=0/SUCCESS)
+        CPU: 4ms
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Starting Record System Boot/Shutdown in UTMP...
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Finished Record System Boot/Shutdown in UTMP.
+
+● systemd-user-sessions.service - Permit User Sessions
+     Loaded: loaded (/usr/lib/systemd/system/systemd-user-sessions.service; static)
+     Active: active (exited) since Fri 2024-05-17 08:23:57 EDT; 6h ago
+       Docs: man:systemd-user-sessions.service(8)
+    Process: 871 ExecStart=/usr/lib/systemd/systemd-user-sessions start (code=exited, status=0/SUCCESS)
+   Main PID: 871 (code=exited, status=0/SUCCESS)
+        CPU: 5ms
+
+May 17 08:23:57 unknown.obfuscateddomain0.com systemd[1]: Starting Permit User Sessions...
+May 17 08:23:57 unknown.obfuscateddomain0.com systemd[1]: Finished Permit User Sessions.
+
+● systemd-vconsole-setup.service - Setup Virtual Console
+     Loaded: loaded (/usr/lib/systemd/system/systemd-vconsole-setup.service; static)
+     Active: active (exited) since Fri 2024-05-17 08:23:53 EDT; 6h ago
+       Docs: man:systemd-vconsole-setup.service(8)
+             man:vconsole.conf(5)
+   Main PID: 263 (code=exited, status=0/SUCCESS)
+        CPU: 102ms
+
+May 17 08:23:53 unknown.obfuscateddomain0.com systemd[1]: Finished Setup Virtual Console.
+Notice: journal has been rotated since unit was started, output may be incomplete.
+
+● udisks2.service - Disk Manager
+     Loaded: loaded (/usr/lib/systemd/system/udisks2.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2024-05-17 14:45:47 EDT; 501ms ago
+       Docs: man:udisks(8)
+   Main PID: 5516 (udisksd)
+      Tasks: 6 (limit: 48859)
+     Memory: 7.7M
+        CPU: 48ms
+     CGroup: /system.slice/udisks2.service
+             └─5516 /usr/libexec/udisks2/udisksd
+
+May 17 14:45:47 unknown.obfuscateddomain0.com systemd[1]: Starting Disk Manager...
+May 17 14:45:47Unit ypbind.service could not be found.
+Unit yppasswdd.service could not be found.
+Unit ypserv.service could not be found.
+Unit ypxfrd.service could not be found.
+ unknown.obfuscateddomain0.com udisksd[5516]: udisks daemon version 2.9.4 starting
+May 17 14:45:47 unknown.obfuscateddomain0.com udisksd[5516]: Error probing device: Error sending ATA command IDENTIFY PACKET DEVICE to '/dev/sr0': Unexpected sense data returned:
+                                              0000: 70 00 05 00  00 00 00 0a  00 58 00 01  21 04 00 00    p........X..!...
+                                              0010: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00    ................
+                                               (g-io-error-quark, 0)
+May 17 14:45:47 unknown.obfuscateddomain0.com systemd[1]: Started Disk Manager.
+May 17 14:45:47 unknown.obfuscateddomain0.com udisksd[5516]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+
+● user-runtime-dir@0.service - User Runtime Directory /run/user/0
+     Loaded: loaded (/usr/lib/systemd/system/user-runtime-dir@.service; static)
+     Active: active (exited) since Fri 2024-05-17 14:44:42 EDT; 1min 6s ago
+       Docs: man:user@.service(5)
+    Process: 1969 ExecStart=/usr/lib/systemd/systemd-user-runtime-dir start 0 (code=exited, status=0/SUCCESS)
+   Main PID: 1969 (code=exited, status=0/SUCCESS)
+        CPU: 4ms
+
+May 17 14:44:42 unknown.obfuscateddomain0.com systemd[1]: Starting User Runtime Directory /run/user/0...
+May 17 14:44:42 unknown.obfuscateddomain0.com systemd[1]: Finished User Runtime Directory /run/user/0.
+
+● user@0.service - User Manager for UID 0
+     Loaded: loaded (/usr/lib/systemd/system/user@.service; static)
+    Drop-In: /usr/lib/systemd/system/user@0.service.d
+             └─10-login-barrier.conf
+     Active: active (running) since Fri 2024-05-17 14:44:42 EDT; 1min 6s ago
+       Docs: man:user@.service(5)
+   Main PID: 1970 (systemd)
+     Status: "Ready."
+      Tasks: 2
+     Memory: 4.4M
+        CPU: 102ms
+     CGroup: /user.slice/user-0.slice/user@0.service
+             └─init.scope
+               ├─1970 /usr/lib/systemd/systemd --user
+               └─1973 "(sd-pam)"
+
+May 17 14:44:42 unknown.obfuscateddomain0.com systemd[1970]: Reached target Timers.
+May 17 14:44:42 unknown.obfuscateddomain0.com systemd[1970]: Starting D-Bus User Message Bus Socket...
+May 17 14:44:42 unknown.obfuscateddomain0.com systemd[1970]: Starting Create User's Volatile Files and Directories...
+May 17 14:44:42 unknown.obfuscateddomain0.com systemd[1970]: Finished Create User's Volatile Files and Directories.
+May 17 14:44:42 unknown.obfuscateddomain0.com systemd[1970]: Listening on D-Bus User Message Bus Socket.
+May 17 14:44:42 unknown.obfuscateddomain0.com systemd[1970]: Reached target Sockets.
+May 17 14:44:42 unknown.obfuscateddomain0.com systemd[1970]: Reached target Basic System.
+May 17 14:44:42 unknown.obfuscateddomain0.com systemd[1970]: Reached target Main User Target.
+May 17 14:44:42 unknown.obfuscateddomain0.com systemd[1970]: Startup finished in 60ms.
+May 17 14:44:42 unknown.obfuscateddomain0.com systemd[1]: Started User Manager for UID 0.
+
+● -.slice - Root Slice
+     Loaded: loaded
+     Active: active since Fri 2024-05-17 08:23:53 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:53 EDT; 6h ago
+       Docs: man:systemd.special(7)
+      Tasks: 190
+     Memory: 551.8M
+        CPU: 1min 10.540s
+     CGroup: /
+             ├─init.scope
+             │ └─1 /usr/lib/systemd/systemd rhgb --switched-root --system --deserialize 31
+             ├─system.slice
+             │ ├─NetworkManager.service
+             │ │ └─767 /usr/sbin/NetworkManager --no-daemon
+             │ ├─atd.service
+             │ │ └─872 /usr/sbin/atd -f
+             │ ├─auditd.service
+             │ │ ├─722 /sbin/auditd
+             │ │ └─724 /usr/sbin/sedispatch
+             │ ├─chronyd.service
+             │ │ └─763 /usr/sbin/chronyd -F 2
+             │ ├─crond.service
+             │ │ └─873 /usr/sbin/crond -n
+             │ ├─dbus-broker.service
+             │ │ ├─745 /usr/bin/dbus-broker-launch --scope system --audit
+             │ │ └─746 dbus-broker --log 4 --controller 9 --machine-id 9d450dda0eb545b4851a4dc8aa51f0de --max-bytes 536870912 --max-fds 4096 --max-matches 131072 --audit
+             │ ├─firewalld.service
+             │ │ └─749 /usr/bin/python3 -s /usr/sbin/firewalld --nofork --nopid
+             │ ├─irqbalance.service
+             │ │ └─750 /usr/sbin/irqbalance --foreground
+             │ ├─libstoragemgmt.service
+             │ │ └─751 /usr/bin/lsmd -d
+             │ ├─polkit.service
+             │ │ └─855 /usr/lib/polkit-1/polkitd --no-debug
+             │ ├─qemu-guest-agent.service
+             │ │ └─753 /usr/bin/qemu-ga --method=virtio-serial --path=/dev/virtio-ports/org.qemu.guest_agent.0 --block-rpcs=guest-file-open,guest-file-close,guest-file-read,guest-file-write,guest-file-seek,guest-file-flush,guest-exec,guest-exec-status -F/etc/qemu-ga/fsfreeze-hook
+             │ ├─rhsm.service
+             │ │ └─5254 /usr/bin/python3 /usr/libexec/rhsm-service
+             │ ├─rhsmcertd.service
+             │ │ └─798 /usr/bin/rhsmcertd
+             │ ├─rsyslog.service
+             │ │ └─870 /usr/sbin/rsyslogd -n
+             │ ├─sshd.service
+             │ │ └─797 "sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups"
+             │ ├─system-getty.slice
+             │ │ └─getty@tty1.service
+             │ │   └─880 /sbin/agetty -o "-p -- \\u" --noclear - linux
+             │ ├─systemd-hostnamed.service
+             │ │ └─4348 /usr/lib/systemd/systemd-hostnamed
+             │ ├─systemd-journald.service
+             │ │ └─638 /usr/lib/systemd/systemd-journald
+             │ ├─systemd-logind.service
+             │ │ └─754 /usr/lib/systemd/systemd-logind
+             │ ├─systemd-udevd.service
+             │ │ └─udev
+             │ │   └─654 /usr/lib/systemd/systemd-udevd
+             │ └─udisks2.service
+             │   └─5516 /usr/libexec/udisks2/udisksd
+             └─user.slice
+               └─user-0.slice
+                 ├─session-1.scope
+                 │ ├─1966 "sshd: root [priv]"
+                 │ ├─1985 "sshd: root@pts/0"
+                 │ ├─1986 -bash
+                 │ ├─2017 /usr/bin/python3 -s /usr/sbin/sosreport --clean
+                 │ ├─5135 timeout 300s turbostat --debug sleep 10
+                 │ ├─5140 turbostat --debug sleep 10
+                 │ ├─5148 sleep 10
+                 │ ├─5541 timeout 180s rpm -qal
+                 │ ├─5542 rpm -qal
+                 │ ├─5547 timeout 300s systemctl status --all
+                 │ ├─5549 systemctl status --all
+                 │ ├─5551 timeout 300s subscription-manager list --available
+                 │ └─5553 /usr/bin/python3 /usr/sbin/subscription-manager list --available
+                 └─user@0.service
+                   └─init.scope
+                     ├─1970 /usr/lib/systemd/systemd --user
+                     └─1973 "(sd-pam)"
+
+May 17 14:45:30 unknown.obfuscateddomain0.com systemd[1]: Mounting Arbitrary Executable File Formats File System...
+May 17 14:45:30 unknown.obfuscateddomain0.com systemd[1]: Mounted Arbitrary Executable File Formats File System.
+May 17 14:45:38 unknown.obfuscateddomain0.com systemd[1]: Starting Hostname Service...
+May 17 14:45:38 unknown.obfuscateddomain0.com systemd[1]: Started Hostname Service.
+May 17 14:45:42 unknown.obfuscateddomain0.com systemd[1]: tmp-crun.QoCQn8.mount: Deactivated successfully.
+May 17 14:45:42 unknown.obfuscateddomain0.com systemd[1]: var-lib-containers-storage-overlay.mount: Deactivated successfully.
+May 17 14:45:43 unknown.obfuscateddomain0.com systemd[1]: Starting RHSM dbus service...
+May 17 14:45:43 unknown.obfuscateddomain0.com systemd[1]: Started RHSM dbus service.
+May 17 14:45:47 unknown.obfuscateddomain0.com systemd[1]: Starting Disk Manager...
+May 17 14:45:47 unknown.obfuscateddomain0.com systemd[1]: Started Disk Manager.
+
+● system-getty.slice - Slice /system/getty
+     Loaded: loaded
+     Active: active since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Tasks: 1
+     Memory: 280.0K
+        CPU: 3ms
+     CGroup: /system.slice/system-getty.slice
+             └─getty@tty1.service
+               └─880 /sbin/agetty -o "-p -- \\u" --noclear - linux
+
+● system-modprobe.slice - Slice /system/modprobe
+     Loaded: loaded
+     Active: active since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Tasks: 0
+     Memory: 732.0K
+        CPU: 7ms
+     CGroup: /system.slice/system-modprobe.slice
+
+● system-sshd\x2dkeygen.slice - Slice /system/sshd-keygen
+     Loaded: loaded
+     Active: active since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Tasks: 0
+     Memory: 0B
+        CPU: 0
+     CGroup: /system.slice/system-sshd\x2dkeygen.slice
+
+● system-systemd\x2dfsck.slice - Slice /system/systemd-fsck
+     Loaded: loaded
+     Active: active since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Tasks: 0
+     Memory: 1016.0K
+        CPU: 10ms
+     CGroup: /system.slice/system-systemd\x2dfsck.slice
+
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd-fsck[713]: boot: recovering journal
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd-fsck[713]: boot: clean, 382/65536 files, 102708/262144 blocks
+
+● system-systemd\x2dhibernate\x2dresume.slice - Slice /system/systemd-hibernate-resume
+     Loaded: loaded
+     Active: active since Fri 2024-05-17 08:23:53 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:53 EDT; 6h ago
+      Tasks: 0
+     Memory: 4.0K
+        CPU: 4ms
+     CGroup: /system.slice/system-systemd\x2dhibernate\x2dresume.slice
+
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd-hibernate-resume[548]: Could not resume from '/dev/mapper/root_vg-lv_swap' (253:1).
+Notice: journal has been rotated since unit was started, output may be incomplete.
+
+● system.slice - System Slice
+     Loaded: loaded
+     Active: active since Fri 2024-05-17 08:23:53 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:53 EDT; 6h ago
+       Docs: man:systemd.special(7)
+      Tasks: 44
+     Memory: 558.8M
+        CPU: 30.531s
+     CGroup: /system.slice
+             ├─NetworkManager.service
+             │ └─767 /usr/sbin/NetworkManager --no-daemon
+             ├─atd.service
+             │ └─872 /usr/sbin/atd -f
+             ├─auditd.service
+             │ ├─722 /sbin/auditd
+             │ └─724 /usr/sbin/sedispatch
+             ├─chronyd.service
+             │ └─763 /usr/sbin/chronyd -F 2
+             ├─crond.service
+             │ └─873 /usr/sbin/crond -n
+             ├─dbus-broker.service
+             │ ├─745 /usr/bin/dbus-broker-launch --scope system --audit
+             │ └─746 dbus-broker --log 4 --controller 9 --machine-id 9d450dda0eb545b4851a4dc8aa51f0de --max-bytes 536870912 --max-fds 4096 --max-matches 131072 --audit
+             ├─firewalld.service
+             │ └─749 /usr/bin/python3 -s /usr/sbin/firewalld --nofork --nopid
+             ├─irqbalance.service
+             │ └─750 /usr/sbin/irqbalance --foreground
+             ├─libstoragemgmt.service
+             │ └─751 /usr/bin/lsmd -d
+             ├─polkit.service
+             │ └─855 /usr/lib/polkit-1/polkitd --no-debug
+             ├─qemu-guest-agent.service
+             │ └─753 /usr/bin/qemu-ga --method=virtio-serial --path=/dev/virtio-ports/org.qemu.guest_agent.0 --block-rpcs=guest-file-open,guest-file-close,guest-file-read,guest-file-write,guest-file-seek,guest-file-flush,guest-exec,guest-exec-status -F/etc/qemu-ga/fsfreeze-hook
+             ├─rhsm.service
+             │ └─5254 /usr/bin/python3 /usr/libexec/rhsm-service
+             ├─rhsmcertd.service
+             │ └─798 /usr/bin/rhsmcertd
+             ├─rsyslog.service
+             │ └─870 /usr/sbin/rsyslogd -n
+             ├─sshd.service
+             │ └─797 "sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups"
+             ├─system-getty.slice
+             │ └─getty@tty1.service
+             │   └─880 /sbin/agetty -o "-p -- \\u" --noclear - linux
+             ├─systemd-hostnamed.service
+             │ └─4348 /usr/lib/systemd/systemd-hostnamed
+             ├─systemd-journald.service
+             │ └─638 /usr/lib/systemd/systemd-journald
+             ├─systemd-logind.service
+             │ └─754 /usr/lib/systemd/systemd-logind
+             ├─systemd-udevd.service
+             │ └─udev
+             │   └─654 /usr/lib/systemd/systemd-udevd
+             └─udisks2.service
+               └─5516 /usr/libexec/udisks2/udisksd
+
+May 17 14:01:01 unknown.obfuscateddomain0.com run-parts[1956]: (/etc/cron.hourly) finished 0anacron
+May 17 14:01:01 unknown.obfuscateddomain0.com CROND[1946]: (root) CMDEND (run-parts /etc/cron.hourly)
+May 17 14:21:55 unknown.obfuscateddomain0.com dnf[1958]: Updating Subscription Management repositories.
+May 17 14:21:56 unknown.obfuscateddomain0.com dnf[1958]: Metadata cache refreshed recently.
+May 17 14:44:42 unknown.obfuscateddomain0.com sshd[1966]: Accepted publickey for root from 100.0.0.3/24 port 48228 ssh2: RSA SHA256:JZov33Udepn/HGn9HVQVmDBHz886ImgmSH8Sbeiwfoc
+May 17 14:44:42 unknown.obfuscateddomain0.com systemd-logind[754]: New session 1 of user root.
+May 17 14:44:42 unknown.obfuscateddomain0.com sshd[1966]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+May 17 14:45:47 unknown.obfuscateddomain0.com udisksd[5516]: udisks daemon version 2.9.4 starting
+May 17 14:45:47 unknown.obfuscateddomain0.com udisksd[5516]: Error probing device: Error sending ATA command IDENTIFY PACKET DEVICE to '/dev/sr0': Unexpected sense data returned:
+                                              0000: 70 00 05 00  00 00 00 0a  00 58 00 01  21 04 00 00    p........X..!...
+                                              0010: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00    ................
+                                               (g-io-error-quark, 0)
+May 17 14:45:47 unknown.obfuscateddomain0.com udisksd[5516]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+
+● user-0.slice - User Slice of UID 0
+     Loaded: loaded
+    Drop-In: /usr/lib/systemd/system/user-.slice.d
+             └─10-defaults.conf
+     Active: active since Fri 2024-05-17 14:44:42 EDT; 1min 6s ago
+      Until: Fri 2024-05-17 14:44:42 EDT; 1min 6s ago
+       Docs: man:user@.service(5)
+      Tasks: 28 (limit: 20154)
+     Memory: 510.5M
+        CPU: 36.167s
+     CGroup: /user.slice/user-0.slice
+             ├─session-1.scope
+             │ ├─1966 "sshd: root [priv]"
+             │ ├─1985 "sshd: root@pts/0"
+             │ ├─1986 -bash
+             │ ├─2017 /usr/bin/python3 -s /usr/sbin/sosreport --clean
+             │ ├─5135 timeout 300s turbostat --debug sleep 10
+             │ ├─5140 turbostat --debug sleep 10
+             │ ├─5148 sleep 10
+             │ ├─5541 timeout 180s rpm -qal
+             │ ├─5542 rpm -qal
+             │ ├─5547 timeout 300s systemctl status --all
+             │ ├─5549 systemctl status --all
+             │ ├─5551 timeout 300s subscription-manager list --available
+             │ └─5553 /usr/bin/python3 /usr/sbin/subscription-manager list --available
+             └─user@0.service
+               └─init.scope
+                 ├─1970 /usr/lib/systemd/systemd --user
+                 └─1973 "(sd-pam)"
+
+May 17 14:44:42 unknown.obfuscateddomain0.com systemd[1970]: Starting Create User's Volatile Files and Directories...
+May 17 14:44:42 unknown.obfuscateddomain0.com systemd[1970]: Finished Create User's Volatile Files and Directories.
+May 17 14:44:42 unknown.obfuscateddomain0.com systemd[1970]: Listening on D-Bus User Message Bus Socket.
+May 17 14:44:42 unknown.obfuscateddomain0.com systemd[1970]: Reached target Sockets.
+May 17 14:44:42 unknown.obfuscateddomain0.com systemd[1970]: Reached target Basic System.
+May 17 14:44:42 unknown.obfuscateddomain0.com systemd[1970]: Reached target Main User Target.
+May 17 14:44:42 unknown.obfuscateddomain0.com systemd[1970]: Startup finished in 60ms.
+May 17 14:45:22 unknown.obfuscateddomain0.com podman[2030]: 2024-05-17 14:45:22.647266765 -0400 EDT m=+0.107382823 system refresh
+May 17 14:45:31 unknown.obfuscateddomain0.com crontab[2569]: (root) LIST (root)
+May 17 14:45:31 unknown.obfuscateddomain0.com dracut[2686]: Executing: /usr/bin/dracut --list-modules
+
+● user.slice - User and Session Slice
+     Loaded: loaded (/usr/lib/systemd/system/user.slice; static)
+     Active: active since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+       Docs: man:systemd.special(7)
+      Tasks: 28
+     Memory: 510.5M
+        CPU: 36.169s
+     CGroup: /user.slice
+             └─user-0.slice
+               ├─session-1.scope
+               │ ├─1966 "sshd: root [priv]"
+               │ ├─1985 "sshd: root@pts/0"
+               │ ├─1986 -bash
+               │ ├─2017 /usr/bin/python3 -s /usr/sbin/sosreport --clean
+               │ ├─5135 timeout 300s turbostat --debug sleep 10
+               │ ├─5140 turbostat --debug sleep 10
+               │ ├─5148 sleep 10
+               │ ├─5541 timeout 180s rpm -qal
+               │ ├─5542 rpm -qal
+               │ ├─5547 timeout 300s systemctl status --all
+               │ ├─5549 systemctl status --all
+               │ ├─5551 timeout 300s subscription-manager list --available
+               │ └─5553 /usr/bin/python3 /usr/sbin/subscription-manager list --available
+               └─user@0.service
+                 └─init.scope
+                   ├─1970 /usr/lib/systemd/systemd --user
+                   └─1973 "(sd-pam)"
+
+● dbus.socket - D-Bus System Message Bus Socket
+     Loaded: loaded (/usr/lib/systemd/system/dbus.socket; enabled; preset: enabled)
+     Active: active (running) since Fri 2024-05-17 08:23:56 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:56 EDT; 6h ago
+   Triggers: ● dbus-broker.service
+     Listen: /run/dbus/system_bus_socket (Stream)
+     CGroup: /system.slice/dbus.socket
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Listening on D-Bus System Message Bus Socket.
+
+● dm-event.socket - Device-mapper event daemon FIFOs
+     Loaded: loaded (/usr/lib/systemd/system/dm-event.socket; enabled; preset: enabled)
+     Active: active (listening) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+   Triggers: ● dm-event.service
+       Docs: man:dmeventd(8)
+     Listen: /run/dmeventd-server (FIFO)
+             /run/dmeventd-client (FIFO)
+     CGroup: /system.slice/dm-event.socket
+
+● iscsid.socket - Open-iSCSI iscsid Socket
+     Loaded: loaded (/usr/lib/systemd/system/iscsid.socket; enabled; preset: enabled)
+     Active: active (listening) since Fri 2024-05-17 08:23:56 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:56 EDT; 6h ago
+   Triggers: ● iscsid.service
+       Docs: man:iscsid(8)
+             man:iscsiadm(8)
+     Listen: @ISCSIADM_ABSTRACT_NAMESPACE (Stream)
+     CGroup: /system.slice/iscsid.socket
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Listening on Open-iSCSI iscsid Socket.
+
+● iscsiuio.socket - Open-iSCSI iscsiuio Socket
+     Loaded: loaded (/usr/lib/systemd/system/iscsiuio.socket; enabled; preset: enabled)
+     Active: active (listening) since Fri 2024-05-17 08:23:56 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:56 EDT; 6h ago
+   Triggers: ● iscsiuio.service
+       Docs: man:iscsiuio(8)
+     Listen: @ISCSID_UIP_ABSTRACT_NAMESPACE (Stream)
+     CGroup: /system.slice/iscsiuio.socket
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Listening on Open-iSCSI iscsiuio Socket.
+
+● lvm2-lvmpolld.socket - LVM2 poll daemon socket
+     Loaded: loaded (/usr/lib/systemd/system/lvm2-lvmpolld.socket; enabled; preset: enabled)
+     Active: active (listening) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+   Triggers: ● lvm2-lvmpolld.service
+       Docs: man:lvmpolld(8)
+     Listen: /run/lvm/lvmpolld.socket (Stream)
+     CGroup: /system.slice/lvm2-lvmpolld.socket
+
+○ multipathd.socket - multipathd control socket
+     Loaded: loaded (/usr/lib/systemd/system/multipathd.socket; enabled; preset: disabled)
+     Active: inactive (dead)
+   Triggers: ● multipathd.service
+  Condition: start condition failed at Fri 2024-05-17 08:23:55 EDT; 6h ago
+             └─ ConditionPathExists=/etc/multipath.conf was not met
+     Listen: @/org/kernel/linux/storage/multipathd (Stream)
+
+● sssd-kcm.socket - SSSD Kerberos Cache Manager responder socket
+     Loaded: loaded (/usr/lib/systemd/system/sssd-kcm.socket; enabled; preset: enabled)
+     Active: active (listening) since Fri 2024-05-17 08:23:56 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:56 EDT; 6h ago
+   Triggers: ● sssd-kcm.service
+       Docs: man:sssd-kcm(8)
+     Listen: /run/.heim_org.h5l.kcm-socket (Stream)
+     CGroup: /system.slice/sssd-kcm.socket
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Listening on SSSD Kerberos Cache Manager responder socket.
+
+○ syslog.socket - Syslog Socket
+     Loaded: loaded (/usr/lib/systemd/system/syslog.socket; static)
+     Active: inactive (dead)
+   Triggers: ● syslog.service
+       Docs: man:systemd.special(7)
+             https://www.freedesktop.org/wiki/Software/systemd/syslog
+     Listen: /run/systemd/journal/syslog (Datagram)
+
+● systemd-coredump.socket - Process Core Dump Socket
+     Loaded: loaded (/usr/lib/systemd/system/systemd-coredump.socket; static)
+     Active: active (listening) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+       Docs: man:systemd-coredump(8)
+     Listen: /run/systemd/coredump (SequentialPacket)
+   Accepted: 0; Connected: 0;
+     CGroup: /system.slice/systemd-coredump.socket
+
+● systemd-initctl.socket - initctl Compatibility Named Pipe
+     Loaded: loaded (/usr/lib/systemd/system/systemd-initctl.socket; static)
+     Active: active (listening) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+   Triggers: ● systemd-initctl.service
+       Docs: man:systemd-initctl.socket(8)
+     Listen: /run/initctl (FIFO)
+     CGroup: /system.slice/systemd-initctl.socket
+
+● systemd-journald-dev-log.socket - Journal Socket (/dev/log)
+     Loaded: loaded (/usr/lib/systemd/system/systemd-journald-dev-log.socket; static)
+     Active: active (running) since Fri 2024-05-17 08:23:53 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:53 EDT; 6h ago
+   Triggers: ● systemd-journald.service
+       Docs: man:systemd-journald.service(8)
+             man:journald.conf(5)
+     Listen: /run/systemd/journal/dev-log (Datagram)
+     CGroup: /system.slice/systemd-journald-dev-log.socket
+
+Notice: journal has been rotated since unit was started, output may be incomplete.
+
+● systemd-journald.socket - Journal Socket
+     Loaded: loaded (/usr/lib/systemd/system/systemd-journald.socket; static)
+     Active: active (running) since Fri 2024-05-17 08:23:53 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:53 EDT; 6h ago
+   Triggers: ● systemd-journald.service
+       Docs: man:systemd-journald.service(8)
+             man:journald.conf(5)
+     Listen: /run/systemd/journal/socket (Datagram)
+             /run/systemd/journal/stdout (Stream)
+     CGroup: /system.slice/systemd-journald.socket
+
+Notice: journal has been rotated since unit was started, output may be incomplete.
+
+● systemd-rfkill.socket - Load/Save RF Kill Switch Status /dev/rfkill Watch
+     Loaded: loaded (/usr/lib/systemd/system/systemd-rfkill.socket; static)
+     Active: active (listening) since Fri 2024-05-17 08:23:56 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:56 EDT; 6h ago
+   Triggers: ● systemd-rfkill.service
+       Docs: man:systemd-rfkill.socket(8)
+     Listen: /dev/rfkill (Special)
+     CGroup: /system.slice/systemd-rfkill.socket
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+
+● systemd-udevd-control.socket - udev Control Socket
+     Loaded: loaded (/usr/lib/systemd/system/systemd-udevd-control.socket; static)
+     Active: active (running) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+   Triggers: ● systemd-udevd.service
+       Docs: man:systemd-udevd-control.socket(8)
+             man:udev(7)
+     Listen: /run/udev/control (SequentialPacket)
+     CGroup: /system.slice/systemd-udevd-control.socket
+
+● systemd-udevd-kernel.socket - udev Kernel Socket
+     Loaded: loaded (/usr/lib/systemd/system/systemd-udevd-kernel.socket; static)
+     Active: active (running) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+   Triggers: ● systemd-udevd.service
+       Docs: man:systemd-udevd-kernel.socket(8)
+             man:udev(7)
+     Listen: kobject-uevent 1 (Netlink)
+     CGroup: /system.slice/systemd-udevd-kernel.socket
+
+● dev-disk-by\x2did-dm\x2dname\x2droot_vg\x2dlv_swap.swap - /dev/disk/by-id/dm-name-root_vg-lv_swap
+    Follows: unit currently follows state of dev-mapper-root_vg\x2dlv_swap.swap
+     Loaded: loaded
+     Active: active since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+       What: /dev/disk/by-id/dm-name-root_vg-lv_swap
+
+● dev-disk-by\x2did-dm\x2duuid\x2dLVM\x2d0czQa6vnpMIdWSsf2U4s4t43edqtiI84gMlBWsxIzw82SAQqxMTxl5NTLEKuY47l.swap - /dev/disk/by-id/dm-uuid-LVM-0czQa6vnpMIdWSsf2U4s4t43edqtiI84gMlBWsxIzw82SAQqxMTxl5NTLEKuY47l
+    Follows: unit currently follows state of dev-mapper-root_vg\x2dlv_swap.swap
+     Loaded: loaded
+     Active: active since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+       What: /dev/disk/by-id/dm-uuid-LVM-0czQa6vnpMIdWSsf2U4s4t43edqtiI84gMlBWsxIzw82SAQqxMTxl5NTLEKuY47l
+
+● dev-disk-by\x2dlabel-lv_swap.swap - /dev/disk/by-label/lv_swap
+    Follows: unit currently follows state of dev-mapper-root_vg\x2dlv_swap.swap
+     Loaded: loaded
+     Active: active since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+       What: /dev/disk/by-label/lv_swap
+
+● dev-disk-by\x2duuid-4a1a8024\x2d234e\x2d424e\x2dacff\x2d37729ba56fdd.swap - /dev/disk/by-uuid/4a53:4f:53:9d:a6:2f729ba56fdd
+    Follows: unit currently follows state of dev-mapper-root_vg\x2dlv_swap.swap
+     Loaded: loaded
+     Active: active since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+       What: /dev/disk/by-uuid/4a53:4f:53:9d:a6:2f729ba56fdd
+
+● dev-dm\x2d1.swap - /dev/dm-1
+    Follows: unit currently follows state of dev-mapper-root_vg\x2dlv_swap.swap
+     Loaded: loaded
+     Active: active since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+       What: /dev/dm-1
+
+● dev-mapper-root_vg\x2dlv_swap.swap - /dev/mapper/root_vg-lv_swap
+     Loaded: loaded (/etc/fstab; generated)
+     Active: active since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+       What: /dev/mapper/root_vg-lv_swap
+       Docs: man:fstab(5)
+             man:systemd-fstab-generator(8)
+      Tasks: 0 (limit: 48859)
+     Memory: 160.0K
+        CPU: 3ms
+     CGroup: /system.slice/dev-mapper-root_vg\x2dlv_swap.swap
+
+● dev-root_vg-lv_swap.swap - /dev/root_vg/lv_swap
+    Follows: unit currently follows state of dev-mapper-root_vg\x2dlv_swap.swap
+     Loaded: loaded
+     Active: active since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+       What: /dev/root_vg/lv_swap
+
+● basic.target - Basic System
+     Loaded: loaded (/usr/lib/systemd/system/basic.target; static)
+     Active: active since Fri 2024-05-17 08:23:56 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:56 EDT; 6h ago
+       Docs: man:systemd.special(7)
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Reached target Basic System.
+
+○ blockdev@dev-disk-by\x2duuid-628206c9\x2d748b\x2d45a1\x2d88e2\x2d6e47767a441d.target - Block Device Preparation for /dev/disk/by-uuid/6253:4f:53:99:54:0247767a441d
+     Loaded: loaded (/usr/lib/systemd/system/blockdev@.target; static)
+     Active: inactive (dead)
+       Docs: man:systemd.special(7)
+
+○ blockdev@dev-dm\x2d1.target - Block Device Preparation for /dev/dm-1
+     Loaded: loaded (/usr/lib/systemd/system/blockdev@.target; static)
+     Active: inactive (dead)
+       Docs: man:systemd.special(7)
+
+○ blockdev@dev-mapper-root_vg\x2dlv_root.target - Block Device Preparation for /dev/mapper/root_vg-lv_root
+     Loaded: loaded (/usr/lib/systemd/system/blockdev@.target; static)
+     Active: inactive (dead)
+       Docs: man:systemd.special(7)
+
+○ blockdev@dev-mapper-root_vg\x2dlv_swap.target - Block Device Preparation for /dev/mapper/root_vg-lv_swap
+     Loaded: loaded (/usr/lib/systemd/system/blockdev@.target; static)
+     Active: inactive (dead)
+       Docs: man:systemd.special(7)
+
+○ blockdev@dev-vda1.target - Block Device Preparation for /dev/vda1
+     Loaded: loaded (/usr/lib/systemd/system/blockdev@.target; static)
+     Active: inactive (dead)
+       Docs: man:systemd.special(7)
+
+○ cryptsetup-pre.target - Local Encrypted Volumes (Pre)
+     Loaded: loaded (/usr/lib/systemd/system/cryptsetup-pre.target; static)
+     Active: inactive (dead)
+       Docs: man:systemd.special(7)
+
+● cryptsetup.target - Local Encrypted Volumes
+     Loaded: loaded (/usr/lib/systemd/system/cryptsetup.target; static)
+     Active: active since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+       Docs: man:systemd.special(7)
+
+○ emergency.target - Emergency Mode
+     Loaded: loaded (/usr/lib/systemd/system/emergency.target; static)
+     Active: inactive (dead)
+       Docs: man:systemd.special(7)
+
+○ first-boot-complete.target - First Boot Complete
+     Loaded: loaded (/usr/lib/systemd/system/first-boot-complete.target; static)
+     Active: inactive (dead)
+  Condition: start condition failed at Fri 2024-05-17 08:23:55 EDT; 6h ago
+             └─ ConditionFirstBoot=yes was not met
+       Docs: man:systemd.special(7)
+
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd[1]: First Boot Complete was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd[1]: First Boot Complete was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+
+○ getty-pre.target - Preparation for Logins
+     Loaded: loaded (/usr/lib/systemd/system/getty-pre.target; static)
+     Active: inactive (dead)
+       Docs: man:systemd.special(7)
+             man:systemd-getty-generator(8)
+             http://0pointer.de/blog/projects/serial-console.html
+
+● getty.target - Login Prompts
+     Loaded: loaded (/usr/lib/systemd/system/getty.target; static)
+     Active: active since Fri 2024-05-17 08:23:57 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:57 EDT; 6h ago
+       Docs: man:systemd.special(7)
+             man:systemd-getty-generator(8)
+             http://0pointer.de/blog/projects/serial-console.html
+
+May 17 08:23:57 unknown.obfuscateddomain0.com systemd[1]: Reached target Login Prompts.
+
+○ graphical.target - Graphical Interface
+     Loaded: loaded (/usr/lib/systemd/system/graphical.target; static)
+     Active: inactive (dead)
+       Docs: man:systemd.special(7)
+
+○ initrd-fs.target - Initrd File Systems
+     Loaded: loaded (/usr/lib/systemd/system/initrd-fs.target; static)
+     Active: inactive (dead) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+       Docs: man:systemd.special(7)
+
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: Reached target Initrd File Systems.
+
+○ initrd-root-device.target - Initrd Root Device
+     Loaded: loaded (/usr/lib/systemd/system/initrd-root-device.target; static)
+     Active: inactive (dead) since Fri 2024-05-17 08:23:54 EDT; 6h ago
+       Docs: man:systemd.special(7)
+
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: Reached target Initrd Root Device.
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: Stopped target Initrd Root Device.
+
+○ initrd-root-fs.target - Initrd Root File System
+     Loaded: loaded (/usr/lib/systemd/system/initrd-root-fs.target; static)
+     Active: inactive (dead) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+       Docs: man:systemd.special(7)
+
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: Reached target Initrd Root File System.
+
+○ initrd-switch-root.target - Switch Root
+     Loaded: loaded (/usr/lib/systemd/system/initrd-switch-root.target; static)
+     Active: inactive (dead) since Fri 2024-05-17 08:23:55 EDT; 6h ago
+
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: Reached target Switch Root.
+
+○ initrd-usr-fs.target - Initrd /usr File System
+     Loaded: loaded (/usr/lib/systemd/system/initrd-usr-fs.target; static)
+     Active: inactive (dead) since Fri 2024-05-17 08:23:54 EDT; 6h ago
+       Docs: man:systemd.special(7)
+
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: Stopped target Initrd /usr File System.
+Notice: journal has been rotated since unit was started, output may be incomplete.
+
+○ initrd.target - Initrd Default Target
+     Loaded: loaded (/usr/lib/systemd/system/initrd.target; static)
+     Active: inactive (dead) since Fri 2024-05-17 08:23:54 EDT; 6h ago
+       Docs: man:systemd.special(7)
+
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: Reached target Initrd Default Target.
+May 17 08:23:54 unknown.obfuscateddomain0.com systemd[1]: Stopped target Initrd Default Target.
+
+● integritysetup.target - Local Integrity Protected Volumes
+     Loaded: loaded (/usr/lib/systemd/system/integritysetup.target; static)
+     Active: active since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+       Docs: man:systemd.special(7)
+
+● local-fs-pre.target - Preparation for Local File Systems
+     Loaded: loaded (/usr/lib/systemd/system/local-fs-pre.target; static)
+     Active: active since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+       Docs: man:systemd.special(7)
+
+May 17 08:23:55 unknown.obfuscateddomain0.com systemd[1]: Reached target Preparation for Local File Systems.
+
+● local-fs.target - Local File Systems
+     Loaded: loaded (/usr/lib/systemd/system/local-fs.target; static)
+     Active: active since Fri 2024-05-17 08:23:56 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:56 EDT; 6h ago
+       Docs: man:systemd.special(7)
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Reached target Local File Systems.
+
+● multi-user.target - Multi-User System
+     Loaded: loaded (/usr/lib/systemd/system/multi-user.target; indirect; preset: disabled)
+     Active: active since Fri 2024-05-17 08:23:57 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:57 EDT; 6h ago
+       Docs: man:systemd.special(7)
+
+May 17 08:23:57 unknown.obfuscateddomain0.com systemd[1]: Reached target Multi-User System.
+
+● network-online.target - Network is Online
+     Loaded: loaded (/usr/lib/systemd/system/network-online.target; static)
+     Active: active since Fri 2024-05-17 08:23:57 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:57 EDT; 6h ago
+       Docs: man:systemd.special(7)
+             https://systemd.io/NETWORK_ONLINE
+
+May 17 08:23:57 unknown.obfuscateddomain0.com systemd[1]: Reached target Network is Online.
+
+● network-pre.target - Preparation for Network
+     Loaded: loaded (/usr/lib/systemd/system/network-pre.target; static)
+     Active: active since Fri 2024-05-17 08:23:56 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:56 EDT; 6h ago
+       Docs: man:systemd.special(7)
+             https://systemd.io/NETWORK_ONLINE
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Reached target Preparation for Network.
+
+● network.target - Network
+     Loaded: loaded (/usr/lib/systemd/system/network.target; static)
+     Active: active since Fri 2024-05-17 08:23:56 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:56 EDT; 6h ago
+       Docs: man:systemd.special(7)
+             https://systemd.io/NETWORK_ONLINE
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Reached target Network.
+
+● nss-user-lookup.target - User and Group Name Lookups
+     Loaded: loaded (/usr/lib/systemd/system/nss-user-lookup.target; static)
+     Active: active since Fri 2024-05-17 08:23:56 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:56 EDT; 6h ago
+       Docs: man:systemd.special(7)
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Reached target User and Group Name Lookups.
+
+● paths.target - Path Units
+     Loaded: loaded (/usr/lib/systemd/system/paths.target; static)
+     Active: active since Fri 2024-05-17 08:23:56 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:56 EDT; 6h ago
+       Docs: man:systemd.special(7)
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Reached target Path Units.
+
+○ remote-cryptsetup.target - Remote Encrypted Volumes
+     Loaded: loaded (/usr/lib/systemd/system/remote-cryptsetup.target; disabled; preset: enabled)
+     Active: inactive (dead)
+       Docs: man:systemd.special(7)
+
+● remote-fs-pre.target - Preparation for Remote File Systems
+     Loaded: loaded (/usr/lib/systemd/system/remote-fs-pre.target; static)
+     Active: active since Fri 2024-05-17 08:23:57 EDT; 6h ago
+      Until: Fri 2Unit syslog.target could not be found.
+024-05-17 08:23:57 EDT; 6h ago
+       Docs: man:systemd.special(7)
+
+May 17 08:23:57 unknown.obfuscateddomain0.com systemd[1]: Reached target Preparation for Remote File Systems.
+
+● remote-fs.target - Remote File Systems
+     Loaded: loaded (/usr/lib/systemd/system/remote-fs.target; enabled; preset: enabled)
+     Active: active since Fri 2024-05-17 08:23:57 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:57 EDT; 6h ago
+       Docs: man:systemd.special(7)
+
+May 17 08:23:57 unknown.obfuscateddomain0.com systemd[1]: Reached target Remote File Systems.
+
+○ remote-veritysetup.target - Remote Verity Protected Volumes
+     Loaded: loaded (/usr/lib/systemd/system/remote-veritysetup.target; disabled; preset: disabled)
+     Active: inactive (dead)
+       Docs: man:systemd.special(7)
+
+○ rescue.target - Rescue Mode
+     Loaded: loaded (/usr/lib/systemd/system/rescue.target; static)
+     Active: inactive (dead)
+       Docs: man:systemd.special(7)
+
+○ shutdown.target - System Shutdown
+     Loaded: loaded (/usr/lib/systemd/system/shutdown.target; static)
+     Active: inactive (dead)
+       Docs: man:systemd.special(7)
+
+● slices.target - Slice Units
+     Loaded: loaded (/usr/lib/systemd/system/slices.target; static)
+     Active: active since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+       Docs: man:systemd.special(7)
+
+● sockets.target - Socket Units
+     Loaded: loaded (/usr/lib/systemd/system/sockets.target; static)
+     Active: active since Fri 2024-05-17 08:23:56 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:56 EDT; 6h ago
+       Docs: man:systemd.special(7)
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Reached target Socket Units.
+
+● sshd-keygen.target
+     Loaded: loaded (/usr/lib/systemd/system/sshd-keygen.target; static)
+     Active: active since Fri 2024-05-17 08:23:56 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:56 EDT; 6h ago
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Reached target sshd-keygen.target.
+
+● swap.target - Swaps
+     Loaded: loaded (/usr/lib/systemd/system/swap.target; static)
+     Active: active since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+       Docs: man:systemd.special(7)
+
+● sysinit.target - System Initialization
+     Loaded: loaded (/usr/lib/systemd/system/sysinit.target; static)
+     Active: active since Fri 2024-05-17 08:23:56 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:56 EDT; 6h ago
+       Docs: man:systemd.special(7)
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Reached target System Initialization.
+
+○ time-set.target - System Time Set
+     Loaded: loaded (/usr/lib/systemd/system/time-set.target; static)
+     Active: inactive (dead)
+       Docs: man:systemd.special(7)
+
+○ time-sync.target - System Time Synchronized
+     Loaded: loaded (/usr/lib/systemd/system/time-sync.target; static)
+     Active: inactive (dead)
+       Docs: man:systemd.special(7)
+
+● timers.target - Timer Units
+     Loaded: loaded (/usr/lib/systemd/system/timers.target; static)
+     Active: active since Fri 2024-05-17 08:23:57 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:57 EDT; 6h ago
+       Docs: man:systemd.special(7)
+
+May 17 08:23:57 unknown.obfuscateddomain0.com systemd[1]: Reached target Timer Units.
+
+○ umount.target - Unmount All Filesystems
+     Loaded: loaded (/usr/lib/systemd/system/umount.target; static)
+     Active: inactive (dead)
+       Docs: man:systemd.special(7)
+
+○ veritysetup-pre.target - Local Verity Protected Volumes (Pre)
+     Loaded: loaded (/usr/lib/systemd/system/veritysetup-pre.target; static)
+     Active: inactive (dead)
+       Docs: man:systemd.special(7)
+
+● veritysetup.target - Local Verity Protected Volumes
+     Loaded: loaded (/usr/lib/systemd/system/veritysetup.target; static)
+     Active: active since Fri 2024-05-17 08:23:55 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:55 EDT; 6h ago
+       Docs: man:systemd.special(7)
+
+● dnf-makecache.timer - dnf makecache --timer
+     Loaded: loaded (/usr/lib/systemd/system/dnf-makecache.timer; enabled; preset: enabled)
+     Active: active (waiting) since Fri 2024-05-17 08:23:56 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:56 EDT; 6h ago
+    Trigger: Fri 2024-05-17 15:27:05 EDT; 41min left
+   Triggers: ● dnf-makecache.service
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Started dnf makecache --timer.
+
+● insights-client.timer - Insights Client Timer Task
+     Loaded: loaded (/usr/lib/systemd/system/insights-client.timer; enabled; preset: disabled)
+     Active: active (waiting) since Fri 2024-05-17 08:23:57 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:57 EDT; 6h ago
+    Trigger: Sat 2024-05-18 01:35:14 EDT; 10h left
+   Triggers: ● insights-client.service
+       Docs: man:insights-client(8)
+
+May 17 08:23:57 unknown.obfuscateddomain0.com systemd[1]: Started Insights Client Timer Task.
+
+● logrotate.timer - Daily rotation of log files
+     Loaded: loaded (/usr/lib/systemd/system/logrotate.timer; enabled; preset: enabled)
+     Active: active (waiting) since Fri 2024-05-17 08:23:56 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:56 EDT; 6h ago
+    Trigger: Sat 2024-05-18 00:00:00 EDT; 9h left
+   Triggers: ● logrotate.service
+       Docs: man:logrotate(8)
+             man:logrotate.conf(5)
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Started Daily rotation of log files.
+
+● mlocate-updatedb.timer - Updates mlocate database every day
+     Loaded: loaded (/usr/lib/systemd/system/mlocate-updatedb.timer; enabled; preset: enabled)
+     Active: active (waiting) since Fri 2024-05-17 08:23:56 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:56 EDT; 6h ago
+    Trigger: Sat 2024-05-18 00:00:00 EDT; 9h left
+   Triggers: ● mlocate-updatedb.service
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Started Updates mlocate database every day.
+
+● systemd-tmpfiles-clean.timer - Daily Cleanup of Temporary Directories
+     Loaded: loaded (/usr/lib/systemd/system/systemd-tmpfiles-clean.timer; static)
+     Active: active (waiting) since Fri 2024-05-17 08:23:56 EDT; 6h ago
+      Until: Fri 2024-05-17 08:23:56 EDT; 6h ago
+    Trigger: Sat 2024-05-18 08:38:55 EDT; 17h left
+   Triggers: ● systemd-tmpfiles-clean.service
+       Docs: man:tmpfiles.d(5)
+             man:systemd-tmpfiles(8)
+
+May 17 08:23:56 unknown.obfuscateddomain0.com systemd[1]: Started Daily Cleanup of Temporary Directories.

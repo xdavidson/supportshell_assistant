@@ -1,0 +1,26 @@
+logrotate state -- version 2
+"/var/log/firewalld" 2023-5-25-11:0:0
+"/var/log/httpd/ssl_access_log" 2023-6-13-12:44:29
+"/var/log/boot.log" 2024-5-17-8:23:56
+"/var/log/hawkey.log" 2024-5-15-8:33:52
+"/var/log/sssd/*.log" 2023-5-25-11:0:0
+"/var/log/kvm_stat.csv" 2023-5-25-11:0:0
+"/var/log/httpd/error_log" 2023-12-11-7:55:59
+"/var/log/httpd/ssl_error_log" 2023-6-13-12:44:29
+"/var/log/chrony/*.log" 2023-5-25-11:0:0
+"/var/log/wtmp" 2023-5-25-11:0:0
+"/var/log/spooler" 2024-5-15-8:33:52
+"/var/log/btmp" 2024-5-1-8:25:34
+"/var/log/rhsm/rhsmcertd.log" 2024-5-15-8:33:52
+"/var/log/iscsiuio.log" 2023-5-25-11:0:0
+"/var/log/maillog" 2024-5-15-8:33:52
+"/var/log/httpd/ssl_request_log" 2023-6-13-12:44:29
+"/var/log/insights-client/insights-client.log" 2024-5-15-8:33:52
+"/var/log/secure" 2024-5-15-8:33:52
+"/var/log/retrace-server/*.log" 2023-5-25-11:0:0
+"/var/log/rhsm/rhsm.log" 2024-5-15-8:33:52
+"/var/log/messages" 2024-5-15-8:33:52
+"/var/log/samba/log.*" 2023-5-25-11:0:0
+"/var/log/httpd/access_log" 2023-5-25-11:0:0
+"/var/account/pacct" 2023-5-25-11:0:0
+"/var/log/cron" 2024-5-15-8:33:52

@@ -1,0 +1,27 @@
+#
+# Enable/Disable - default is Disabled
+# to disable this rule, GOTO="md_end" should be the first active command.
+# to enable this rule, Comment out GOTO="md_end". 
+GOTO="md_end"
+
+# Required: MD arrays must have a bitmap for transient devices to
+# be added back in the array.
+# mdadm -CR /dev/md0 -l1 -n2 /dev/sd[ab] –bitmap=internal
+
+# Don't process any events if anaconda is running as anaconda brings up
+# raid devices manually
+ENV{ANACONDA}=="?*", GOTO="md_end"
+
+# Also don't process disks that are slated to be a multipath device
+ENV{DM_MULTIPATH_DEVICE_PATH}=="1", GOTO="md_end"
+
+# We process add events on block devices (since they are ready as soon as
+# they are added to the system)
+
+ACTION!="add", GOTO="md_end"
+ENV{ID_FS_TYPE}!="linux_raid_member", GOTO="md_end"
+SUBSYSTEM=="block", RUN{program}+="/usr/sbin/md-auto-readd.sh $devnode"
+
+#
+# Land here to exit cleanly
+LABEL="md_end"

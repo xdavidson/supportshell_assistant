@@ -1,0 +1,105 @@
+1.670s sys-module-fuse.device
+1.641s dev-ttyS3.device
+1.641s sys-devices-platform-serial8250-tty-ttyS3.device
+1.640s sys-devices-platform-serial8250-tty-ttyS1.device
+1.640s dev-ttyS1.device
+1.640s sys-devices-pnp0-00:00-tty-ttyS0.device
+1.640s dev-ttyS0.device
+1.638s dev-ttyS2.device
+1.638s sys-devices-platform-serial8250-tty-ttyS2.device
+1.638s sys-module-configfs.device
+1.624s sys-devices-pci0000:00-0000:00:02.2-0000:03:00.0-virtio1-virtio\x2dports-vport1p2.device
+1.624s dev-vport1p2.device
+1.624s dev-virtio\x2dports-com.redhat.spice.0.device
+1.596s sys-devices-pci0000:00-0000:00:02.2-0000:03:00.0-virtio1-virtio\x2dports-vport1p1.device
+1.595s dev-virtio\x2dports-org.qemu.guest_agent.0.device
+1.595s dev-vport1p1.device
+1.574s sys-subsystem-net-devices-enp1s0.device
+1.574s sys-devices-pci0000:00-0000:00:02.0-0000:01:00.0-virtio0-net-enp1s0.device
+1.573s dev-disk-by\x2ddiskseq-1.device
+1.573s dev-disk-by\x2dpath-pci\x2d0000:04:00.0.device
+1.573s dev-disk-by\x2dpath-virtio\x2dpci\x2d0000:04:00.0.device
+1.573s dev-vda.device
+1.573s sys-devices-pci0000:00-0000:00:02.3-0000:04:00.0-virtio2-block-vda.device
+1.560s dev-vda1.device
+1.560s sys-devices-pci0000:00-0000:00:02.3-0000:04:00.0-virtio2-block-vda-vda1.device
+1.560s dev-disk-by\x2dlabel-boot.device
+1.560s dev-disk-by\x2dpath-pci\x2d0000:04:00.0\x2dpart1.device
+1.560s dev-disk-by\x2duuid-628206c9\x2d748b\x2d45a1\x2d88e2\x2d6e47767a441d.device
+1.560s dev-disk-by\x2dpartuuid-2b0740da\x2d01.device
+1.560s dev-disk-by\x2dpath-virtio\x2dpci\x2d0000:04:00.0\x2dpart1.device
+1.559s dev-disk-by\x2dpartuuid-2b0740da\x2d02.device
+1.559s dev-vda2.device
+1.559s dev-disk-by\x2dpath-pci\x2d0000:04:00.0\x2dpart2.device
+1.559s sys-devices-pci0000:00-0000:00:02.3-0000:04:00.0-virtio2-block-vda-vda2.device
+1.559s dev-disk-by\x2dpath-virtio\x2dpci\x2d0000:04:00.0\x2dpart2.device
+1.385s dnf-makecache.service
+ 866ms dracut-initqueue.service
+ 667ms kdump.service
+ 382ms NetworkManager-wait-online.service
+ 371ms initrd-switch-root.service
+ 299ms systemd-udev-settle.service
+ 244ms firewalld.service
+ 178ms rhsm.service
+ 123ms systemd-vconsole-setup.service
+  98ms systemd-udev-trigger.service
+  97ms NetworkManager.service
+  93ms systemd-fsck-root.service
+  89ms udisks2.service
+  84ms polkit.service
+  80ms logrotate.service
+  78ms user@0.service
+  69ms lvm2-monitor.service
+  69ms systemd-logind.service
+  66ms chronyd.service
+  65ms systemd-tmpfiles-setup.service
+  62ms dracut-cmdline.service
+  59ms systemd-journal-flush.service
+  58ms auditd.service
+  42ms systemd-udevd.service
+  41ms rsyslog.service
+  38ms systemd-journald.service
+  37ms systemd-hostnamed.service
+  36ms systemd-tmpfiles-setup-dev.service
+  36ms dracut-pre-udev.service
+  31ms systemd-sysusers.service
+  29ms systemd-fsck@dev-disk-by\x2duuid-628206c9\x2d748b\x2d45a1\x2d88e2\x2d6e47767a441d.service
+  27ms dbus-broker.service
+  26ms dracut-pre-pivot.service
+  24ms plymouth-switch-root.service
+  22ms systemd-remount-fs.service
+  22ms dev-hugepages.mount
+  22ms dev-mapper-root_vg\x2dlv_swap.swap
+  21ms systemd-sysctl.service
+  21ms systemd-random-seed.service
+  21ms dev-mqueue.mount
+  19ms sys-kernel-debug.mount
+  18ms sshd.service
+  18ms systemd-tmpfiles-clean.service
+  18ms sys-kernel-tracing.mount
+  18ms initrd-cleanup.service
+  17ms plymouth-read-write.service
+  17ms kmod-static-nodes.service
+  17ms systemd-modules-load.service
+  16ms dracut-shutdown.service
+  16ms systemd-network-generator.service
+  14ms plymouth-quit.service
+  14ms modprobe@drm.service
+  13ms plymouth-start.service
+  13ms plymouth-quit-wait.service
+  12ms nis-domainname.service
+  11ms proc-sys-fs-binfmt_misc.mount
+   8ms dracut-pre-mount.service
+   8ms initrd-parse-etc.service
+   7ms boot.mount
+   7ms systemd-update-utmp.service
+   6ms systemd-user-sessions.service
+   6ms rhsmcertd.service
+   6ms user-runtime-dir@0.service
+   4ms systemd-update-utmp-runlevel.service
+   3ms initrd-udevadm-cleanup-db.service
+   2ms sys-fs-fuse-connections.mount
+   2ms tmp.mount
+   2ms modprobe@configfs.service
+   1ms modprobe@fuse.service
+   1ms sys-kernel-config.mount

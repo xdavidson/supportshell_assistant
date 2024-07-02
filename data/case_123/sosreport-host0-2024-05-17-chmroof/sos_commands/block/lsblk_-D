@@ -1,0 +1,7 @@
+NAME                DISC-ALN DISC-GRAN DISC-MAX DISC-ZERO
+sr0                        0        0B       0B         0
+vda                        0      512B       2G         0
+├─vda1                     0      512B       2G         0
+└─vda2                     0      512B       2G         0
+  ├─root_vg-lv_root        0      512B       2G         0
+  └─root_vg-lv_swap        0      512B       2G         0

@@ -1,0 +1,829 @@
+Jan 30 08:11:08 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Jan 30 08:11:08 unknown.obfuscateddohost10.com chronyd[750]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Jan 30 08:11:08 unknown.obfuscateddohost10.com chronyd[750]: Frequency -16.825 +/- 0.029 ppm read from /var/lib/chrony/drift
+Jan 30 08:11:08 unknown.obfuscateddohost10.com chronyd[750]: Using right/UTC timezone to obtain leap second data
+Jan 30 08:11:08 unknown.obfuscateddohost10.com chronyd[750]: Loaded seccomp filter (level 2)
+Jan 30 08:11:08 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Jan 30 08:11:14 unknown.obfuscateddohost10.com chronyd[750]: Selected source 52.38.17.12 (2.rhel.pool.ntp.org)
+Jan 30 08:11:14 unknown.obfuscateddohost10.com chronyd[750]: System clock TAI offset set to 37 seconds
+Jan 30 08:11:15 unknown.obfuscateddohost10.com chronyd[750]: Selected source 80.36.93.57 (2.rhel.pool.ntp.org)
+-- Boot ba7b55aff5ce4d829ab15f36bcf3066e --
+Jan 31 08:07:58 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Jan 31 08:07:58 unknown.obfuscateddohost10.com chronyd[749]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Jan 31 08:07:58 unknown.obfuscateddohost10.com chronyd[749]: Frequency -16.761 +/- 0.030 ppm read from /var/lib/chrony/drift
+Jan 31 08:07:58 unknown.obfuscateddohost10.com chronyd[749]: Using right/UTC timezone to obtain leap second data
+Jan 31 08:07:58 unknown.obfuscateddohost10.com chronyd[749]: Loaded seccomp filter (level 2)
+Jan 31 08:07:58 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Jan 31 08:08:04 unknown.obfuscateddohost10.com chronyd[749]: Selected source 14.38.96.22 (2.rhel.pool.ntp.org)
+Jan 31 08:08:04 unknown.obfuscateddohost10.com chronyd[749]: System clock TAI offset set to 37 seconds
+-- Boot afe9740c73e5425b8ac47f93fe68dd42 --
+Feb 01 08:23:23 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Feb 01 08:23:23 unknown.obfuscateddohost10.com chronyd[748]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Feb 01 08:23:23 unknown.obfuscateddohost10.com chronyd[748]: Frequency -17.123 +/- 0.032 ppm read from /var/lib/chrony/drift
+Feb 01 08:23:23 unknown.obfuscateddohost10.com chronyd[748]: Using right/UTC timezone to obtain leap second data
+Feb 01 08:23:23 unknown.obfuscateddohost10.com chronyd[748]: Loaded seccomp filter (level 2)
+Feb 01 08:23:23 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Feb 01 08:23:29 unknown.obfuscateddohost10.com chronyd[748]: Selected source 97.79.20.36 (2.rhel.pool.ntp.org)
+Feb 01 08:23:29 unknown.obfuscateddohost10.com chronyd[748]: System clock TAI offset set to 37 seconds
+Feb 01 08:24:36 unknown.obfuscateddohost10.com chronyd[748]: Selected source 44.22.65.95 (2.rhel.pool.ntp.org)
+Feb 01 08:27:53 unknown.obfuscateddohost10.com chronyd[748]: Selected source 36.98.96.13 (2.rhel.pool.ntp.org)
+-- Boot 5c3b823b32cd4f1498eaf1e56e268cbb --
+Feb 02 08:22:23 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Feb 02 08:22:23 unknown.obfuscateddohost10.com chronyd[750]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Feb 02 08:22:23 unknown.obfuscateddohost10.com chronyd[750]: Frequency -16.549 +/- 0.031 ppm read from /var/lib/chrony/drift
+Feb 02 08:22:23 unknown.obfuscateddohost10.com chronyd[750]: Using right/UTC timezone to obtain leap second data
+Feb 02 08:22:23 unknown.obfuscateddohost10.com chronyd[750]: Loaded seccomp filter (level 2)
+Feb 02 08:22:23 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Feb 02 08:22:29 unknown.obfuscateddohost10.com chronyd[750]: Selected source 33.67.61.50 (2.rhel.pool.ntp.org)
+Feb 02 08:22:29 unknown.obfuscateddohost10.com chronyd[750]: System clock TAI offset set to 37 seconds
+Feb 02 08:23:35 unknown.obfuscateddohost10.com chronyd[750]: Selected source 97.28.47.54 (2.rhel.pool.ntp.org)
+Feb 02 08:24:40 unknown.obfuscateddohost10.com chronyd[750]: Selected source 33.67.61.50 (2.rhel.pool.ntp.org)
+-- Boot fc9b5d72bd97465981ea22b84379b587 --
+Feb 05 08:09:35 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Feb 05 08:09:35 unknown.obfuscateddohost10.com chronyd[752]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Feb 05 08:09:35 unknown.obfuscateddohost10.com chronyd[752]: Frequency -17.114 +/- 0.034 ppm read from /var/lib/chrony/drift
+Feb 05 08:09:35 unknown.obfuscateddohost10.com chronyd[752]: Using right/UTC timezone to obtain leap second data
+Feb 05 08:09:35 unknown.obfuscateddohost10.com chronyd[752]: Loaded seccomp filter (level 2)
+Feb 05 08:09:35 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Feb 05 08:09:41 unknown.obfuscateddohost10.com chronyd[752]: Selected source 17.94.46.87 (2.rhel.pool.ntp.org)
+Feb 05 08:09:41 unknown.obfuscateddohost10.com chronyd[752]: System clock TAI offset set to 37 seconds
+Feb 05 08:09:43 unknown.obfuscateddohost10.com chronyd[752]: Selected source 89.32.76.82 (2.rhel.pool.ntp.org)
+-- Boot 2fe5b7d84c1f4d12af9187e14c0666b7 --
+Feb 06 07:05:37 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Feb 06 07:05:37 unknown.obfuscateddohost10.com chronyd[747]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Feb 06 07:05:37 unknown.obfuscateddohost10.com chronyd[747]: Frequency -15.418 +/- 0.033 ppm read from /var/lib/chrony/drift
+Feb 06 07:05:37 unknown.obfuscateddohost10.com chronyd[747]: Using right/UTC timezone to obtain leap second data
+Feb 06 07:05:37 unknown.obfuscateddohost10.com chronyd[747]: Loaded seccomp filter (level 2)
+Feb 06 07:05:37 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Feb 06 07:05:43 unknown.obfuscateddohost10.com chronyd[747]: Selected source 66.60.12.45 (2.rhel.pool.ntp.org)
+Feb 06 07:05:43 unknown.obfuscateddohost10.com chronyd[747]: System clock TAI offset set to 37 seconds
+Feb 06 07:06:49 unknown.obfuscateddohost10.com chronyd[747]: Selected source 62.57.94.67 (2.rhel.pool.ntp.org)
+-- Boot e35738cb446b44278facb23e9512179a --
+Feb 07 06:42:37 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Feb 07 06:42:37 unknown.obfuscateddohost10.com chronyd[747]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Feb 07 06:42:37 unknown.obfuscateddohost10.com chronyd[747]: Frequency -15.315 +/- 0.037 ppm read from /var/lib/chrony/drift
+Feb 07 06:42:37 unknown.obfuscateddohost10.com chronyd[747]: Using right/UTC timezone to obtain leap second data
+Feb 07 06:42:37 unknown.obfuscateddohost10.com chronyd[747]: Loaded seccomp filter (level 2)
+Feb 07 06:42:37 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Feb 07 06:42:43 unknown.obfuscateddohost10.com chronyd[747]: Selected source 48.81.84.74 (2.rhel.pool.ntp.org)
+Feb 07 06:42:43 unknown.obfuscateddohost10.com chronyd[747]: System clock TAI offset set to 37 seconds
+Feb 07 06:43:49 unknown.obfuscateddohost10.com chronyd[747]: Selected source 80.86.88.84 (2.rhel.pool.ntp.org)
+Feb 07 06:45:59 unknown.obfuscateddohost10.com chronyd[747]: Selected source 48.81.84.74 (2.rhel.pool.ntp.org)
+-- Boot cae25894444941bd80eaf1d1522cb526 --
+Feb 08 07:47:07 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Feb 08 07:47:07 unknown.obfuscateddohost10.com chronyd[749]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Feb 08 07:47:07 unknown.obfuscateddohost10.com chronyd[749]: Frequency -15.907 +/- 0.048 ppm read from /var/lib/chrony/drift
+Feb 08 07:47:07 unknown.obfuscateddohost10.com chronyd[749]: Using right/UTC timezone to obtain leap second data
+Feb 08 07:47:07 unknown.obfuscateddohost10.com chronyd[749]: Loaded seccomp filter (level 2)
+Feb 08 07:47:07 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Feb 08 07:47:13 unknown.obfuscateddohost10.com chronyd[749]: Selected source 38.12.66.64 (2.rhel.pool.ntp.org)
+Feb 08 07:47:13 unknown.obfuscateddohost10.com chronyd[749]: System clock TAI offset set to 37 seconds
+Feb 08 07:48:19 unknown.obfuscateddohost10.com chronyd[749]: Selected source 52.38.17.12 (2.rhel.pool.ntp.org)
+Feb 08 07:51:34 unknown.obfuscateddohost10.com chronyd[749]: Selected source 38.12.66.64 (2.rhel.pool.ntp.org)
+-- Boot cae57c63af6e4ac5bdf11c50e9d19db1 --
+Feb 09 07:58:23 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Feb 09 07:58:23 unknown.obfuscateddohost10.com chronyd[749]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Feb 09 07:58:23 unknown.obfuscateddohost10.com chronyd[749]: Frequency -16.909 +/- 0.042 ppm read from /var/lib/chrony/drift
+Feb 09 07:58:23 unknown.obfuscateddohost10.com chronyd[749]: Using right/UTC timezone to obtain leap second data
+Feb 09 07:58:23 unknown.obfuscateddohost10.com chronyd[749]: Loaded seccomp filter (level 2)
+Feb 09 07:58:23 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Feb 09 07:58:29 unknown.obfuscateddohost10.com chronyd[749]: Selected source 20.42.21.84 (2.rhel.pool.ntp.org)
+Feb 09 07:58:29 unknown.obfuscateddohost10.com chronyd[749]: System clock TAI offset set to 37 seconds
+Feb 09 07:59:35 unknown.obfuscateddohost10.com chronyd[749]: Selected source 15.61.78.41 (2.rhel.pool.ntp.org)
+-- Boot 8105adfdd328456e8487b9a48da6b0cb --
+Feb 12 07:43:49 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Feb 12 07:43:49 unknown.obfuscateddohost10.com chronyd[749]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Feb 12 07:43:49 unknown.obfuscateddohost10.com chronyd[749]: Frequency -15.603 +/- 0.057 ppm read from /var/lib/chrony/drift
+Feb 12 07:43:49 unknown.obfuscateddohost10.com chronyd[749]: Using right/UTC timezone to obtain leap second data
+Feb 12 07:43:49 unknown.obfuscateddohost10.com chronyd[749]: Loaded seccomp filter (level 2)
+Feb 12 07:43:49 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Feb 12 07:43:55 unknown.obfuscateddohost10.com chronyd[749]: Selected source 86.99.33.19 (2.rhel.pool.ntp.org)
+Feb 12 07:43:55 unknown.obfuscateddohost10.com chronyd[749]: System clock TAI offset set to 37 seconds
+Feb 12 07:43:57 unknown.obfuscateddohost10.com chronyd[749]: Selected source 52.38.17.12 (2.rhel.pool.ntp.org)
+-- Boot 5f1b2cb5f7984ef5b0cdca5bd72cd867 --
+Feb 13 07:58:13 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Feb 13 07:58:13 unknown.obfuscateddohost10.com chronyd[749]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Feb 13 07:58:13 unknown.obfuscateddohost10.com chronyd[749]: Frequency -16.907 +/- 0.033 ppm read from /var/lib/chrony/drift
+Feb 13 07:58:13 unknown.obfuscateddohost10.com chronyd[749]: Using right/UTC timezone to obtain leap second data
+Feb 13 07:58:13 unknown.obfuscateddohost10.com chronyd[749]: Loaded seccomp filter (level 2)
+Feb 13 07:58:13 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Feb 13 07:58:19 unknown.obfuscateddohost10.com chronyd[749]: Selected source 41.11.88.34 (2.rhel.pool.ntp.org)
+Feb 13 07:58:19 unknown.obfuscateddohost10.com chronyd[749]: System clock TAI offset set to 37 seconds
+-- Boot abff0612897d4ed1841cd647991e24cc --
+Feb 14 07:59:15 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Feb 14 07:59:15 unknown.obfuscateddohost10.com chronyd[750]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Feb 14 07:59:15 unknown.obfuscateddohost10.com chronyd[750]: Frequency -15.589 +/- 0.047 ppm read from /var/lib/chrony/drift
+Feb 14 07:59:15 unknown.obfuscateddohost10.com chronyd[750]: Using right/UTC timezone to obtain leap second data
+Feb 14 07:59:15 unknown.obfuscateddohost10.com chronyd[750]: Loaded seccomp filter (level 2)
+Feb 14 07:59:15 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Feb 14 07:59:21 unknown.obfuscateddohost10.com chronyd[750]: Selected source 83.22.13.81 (2.rhel.pool.ntp.org)
+Feb 14 07:59:21 unknown.obfuscateddohost10.com chronyd[750]: System clock TAI offset set to 37 seconds
+Feb 14 07:59:23 unknown.obfuscateddohost10.com chronyd[750]: Selected source 55.47.16.94 (2.rhel.pool.ntp.org)
+-- Boot 516be50d3d404e51a63fb066426de732 --
+Feb 15 07:54:41 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Feb 15 07:54:41 unknown.obfuscateddohost10.com chronyd[749]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Feb 15 07:54:41 unknown.obfuscateddohost10.com chronyd[749]: Frequency -15.898 +/- 0.066 ppm read from /var/lib/chrony/drift
+Feb 15 07:54:41 unknown.obfuscateddohost10.com chronyd[749]: Using right/UTC timezone to obtain leap second data
+Feb 15 07:54:41 unknown.obfuscateddohost10.com chronyd[749]: Loaded seccomp filter (level 2)
+Feb 15 07:54:41 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Feb 15 07:54:47 unknown.obfuscateddohost10.com chronyd[749]: Selected source 87.71.59.22 (2.rhel.pool.ntp.org)
+Feb 15 07:54:47 unknown.obfuscateddohost10.com chronyd[749]: System clock TAI offset set to 37 seconds
+Feb 15 07:55:54 unknown.obfuscateddohost10.com chronyd[749]: Selected source 30.88.41.94 (2.rhel.pool.ntp.org)
+Feb 15 12:35:16 unknown.obfuscateddohost10.com chronyd[749]: Selected source 44.46.52.34 (2.rhel.pool.ntp.org)
+-- Boot 0880a36714ca4c67b86301b137421f3b --
+Feb 16 08:12:45 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Feb 16 08:12:45 unknown.obfuscateddohost10.com chronyd[751]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Feb 16 08:12:45 unknown.obfuscateddohost10.com chronyd[751]: Frequency -16.652 +/- 0.045 ppm read from /var/lib/chrony/drift
+Feb 16 08:12:45 unknown.obfuscateddohost10.com chronyd[751]: Using right/UTC timezone to obtain leap second data
+Feb 16 08:12:45 unknown.obfuscateddohost10.com chronyd[751]: Loaded seccomp filter (level 2)
+Feb 16 08:12:45 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Feb 16 08:12:51 unknown.obfuscateddohost10.com chronyd[751]: Selected source 89.71.38.74 (2.rhel.pool.ntp.org)
+Feb 16 08:12:51 unknown.obfuscateddohost10.com chronyd[751]: System clock TAI offset set to 37 seconds
+Feb 16 08:13:57 unknown.obfuscateddohost10.com chronyd[751]: Selected source 83.22.13.81 (2.rhel.pool.ntp.org)
+Feb 16 15:34:14 unknown.obfuscateddohost10.com chronyd[751]: Selected source 42.46.79.86 (2.rhel.pool.ntp.org)
+-- Boot 78681bb20d684668903780bb0019dd8a --
+Feb 20 12:30:53 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Feb 20 12:30:53 unknown.obfuscateddohost10.com chronyd[751]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Feb 20 12:30:53 unknown.obfuscateddohost10.com chronyd[751]: Frequency -17.027 +/- 0.057 ppm read from /var/lib/chrony/drift
+Feb 20 12:30:53 unknown.obfuscateddohost10.com chronyd[751]: Using right/UTC timezone to obtain leap second data
+Feb 20 12:30:53 unknown.obfuscateddohost10.com chronyd[751]: Loaded seccomp filter (level 2)
+Feb 20 12:30:53 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Feb 20 12:30:59 unknown.obfuscateddohost10.com chronyd[751]: Selected source 15.15.80.48 (2.rhel.pool.ntp.org)
+Feb 20 12:30:59 unknown.obfuscateddohost10.com chronyd[751]: System clock TAI offset set to 37 seconds
+Feb 20 12:31:01 unknown.obfuscateddohost10.com chronyd[751]: Selected source 38.12.66.64 (2.rhel.pool.ntp.org)
+Feb 20 12:32:05 unknown.obfuscateddohost10.com chronyd[751]: Selected source 53.54.58.21 (2.rhel.pool.ntp.org)
+Feb 20 12:33:11 unknown.obfuscateddohost10.com chronyd[751]: Selected source 38.12.66.64 (2.rhel.pool.ntp.org)
+-- Boot e6d8652346494060968f70d93a515adb --
+Feb 20 13:13:36 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Feb 20 13:13:36 unknown.obfuscateddohost10.com chronyd[744]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Feb 20 13:13:36 unknown.obfuscateddohost10.com chronyd[744]: Frequency -17.027 +/- 0.057 ppm read from /var/lib/chrony/drift
+Feb 20 13:13:36 unknown.obfuscateddohost10.com chronyd[744]: Using right/UTC timezone to obtain leap second data
+Feb 20 13:13:36 unknown.obfuscateddohost10.com chronyd[744]: Loaded seccomp filter (level 2)
+Feb 20 13:13:36 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Feb 20 13:13:42 unknown.obfuscateddohost10.com chronyd[744]: Selected source 81.45.15.69 (2.rhel.pool.ntp.org)
+Feb 20 13:13:42 unknown.obfuscateddohost10.com chronyd[744]: System clock TAI offset set to 37 seconds
+Feb 20 13:14:48 unknown.obfuscateddohost10.com chronyd[744]: Selected source 86.81.88.82 (2.rhel.pool.ntp.org)
+Feb 20 13:22:22 unknown.obfuscateddohost10.com chronyd[744]: Selected source 81.45.15.69 (2.rhel.pool.ntp.org)
+-- Boot 97367ffd277c44a69121c5f181f2c749 --
+Feb 23 16:21:43 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Feb 23 16:21:43 unknown.obfuscateddohost10.com chronyd[749]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Feb 23 16:21:43 unknown.obfuscateddohost10.com chronyd[749]: Frequency -17.027 +/- 0.057 ppm read from /var/lib/chrony/drift
+Feb 23 16:21:43 unknown.obfuscateddohost10.com chronyd[749]: Using right/UTC timezone to obtain leap second data
+Feb 23 16:21:43 unknown.obfuscateddohost10.com chronyd[749]: Loaded seccomp filter (level 2)
+Feb 23 16:21:43 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Feb 23 16:21:49 unknown.obfuscateddohost10.com chronyd[749]: Selected source 54.64.18.20 (2.rhel.pool.ntp.org)
+Feb 23 16:21:49 unknown.obfuscateddohost10.com chronyd[749]: System clock TAI offset set to 37 seconds
+Feb 23 16:21:51 unknown.obfuscateddohost10.com chronyd[749]: Selected source 14.38.96.22 (2.rhel.pool.ntp.org)
+-- Boot 4fcc8ada4bb84377b72470e20f551ef5 --
+Feb 26 08:25:00 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Feb 26 08:25:00 unknown.obfuscateddohost10.com chronyd[750]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Feb 26 08:25:00 unknown.obfuscateddohost10.com chronyd[750]: Frequency -17.027 +/- 0.057 ppm read from /var/lib/chrony/drift
+Feb 26 08:25:00 unknown.obfuscateddohost10.com chronyd[750]: Using right/UTC timezone to obtain leap second data
+Feb 26 08:25:00 unknown.obfuscateddohost10.com chronyd[750]: Loaded seccomp filter (level 2)
+Feb 26 08:25:00 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Feb 26 08:25:07 unknown.obfuscateddohost10.com chronyd[750]: Selected source 33.67.61.50 (2.rhel.pool.ntp.org)
+Feb 26 08:25:07 unknown.obfuscateddohost10.com chronyd[750]: System clock TAI offset set to 37 seconds
+-- Boot b82a47d575294d06be87918b4ebc0604 --
+Feb 27 08:27:44 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Feb 27 08:27:44 unknown.obfuscateddohost10.com chronyd[748]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Feb 27 08:27:44 unknown.obfuscateddohost10.com chronyd[748]: Frequency -16.311 +/- 0.081 ppm read from /var/lib/chrony/drift
+Feb 27 08:27:44 unknown.obfuscateddohost10.com chronyd[748]: Using right/UTC timezone to obtain leap second data
+Feb 27 08:27:44 unknown.obfuscateddohost10.com chronyd[748]: Loaded seccomp filter (level 2)
+Feb 27 08:27:44 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Feb 27 08:27:50 unknown.obfuscateddohost10.com chronyd[748]: Selected source 48.78.57.11 (2.rhel.pool.ntp.org)
+Feb 27 08:27:50 unknown.obfuscateddohost10.com chronyd[748]: System clock TAI offset set to 37 seconds
+Feb 27 08:28:56 unknown.obfuscateddohost10.com chronyd[748]: Selected source 27.78.74.67 (2.rhel.pool.ntp.org)
+Feb 27 08:34:20 unknown.obfuscateddohost10.com chronyd[748]: Selected source 48.78.57.11 (2.rhel.pool.ntp.org)
+-- Boot 01f928c8339b4d3b9169711328f3c713 --
+Feb 28 08:23:17 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Feb 28 08:23:17 unknown.obfuscateddohost10.com chronyd[749]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Feb 28 08:23:17 unknown.obfuscateddohost10.com chronyd[749]: Frequency -17.754 +/- 0.031 ppm read from /var/lib/chrony/drift
+Feb 28 08:23:17 unknown.obfuscateddohost10.com chronyd[749]: Using right/UTC timezone to obtain leap second data
+Feb 28 08:23:17 unknown.obfuscateddohost10.com chronyd[749]: Loaded seccomp filter (level 2)
+Feb 28 08:23:17 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Feb 28 08:23:23 unknown.obfuscateddohost10.com chronyd[749]: Selected source 91.75.64.71 (2.rhel.pool.ntp.org)
+Feb 28 08:23:23 unknown.obfuscateddohost10.com chronyd[749]: System clock TAI offset set to 37 seconds
+Feb 28 08:24:29 unknown.obfuscateddohost10.com chronyd[749]: Selected source 73.87.22.18 (2.rhel.pool.ntp.org)
+Feb 28 08:25:34 unknown.obfuscateddohost10.com chronyd[749]: Selected source 91.75.64.71 (2.rhel.pool.ntp.org)
+-- Boot d0616d0beb984b15bc9a296013e740c1 --
+Feb 29 08:25:56 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Feb 29 08:25:56 unknown.obfuscateddohost10.com chronyd[749]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Feb 29 08:25:56 unknown.obfuscateddohost10.com chronyd[749]: Frequency -16.289 +/- 0.062 ppm read from /var/lib/chrony/drift
+Feb 29 08:25:56 unknown.obfuscateddohost10.com chronyd[749]: Using right/UTC timezone to obtain leap second data
+Feb 29 08:25:56 unknown.obfuscateddohost10.com chronyd[749]: Loaded seccomp filter (level 2)
+Feb 29 08:25:56 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Feb 29 08:26:02 unknown.obfuscateddohost10.com chronyd[749]: Selected source 83.45.74.89 (2.rhel.pool.ntp.org)
+Feb 29 08:26:02 unknown.obfuscateddohost10.com chronyd[749]: System clock TAI offset set to 37 seconds
+Feb 29 08:26:04 unknown.obfuscateddohost10.com chronyd[749]: Selected source 71.34.92.91 (2.rhel.pool.ntp.org)
+Feb 29 08:27:08 unknown.obfuscateddohost10.com chronyd[749]: Selected source 37.86.86.17 (2.rhel.pool.ntp.org)
+Feb 29 08:28:14 unknown.obfuscateddohost10.com chronyd[749]: Selected source 71.34.92.91 (2.rhel.pool.ntp.org)
+-- Boot 81a1e97d5c3c493da1621fc4be86f1a0 --
+Mar 01 08:26:32 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Mar 01 08:26:32 unknown.obfuscateddohost10.com chronyd[749]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Mar 01 08:26:32 unknown.obfuscateddohost10.com chronyd[749]: Frequency -17.184 +/- 0.041 ppm read from /var/lib/chrony/drift
+Mar 01 08:26:32 unknown.obfuscateddohost10.com chronyd[749]: Using right/UTC timezone to obtain leap second data
+Mar 01 08:26:32 unknown.obfuscateddohost10.com chronyd[749]: Loaded seccomp filter (level 2)
+Mar 01 08:26:32 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Mar 01 08:26:38 unknown.obfuscateddohost10.com chronyd[749]: Selected source 76.93.90.31 (2.rhel.pool.ntp.org)
+Mar 01 08:26:38 unknown.obfuscateddohost10.com chronyd[749]: System clock TAI offset set to 37 seconds
+Mar 01 08:26:40 unknown.obfuscateddohost10.com chronyd[749]: Selected source 53.46.94.91 (2.rhel.pool.ntp.org)
+Mar 01 08:28:50 unknown.obfuscateddohost10.com chronyd[749]: Selected source 83.91.25.69 (2.rhel.pool.ntp.org)
+Mar 01 08:31:00 unknown.obfuscateddohost10.com chronyd[749]: Selected source 53.46.94.91 (2.rhel.pool.ntp.org)
+-- Boot 6fe39934e263498cb588a90f0c82caed --
+Mar 04 08:22:02 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Mar 04 08:22:02 unknown.obfuscateddohost10.com chronyd[750]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Mar 04 08:22:02 unknown.obfuscateddohost10.com chronyd[750]: Frequency -15.670 +/- 0.043 ppm read from /var/lib/chrony/drift
+Mar 04 08:22:02 unknown.obfuscateddohost10.com chronyd[750]: Using right/UTC timezone to obtain leap second data
+Mar 04 08:22:02 unknown.obfuscateddohost10.com chronyd[750]: Loaded seccomp filter (level 2)
+Mar 04 08:22:02 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Mar 04 08:22:09 unknown.obfuscateddohost10.com chronyd[750]: Selected source 82.56.62.17 (2.rhel.pool.ntp.org)
+Mar 04 08:22:09 unknown.obfuscateddohost10.com chronyd[750]: System clock TAI offset set to 37 seconds
+-- Boot 535cbdce6bff44fb90f51e70c5fa5091 --
+Mar 05 09:04:28 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Mar 05 09:04:28 unknown.obfuscateddohost10.com chronyd[753]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Mar 05 09:04:28 unknown.obfuscateddohost10.com chronyd[753]: Frequency -16.625 +/- 0.031 ppm read from /var/lib/chrony/drift
+Mar 05 09:04:28 unknown.obfuscateddohost10.com chronyd[753]: Using right/UTC timezone to obtain leap second data
+Mar 05 09:04:28 unknown.obfuscateddohost10.com chronyd[753]: Loaded seccomp filter (level 2)
+Mar 05 09:04:28 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Mar 05 09:04:34 unknown.obfuscateddohost10.com chronyd[753]: Selected source 14.36.29.21 (2.rhel.pool.ntp.org)
+Mar 05 09:04:34 unknown.obfuscateddohost10.com chronyd[753]: System clock TAI offset set to 37 seconds
+Mar 05 09:05:40 unknown.obfuscateddohost10.com chronyd[753]: Selected source 74.53.70.67 (2.rhel.pool.ntp.org)
+Mar 05 09:12:10 unknown.obfuscateddohost10.com chronyd[753]: Selected source 14.36.29.21 (2.rhel.pool.ntp.org)
+-- Boot e832db2e66734648a514ec1eac7eaecb --
+Mar 06 08:29:15 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Mar 06 08:29:15 unknown.obfuscateddohost10.com chronyd[750]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Mar 06 08:29:15 unknown.obfuscateddohost10.com chronyd[750]: Frequency -16.357 +/- 0.052 ppm read from /var/lib/chrony/drift
+Mar 06 08:29:15 unknown.obfuscateddohost10.com chronyd[750]: Using right/UTC timezone to obtain leap second data
+Mar 06 08:29:15 unknown.obfuscateddohost10.com chronyd[750]: Loaded seccomp filter (level 2)
+Mar 06 08:29:15 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Mar 06 08:29:21 unknown.obfuscateddohost10.com chronyd[750]: Selected source 81.99.13.35 (2.rhel.pool.ntp.org)
+Mar 06 08:29:21 unknown.obfuscateddohost10.com chronyd[750]: System clock TAI offset set to 37 seconds
+Mar 06 08:30:27 unknown.obfuscateddohost10.com chronyd[750]: Selected source 44.46.52.34 (2.rhel.pool.ntp.org)
+Mar 06 08:33:40 unknown.obfuscateddohost10.com chronyd[750]: Selected source 81.99.13.35 (2.rhel.pool.ntp.org)
+-- Boot d4158f9aeb1d48a88b89fab2412857ea --
+Mar 07 06:31:17 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Mar 07 06:31:17 unknown.obfuscateddohost10.com chronyd[751]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Mar 07 06:31:17 unknown.obfuscateddohost10.com chronyd[751]: Frequency -16.657 +/- 0.039 ppm read from /var/lib/chrony/drift
+Mar 07 06:31:17 unknown.obfuscateddohost10.com chronyd[751]: Using right/UTC timezone to obtain leap second data
+Mar 07 06:31:17 unknown.obfuscateddohost10.com chronyd[751]: Loaded seccomp filter (level 2)
+Mar 07 06:31:17 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Mar 07 06:31:23 unknown.obfuscateddohost10.com chronyd[751]: Selected source 42.19.96.63 (2.rhel.pool.ntp.org)
+Mar 07 06:31:23 unknown.obfuscateddohost10.com chronyd[751]: System clock TAI offset set to 37 seconds
+Mar 07 06:35:45 unknown.obfuscateddohost10.com chronyd[751]: Selected source 68.17.84.14 (2.rhel.pool.ntp.org)
+-- Boot e67f5c8e72894bf3a8a43676a3501f74 --
+Mar 08 08:25:02 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Mar 08 08:25:02 unknown.obfuscateddohost10.com chronyd[753]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Mar 08 08:25:02 unknown.obfuscateddohost10.com chronyd[753]: Frequency -16.373 +/- 0.164 ppm read from /var/lib/chrony/drift
+Mar 08 08:25:02 unknown.obfuscateddohost10.com chronyd[753]: Using right/UTC timezone to obtain leap second data
+Mar 08 08:25:02 unknown.obfuscateddohost10.com chronyd[753]: Loaded seccomp filter (level 2)
+Mar 08 08:25:02 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Mar 08 08:25:08 unknown.obfuscateddohost10.com chronyd[753]: Selected source 91.44.44.73 (2.rhel.pool.ntp.org)
+Mar 08 08:25:08 unknown.obfuscateddohost10.com chronyd[753]: System clock TAI offset set to 37 seconds
+Mar 08 08:25:10 unknown.obfuscateddohost10.com chronyd[753]: Selected source 63.38.38.55 (2.rhel.pool.ntp.org)
+-- Boot 93e868494cf84528b64866e5a6e15e7d --
+Mar 08 15:43:40 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Mar 08 15:43:40 unknown.obfuscateddohost10.com chronyd[743]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Mar 08 15:43:40 unknown.obfuscateddohost10.com chronyd[743]: Frequency -16.919 +/- 0.078 ppm read from /var/lib/chrony/drift
+Mar 08 15:43:40 unknown.obfuscateddohost10.com chronyd[743]: Using right/UTC timezone to obtain leap second data
+Mar 08 15:43:40 unknown.obfuscateddohost10.com chronyd[743]: Loaded seccomp filter (level 2)
+Mar 08 15:43:40 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Mar 08 15:43:45 unknown.obfuscateddohost10.com chronyd[743]: Selected source 50.77.43.49 (2.rhel.pool.ntp.org)
+Mar 08 15:43:45 unknown.obfuscateddohost10.com chronyd[743]: System clock TAI offset set to 37 seconds
+Mar 08 15:45:57 unknown.obfuscateddohost10.com chronyd[743]: Selected source 38.12.66.64 (2.rhel.pool.ntp.org)
+-- Boot d004b46ae0bf4e9797623888406f8f6e --
+Mar 13 14:57:39 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Mar 13 14:57:39 unknown.obfuscateddohost10.com chronyd[750]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Mar 13 14:57:39 unknown.obfuscateddohost10.com chronyd[750]: Frequency -15.438 +/- 0.487 ppm read from /var/lib/chrony/drift
+Mar 13 14:57:39 unknown.obfuscateddohost10.com chronyd[750]: Using right/UTC timezone to obtain leap second data
+Mar 13 14:57:39 unknown.obfuscateddohost10.com chronyd[750]: Loaded seccomp filter (level 2)
+Mar 13 14:57:39 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Mar 13 14:57:45 unknown.obfuscateddohost10.com chronyd[750]: Selected source 63.38.38.55 (2.rhel.pool.ntp.org)
+Mar 13 14:57:45 unknown.obfuscateddohost10.com chronyd[750]: System clock TAI offset set to 37 seconds
+Mar 13 14:58:51 unknown.obfuscateddohost10.com chronyd[750]: Selected source 26.15.11.71 (2.rhel.pool.ntp.org)
+Mar 13 14:59:57 unknown.obfuscateddohost10.com chronyd[750]: Selected source 38.12.66.64 (2.rhel.pool.ntp.org)
+-- Boot bde2b70292234a5a8ebeabe8b16163d0 --
+Mar 14 08:21:09 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Mar 14 08:21:09 unknown.obfuscateddohost10.com chronyd[749]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Mar 14 08:21:09 unknown.obfuscateddohost10.com chronyd[749]: Frequency -16.999 +/- 0.256 ppm read from /var/lib/chrony/drift
+Mar 14 08:21:09 unknown.obfuscateddohost10.com chronyd[749]: Using right/UTC timezone to obtain leap second data
+Mar 14 08:21:09 unknown.obfuscateddohost10.com chronyd[749]: Loaded seccomp filter (level 2)
+Mar 14 08:21:09 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Mar 14 08:21:15 unknown.obfuscateddohost10.com chronyd[749]: Selected source 39.48.90.43 (2.rhel.pool.ntp.org)
+Mar 14 08:21:15 unknown.obfuscateddohost10.com chronyd[749]: System clock TAI offset set to 37 seconds
+Mar 14 08:21:17 unknown.obfuscateddohost10.com chronyd[749]: Selected source 52.38.17.12 (2.rhel.pool.ntp.org)
+-- Boot be4e833d3da34327a7c5775b85ee0d5b --
+Mar 15 08:23:21 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Mar 15 08:23:21 unknown.obfuscateddohost10.com chronyd[748]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Mar 15 08:23:21 unknown.obfuscateddohost10.com chronyd[748]: Frequency -17.515 +/- 0.068 ppm read from /var/lib/chrony/drift
+Mar 15 08:23:21 unknown.obfuscateddohost10.com chronyd[748]: Using right/UTC timezone to obtain leap second data
+Mar 15 08:23:21 unknown.obfuscateddohost10.com chronyd[748]: Loaded seccomp filter (level 2)
+Mar 15 08:23:21 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Mar 15 08:23:27 unknown.obfuscateddohost10.com chronyd[748]: Selected source 68.91.34.69 (2.rhel.pool.ntp.org)
+Mar 15 08:23:27 unknown.obfuscateddohost10.com chronyd[748]: System clock TAI offset set to 37 seconds
+Mar 15 08:24:33 unknown.obfuscateddohost10.com chronyd[748]: Selected source 46.31.25.79 (2.rhel.pool.ntp.org)
+Mar 15 08:35:19 unknown.obfuscateddohost10.com chronyd[748]: Selected source 82.93.59.23 (2.rhel.pool.ntp.org)
+-- Boot b26182960e5345e186d7902002d52858 --
+Mar 18 08:14:40 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Mar 18 08:14:40 unknown.obfuscateddohost10.com chronyd[751]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Mar 18 08:14:40 unknown.obfuscateddohost10.com chronyd[751]: Frequency -16.059 +/- 0.031 ppm read from /var/lib/chrony/drift
+Mar 18 08:14:40 unknown.obfuscateddohost10.com chronyd[751]: Using right/UTC timezone to obtain leap second data
+Mar 18 08:14:40 unknown.obfuscateddohost10.com chronyd[751]: Loaded seccomp filter (level 2)
+Mar 18 08:14:40 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Mar 18 08:14:46 unknown.obfuscateddohost10.com chronyd[751]: Selected source 91.44.44.73 (2.rhel.pool.ntp.org)
+Mar 18 08:14:46 unknown.obfuscateddohost10.com chronyd[751]: System clock TAI offset set to 37 seconds
+Mar 18 08:15:52 unknown.obfuscateddohost10.com chronyd[751]: Selected source 52.38.17.12 (2.rhel.pool.ntp.org)
+Mar 18 08:51:30 unknown.obfuscateddohost10.com chronyd[751]: Selected source 97.33.40.84 (2.rhel.pool.ntp.org)
+Mar 18 16:29:32 unknown.obfuscateddohost10.com chronyd[751]: Source 97.33.40.84 replaced with 89.71.38.74 (2.rhel.pool.ntp.org)
+Mar 18 16:37:06 unknown.obfuscateddohost10.com chronyd[751]: Selected source 91.44.44.73 (2.rhel.pool.ntp.org)
+-- Boot 1a43e19afaad44298669e80d9d03773d --
+Mar 19 08:22:09 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Mar 19 08:22:09 unknown.obfuscateddohost10.com chronyd[751]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Mar 19 08:22:09 unknown.obfuscateddohost10.com chronyd[751]: Frequency -17.205 +/- 0.031 ppm read from /var/lib/chrony/drift
+Mar 19 08:22:09 unknown.obfuscateddohost10.com chronyd[751]: Using right/UTC timezone to obtain leap second data
+Mar 19 08:22:09 unknown.obfuscateddohost10.com chronyd[751]: Loaded seccomp filter (level 2)
+Mar 19 08:22:09 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Mar 19 08:22:15 unknown.obfuscateddohost10.com chronyd[751]: Selected source 38.12.66.64 (2.rhel.pool.ntp.org)
+Mar 19 08:22:15 unknown.obfuscateddohost10.com chronyd[751]: System clock TAI offset set to 37 seconds
+Mar 19 08:22:17 unknown.obfuscateddohost10.com chronyd[751]: Selected source 83.45.74.89 (2.rhel.pool.ntp.org)
+Mar 19 08:24:27 unknown.obfuscateddohost10.com chronyd[751]: Selected source 38.12.66.64 (2.rhel.pool.ntp.org)
+-- Boot f985d10f77514d12ab39133a03b8cc4e --
+Mar 20 08:28:16 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Mar 20 08:28:16 unknown.obfuscateddohost10.com chronyd[748]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Mar 20 08:28:16 unknown.obfuscateddohost10.com chronyd[748]: Frequency -15.700 +/- 0.065 ppm read from /var/lib/chrony/drift
+Mar 20 08:28:16 unknown.obfuscateddohost10.com chronyd[748]: Using right/UTC timezone to obtain leap second data
+Mar 20 08:28:16 unknown.obfuscateddohost10.com chronyd[748]: Loaded seccomp filter (level 2)
+Mar 20 08:28:16 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Mar 20 08:28:22 unknown.obfuscateddohost10.com chronyd[748]: Selected source 50.77.43.49 (2.rhel.pool.ntp.org)
+Mar 20 08:28:22 unknown.obfuscateddohost10.com chronyd[748]: System clock TAI offset set to 37 seconds
+Mar 20 08:28:24 unknown.obfuscateddohost10.com chronyd[748]: Selected source 55.47.16.94 (2.rhel.pool.ntp.org)
+-- Boot 983c1f8e21ed4387b7a6f26cb6b9dbdf --
+Mar 21 08:25:59 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Mar 21 08:25:59 unknown.obfuscateddohost10.com chronyd[750]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Mar 21 08:25:59 unknown.obfuscateddohost10.com chronyd[750]: Frequency -15.932 +/- 0.051 ppm read from /var/lib/chrony/drift
+Mar 21 08:25:59 unknown.obfuscateddohost10.com chronyd[750]: Using right/UTC timezone to obtain leap second data
+Mar 21 08:25:59 unknown.obfuscateddohost10.com chronyd[750]: Loaded seccomp filter (level 2)
+Mar 21 08:25:59 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Mar 21 08:26:05 unknown.obfuscateddohost10.com chronyd[750]: Selected source 64.71.13.94 (2.rhel.pool.ntp.org)
+Mar 21 08:26:05 unknown.obfuscateddohost10.com chronyd[750]: System clock TAI offset set to 37 seconds
+-- Boot 24c45fcf48a34e058b290dd95b5679f4 --
+Mar 22 08:25:15 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Mar 22 08:25:15 unknown.obfuscateddohost10.com chronyd[750]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Mar 22 08:25:15 unknown.obfuscateddohost10.com chronyd[750]: Frequency -16.990 +/- 0.349 ppm read from /var/lib/chrony/drift
+Mar 22 08:25:15 unknown.obfuscateddohost10.com chronyd[750]: Using right/UTC timezone to obtain leap second data
+Mar 22 08:25:15 unknown.obfuscateddohost10.com chronyd[750]: Loaded seccomp filter (level 2)
+Mar 22 08:25:15 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Mar 22 08:25:21 unknown.obfuscateddohost10.com chronyd[750]: Selected source 55.29.93.68 (2.rhel.pool.ntp.org)
+Mar 22 08:25:21 unknown.obfuscateddohost10.com chronyd[750]: System clock TAI offset set to 37 seconds
+Mar 22 08:26:28 unknown.obfuscateddohost10.com chronyd[750]: Selected source 97.79.20.36 (2.rhel.pool.ntp.org)
+Mar 22 08:29:43 unknown.obfuscateddohost10.com chronyd[750]: Selected source 55.29.93.68 (2.rhel.pool.ntp.org)
+-- Boot b7317b22ebd94058a3e2687a9c7be16a --
+Mar 25 08:23:50 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Mar 25 08:23:50 unknown.obfuscateddohost10.com chronyd[750]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Mar 25 08:23:50 unknown.obfuscateddohost10.com chronyd[750]: Frequency -16.049 +/- 0.057 ppm read from /var/lib/chrony/drift
+Mar 25 08:23:50 unknown.obfuscateddohost10.com chronyd[750]: Using right/UTC timezone to obtain leap second data
+Mar 25 08:23:50 unknown.obfuscateddohost10.com chronyd[750]: Loaded seccomp filter (level 2)
+Mar 25 08:23:50 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Mar 25 08:23:56 unknown.obfuscateddohost10.com chronyd[750]: Selected source 44.22.65.95 (2.rhel.pool.ntp.org)
+Mar 25 08:23:56 unknown.obfuscateddohost10.com chronyd[750]: System clock TAI offset set to 37 seconds
+Mar 25 08:25:03 unknown.obfuscateddohost10.com chronyd[750]: Selected source 97.58.63.56 (2.rhel.pool.ntp.org)
+Mar 25 16:12:11 unknown.obfuscateddohost10.com chronyd[750]: Source 90.80.12.74 replaced with 41.25.55.85 (2.rhel.pool.ntp.org)
+-- Boot 3620015498824accaedbd3ddc34ce8c1 --
+Mar 26 08:21:09 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Mar 26 08:21:09 unknown.obfuscateddohost10.com chronyd[751]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Mar 26 08:21:09 unknown.obfuscateddohost10.com chronyd[751]: Frequency -16.309 +/- 0.041 ppm read from /var/lib/chrony/drift
+Mar 26 08:21:09 unknown.obfuscateddohost10.com chronyd[751]: Using right/UTC timezone to obtain leap second data
+Mar 26 08:21:09 unknown.obfuscateddohost10.com chronyd[751]: Loaded seccomp filter (level 2)
+Mar 26 08:21:09 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Mar 26 08:21:15 unknown.obfuscateddohost10.com chronyd[751]: Selected source 41.25.55.85 (2.rhel.pool.ntp.org)
+Mar 26 08:21:15 unknown.obfuscateddohost10.com chronyd[751]: System clock TAI offset set to 37 seconds
+Mar 26 09:22:41 unknown.obfuscateddohost10.com chronyd[751]: Selected source 63.51.26.38 (2.rhel.pool.ntp.org)
+Mar 26 14:41:36 unknown.obfuscateddohost10.com chronyd[751]: Selected source 41.25.55.85 (2.rhel.pool.ntp.org)
+Mar 26 14:43:46 unknown.obfuscateddohost10.com chronyd[751]: Source 63.51.26.38 replaced with 89.18.70.34 (2.rhel.pool.ntp.org)
+-- Boot c7af0c76ee494e17bb8f02bdeb30ea13 --
+Mar 27 09:08:33 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Mar 27 09:08:33 unknown.obfuscateddohost10.com chronyd[751]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Mar 27 09:08:33 unknown.obfuscateddohost10.com chronyd[751]: Frequency -16.838 +/- 0.030 ppm read from /var/lib/chrony/drift
+Mar 27 09:08:33 unknown.obfuscateddohost10.com chronyd[751]: Using right/UTC timezone to obtain leap second data
+Mar 27 09:08:33 unknown.obfuscateddohost10.com chronyd[751]: Loaded seccomp filter (level 2)
+Mar 27 09:08:33 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Mar 27 09:08:39 unknown.obfuscateddohost10.com chronyd[751]: Selected source 82.56.62.17 (2.rhel.pool.ntp.org)
+Mar 27 09:08:39 unknown.obfuscateddohost10.com chronyd[751]: System clock TAI offset set to 37 seconds
+-- Boot 6900f34067f54d79a8c91cf313c688e8 --
+Mar 28 08:17:38 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Mar 28 08:17:38 unknown.obfuscateddohost10.com chronyd[752]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Mar 28 08:17:38 unknown.obfuscateddohost10.com chronyd[752]: Frequency -16.049 +/- 0.034 ppm read from /var/lib/chrony/drift
+Mar 28 08:17:38 unknown.obfuscateddohost10.com chronyd[752]: Using right/UTC timezone to obtain leap second data
+Mar 28 08:17:38 unknown.obfuscateddohost10.com chronyd[752]: Loaded seccomp filter (level 2)
+Mar 28 08:17:38 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Mar 28 08:17:44 unknown.obfuscateddohost10.com chronyd[752]: Selected source 68.17.84.14 (2.rhel.pool.ntp.org)
+Mar 28 08:17:44 unknown.obfuscateddohost10.com chronyd[752]: System clock TAI offset set to 37 seconds
+Mar 28 08:18:49 unknown.obfuscateddohost10.com chronyd[752]: Selected source 97.33.40.84 (2.rhel.pool.ntp.org)
+Mar 28 08:33:58 unknown.obfuscateddohost10.com chronyd[752]: Selected source 68.17.84.14 (2.rhel.pool.ntp.org)
+Mar 28 13:05:57 unknown.obfuscateddohost10.com chronyd[752]: Source 97.33.40.84 replaced with 85.58.51.18 (2.rhel.pool.ntp.org)
+Mar 28 16:54:57 unknown.obfuscateddohost10.com chronyd[752]: chronyd exiting
+Mar 28 16:54:57 unknown.obfuscateddohost10.com systemd[1]: Stopping NTP client/server...
+Mar 28 16:54:57 unknown.obfuscateddohost10.com systemd[1]: chronyd.service: Deactivated successfully.
+Mar 28 16:54:57 unknown.obfuscateddohost10.com systemd[1]: Stopped NTP client/server.
+-- Boot 1dd2d91a32e847e6a2cc6e21cafee323 --
+Mar 28 16:55:23 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Mar 28 16:55:23 unknown.obfuscateddohost10.com chronyd[758]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Mar 28 16:55:23 unknown.obfuscateddohost10.com chronyd[758]: Frequency -16.432 +/- 0.149 ppm read from /var/lib/chrony/drift
+Mar 28 16:55:23 unknown.obfuscateddohost10.com chronyd[758]: Using right/UTC timezone to obtain leap second data
+Mar 28 16:55:23 unknown.obfuscateddohost10.com chronyd[758]: Loaded seccomp filter (level 2)
+Mar 28 16:55:23 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Mar 28 16:55:29 unknown.obfuscateddohost10.com chronyd[758]: Selected source 43.72.88.14 (2.rhel.pool.ntp.org)
+Mar 28 16:55:29 unknown.obfuscateddohost10.com chronyd[758]: System clock wrong by 1.001963 seconds
+Mar 28 16:55:30 unknown.obfuscateddohost10.com chronyd[758]: System clock was stepped by 1.001963 seconds
+Mar 28 16:55:30 unknown.obfuscateddohost10.com chronyd[758]: System clock TAI offset set to 37 seconds
+Mar 28 16:55:31 unknown.obfuscateddohost10.com chronyd[758]: Selected source 56.23.84.67 (2.rhel.pool.ntp.org)
+Mar 28 16:56:35 unknown.obfuscateddohost10.com systemd[1]: Stopping NTP client/server...
+Mar 28 16:56:35 unknown.obfuscateddohost10.com chronyd[758]: chronyd exiting
+Mar 28 16:56:35 unknown.obfuscateddohost10.com systemd[1]: chronyd.service: Deactivated successfully.
+Mar 28 16:56:35 unknown.obfuscateddohost10.com systemd[1]: Stopped NTP client/server.
+-- Boot 31bbcafaf3f847138863fcce089943b2 --
+Mar 28 16:57:14 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Mar 28 16:57:14 unknown.obfuscateddohost10.com chronyd[758]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Mar 28 16:57:14 unknown.obfuscateddohost10.com chronyd[758]: Frequency -16.432 +/- 0.149 ppm read from /var/lib/chrony/drift
+Mar 28 16:57:14 unknown.obfuscateddohost10.com chronyd[758]: Using right/UTC timezone to obtain leap second data
+Mar 28 16:57:14 unknown.obfuscateddohost10.com chronyd[758]: Loaded seccomp filter (level 2)
+Mar 28 16:57:14 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Mar 28 16:57:19 unknown.obfuscateddohost10.com chronyd[758]: Selected source 56.23.84.67 (2.rhel.pool.ntp.org)
+Mar 28 16:57:19 unknown.obfuscateddohost10.com chronyd[758]: System clock TAI offset set to 37 seconds
+Mar 28 16:57:21 unknown.obfuscateddohost10.com chronyd[758]: Selected source 43.72.88.14 (2.rhel.pool.ntp.org)
+-- Boot 04a6a67927694740b72daffc2fcecc6a --
+Mar 29 08:14:44 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Mar 29 08:14:44 unknown.obfuscateddohost10.com chronyd[762]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Mar 29 08:14:44 unknown.obfuscateddohost10.com chronyd[762]: Frequency -16.432 +/- 0.149 ppm read from /var/lib/chrony/drift
+Mar 29 08:14:44 unknown.obfuscateddohost10.com chronyd[762]: Using right/UTC timezone to obtain leap second data
+Mar 29 08:14:44 unknown.obfuscateddohost10.com chronyd[762]: Loaded seccomp filter (level 2)
+Mar 29 08:14:44 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Mar 29 08:14:50 unknown.obfuscateddohost10.com chronyd[762]: Selected source 44.46.52.34 (2.rhel.pool.ntp.org)
+Mar 29 08:14:50 unknown.obfuscateddohost10.com chronyd[762]: System clock TAI offset set to 37 seconds
+Mar 29 08:15:56 unknown.obfuscateddohost10.com chronyd[762]: Selected source 82.81.46.18 (2.rhel.pool.ntp.org)
+-- Boot d22201b5cce04ae0a38c73a0040a6540 --
+Apr 01 09:24:20 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Apr 01 09:24:20 unknown.obfuscateddohost10.com chronyd[763]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Apr 01 09:24:20 unknown.obfuscateddohost10.com chronyd[763]: Frequency -15.421 +/- 0.047 ppm read from /var/lib/chrony/drift
+Apr 01 09:24:20 unknown.obfuscateddohost10.com chronyd[763]: Using right/UTC timezone to obtain leap second data
+Apr 01 09:24:20 unknown.obfuscateddohost10.com chronyd[763]: Loaded seccomp filter (level 2)
+Apr 01 09:24:20 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Apr 01 09:24:26 unknown.obfuscateddohost10.com chronyd[763]: Selected source 14.38.96.22 (2.rhel.pool.ntp.org)
+Apr 01 09:24:26 unknown.obfuscateddohost10.com chronyd[763]: System clock TAI offset set to 37 seconds
+-- Boot 4979b93cd5814588b6d95258474fc65f --
+Apr 02 08:18:30 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Apr 02 08:18:30 unknown.obfuscateddohost10.com chronyd[764]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Apr 02 08:18:30 unknown.obfuscateddohost10.com chronyd[764]: Frequency -16.196 +/- 0.585 ppm read from /var/lib/chrony/drift
+Apr 02 08:18:30 unknown.obfuscateddohost10.com chronyd[764]: Using right/UTC timezone to obtain leap second data
+Apr 02 08:18:30 unknown.obfuscateddohost10.com chronyd[764]: Loaded seccomp filter (level 2)
+Apr 02 08:18:30 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Apr 02 08:18:36 unknown.obfuscateddohost10.com chronyd[764]: Selected source 21.96.61.83 (2.rhel.pool.ntp.org)
+Apr 02 08:18:36 unknown.obfuscateddohost10.com chronyd[764]: System clock TAI offset set to 37 seconds
+Apr 02 08:19:43 unknown.obfuscateddohost10.com chronyd[764]: Selected source 66.65.31.80 (2.rhel.pool.ntp.org)
+-- Boot 6ce2216360bd458a9dd08bf147f5aae3 --
+Apr 03 08:22:37 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Apr 03 08:22:37 unknown.obfuscateddohost10.com chronyd[763]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Apr 03 08:22:37 unknown.obfuscateddohost10.com chronyd[763]: Frequency -15.727 +/- 0.031 ppm read from /var/lib/chrony/drift
+Apr 03 08:22:37 unknown.obfuscateddohost10.com chronyd[763]: Using right/UTC timezone to obtain leap second data
+Apr 03 08:22:37 unknown.obfuscateddohost10.com chronyd[763]: Loaded seccomp filter (level 2)
+Apr 03 08:22:37 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Apr 03 08:22:43 unknown.obfuscateddohost10.com chronyd[763]: Selected source 36.98.96.13 (2.rhel.pool.ntp.org)
+Apr 03 08:22:43 unknown.obfuscateddohost10.com chronyd[763]: System clock TAI offset set to 37 seconds
+Apr 03 08:23:49 unknown.obfuscateddohost10.com chronyd[763]: Selected source 38.12.66.64 (2.rhel.pool.ntp.org)
+-- Boot 96d241245ad7446c877b83b32bceab12 --
+Apr 04 08:19:38 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Apr 04 08:19:38 unknown.obfuscateddohost10.com chronyd[763]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Apr 04 08:19:38 unknown.obfuscateddohost10.com chronyd[763]: Frequency -16.031 +/- 0.044 ppm read from /var/lib/chrony/drift
+Apr 04 08:19:38 unknown.obfuscateddohost10.com chronyd[763]: Using right/UTC timezone to obtain leap second data
+Apr 04 08:19:38 unknown.obfuscateddohost10.com chronyd[763]: Loaded seccomp filter (level 2)
+Apr 04 08:19:38 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Apr 04 08:19:44 unknown.obfuscateddohost10.com chronyd[763]: Selected source 52.88.30.82 (2.rhel.pool.ntp.org)
+Apr 04 08:19:44 unknown.obfuscateddohost10.com chronyd[763]: System clock TAI offset set to 37 seconds
+-- Boot 90ab1aa8d30a4a07a6d5719ba1616ba6 --
+Apr 05 08:19:35 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Apr 05 08:19:35 unknown.obfuscateddohost10.com chronyd[763]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Apr 05 08:19:35 unknown.obfuscateddohost10.com chronyd[763]: Frequency -16.849 +/- 0.065 ppm read from /var/lib/chrony/drift
+Apr 05 08:19:35 unknown.obfuscateddohost10.com chronyd[763]: Using right/UTC timezone to obtain leap second data
+Apr 05 08:19:35 unknown.obfuscateddohost10.com chronyd[763]: Loaded seccomp filter (level 2)
+Apr 05 08:19:35 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Apr 05 08:19:43 unknown.obfuscateddohost10.com chronyd[763]: Selected source 73.87.22.18 (2.rhel.pool.ntp.org)
+Apr 05 08:19:43 unknown.obfuscateddohost10.com chronyd[763]: System clock TAI offset set to 37 seconds
+Apr 05 08:20:51 unknown.obfuscateddohost10.com chronyd[763]: Source 24.98.55.92 replaced with 44.22.65.95 (2.rhel.pool.ntp.org)
+Apr 05 08:22:58 unknown.obfuscateddohost10.com chronyd[763]: Selected source 52.88.30.82 (2.rhel.pool.ntp.org)
+-- Boot 8a79ab32ccfc4388aba299058c4fa7ef --
+Apr 08 08:24:52 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Apr 08 08:24:52 unknown.obfuscateddohost10.com chronyd[764]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Apr 08 08:24:52 unknown.obfuscateddohost10.com chronyd[764]: Frequency -17.429 +/- 0.058 ppm read from /var/lib/chrony/drift
+Apr 08 08:24:52 unknown.obfuscateddohost10.com chronyd[764]: Using right/UTC timezone to obtain leap second data
+Apr 08 08:24:52 unknown.obfuscateddohost10.com chronyd[764]: Loaded seccomp filter (level 2)
+Apr 08 08:24:52 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Apr 08 08:24:58 unknown.obfuscateddohost10.com chronyd[764]: Selected source 83.45.74.89 (2.rhel.pool.ntp.org)
+Apr 08 08:24:58 unknown.obfuscateddohost10.com chronyd[764]: System clock TAI offset set to 37 seconds
+Apr 08 08:28:15 unknown.obfuscateddohost10.com chronyd[764]: Selected source 41.25.55.85 (2.rhel.pool.ntp.org)
+-- Boot 2561f08555d44ce0b68667fd75c3c7f0 --
+Apr 09 08:13:55 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Apr 09 08:13:55 unknown.obfuscateddohost10.com chronyd[763]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Apr 09 08:13:55 unknown.obfuscateddohost10.com chronyd[763]: Frequency -17.193 +/- 0.035 ppm read from /var/lib/chrony/drift
+Apr 09 08:13:55 unknown.obfuscateddohost10.com chronyd[763]: Using right/UTC timezone to obtain leap second data
+Apr 09 08:13:55 unknown.obfuscateddohost10.com chronyd[763]: Loaded seccomp filter (level 2)
+Apr 09 08:13:55 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Apr 09 08:14:01 unknown.obfuscateddohost10.com chronyd[763]: Selected source 15.15.80.48 (2.rhel.pool.ntp.org)
+Apr 09 08:14:01 unknown.obfuscateddohost10.com chronyd[763]: System clock TAI offset set to 37 seconds
+Apr 09 08:15:07 unknown.obfuscateddohost10.com chronyd[763]: Selected source 36.42.63.69 (2.rhel.pool.ntp.org)
+-- Boot 68af58a11a62404b9713e653b9181963 --
+Apr 10 08:21:34 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Apr 10 08:21:34 unknown.obfuscateddohost10.com chronyd[762]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Apr 10 08:21:34 unknown.obfuscateddohost10.com chronyd[762]: Frequency -16.673 +/- 0.046 ppm read from /var/lib/chrony/drift
+Apr 10 08:21:34 unknown.obfuscateddohost10.com chronyd[762]: Using right/UTC timezone to obtain leap second data
+Apr 10 08:21:34 unknown.obfuscateddohost10.com chronyd[762]: Loaded seccomp filter (level 2)
+Apr 10 08:21:34 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Apr 10 08:21:40 unknown.obfuscateddohost10.com chronyd[762]: Selected source 97.33.40.84 (2.rhel.pool.ntp.org)
+Apr 10 08:21:40 unknown.obfuscateddohost10.com chronyd[762]: System clock TAI offset set to 37 seconds
+Apr 10 08:22:45 unknown.obfuscateddohost10.com chronyd[762]: Selected source 85.51.67.47 (2.rhel.pool.ntp.org)
+Apr 10 08:28:10 unknown.obfuscateddohost10.com chronyd[762]: Selected source 97.33.40.84 (2.rhel.pool.ntp.org)
+Apr 10 09:01:34 unknown.obfuscateddohost10.com chronyd[762]: Selected source 41.31.38.21 (2.rhel.pool.ntp.org)
+Apr 10 11:31:37 unknown.obfuscateddohost10.com chronyd[762]: Selected source 97.33.40.84 (2.rhel.pool.ntp.org)
+Apr 10 12:24:08 unknown.obfuscateddohost10.com chronyd[762]: Selected source 41.31.38.21 (2.rhel.pool.ntp.org)
+Apr 10 13:33:34 unknown.obfuscateddohost10.com chronyd[762]: Selected source 97.33.40.84 (2.rhel.pool.ntp.org)
+Apr 10 14:07:33 unknown.obfuscateddohost10.com chronyd[762]: Selected source 41.31.38.21 (2.rhel.pool.ntp.org)
+-- Boot 6683125fb6d54a6580846278feacf935 --
+Apr 11 08:13:45 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Apr 11 08:13:45 unknown.obfuscateddohost10.com chronyd[763]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Apr 11 08:13:45 unknown.obfuscateddohost10.com chronyd[763]: Frequency -16.932 +/- 0.078 ppm read from /var/lib/chrony/drift
+Apr 11 08:13:45 unknown.obfuscateddohost10.com chronyd[763]: Using right/UTC timezone to obtain leap second data
+Apr 11 08:13:45 unknown.obfuscateddohost10.com chronyd[763]: Loaded seccomp filter (level 2)
+Apr 11 08:13:45 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Apr 11 08:13:51 unknown.obfuscateddohost10.com chronyd[763]: Selected source 31.64.12.28 (2.rhel.pool.ntp.org)
+Apr 11 08:13:51 unknown.obfuscateddohost10.com chronyd[763]: System clock TAI offset set to 37 seconds
+Apr 11 08:14:56 unknown.obfuscateddohost10.com chronyd[763]: Selected source 21.87.23.35 (2.rhel.pool.ntp.org)
+Apr 11 08:17:06 unknown.obfuscateddohost10.com chronyd[763]: Selected source 14.38.96.22 (2.rhel.pool.ntp.org)
+-- Boot c97cd511ce0c4aee9f7e7debf10e5b78 --
+Apr 12 08:00:37 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Apr 12 08:00:37 unknown.obfuscateddohost10.com chronyd[764]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Apr 12 08:00:37 unknown.obfuscateddohost10.com chronyd[764]: Frequency -10.321 +/- 0.025 ppm read from /var/lib/chrony/drift
+Apr 12 08:00:37 unknown.obfuscateddohost10.com chronyd[764]: Using right/UTC timezone to obtain leap second data
+Apr 12 08:00:37 unknown.obfuscateddohost10.com chronyd[764]: Loaded seccomp filter (level 2)
+Apr 12 08:00:37 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Apr 12 08:00:43 unknown.obfuscateddohost10.com chronyd[764]: Selected source 55.47.16.94 (2.rhel.pool.ntp.org)
+Apr 12 08:00:43 unknown.obfuscateddohost10.com chronyd[764]: System clock TAI offset set to 37 seconds
+Apr 12 08:01:50 unknown.obfuscateddohost10.com chronyd[764]: Selected source 42.19.96.63 (2.rhel.pool.ntp.org)
+Apr 12 08:02:55 unknown.obfuscateddohost10.com chronyd[764]: Selected source 55.47.16.94 (2.rhel.pool.ntp.org)
+-- Boot 8460cff98c6f43138930550d17c0d8de --
+Apr 15 08:16:33 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Apr 15 08:16:33 unknown.obfuscateddohost10.com chronyd[764]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Apr 15 08:16:33 unknown.obfuscateddohost10.com chronyd[764]: Frequency -16.883 +/- 0.020 ppm read from /var/lib/chrony/drift
+Apr 15 08:16:33 unknown.obfuscateddohost10.com chronyd[764]: Using right/UTC timezone to obtain leap second data
+Apr 15 08:16:33 unknown.obfuscateddohost10.com chronyd[764]: Loaded seccomp filter (level 2)
+Apr 15 08:16:33 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Apr 15 08:16:41 unknown.obfuscateddohost10.com chronyd[764]: Selected source 26.15.11.71 (2.rhel.pool.ntp.org)
+Apr 15 08:16:41 unknown.obfuscateddohost10.com chronyd[764]: System clock TAI offset set to 37 seconds
+Apr 15 08:18:50 unknown.obfuscateddohost10.com chronyd[764]: Selected source 52.38.17.12 (2.rhel.pool.ntp.org)
+Apr 15 13:24:07 unknown.obfuscateddohost10.com chronyd[764]: Selected source 37.16.44.75 (2.rhel.pool.ntp.org)
+-- Boot fc6fca8004454cf2a35c07be46575d1b --
+Apr 16 08:09:32 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Apr 16 08:09:32 unknown.obfuscateddohost10.com chronyd[762]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Apr 16 08:09:32 unknown.obfuscateddohost10.com chronyd[762]: Frequency -16.582 +/- 0.055 ppm read from /var/lib/chrony/drift
+Apr 16 08:09:32 unknown.obfuscateddohost10.com chronyd[762]: Using right/UTC timezone to obtain leap second data
+Apr 16 08:09:32 unknown.obfuscateddohost10.com chronyd[762]: Loaded seccomp filter (level 2)
+Apr 16 08:09:32 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Apr 16 08:09:38 unknown.obfuscateddohost10.com chronyd[762]: Selected source 16.81.46.51 (2.rhel.pool.ntp.org)
+Apr 16 08:09:38 unknown.obfuscateddohost10.com chronyd[762]: System clock TAI offset set to 37 seconds
+Apr 16 08:10:44 unknown.obfuscateddohost10.com chronyd[762]: Selected source 45.96.41.14 (2.rhel.pool.ntp.org)
+-- Boot b47ee1a3e3e843e096fd09c18e2b66f3 --
+Apr 17 08:20:04 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Apr 17 08:20:04 unknown.obfuscateddohost10.com chronyd[764]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Apr 17 08:20:04 unknown.obfuscateddohost10.com chronyd[764]: Frequency -16.615 +/- 0.027 ppm read from /var/lib/chrony/drift
+Apr 17 08:20:04 unknown.obfuscateddohost10.com chronyd[764]: Using right/UTC timezone to obtain leap second data
+Apr 17 08:20:04 unknown.obfuscateddohost10.com chronyd[764]: Loaded seccomp filter (level 2)
+Apr 17 08:20:04 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Apr 17 08:20:10 unknown.obfuscateddohost10.com chronyd[764]: Selected source 26.15.11.71 (2.rhel.pool.ntp.org)
+Apr 17 08:20:10 unknown.obfuscateddohost10.com chronyd[764]: System clock TAI offset set to 37 seconds
+Apr 17 08:21:17 unknown.obfuscateddohost10.com chronyd[764]: Selected source 91.44.44.73 (2.rhel.pool.ntp.org)
+-- Boot 5de4a858064245b29e1bf52704c41750 --
+Apr 18 07:56:42 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Apr 18 07:56:42 unknown.obfuscateddohost10.com chronyd[763]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Apr 18 07:56:42 unknown.obfuscateddohost10.com chronyd[763]: Frequency -16.611 +/- 0.040 ppm read from /var/lib/chrony/drift
+Apr 18 07:56:42 unknown.obfuscateddohost10.com chronyd[763]: Using right/UTC timezone to obtain leap second data
+Apr 18 07:56:42 unknown.obfuscateddohost10.com chronyd[763]: Loaded seccomp filter (level 2)
+Apr 18 07:56:42 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Apr 18 07:56:48 unknown.obfuscateddohost10.com chronyd[763]: Selected source 63.51.26.38 (2.rhel.pool.ntp.org)
+Apr 18 07:56:48 unknown.obfuscateddohost10.com chronyd[763]: System clock TAI offset set to 37 seconds
+Apr 18 07:57:54 unknown.obfuscateddohost10.com chronyd[763]: Selected source 47.46.51.17 (2.rhel.pool.ntp.org)
+Apr 18 07:58:58 unknown.obfuscateddohost10.com chronyd[763]: Source 63.51.26.38 replaced with 44.46.52.34 (2.rhel.pool.ntp.org)
+Apr 18 08:05:26 unknown.obfuscateddohost10.com chronyd[763]: Selected source 44.46.52.34 (2.rhel.pool.ntp.org)
+-- Boot 8aaeb66105e14f69949627be7c625144 --
+Apr 19 08:27:29 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Apr 19 08:27:29 unknown.obfuscateddohost10.com chronyd[764]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Apr 19 08:27:29 unknown.obfuscateddohost10.com chronyd[764]: Frequency -16.306 +/- 0.030 ppm read from /var/lib/chrony/drift
+Apr 19 08:27:29 unknown.obfuscateddohost10.com chronyd[764]: Using right/UTC timezone to obtain leap second data
+Apr 19 08:27:29 unknown.obfuscateddohost10.com chronyd[764]: Loaded seccomp filter (level 2)
+Apr 19 08:27:29 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Apr 19 08:27:35 unknown.obfuscateddohost10.com chronyd[764]: Selected source 40.73.88.29 (2.rhel.pool.ntp.org)
+Apr 19 08:27:35 unknown.obfuscateddohost10.com chronyd[764]: System clock TAI offset set to 37 seconds
+Apr 19 08:27:37 unknown.obfuscateddohost10.com chronyd[764]: Selected source 16.14.37.50 (2.rhel.pool.ntp.org)
+Apr 19 17:06:27 unknown.obfuscateddohost10.com chronyd[764]: Selected source 40.73.88.29 (2.rhel.pool.ntp.org)
+-- Boot d228afb36e264c0d96816a7d822195ef --
+Apr 22 08:22:10 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Apr 22 08:22:10 unknown.obfuscateddohost10.com chronyd[764]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Apr 22 08:22:10 unknown.obfuscateddohost10.com chronyd[764]: Frequency -17.159 +/- 0.024 ppm read from /var/lib/chrony/drift
+Apr 22 08:22:10 unknown.obfuscateddohost10.com chronyd[764]: Using right/UTC timezone to obtain leap second data
+Apr 22 08:22:10 unknown.obfuscateddohost10.com chronyd[764]: Loaded seccomp filter (level 2)
+Apr 22 08:22:10 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Apr 22 08:22:16 unknown.obfuscateddohost10.com chronyd[764]: Selected source 41.31.38.21 (2.rhel.pool.ntp.org)
+Apr 22 08:22:16 unknown.obfuscateddohost10.com chronyd[764]: System clock TAI offset set to 37 seconds
+Apr 22 08:23:22 unknown.obfuscateddohost10.com chronyd[764]: Selected source 67.86.11.29 (2.rhel.pool.ntp.org)
+-- Boot 59c094ae64db4f1b88490d0cf961ce04 --
+Apr 23 08:36:18 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Apr 23 08:36:18 unknown.obfuscateddohost10.com chronyd[765]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Apr 23 08:36:18 unknown.obfuscateddohost10.com chronyd[765]: Frequency -16.344 +/- 0.037 ppm read from /var/lib/chrony/drift
+Apr 23 08:36:18 unknown.obfuscateddohost10.com chronyd[765]: Using right/UTC timezone to obtain leap second data
+Apr 23 08:36:18 unknown.obfuscateddohost10.com chronyd[765]: Loaded seccomp filter (level 2)
+Apr 23 08:36:18 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Apr 23 08:36:25 unknown.obfuscateddohost10.com chronyd[765]: Selected source 36.98.96.13 (2.rhel.pool.ntp.org)
+Apr 23 08:36:25 unknown.obfuscateddohost10.com chronyd[765]: System clock TAI offset set to 37 seconds
+Apr 23 08:54:45 unknown.obfuscateddohost10.com chronyd[765]: Selected source 71.34.92.91 (2.rhel.pool.ntp.org)
+-- Boot dd941e6374ce42d295e48edcd119f081 --
+Apr 24 08:55:52 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Apr 24 08:55:52 unknown.obfuscateddohost10.com chronyd[763]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Apr 24 08:55:52 unknown.obfuscateddohost10.com chronyd[763]: Frequency -16.544 +/- 0.052 ppm read from /var/lib/chrony/drift
+Apr 24 08:55:52 unknown.obfuscateddohost10.com chronyd[763]: Using right/UTC timezone to obtain leap second data
+Apr 24 08:55:52 unknown.obfuscateddohost10.com chronyd[763]: Loaded seccomp filter (level 2)
+Apr 24 08:55:52 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Apr 24 08:55:58 unknown.obfuscateddohost10.com chronyd[763]: Selected source 36.47.24.46 (2.rhel.pool.ntp.org)
+Apr 24 08:55:58 unknown.obfuscateddohost10.com chronyd[763]: System clock wrong by 1.005079 seconds
+Apr 24 08:55:59 unknown.obfuscateddohost10.com chronyd[763]: System clock was stepped by 1.005079 seconds
+Apr 24 08:55:59 unknown.obfuscateddohost10.com chronyd[763]: System clock TAI offset set to 37 seconds
+Apr 24 08:56:00 unknown.obfuscateddohost10.com chronyd[763]: Selected source 60.13.15.56 (2.rhel.pool.ntp.org)
+Apr 24 08:58:10 unknown.obfuscateddohost10.com chronyd[763]: Selected source 53.46.94.91 (2.rhel.pool.ntp.org)
+Apr 24 09:20:52 unknown.obfuscateddohost10.com chronyd[763]: Selected source 36.47.24.46 (2.rhel.pool.ntp.org)
+-- Boot 663261ea6ff741d9afd1333cc578efe3 --
+Apr 25 08:34:05 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Apr 25 08:34:05 unknown.obfuscateddohost10.com chronyd[762]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Apr 25 08:34:05 unknown.obfuscateddohost10.com chronyd[762]: Frequency -16.359 +/- 0.085 ppm read from /var/lib/chrony/drift
+Apr 25 08:34:05 unknown.obfuscateddohost10.com chronyd[762]: Using right/UTC timezone to obtain leap second data
+Apr 25 08:34:05 unknown.obfuscateddohost10.com chronyd[762]: Loaded seccomp filter (level 2)
+Apr 25 08:34:05 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Apr 25 08:34:11 unknown.obfuscateddohost10.com chronyd[762]: Selected source 55.47.16.94 (2.rhel.pool.ntp.org)
+Apr 25 08:34:11 unknown.obfuscateddohost10.com chronyd[762]: System clock TAI offset set to 37 seconds
+-- Boot c6b473e7a2064dfb961308f52615795c --
+Apr 26 08:29:14 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Apr 26 08:29:14 unknown.obfuscateddohost10.com chronyd[762]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Apr 26 08:29:14 unknown.obfuscateddohost10.com chronyd[762]: Frequency -17.178 +/- 0.042 ppm read from /var/lib/chrony/drift
+Apr 26 08:29:14 unknown.obfuscateddohost10.com chronyd[762]: Using right/UTC timezone to obtain leap second data
+Apr 26 08:29:14 unknown.obfuscateddohost10.com chronyd[762]: Loaded seccomp filter (level 2)
+Apr 26 08:29:14 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Apr 26 08:29:20 unknown.obfuscateddohost10.com chronyd[762]: Selected source 81.45.15.69 (2.rhel.pool.ntp.org)
+Apr 26 08:29:20 unknown.obfuscateddohost10.com chronyd[762]: System clock TAI offset set to 37 seconds
+-- Boot 2bbe819187c746649064fe7f142225c6 --
+Apr 29 08:22:34 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Apr 29 08:22:34 unknown.obfuscateddohost10.com chronyd[763]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Apr 29 08:22:34 unknown.obfuscateddohost10.com chronyd[763]: Frequency -16.612 +/- 0.019 ppm read from /var/lib/chrony/drift
+Apr 29 08:22:34 unknown.obfuscateddohost10.com chronyd[763]: Using right/UTC timezone to obtain leap second data
+Apr 29 08:22:34 unknown.obfuscateddohost10.com chronyd[763]: Loaded seccomp filter (level 2)
+Apr 29 08:22:34 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Apr 29 08:22:40 unknown.obfuscateddohost10.com chronyd[763]: Selected source 56.61.79.84 (2.rhel.pool.ntp.org)
+Apr 29 08:22:40 unknown.obfuscateddohost10.com chronyd[763]: System clock TAI offset set to 37 seconds
+-- Boot 6ea9c5df63d746f583c0ade00f122d48 --
+Apr 30 08:29:43 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+Apr 30 08:29:43 unknown.obfuscateddohost10.com chronyd[766]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Apr 30 08:29:43 unknown.obfuscateddohost10.com chronyd[766]: Frequency -16.906 +/- 0.009 ppm read from /var/lib/chrony/drift
+Apr 30 08:29:43 unknown.obfuscateddohost10.com chronyd[766]: Using right/UTC timezone to obtain leap second data
+Apr 30 08:29:43 unknown.obfuscateddohost10.com chronyd[766]: Loaded seccomp filter (level 2)
+Apr 30 08:29:43 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+Apr 30 08:29:49 unknown.obfuscateddohost10.com chronyd[766]: Selected source 62.93.66.64 (2.rhel.pool.ntp.org)
+Apr 30 08:29:49 unknown.obfuscateddohost10.com chronyd[766]: System clock TAI offset set to 37 seconds
+Apr 30 08:30:55 unknown.obfuscateddohost10.com chronyd[766]: Selected source 44.46.52.34 (2.rhel.pool.ntp.org)
+-- Boot f76a3ba615b546868cde901ddbdf7230 --
+May 01 08:25:34 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+May 01 08:25:34 unknown.obfuscateddohost10.com chronyd[763]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+May 01 08:25:34 unknown.obfuscateddohost10.com chronyd[763]: Frequency -16.592 +/- 0.025 ppm read from /var/lib/chrony/drift
+May 01 08:25:34 unknown.obfuscateddohost10.com chronyd[763]: Using right/UTC timezone to obtain leap second data
+May 01 08:25:34 unknown.obfuscateddohost10.com chronyd[763]: Loaded seccomp filter (level 2)
+May 01 08:25:34 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+May 01 08:25:40 unknown.obfuscateddohost10.com chronyd[763]: Selected source 63.51.26.38 (2.rhel.pool.ntp.org)
+May 01 08:25:40 unknown.obfuscateddohost10.com chronyd[763]: System clock TAI offset set to 37 seconds
+May 01 08:26:47 unknown.obfuscateddohost10.com chronyd[763]: Selected source 74.44.49.76 (2.rhel.pool.ntp.org)
+May 01 09:17:27 unknown.obfuscateddohost10.com chronyd[763]: Source 63.51.26.38 replaced with 32.25.16.39 (2.rhel.pool.ntp.org)
+-- Boot ebacac51649845ccbc1cec418adc31bc --
+May 02 08:25:10 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+May 02 08:25:10 unknown.obfuscateddohost10.com chronyd[763]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+May 02 08:25:10 unknown.obfuscateddohost10.com chronyd[763]: Frequency -16.588 +/- 0.025 ppm read from /var/lib/chrony/drift
+May 02 08:25:10 unknown.obfuscateddohost10.com chronyd[763]: Using right/UTC timezone to obtain leap second data
+May 02 08:25:10 unknown.obfuscateddohost10.com chronyd[763]: Loaded seccomp filter (level 2)
+May 02 08:25:10 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+May 02 08:25:16 unknown.obfuscateddohost10.com chronyd[763]: Selected source 18.68.19.96 (2.rhel.pool.ntp.org)
+May 02 08:25:16 unknown.obfuscateddohost10.com chronyd[763]: System clock TAI offset set to 37 seconds
+May 02 08:26:23 unknown.obfuscateddohost10.com chronyd[763]: Selected source 30.88.41.94 (2.rhel.pool.ntp.org)
+May 02 08:31:47 unknown.obfuscateddohost10.com chronyd[763]: Selected source 48.78.57.11 (2.rhel.pool.ntp.org)
+-- Boot 9e518c76cbb34174b424cf17bb424ab0 --
+May 03 08:32:34 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+May 03 08:32:34 unknown.obfuscateddohost10.com chronyd[766]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+May 03 08:32:34 unknown.obfuscateddohost10.com chronyd[766]: Frequency -16.902 +/- 0.014 ppm read from /var/lib/chrony/drift
+May 03 08:32:34 unknown.obfuscateddohost10.com chronyd[766]: Using right/UTC timezone to obtain leap second data
+May 03 08:32:34 unknown.obfuscateddohost10.com chronyd[766]: Loaded seccomp filter (level 2)
+May 03 08:32:34 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+May 03 08:32:40 unknown.obfuscateddohost10.com chronyd[766]: Selected source 64.50.14.87 (2.rhel.pool.ntp.org)
+May 03 08:32:40 unknown.obfuscateddohost10.com chronyd[766]: System clock TAI offset set to 37 seconds
+May 03 08:37:01 unknown.obfuscateddohost10.com chronyd[766]: Selected source 78.67.65.97 (2.rhel.pool.ntp.org)
+-- Boot 214a8c823ebf4236941aa87c2d034966 --
+May 06 08:23:47 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+May 06 08:23:47 unknown.obfuscateddohost10.com chronyd[763]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+May 06 08:23:47 unknown.obfuscateddohost10.com chronyd[763]: Frequency -16.897 +/- 0.020 ppm read from /var/lib/chrony/drift
+May 06 08:23:47 unknown.obfuscateddohost10.com chronyd[763]: Using right/UTC timezone to obtain leap second data
+May 06 08:23:47 unknown.obfuscateddohost10.com chronyd[763]: Loaded seccomp filter (level 2)
+May 06 08:23:47 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+May 06 08:23:53 unknown.obfuscateddohost10.com chronyd[763]: Selected source 14.36.29.21 (2.rhel.pool.ntp.org)
+May 06 08:23:53 unknown.obfuscateddohost10.com chronyd[763]: System clock TAI offset set to 37 seconds
+May 06 08:26:05 unknown.obfuscateddohost10.com chronyd[763]: Selected source 64.50.14.87 (2.rhel.pool.ntp.org)
+-- Boot aa420c6f9f2f4c81b4df2cdd22391351 --
+May 07 08:28:04 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+May 07 08:28:04 unknown.obfuscateddohost10.com chronyd[762]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+May 07 08:28:04 unknown.obfuscateddohost10.com chronyd[762]: Frequency -17.252 +/- 0.035 ppm read from /var/lib/chrony/drift
+May 07 08:28:04 unknown.obfuscateddohost10.com chronyd[762]: Using right/UTC timezone to obtain leap second data
+May 07 08:28:04 unknown.obfuscateddohost10.com chronyd[762]: Loaded seccomp filter (level 2)
+May 07 08:28:04 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+May 07 08:28:10 unknown.obfuscateddohost10.com chronyd[762]: Selected source 87.30.72.62 (2.rhel.pool.ntp.org)
+May 07 08:28:10 unknown.obfuscateddohost10.com chronyd[762]: System clock TAI offset set to 37 seconds
+-- Boot d37c0e37591e487bbc8180ed243a9b30 --
+May 08 08:12:04 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+May 08 08:12:04 unknown.obfuscateddohost10.com chronyd[763]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+May 08 08:12:04 unknown.obfuscateddohost10.com chronyd[763]: Frequency -16.302 +/- 0.019 ppm read from /var/lib/chrony/drift
+May 08 08:12:04 unknown.obfuscateddohost10.com chronyd[763]: Using right/UTC timezone to obtain leap second data
+May 08 08:12:04 unknown.obfuscateddohost10.com chronyd[763]: Loaded seccomp filter (level 2)
+May 08 08:12:04 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+May 08 08:12:10 unknown.obfuscateddohost10.com chronyd[763]: Selected source 21.46.77.42 (2.rhel.pool.ntp.org)
+May 08 08:12:10 unknown.obfuscateddohost10.com chronyd[763]: System clock TAI offset set to 37 seconds
+-- Boot 9a05f20c0e124cd39b7e1b8c1565d64c --
+May 09 08:13:41 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+May 09 08:13:41 unknown.obfuscateddohost10.com chronyd[763]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+May 09 08:13:41 unknown.obfuscateddohost10.com chronyd[763]: Frequency -16.870 +/- 0.053 ppm read from /var/lib/chrony/drift
+May 09 08:13:41 unknown.obfuscateddohost10.com chronyd[763]: Using right/UTC timezone to obtain leap second data
+May 09 08:13:41 unknown.obfuscateddohost10.com chronyd[763]: Loaded seccomp filter (level 2)
+May 09 08:13:41 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+May 09 08:13:47 unknown.obfuscateddohost10.com chronyd[763]: Selected source 94.49.37.75 (2.rhel.pool.ntp.org)
+May 09 08:13:47 unknown.obfuscateddohost10.com chronyd[763]: System clock TAI offset set to 37 seconds
+May 09 08:13:49 unknown.obfuscateddohost10.com chronyd[763]: Selected source 82.81.46.18 (2.rhel.pool.ntp.org)
+-- Boot 72ef184d98e64b679c041865cfc7e9c8 --
+May 10 08:17:43 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+May 10 08:17:43 unknown.obfuscateddohost10.com chronyd[763]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+May 10 08:17:43 unknown.obfuscateddohost10.com chronyd[763]: Frequency -16.648 +/- 0.034 ppm read from /var/lib/chrony/drift
+May 10 08:17:43 unknown.obfuscateddohost10.com chronyd[763]: Using right/UTC timezone to obtain leap second data
+May 10 08:17:43 unknown.obfuscateddohost10.com chronyd[763]: Loaded seccomp filter (level 2)
+May 10 08:17:43 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+May 10 08:17:49 unknown.obfuscateddohost10.com chronyd[763]: Selected source 90.31.96.21 (2.rhel.pool.ntp.org)
+May 10 08:17:49 unknown.obfuscateddohost10.com chronyd[763]: System clock TAI offset set to 37 seconds
+May 10 08:18:56 unknown.obfuscateddohost10.com chronyd[763]: Selected source 86.81.88.82 (2.rhel.pool.ntp.org)
+-- Boot 092c41b52c874da2bab2b07129f06bba --
+May 13 08:16:51 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+May 13 08:16:51 unknown.obfuscateddohost10.com chronyd[763]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+May 13 08:16:51 unknown.obfuscateddohost10.com chronyd[763]: Frequency -16.938 +/- 0.034 ppm read from /var/lib/chrony/drift
+May 13 08:16:51 unknown.obfuscateddohost10.com chronyd[763]: Using right/UTC timezone to obtain leap second data
+May 13 08:16:51 unknown.obfuscateddohost10.com chronyd[763]: Loaded seccomp filter (level 2)
+May 13 08:16:51 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+May 13 08:16:57 unknown.obfuscateddohost10.com chronyd[763]: Selected source 97.58.63.56 (2.rhel.pool.ntp.org)
+May 13 08:16:57 unknown.obfuscateddohost10.com chronyd[763]: System clock TAI offset set to 37 seconds
+May 13 08:18:03 unknown.obfuscateddohost10.com chronyd[763]: Selected source 99.96.40.85 (2.rhel.pool.ntp.org)
+May 13 08:26:42 unknown.obfuscateddohost10.com chronyd[763]: Selected source 97.58.63.56 (2.rhel.pool.ntp.org)
+May 13 09:15:15 unknown.obfuscateddohost10.com chronyd[763]: Selected source 99.96.40.85 (2.rhel.pool.ntp.org)
+-- Boot 5533d3a1ba8a48b2b91fac47e19130b2 --
+May 14 08:05:23 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+May 14 08:05:23 unknown.obfuscateddohost10.com chronyd[764]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+May 14 08:05:23 unknown.obfuscateddohost10.com chronyd[764]: Frequency -17.507 +/- 0.009 ppm read from /var/lib/chrony/drift
+May 14 08:05:23 unknown.obfuscateddohost10.com chronyd[764]: Using right/UTC timezone to obtain leap second data
+May 14 08:05:23 unknown.obfuscateddohost10.com chronyd[764]: Loaded seccomp filter (level 2)
+May 14 08:05:23 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+May 14 08:05:29 unknown.obfuscateddohost10.com chronyd[764]: Selected source 91.75.64.71 (2.rhel.pool.ntp.org)
+May 14 08:05:29 unknown.obfuscateddohost10.com chronyd[764]: System clock TAI offset set to 37 seconds
+-- Boot 6ba9895fc0a8470ca6c77bc6450f1c33 --
+May 15 08:33:52 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+May 15 08:33:52 unknown.obfuscateddohost10.com chronyd[763]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+May 15 08:33:52 unknown.obfuscateddohost10.com chronyd[763]: Frequency -17.218 +/- 0.005 ppm read from /var/lib/chrony/drift
+May 15 08:33:52 unknown.obfuscateddohost10.com chronyd[763]: Using right/UTC timezone to obtain leap second data
+May 15 08:33:52 unknown.obfuscateddohost10.com chronyd[763]: Loaded seccomp filter (level 2)
+May 15 08:33:52 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+May 15 08:33:58 unknown.obfuscateddohost10.com chronyd[763]: Selected source 62.16.75.52 (2.rhel.pool.ntp.org)
+May 15 08:33:58 unknown.obfuscateddohost10.com chronyd[763]: System clock TAI offset set to 37 seconds
+May 15 08:35:03 unknown.obfuscateddohost10.com chronyd[763]: Selected source 36.12.94.27 (2.rhel.pool.ntp.org)
+May 15 08:39:24 unknown.obfuscateddohost10.com chronyd[763]: Selected source 62.16.75.52 (2.rhel.pool.ntp.org)
+May 15 08:50:11 unknown.obfuscateddohost10.com chronyd[763]: Source 36.12.94.27 replaced with 42.19.96.63 (2.rhel.pool.ntp.org)
+-- Boot 6fdf8884023743ae802b7f6fe65ce6b8 --
+May 16 08:14:54 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+May 16 08:14:54 unknown.obfuscateddohost10.com chronyd[765]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+May 16 08:14:54 unknown.obfuscateddohost10.com chronyd[765]: Frequency -16.676 +/- 0.051 ppm read from /var/lib/chrony/drift
+May 16 08:14:54 unknown.obfuscateddohost10.com chronyd[765]: Using right/UTC timezone to obtain leap second data
+May 16 08:14:54 unknown.obfuscateddohost10.com chronyd[765]: Loaded seccomp filter (level 2)
+May 16 08:14:54 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+May 16 08:15:00 unknown.obfuscateddohost10.com chronyd[765]: Selected source 33.67.61.50 (2.rhel.pool.ntp.org)
+May 16 08:15:00 unknown.obfuscateddohost10.com chronyd[765]: System clock TAI offset set to 37 seconds
+May 16 08:16:06 unknown.obfuscateddohost10.com chronyd[765]: Selected source 15.15.80.48 (2.rhel.pool.ntp.org)
+May 16 08:18:16 unknown.obfuscateddohost10.com chronyd[765]: Selected source 33.67.61.50 (2.rhel.pool.ntp.org)
+-- Boot 098b80264a054738963026d738ef8a54 --
+May 17 08:23:56 unknown.obfuscateddohost10.com systemd[1]: Starting NTP client/server...
+May 17 08:23:56 unknown.obfuscateddohost10.com chronyd[763]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+May 17 08:23:56 unknown.obfuscateddohost10.com chronyd[763]: Frequency -16.968 +/- 0.024 ppm read from /var/lib/chrony/drift
+May 17 08:23:56 unknown.obfuscateddohost10.com chronyd[763]: Using right/UTC timezone to obtain leap second data
+May 17 08:23:56 unknown.obfuscateddohost10.com chronyd[763]: Loaded seccomp filter (level 2)
+May 17 08:23:56 unknown.obfuscateddohost10.com systemd[1]: Started NTP client/server.
+May 17 08:24:02 unknown.obfuscateddohost10.com chronyd[763]: Selected source 33.67.61.50 (2.rhel.pool.ntp.org)
+May 17 08:24:02 unknown.obfuscateddohost10.com chronyd[763]: System clock TAI offset set to 37 seconds
+May 17 08:24:03 unknown.obfuscateddohost10.com chronyd[763]: Selected source 86.16.71.63 (2.rhel.pool.ntp.org)
+May 17 08:55:18 unknown.obfuscateddohost10.com chronyd[763]: Selected source 41.11.88.34 (2.rhel.pool.ntp.org)

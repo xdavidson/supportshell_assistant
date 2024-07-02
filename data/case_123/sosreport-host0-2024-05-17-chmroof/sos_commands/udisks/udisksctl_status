@@ -1,0 +1,4 @@
+MODEL                     REVISION  SERIAL               DEVICE
+--------------------------------------------------------------------------
+VirtIO Disk                                              vda     
+QEMU DVD-ROM              2.5+      QM00001              sr0     

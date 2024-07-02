@@ -1,0 +1,10 @@
+IPv6/IPv4 Group Memberships
+Interface       RefCnt Group
+--------------- ------ ---------------------
+lo              1      25.18.18.47
+enp1s0          1      25.18.18.47
+lo              1      5328::440c
+lo              1      53d7::5e5d
+enp1s0          2      5328::b6dd:3b65:fce4
+enp1s0          1      5328::440c
+enp1s0          1      53d7::5e5d

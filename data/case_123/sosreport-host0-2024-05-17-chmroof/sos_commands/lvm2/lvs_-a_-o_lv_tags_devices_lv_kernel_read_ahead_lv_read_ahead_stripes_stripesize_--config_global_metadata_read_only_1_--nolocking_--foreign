@@ -1,0 +1,4 @@
+  Devices file PVID TWwaBzKpPLw72JurTd1fm75BaZ9QNlUL last seen on /dev/vdb not found.
+  LV      VG      Attr       LSize   Pool Origin Data%  Meta%  Move Log Cpy%Sync Convert LV Tags Devices         KRahead Rahead #Str Stripe
+  lv_root root_vg -wi-ao----  <8.90g                                                             /dev/vda2(0)    128.00k   auto    1     0 
+  lv_swap root_vg -wi-ao---- 100.00m                                                             /dev/vda2(2278) 128.00k   auto    1     0 

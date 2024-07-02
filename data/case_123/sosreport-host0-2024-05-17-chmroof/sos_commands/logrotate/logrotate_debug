@@ -1,0 +1,166 @@
+WARNING: logrotate in debug mode does nothing except printing debug messages!  Consider using verbose mode (-v) instead if this is not what you want.
+
+reading config file /etc/logrotate.conf
+including /etc/logrotate.d
+reading config file bootlog
+reading config file btmp
+reading config file chrony
+reading config file dnf
+reading config file firewalld
+reading config file insights-client
+reading config file iscsiuiolog
+reading config file kvm_stat
+reading config file psacct
+reading config file rsyslog
+reading config file samba
+olddir is now /var/log/samba/old
+reading config file sssd
+reading config file subscription-manager
+reading config file wtmp
+Reading state from file: /var/lib/logrotate/logrotate.status
+Allocating hash table for state file, size 64 entries
+Creating new state
+Creating new state
+Creating new state
+Creating new state
+Creating new state
+Creating new state
+Creating new state
+Creating new state
+Creating new state
+Creating new state
+Creating new state
+Creating new state
+Creating new state
+Creating new state
+Creating new state
+Creating new state
+Creating new state
+Creating new state
+Creating new state
+Creating new state
+Creating new state
+Creating new state
+Creating new state
+Creating new state
+Creating new state
+
+Handling 14 logs
+
+rotating pattern: /var/log/boot.log
+ after 1 days (7 rotations)
+empty log files are not rotated, old logs are removed
+considering log /var/log/boot.log
+  Now: 2024-05-17 14:45
+  Last rotated at 2024-05-17 08:23
+  log does not need rotating (log has been rotated at 2024-05-17 08:23, which is less than a day ago)
+
+rotating pattern: /var/log/btmp  monthly (1 rotations)
+empty log files are rotated, old logs are removed
+considering log /var/log/btmp
+  Now: 2024-05-17 14:45
+  Last rotated at 2024-05-01 08:25
+  log does not need rotating (log has been rotated at 2024-05-01 08:25, which is less than a month ago)
+
+rotating pattern: /var/log/chrony/*.log  weekly (4 rotations)
+empty log files are rotated, old logs are removed
+considering log /var/log/chrony/*.log
+  log /var/log/chrony/*.log does not exist -- skipping
+not running postrotate script, since no logs were rotated
+
+rotating pattern: /var/log/hawkey.log  weekly (4 rotations)
+empty log files are not rotated, old logs are removed
+considering log /var/log/hawkey.log
+  Now: 2024-05-17 14:45
+  Last rotated at 2024-05-15 08:33
+  log does not need rotating (log has been rotated at 2024-05-15 08:33, which is less than a week ago)
+
+rotating pattern: /var/log/firewalld  weekly (4 rotations)
+empty log files are rotated, only log files >= 1048576 bytes are rotated, old logs are removed
+considering log /var/log/firewalld
+  Now: 2024-05-17 14:45
+  Last rotated at 2023-05-25 11:00
+  log does not need rotating ('minsize' directive is used and the log size is smaller than the minsize value)
+
+rotating pattern: /var/log/insights-client/*.log  weekly (4 rotations)
+empty log files are not rotated, old logs are removed
+considering log /var/log/insights-client/insights-client.log
+  Now: 2024-05-17 14:45
+  Last rotated at 2024-05-15 08:33
+  log does not need rotating (log has been rotated at 2024-05-15 08:33, which is less than a week ago)
+
+rotating pattern: /var/log/iscsiuio.log  weekly (4 rotations)
+empty log files are not rotated, old logs are removed
+considering log /var/log/iscsiuio.log
+  log /var/log/iscsiuio.log does not exist -- skipping
+not running postrotate script, since no logs were rotated
+
+rotating pattern: /var/log/kvm_stat.csv  10485760 bytes (5 rotations)
+empty log files are rotated, old logs are removed
+considering log /var/log/kvm_stat.csv
+  log /var/log/kvm_stat.csv does not exist -- skipping
+
+rotating pattern: /var/account/pacct  after 1 days (31 rotations)
+empty log files are not rotated, old logs are removed
+considering log /var/account/pacct
+  Now: 2024-05-17 14:45
+  Last rotated at 2023-05-25 11:00
+  log does not need rotating (log is empty)
+
+rotating pattern: /var/log/cron
+/var/log/maillog
+/var/log/messages
+/var/log/secure
+/var/log/spooler
+ weekly (4 rotations)
+empty log files are rotated, old logs are removed
+considering log /var/log/cron
+  Now: 2024-05-17 14:45
+  Last rotated at 2024-05-15 08:33
+  log does not need rotating (log has been rotated at 2024-05-15 08:33, which is less than a week ago)
+considering log /var/log/maillog
+  Now: 2024-05-17 14:45
+  Last rotated at 2024-05-15 08:33
+  log does not need rotating (log has been rotated at 2024-05-15 08:33, which is less than a week ago)
+considering log /var/log/messages
+  Now: 2024-05-17 14:45
+  Last rotated at 2024-05-15 08:33
+  log does not need rotating (log has been rotated at 2024-05-15 08:33, which is less than a week ago)
+considering log /var/log/secure
+  Now: 2024-05-17 14:45
+  Last rotated at 2024-05-15 08:33
+  log does not need rotating (log has been rotated at 2024-05-15 08:33, which is less than a week ago)
+considering log /var/log/spooler
+  Now: 2024-05-17 14:45
+  Last rotated at 2024-05-15 08:33
+  log does not need rotating (log has been rotated at 2024-05-15 08:33, which is less than a week ago)
+not running postrotate script, since no logs were rotated
+
+rotating pattern: /var/log/samba/log.*  weekly (99 rotations)
+olddir is /var/log/samba/old, empty log files are not rotated, old logs are removed
+considering log /var/log/samba/log.*
+  log /var/log/samba/log.* does not exist -- skipping
+
+rotating pattern: /var/log/sssd/*.log  weekly (2 rotations)
+empty log files are not rotated, old logs are removed
+considering log /var/log/sssd/*.log
+  log /var/log/sssd/*.log does not exist -- skipping
+not running postrotate script, since no logs were rotated
+
+rotating pattern: /var/log/rhsm/*.log  weekly (4 rotations)
+empty log files are not rotated, old logs are removed
+considering log /var/log/rhsm/rhsm.log
+  Now: 2024-05-17 14:45
+  Last rotated at 2024-05-15 08:33
+  log does not need rotating (log has been rotated at 2024-05-15 08:33, which is less than a week ago)
+considering log /var/log/rhsm/rhsmcertd.log
+  Now: 2024-05-17 14:45
+  Last rotated at 2024-05-15 08:33
+  log does not need rotating (log has been rotated at 2024-05-15 08:33, which is less than a week ago)
+
+rotating pattern: /var/log/wtmp  monthly (1 rotations)
+empty log files are rotated, only log files >= 1048576 bytes are rotated, old logs are removed
+considering log /var/log/wtmp
+  Now: 2024-05-17 14:45
+  Last rotated at 2023-05-25 11:00
+  log does not need rotating ('minsize' directive is used and the log size is smaller than the minsize value)

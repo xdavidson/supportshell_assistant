@@ -1,0 +1,7 @@
+NAME                ALIGNMENT MIN-IO OPT-IO PHY-SEC LOG-SEC ROTA SCHED       RQ-SIZE  RA WSAME
+sr0                         0    512      0     512     512    1 mq-deadline      64 128    0B
+vda                         0    512      0     512     512    1 mq-deadline     256 128    0B
+├─vda1                      0    512      0     512     512    1 mq-deadline     256 128    0B
+└─vda2                      0    512      0     512     512    1 mq-deadline     256 128    0B
+  ├─root_vg-lv_root         0    512      0     512     512    1                 128 128    0B
+  └─root_vg-lv_swap         0    512      0     512     512    1                 128 128    0B

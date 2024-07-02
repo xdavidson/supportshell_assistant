@@ -1,0 +1,4 @@
+WHO            UID USER PID COMM           WHAT  WHY                                       MODE
+NetworkManager 0   root 767 NetworkManager sleep NetworkManager needs to turn off networks delay
+
+1 inhibitors listed.

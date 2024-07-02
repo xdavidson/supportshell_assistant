@@ -1,0 +1,8 @@
+NEXT                        LEFT       LAST                        PASSED    UNIT                         ACTIVATES
+Fri 2024-05-17 15:27:05 EDT 41min left Fri 2024-05-17 14:21:55 EDT 23min ago dnf-makecache.timer          dnf-makecache.service
+Sat 2024-05-18 00:00:00 EDT 9h left    Fri 2024-05-17 08:23:56 EDT 6h ago    logrotate.timer              logrotate.service
+Sat 2024-05-18 00:00:00 EDT 9h left    Fri 2024-05-17 08:23:56 EDT 6h ago    mlocate-updatedb.timer       mlocate-updatedb.service
+Sat 2024-05-18 01:35:14 EDT 10h left   Fri 2024-05-17 08:42:55 EDT 6h ago    insights-client.timer        insights-client.service
+Sat 2024-05-18 08:38:55 EDT 17h left   Fri 2024-05-17 08:38:55 EDT 6h ago    systemd-tmpfiles-clean.timer systemd-tmpfiles-clean.service
+
+5 timers listed.

@@ -1,0 +1,22 @@
+GENERAL.DEVICE:                         enp1s0
+GENERAL.TYPE:                           ethernet
+GENERAL.HWADDR:                         53:4f:53:4f:77:8c
+GENERAL.MTU:                            1500
+GENERAL.STATE:                          100 (connected)
+GENERAL.CONNECTION:                     enp1s0
+GENERAL.CON-PATH:                       /org/freedesktop/NetworkManager/ActiveConnection/2
+WIRED-PROPERTIES.CARRIER:               on
+IP4.ADDRESS[1]:                         100.0.0.1/24
+IP4.GATEWAY:                            100.0.0.2/24
+IP4.ROUTE[1]:                           dst = 100.0.0.0/24, nh = 0.0.0.0, mt = 100
+IP4.ROUTE[2]:                           dst = 0.0.0.0/0, nh = 100.0.0.2/24, mt = 100
+IP4.DNS[1]:                             100.0.0.2/24
+IP4.DNS[2]:                             1.1.1.1
+IP4.DNS[3]:                             8.8.8.8
+IP4.DOhost1[1]:                          obfuscateddohost10.com
+IP6.ADDRESS[1]:                         fd53:2c41:167a:82f9::c915:cc75:011b:bf7a/64
+IP6.ADDRESS[2]:                         fe80::b7a2:2230:ae0e:d408/64
+IP6.GATEWAY:                            --
+IP6.ROUTE[1]:                           dst = fe80::/64/64, nh = ::, mt = 1024
+IP6.ROUTE[2]:                           dst = fd53:2c41:167a:82f9::/64/64, nh = ::, mt = 100
+IP6.ROUTE[3]:                           dst = fd53:b501:795b:9b67::/64/64, nh = fe80::4ca3:4279:31be:1ab9, mt = 100

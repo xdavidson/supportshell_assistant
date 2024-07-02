@@ -1,0 +1,6 @@
+Name/IP Address            NP  NR  Span  Frequency  Freq Skew  Offset  Std Dev
+==============================================================================
+vps4.drown.org              6   3  102m     -0.697      2.933  -1632us  1755us
+static.190.111.161.5.cli>  23  13  340m     -0.009      0.180  +1399us  1523us
+us-east-2.clearnet.pw      34  19  368m     -0.120      0.092  -1547us  1073us
+33.67.61.50               24  11  291m     +0.008      0.029   +900us   194us

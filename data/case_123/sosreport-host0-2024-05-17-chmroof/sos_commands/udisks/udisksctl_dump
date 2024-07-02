@@ -1,0 +1,312 @@
+/org/freedesktop/UDisks2/Manager:
+  org.freedesktop.UDisks2.Manager:
+    DefaultEncryptionType:      luks2
+    SupportedEncryptionTypes:   luks1
+                                luks2
+    SupportedFilesystems:       ext2
+                                ext3
+                                ext4
+                                vfat
+                                ntfs
+                                exfat
+                                xfs
+                                reiserfs
+                                nilfs2
+                                btrfs
+                                minix
+                                udf
+                                f2fs
+                                swap
+    Version:                    2.9.4
+
+/org/freedesktop/UDisks2/block_devices/dm_2d0:
+  org.freedesktop.UDisks2.Block:
+    Configuration:              [('fstab', {'fsname': <b'/dev/mapper/root_vg-lv_root'>, 'dir': <b'/'>, 'type': <b'ext4'>, 'opts': <b'defaults'>, 'freq': <1>, 'passno': <1>})]
+    CryptoBackingDevice:        '/'
+    Device:                     /dev/dm-0
+    DeviceNumber:               64768
+    Drive:                      '/'
+    HintAuto:                   false
+    HintIconName:               
+    HintIgnore:                 false
+    HintName:                   
+    HintPartitionable:          false
+    HintSymbolicIconName:       
+    HintSystem:                 true
+    Id:                         by-id-dm-name-root_vg-lv_root
+    IdLabel:                    lv_root
+    IdType:                     ext4
+    IdUUID:                     5d53:4f:53:1a:9b:455bfac8954c
+    IdUsage:                    filesystem
+    IdVersion:                  1.0
+    MDRaid:                     '/'
+    MDRaidMember:               '/'
+    PreferredDevice:            /dev/root_vg/lv_root
+    ReadOnly:                   false
+    Size:                       9554624512
+    Symlinks:                   /dev/disk/by-id/dm-name-root_vg-lv_root
+                                /dev/disk/by-id/dm-uuid-LVM-0czQa6vnpMIdWSsf2U4s4t43edqtiI84DMbXF6VSQdng1Qah1VJgoDdDAa3ramzg
+                                /dev/disk/by-label/lv_root
+                                /dev/disk/by-uuid/5d53:4f:53:1a:9b:455bfac8954c
+                                /dev/mapper/root_vg-lv_root
+                                /dev/root_vg/lv_root
+    UserspaceMountOptions:      
+  org.freedesktop.UDisks2.Filesystem:
+    MountPoints:        /
+    Size:               9554624512
+
+/org/freedesktop/UDisks2/block_devices/dm_2d1:
+  org.freedesktop.UDisks2.Block:
+    Configuration:              [('fstab', {'fsname': <b'/dev/mapper/root_vg-lv_swap'>, 'dir': <b'none'>, 'type': <b'swap'>, 'opts': <b'defaults'>, 'freq': <0>, 'passno': <0>})]
+    CryptoBackingDevice:        '/'
+    Device:                     /dev/dm-1
+    DeviceNumber:               64769
+    Drive:                      '/'
+    HintAuto:                   false
+    HintIconName:               
+    HintIgnore:                 false
+    HintName:                   
+    HintPartitionable:          false
+    HintSymbolicIconName:       
+    HintSystem:                 true
+    Id:                         by-id-dm-name-root_vg-lv_swap
+    IdLabel:                    lv_swap
+    IdType:                     swap
+    IdUUID:                     4a53:4f:53:9d:a6:2f729ba56fdd
+    IdUsage:                    other
+    IdVersion:                  1
+    MDRaid:                     '/'
+    MDRaidMember:               '/'
+    PreferredDevice:            /dev/root_vg/lv_swap
+    ReadOnly:                   false
+    Size:                       104857600
+    Symlinks:                   /dev/disk/by-id/dm-name-root_vg-lv_swap
+                                /dev/disk/by-id/dm-uuid-LVM-0czQa6vnpMIdWSsf2U4s4t43edqtiI84gMlBWsxIzw82SAQqxMTxl5NTLEKuY47l
+                                /dev/disk/by-label/lv_swap
+                                /dev/disk/by-uuid/4a53:4f:53:9d:a6:2f729ba56fdd
+                                /dev/mapper/root_vg-lv_swap
+                                /dev/root_vg/lv_swap
+    UserspaceMountOptions:      
+  org.freedesktop.UDisks2.Swapspace:
+    Active:             true
+
+/org/freedesktop/UDisks2/block_devices/sr0:
+  org.freedesktop.UDisks2.Block:
+    Configuration:              []
+    CryptoBackingDevice:        '/'
+    Device:                     /dev/sr0
+    DeviceNumber:               2816
+    Drive:                      '/org/freedesktop/UDisks2/drives/QEMU_DVD_ROM_QM00001'
+    HintAuto:                   true
+    HintIconName:               
+    HintIgnore:                 false
+    HintName:                   
+    HintPartitionable:          false
+    HintSymbolicIconName:       
+    HintSystem:                 false
+    Id:                         
+    IdLabel:                    
+    IdType:                     
+    IdUUID:                     
+    IdUsage:                    
+    IdVersion:                  
+    MDRaid:                     '/'
+    MDRaidMember:               '/'
+    PreferredDevice:            /dev/sr0
+    ReadOnly:                   true
+    Size:                       0
+    Symlinks:                   /dev/cdrom
+                                /dev/disk/by-diskseq/3
+                                /dev/disk/by-id/ata-QEMU_DVD-ROM_QM00001
+                                /dev/disk/by-path/pci-0000:00:1f.2-ata-1
+                                /dev/disk/by-path/pci-0000:00:1f.2-ata-1.0
+    UserspaceMountOptions:      
+
+/org/freedesktop/UDisks2/block_devices/vda:
+  org.freedesktop.UDisks2.Block:
+    Configuration:              []
+    CryptoBackingDevice:        '/'
+    Device:                     /dev/vda
+    DeviceNumber:               64512
+    Drive:                      '/org/freedesktop/UDisks2/drives/VirtIO_Disk'
+    HintAuto:                   false
+    HintIconName:               
+    HintIgnore:                 false
+    HintName:                   
+    HintPartitionable:          true
+    HintSymbolicIconName:       
+    HintSystem:                 true
+    Id:                         
+    IdLabel:                    
+    IdType:                     
+    IdUUID:                     
+    IdUsage:                    
+    IdVersion:                  
+    MDRaid:                     '/'
+    MDRaidMember:               '/'
+    PreferredDevice:            /dev/vda
+    ReadOnly:                   false
+    Size:                       10737418240
+    Symlinks:                   /dev/disk/by-diskseq/1
+                                /dev/disk/by-path/pci-0000:04:00.0
+                                /dev/disk/by-path/virtio-pci-0000:04:00.0
+    UserspaceMountOptions:      
+  org.freedesktop.UDisks2.PartitionTable:
+    Partitions:         /org/freedesktop/UDisks2/block_devices/vda2
+                        /org/freedesktop/UDisks2/block_devices/vda1
+    Type:               dos
+
+/org/freedesktop/UDisks2/block_devices/vda1:
+  org.freedesktop.UDisks2.Block:
+    Configuration:              [('fstab', {'fsname': <b'UUID=6253:4f:53:99:54:0247767a441d'>, 'dir': <b'/boot'>, 'type': <b'ext4'>, 'opts': <b'defaults'>, 'freq': <1>, 'passno': <2>})]
+    CryptoBackingDevice:        '/'
+    Device:                     /dev/vda1
+    DeviceNumber:               64513
+    Drive:                      '/org/freedesktop/UDisks2/drives/VirtIO_Disk'
+    HintAuto:                   false
+    HintIconName:               
+    HintIgnore:                 false
+    HintName:                   
+    HintPartitionable:          true
+    HintSymbolicIconName:       
+    HintSystem:                 true
+    Id:                         
+    IdLabel:                    boot
+    IdType:                     ext4
+    IdUUID:                     6253:4f:53:99:54:0247767a441d
+    IdUsage:                    filesystem
+    IdVersion:                  1.0
+    MDRaid:                     '/'
+    MDRaidMember:               '/'
+    PreferredDevice:            /dev/vda1
+    ReadOnly:                   false
+    Size:                       1073741824
+    Symlinks:                   /dev/disk/by-label/boot
+                                /dev/disk/by-partuuid/2b0740da-01
+                                /dev/disk/by-path/pci-0000:04:00.0-part1
+                                /dev/disk/by-path/virtio-pci-0000:04:00.0-part1
+                                /dev/disk/by-uuid/6253:4f:53:99:54:0247767a441d
+    UserspaceMountOptions:      
+  org.freedesktop.UDisks2.Filesystem:
+    MountPoints:        /boot
+    Size:               1073741824
+  org.freedesktop.UDisks2.Partition:
+    Flags:              128
+    IsContained:        false
+    IsContainer:        false
+    Name:               
+    Number:             1
+    Offset:             1048576
+    Size:               1073741824
+    Table:              '/org/freedesktop/UDisks2/block_devices/vda'
+    Type:               0x83
+    UUID:               2b0740da-01
+
+/org/freedesktop/UDisks2/block_devices/vda2:
+  org.freedesktop.UDisks2.Block:
+    Configuration:              []
+    CryptoBackingDevice:        '/'
+    Device:                     /dev/vda2
+    DeviceNumber:               64514
+    Drive:                      '/org/freedesktop/UDisks2/drives/VirtIO_Disk'
+    HintAuto:                   false
+    HintIconName:               
+    HintIgnore:                 true
+    HintName:                   
+    HintPartitionable:          true
+    HintSymbolicIconName:       
+    HintSystem:                 true
+    Id:                         by-id-lvm-pv-uuid-vPDur2-IuHb-bvHd-JMtS-YKXh-lrwA-MaEGb7
+    IdLabel:                    
+    IdType:                     LVM2_member
+    IdUUID:                     vPDur2-IuHb-bvHd-JMtS-YKXh-lrwA-MaEGb7
+    IdUsage:                    raid
+    IdVersion:                  LVM2 001
+    MDRaid:                     '/'
+    MDRaidMember:               '/'
+    PreferredDevice:            /dev/vda2
+    ReadOnly:                   false
+    Size:                       9662627840
+    Symlinks:                   /dev/disk/by-id/lvm-pv-uuid-vPDur2-IuHb-bvHd-JMtS-YKXh-lrwA-MaEGb7
+                                /dev/disk/by-partuuid/2b0740da-02
+                                /dev/disk/by-path/pci-0000:04:00.0-part2
+                                /dev/disk/by-path/virtio-pci-0000:04:00.0-part2
+    UserspaceMountOptions:      
+  org.freedesktop.UDisks2.Partition:
+    Flags:              0
+    IsContained:        false
+    IsContainer:        false
+    Name:               
+    Number:             2
+    Offset:             1074790400
+    Size:               9662627840
+    Table:              '/org/freedesktop/UDisks2/block_devices/vda'
+    Type:               0x8e
+    UUID:               2b0740da-02
+
+/org/freedesktop/UDisks2/drives/QEMU_DVD_ROM_QM00001:
+  org.freedesktop.UDisks2.Drive:
+    CanPowerOff:                false
+    Configuration:              {}
+    ConnectionBus:              
+    Ejectable:                  true
+    Id:                         QEMU-DVD-ROM-QM00001
+    Media:                      
+    MediaAvailable:             false
+    MediaChangeDetected:        true
+    MediaCompatibility:         optical_cd
+                                optical_dvd
+                                optical_mrw
+                                optical_mrw_w
+    MediaRemovable:             true
+    Model:                      QEMU DVD-ROM
+    Optical:                    false
+    OpticalBlank:               false
+    OpticalNumAudioTracks:      0
+    OpticalNumDataTracks:       0
+    OpticalNumSessions:         0
+    OpticalNumTracks:           0
+    Removable:                  true
+    Revision:                   2.5+
+    RotationRate:               -1
+    Seat:                       seat0
+    Serial:                     QM00001
+    SiblingId:                  
+    Size:                       0
+    SortKey:                    00coldplug/11removable/sr0
+    TimeDetected:               1715948635554559
+    TimeMediaDetected:          0
+    Vendor:                     
+    WWN:                        
+
+/org/freedesktop/UDisks2/drives/VirtIO_Disk:
+  org.freedesktop.UDisks2.Drive:
+    CanPowerOff:                false
+    Configuration:              {}
+    ConnectionBus:              
+    Ejectable:                  false
+    Id:                         
+    Media:                      
+    MediaAvailable:             true
+    MediaChangeDetected:        true
+    MediaCompatibility:         
+    MediaRemovable:             false
+    Model:                      VirtIO Disk
+    Optical:                    false
+    OpticalBlank:               false
+    OpticalNumAudioTracks:      0
+    OpticalNumDataTracks:       0
+    OpticalNumSessions:         0
+    OpticalNumTracks:           0
+    Removable:                  false
+    Revision:                   
+    RotationRate:               -1
+    Seat:                       seat0
+    Serial:                     
+    SiblingId:                  
+    Size:                       10737418240
+    SortKey:                    00coldplug/00fixed/vda
+    TimeDetected:               1715948635420731
+    TimeMediaDetected:          1715948635420731
+    Vendor:                     
+    WWN:                        

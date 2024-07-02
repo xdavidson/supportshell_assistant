@@ -1,0 +1,10 @@
+arptables - status is auto.
+ link currently points to /usr/sbin/arptables-nft
+/usr/sbin/arptables-nft - priority 10
+ follower arptables-helper: /usr/libexec/arptables-nft-helper
+ follower arptables-restore: /usr/sbin/arptables-nft-restore
+ follower arptables-save: /usr/sbin/arptables-nft-save
+ follower arptables-restore-man: /usr/share/man/man8/arptables-nft-restore.8.gz
+ follower arptables-save-man: /usr/share/man/man8/arptables-nft-save.8.gz
+ follower arptables-man: /usr/share/man/man8/arptables-nft.8.gz
+Current `best' version is /usr/sbin/arptables-nft.

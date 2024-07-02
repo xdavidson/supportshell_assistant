@@ -1,0 +1,9 @@
+Model: Linux device-mapper (linear) (dm)
+Disk /dev/dm-1: 204800s
+Sector size (logical/physical): 512B/512B
+Partition Table: loop
+Disk Flags: 
+
+Number  Start  End      Size     File system     Flags
+ 1      0s     204799s  204800s  linux-swap(v1)
+

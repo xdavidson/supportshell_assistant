@@ -1,0 +1,334 @@
+table inet firewalld {
+	chain mangle_PREROUTING {
+		type filter hook prerouting priority mangle + 10; policy accept;
+		jump mangle_PREROUTING_ZONES
+	}
+
+	chain mangle_PREROUTING_POLICIES_pre {
+		jump mangle_PRE_policy_allow-host-ipv6
+	}
+
+	chain mangle_PREROUTING_ZONES {
+		iifname "enp1s0" goto mangle_PRE_public
+		goto mangle_PRE_public
+	}
+
+	chain mangle_PREROUTING_POLICIES_post {
+	}
+
+	chain nat_PREROUTING {
+		type nat hook prerouting priority dstnat + 10; policy accept;
+		jump nat_PREROUTING_ZONES
+	}
+
+	chain nat_PREROUTING_POLICIES_pre {
+		jump nat_PRE_policy_allow-host-ipv6
+	}
+
+	chain nat_PREROUTING_ZONES {
+		iifname "enp1s0" goto nat_PRE_public
+		goto nat_PRE_public
+	}
+
+	chain nat_PREROUTING_POLICIES_post {
+	}
+
+	chain nat_POSTROUTING {
+		type nat hook postrouting priority srcnat + 10; policy accept;
+		jump nat_POSTROUTING_ZONES
+	}
+
+	chain nat_POSTROUTING_POLICIES_pre {
+	}
+
+	chain nat_POSTROUTING_ZONES {
+		oifname "enp1s0" goto nat_POST_public
+		goto nat_POST_public
+	}
+
+	chain nat_POSTROUTING_POLICIES_post {
+	}
+
+	chain nat_OUTPUT {
+		type nat hook output priority -90; policy accept;
+		jump nat_OUTPUT_POLICIES_pre
+		jump nat_OUTPUT_POLICIES_post
+	}
+
+	chain nat_OUTPUT_POLICIES_pre {
+	}
+
+	chain nat_OUTPUT_POLICIES_post {
+	}
+
+	chain filter_PREROUTING {
+		type filter hook prerouting priority filter + 10; policy accept;
+		icmpv6 type { nd-router-advert, nd-neighbor-solicit } accept
+		meta nfproto ipv6 fib saddr . mark . iif oif missing drop
+	}
+
+	chain filter_INPUT {
+		type filter hook input priority filter + 10; policy accept;
+		ct state { established, related } accept
+		ct status dnat accept
+		ct state invalid drop
+		iifname "lo" accept
+		jump filter_INPUT_ZONES
+		reject with icmpx admin-prohibited
+	}
+
+	chain filter_FORWARD {
+		type filter hook forward priority filter + 10; policy accept;
+		ct state { established, related } accept
+		ct status dnat accept
+		ct state invalid drop
+		iifname "lo" accept
+		ip6 daddr { ::/96, ::ffff:0.0.0.0/96, 53d3::/64/24, 534f:ac8e::/64/24, 534f:9f90::/64/24, 534f:4ed7::/64/32, 534f:c522::/64/28, 534f:5710::/64/32, 534f:bb62::/64/19 } reject with icmpv6 addr-unreachable
+		jump filter_FORWARD_ZONES
+		reject with icmpx admin-prohibited
+	}
+
+	chain filter_OUTPUT {
+		type filter hook output priority filter + 10; policy accept;
+		ct state { established, related } accept
+		oifname "lo" accept
+		ip6 daddr { ::/96, ::ffff:0.0.0.0/96, 53d3::/64/24, 534f:ac8e::/64/24, 534f:9f90::/64/24, 534f:4ed7::/64/32, 534f:c522::/64/28, 534f:5710::/64/32, 534f:bb62::/64/19 } reject with icmpv6 addr-unreachable
+		jump filter_OUTPUT_POLICIES_pre
+		jump filter_OUTPUT_POLICIES_post
+	}
+
+	chain filter_INPUT_POLICIES_pre {
+		jump filter_IN_policy_allow-host-ipv6
+	}
+
+	chain filter_INPUT_ZONES {
+		iifname "enp1s0" goto filter_IN_public
+		goto filter_IN_public
+	}
+
+	chain filter_INPUT_POLICIES_post {
+	}
+
+	chain filter_FORWARD_POLICIES_pre {
+	}
+
+	chain filter_FORWARD_ZONES {
+		iifname "enp1s0" goto filter_FWD_public
+		goto filter_FWD_public
+	}
+
+	chain filter_FORWARD_POLICIES_post {
+	}
+
+	chain filter_OUTPUT_POLICIES_pre {
+	}
+
+	chain filter_OUTPUT_POLICIES_post {
+	}
+
+	chain filter_IN_public {
+		jump filter_INPUT_POLICIES_pre
+		jump filter_IN_public_pre
+		jump filter_IN_public_log
+		jump filter_IN_public_deny
+		jump filter_IN_public_allow
+		jump filter_IN_public_post
+		jump filter_INPUT_POLICIES_post
+		meta l4proto { icmp, ipv6-icmp } accept
+		reject with icmpx admin-prohibited
+	}
+
+	chain filter_IN_public_pre {
+	}
+
+	chain filter_IN_public_log {
+	}
+
+	chain filter_IN_public_deny {
+	}
+
+	chain filter_IN_public_allow {
+		tcp dport 22 ct state { new, untracked } accept
+		ip6 daddr fe80::/64/64 udp dport 546 ct state { new, untracked } accept
+		tcp dport 9090 ct state { new, untracked } accept
+		tcp dport 443 ct state { new, untracked } accept
+	}
+
+	chain filter_IN_public_post {
+	}
+
+	chain nat_POST_public {
+		jump nat_POSTROUTING_POLICIES_pre
+		jump nat_POST_public_pre
+		jump nat_POST_public_log
+		jump nat_POST_public_deny
+		jump nat_POST_public_allow
+		jump nat_POST_public_post
+		jump nat_POSTROUTING_POLICIES_post
+	}
+
+	chain nat_POST_public_pre {
+	}
+
+	chain nat_POST_public_log {
+	}
+
+	chain nat_POST_public_deny {
+	}
+
+	chain nat_POST_public_allow {
+	}
+
+	chain nat_POST_public_post {
+	}
+
+	chain filter_FWD_public {
+		jump filter_FORWARD_POLICIES_pre
+		jump filter_FWD_public_pre
+		jump filter_FWD_public_log
+		jump filter_FWD_public_deny
+		jump filter_FWD_public_allow
+		jump filter_FWD_public_post
+		jump filter_FORWARD_POLICIES_post
+		reject with icmpx admin-prohibited
+	}
+
+	chain filter_FWD_public_pre {
+	}
+
+	chain filter_FWD_public_log {
+	}
+
+	chain filter_FWD_public_deny {
+	}
+
+	chain filter_FWD_public_allow {
+		oifname "enp1s0" accept
+	}
+
+	chain filter_FWD_public_post {
+	}
+
+	chain nat_PRE_public {
+		jump nat_PREROUTING_POLICIES_pre
+		jump nat_PRE_public_pre
+		jump nat_PRE_public_log
+		jump nat_PRE_public_deny
+		jump nat_PRE_public_allow
+		jump nat_PRE_public_post
+		jump nat_PREROUTING_POLICIES_post
+	}
+
+	chain nat_PRE_public_pre {
+	}
+
+	chain nat_PRE_public_log {
+	}
+
+	chain nat_PRE_public_deny {
+	}
+
+	chain nat_PRE_public_allow {
+	}
+
+	chain nat_PRE_public_post {
+	}
+
+	chain mangle_PRE_public {
+		jump mangle_PREROUTING_POLICIES_pre
+		jump mangle_PRE_public_pre
+		jump mangle_PRE_public_log
+		jump mangle_PRE_public_deny
+		jump mangle_PRE_public_allow
+		jump mangle_PRE_public_post
+		jump mangle_PREROUTING_POLICIES_post
+	}
+
+	chain mangle_PRE_public_pre {
+	}
+
+	chain mangle_PRE_public_log {
+	}
+
+	chain mangle_PRE_public_deny {
+	}
+
+	chain mangle_PRE_public_allow {
+	}
+
+	chain mangle_PRE_public_post {
+	}
+
+	chain filter_IN_policy_allow-host-ipv6 {
+		jump filter_IN_policy_allow-host-ipv6_pre
+		jump filter_IN_policy_allow-host-ipv6_log
+		jump filter_IN_policy_allow-host-ipv6_deny
+		jump filter_IN_policy_allow-host-ipv6_allow
+		jump filter_IN_policy_allow-host-ipv6_post
+	}
+
+	chain filter_IN_policy_allow-host-ipv6_pre {
+	}
+
+	chain filter_IN_policy_allow-host-ipv6_log {
+	}
+
+	chain filter_IN_policy_allow-host-ipv6_deny {
+	}
+
+	chain filter_IN_policy_allow-host-ipv6_allow {
+		icmpv6 type nd-neighbor-advert accept
+		icmpv6 type nd-neighbor-solicit accept
+		icmpv6 type nd-router-advert accept
+		icmpv6 type nd-redirect accept
+	}
+
+	chain filter_IN_policy_allow-host-ipv6_post {
+	}
+
+	chain nat_PRE_policy_allow-host-ipv6 {
+		jump nat_PRE_policy_allow-host-ipv6_pre
+		jump nat_PRE_policy_allow-host-ipv6_log
+		jump nat_PRE_policy_allow-host-ipv6_deny
+		jump nat_PRE_policy_allow-host-ipv6_allow
+		jump nat_PRE_policy_allow-host-ipv6_post
+	}
+
+	chain nat_PRE_policy_allow-host-ipv6_pre {
+	}
+
+	chain nat_PRE_policy_allow-host-ipv6_log {
+	}
+
+	chain nat_PRE_policy_allow-host-ipv6_deny {
+	}
+
+	chain nat_PRE_policy_allow-host-ipv6_allow {
+	}
+
+	chain nat_PRE_policy_allow-host-ipv6_post {
+	}
+
+	chain mangle_PRE_policy_allow-host-ipv6 {
+		jump mangle_PRE_policy_allow-host-ipv6_pre
+		jump mangle_PRE_policy_allow-host-ipv6_log
+		jump mangle_PRE_policy_allow-host-ipv6_deny
+		jump mangle_PRE_policy_allow-host-ipv6_allow
+		jump mangle_PRE_policy_allow-host-ipv6_post
+	}
+
+	chain mangle_PRE_policy_allow-host-ipv6_pre {
+	}
+
+	chain mangle_PRE_policy_allow-host-ipv6_log {
+	}
+
+	chain mangle_PRE_policy_allow-host-ipv6_deny {
+	}
+
+	chain mangle_PRE_policy_allow-host-ipv6_allow {
+	}
+
+	chain mangle_PRE_policy_allow-host-ipv6_post {
+	}
+}

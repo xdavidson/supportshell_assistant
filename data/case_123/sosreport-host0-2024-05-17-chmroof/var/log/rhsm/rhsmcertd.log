@@ -1,0 +1,23 @@
+Wed May 15 08:33:52 2024 [INFO] Starting rhsmcertd...
+Wed May 15 08:33:52 2024 [INFO] Auto-attach interval: 1440.0 minutes [86400 seconds]
+Wed May 15 08:33:52 2024 [INFO] Cert check interval: 240.0 minutes [14400 seconds]
+Wed May 15 08:33:52 2024 [INFO] Waiting 2.0 minutes plus 3086 splay seconds [3206 seconds total] before performing first auto-attach.
+Wed May 15 08:33:52 2024 [INFO] Waiting 2.0 minutes plus 2123 splay seconds [2243 seconds total] before performing first cert check.
+Wed May 15 09:11:25 2024 [INFO] (Cert Check) Certificates updated.
+Wed May 15 09:27:21 2024 [INFO] (Auto-attach) Certificates updated.
+Wed May 15 13:11:30 2024 [INFO] (Cert Check) Certificates updated.
+Wed May 15 17:11:29 2024 [INFO] (Cert Check) Certificates updated.
+Thu May 16 08:14:54 2024 [INFO] Starting rhsmcertd...
+Thu May 16 08:14:54 2024 [INFO] Auto-attach interval: 1440.0 minutes [86400 seconds]
+Thu May 16 08:14:54 2024 [INFO] Cert check interval: 240.0 minutes [14400 seconds]
+Thu May 16 08:14:54 2024 [INFO] Waiting 2.0 minutes plus 47165 splay seconds [47285 seconds total] before performing first auto-attach.
+Thu May 16 08:14:54 2024 [INFO] Waiting 2.0 minutes plus 3852 splay seconds [3972 seconds total] before performing first cert check.
+Thu May 16 09:21:16 2024 [INFO] (Cert Check) Certificates updated.
+Thu May 16 13:21:21 2024 [INFO] (Cert Check) Certificates updated.
+Fri May 17 08:23:56 2024 [INFO] Starting rhsmcertd...
+Fri May 17 08:23:56 2024 [INFO] Auto-attach interval: 1440.0 minutes [86400 seconds]
+Fri May 17 08:23:56 2024 [INFO] Cert check interval: 240.0 minutes [14400 seconds]
+Fri May 17 08:23:56 2024 [INFO] Waiting 2.0 minutes plus 52560 splay seconds [52680 seconds total] before performing first auto-attach.
+Fri May 17 08:23:56 2024 [INFO] Waiting 2.0 minutes plus 1645 splay seconds [1765 seconds total] before performing first cert check.
+Fri May 17 08:53:30 2024 [INFO] (Cert Check) Certificates updated.
+Fri May 17 12:53:38 2024 [INFO] (Cert Check) Certificates updated.

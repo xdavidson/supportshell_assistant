@@ -1,0 +1,49 @@
+/etc/containers:
+total 48K
+drwxr-xr-x.   7 root root 4.0K Dec 12 10:45 .
+drwxr-xr-x. 107 root root 4.0K May 17 08:23 ..
+drwxr-xr-x.   2 root root 4.0K Jul 18  2023 certs.d
+drwxr-xr-x.   3 root root 4.0K Jul 18  2023 oci
+-rw-r--r--.   1 root root  663 Jul 18  2023 policy.json
+-rw-r--r--.   1 root root 3.8K Jul 18  2023 registries.conf
+drwxr-xr-x.   2 root root 4.0K Dec 12 10:45 registries.conf.d
+drwxr-xr-x.   2 root root 4.0K Dec 12 10:45 registries.d
+-rw-r--r--.   1 root root  11K Jul 18  2023 storage.conf
+drwxr-xr-x.   2 root root 4.0K Jul 18  2023 systemd
+
+/etc/containers/certs.d:
+total 8.0K
+drwxr-xr-x. 2 root root 4.0K Jul 18  2023 .
+drwxr-xr-x. 7 root root 4.0K Dec 12 10:45 ..
+
+/etc/containers/oci:
+total 12K
+drwxr-xr-x. 3 root root 4.0K Jul 18  2023 .
+drwxr-xr-x. 7 root root 4.0K Dec 12 10:45 ..
+drwxr-xr-x. 2 root root 4.0K Jul 18  2023 hooks.d
+
+/etc/containers/oci/hooks.d:
+total 8.0K
+drwxr-xr-x. 2 root root 4.0K Jul 18  2023 .
+drwxr-xr-x. 3 root root 4.0K Jul 18  2023 ..
+
+/etc/containers/registries.conf.d:
+total 444K
+drwxr-xr-x. 2 root root 4.0K Dec 12 10:45 .
+drwxr-xr-x. 7 root root 4.0K Dec 12 10:45 ..
+-rw-r--r--. 1 root root 5.7K Jul 18  2023 000-shortnames.conf
+-rw-r--r--. 1 root root 422K Jul 18  2023 001-rhel-shortnames.conf
+-rw-r--r--. 1 root root  497 Jul 18  2023 002-rhel-shortnames-overrides.conf
+
+/etc/containers/registries.d:
+total 20K
+drwxr-xr-x. 2 root root 4.0K Dec 12 10:45 .
+drwxr-xr-x. 7 root root 4.0K Dec 12 10:45 ..
+-rw-r--r--. 1 root root  978 Jul 18  2023 default.yaml
+-rw-r--r--. 1 root root  120 Jul 18  2023 registry.access.redhat.com.yaml
+-rw-r--r--. 1 root root   99 Jul 18  2023 registry.redhat.io.yaml
+
+/etc/containers/systemd:
+total 8.0K
+drwxr-xr-x. 2 root root 4.0K Jul 18  2023 .
+drwxr-xr-x. 7 root root 4.0K Dec 12 10:45 ..

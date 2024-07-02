@@ -1,0 +1,12 @@
+Checksum status: not valid
+# floppies     : 0
+Floppy 0 type  : none
+Floppy 1 type  : none
+HD 0 type      : none
+HD 1 type      : none
+HD type 48 data: 0/0/0 C/H/S, precomp 0, lz 0
+HD type 49 data: 127/32/0 C/H/S, precomp 48, lz 0
+DOS base memory: 640 kB
+Extended memory: 65535 kB (configured), 65535 kB (tested)
+Gfx adapter    : EGA, VGA, ... (with BIOS)
+FPU            : installed

@@ -1,0 +1,5 @@
+nc - status is auto.
+ link currently points to /usr/bin/ncat
+/usr/bin/ncat - priority 10
+ follower nc-man: /usr/share/man/man1/ncat.1.gz
+Current `best' version is /usr/bin/ncat.

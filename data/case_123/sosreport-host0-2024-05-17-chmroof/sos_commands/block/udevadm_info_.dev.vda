@@ -1,0 +1,28 @@
+P: /devices/pci0000:00/0000:00:02.3/0000:04:00.0/virtio2/block/vda
+M: vda
+U: block
+T: disk
+D: b 252:0
+N: vda
+L: 0
+S: disk/by-path/pci-0000:04:00.0
+S: disk/by-path/virtio-pci-0000:04:00.0
+S: disk/by-diskseq/1
+Q: 1
+E: DEVPATH=/devices/pci0000:00/0000:00:02.3/0000:04:00.0/virtio2/block/vda
+E: DEVNAME=/dev/vda
+E: DEVTYPE=disk
+E: DISKSEQ=1
+E: MAJOR=252
+E: MINOR=0
+E: SUBSYSTEM=block
+E: USEC_INITIALIZED=3241274
+E: ID_PATH=pci-0000:04:00.0
+E: ID_PATH_TAG=pci-0000_04_00_0
+E: ID_PART_TABLE_UUID=2b0740da
+E: ID_PART_TABLE_TYPE=dos
+E: NVME_HOST_IFACE=none
+E: DEVLINKS=/dev/disk/by-path/pci-0000:04:00.0 /dev/disk/by-path/virtio-pci-0000:04:00.0 /dev/disk/by-diskseq/1
+E: TAGS=:systemd:
+E: CURRENT_TAGS=:systemd:
+

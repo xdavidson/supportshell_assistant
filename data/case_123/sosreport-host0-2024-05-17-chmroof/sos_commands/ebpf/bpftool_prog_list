@@ -1,0 +1,44 @@
+2: tracing  name hid_tail_call  tag 7cc47bbf07148bfe  gpl
+	loaded_at 2024-05-17T08:23:52-0400  uid 0
+	xlated 56B  jited 110B  memlock 4096B  map_ids 2
+	btf_id 2
+21: cgroup_device  name sd_devices  tag 40ddf486530245f5  gpl
+	loaded_at 2024-05-17T08:23:55-0400  uid 0
+	xlated 504B  jited 313B  memlock 4096B
+	pids systemd(1)
+22: cgroup_skb  name sd_fw_egress  tag 6deef7357e7b4530  gpl
+	loaded_at 2024-05-17T08:23:55-0400  uid 0
+	xlated 64B  jited 58B  memlock 4096B
+	pids systemd(1)
+23: cgroup_skb  name sd_fw_ingress  tag 6deef7357e7b4530  gpl
+	loaded_at 2024-05-17T08:23:55-0400  uid 0
+	xlated 64B  jited 58B  memlock 4096B
+	pids systemd(1)
+24: cgroup_skb  name sd_fw_egress  tag 6deef7357e7b4530  gpl
+	loaded_at 2024-05-17T08:23:55-0400  uid 0
+	xlated 64B  jited 58B  memlock 4096B
+	pids systemd(1)
+25: cgroup_skb  name sd_fw_ingress  tag 6deef7357e7b4530  gpl
+	loaded_at 2024-05-17T08:23:55-0400  uid 0
+	xlated 64B  jited 58B  memlock 4096B
+	pids systemd(1)
+26: cgroup_device  name sd_devices  tag ee0e253c78993a24  gpl
+	loaded_at 2024-05-17T08:23:56-0400  uid 0
+	xlated 416B  jited 259B  memlock 4096B
+	pids systemd(1)
+27: cgroup_device  name sd_devices  tag 8517317ad69dae75  gpl
+	loaded_at 2024-05-17T08:23:56-0400  uid 0
+	xlated 560B  jited 355B  memlock 4096B
+	pids systemd(1)
+28: cgroup_device  name sd_devices  tag 3a0ef5414c2f6fca  gpl
+	loaded_at 2024-05-17T08:23:56-0400  uid 0
+	xlated 744B  jited 451B  memlock 4096B
+	pids systemd(1)
+29: cgroup_skb  name sd_fw_egress  tag 6deef7357e7b4530  gpl
+	loaded_at 2024-05-17T08:23:56-0400  uid 0
+	xlated 64B  jited 58B  memlock 4096B
+	pids systemd(1)
+30: cgroup_skb  name sd_fw_ingress  tag 6deef7357e7b4530  gpl
+	loaded_at 2024-05-17T08:23:56-0400  uid 0
+	xlated 64B  jited 58B  memlock 4096B
+	pids systemd(1)

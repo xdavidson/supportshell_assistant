@@ -1,0 +1,35 @@
+filename:       /lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/net/netfilter/nf_tables.ko.xz
+alias:          nfnetlink-subsys-10
+author:         Patrick McHardy <kaber@trash.net>
+license:        GPL
+rhelversion:    9.3
+srcversion:     CD6EB9B668EF976180B2211
+depends:        nfnetlink,libcrc32c
+retpoline:      Y
+intree:         Y
+name:           nf_tables
+vermagic:       5.14.0-362.8.1.el9_3.x86_64 SMP preempt mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        1F:F0:D0:D7:72:A6:ED:12:E3:1B:CC:C9:E0:49:15:03:79:D5:1F:69
+sig_hashalgo:   sha256
+signature:      7D:B3:4B:48:50:D7:18:69:3F:B6:B2:0A:A9:81:72:33:52:F7:D6:6D:
+		90:04:B6:71:B4:13:F8:76:8A:13:15:86:31:3A:2F:F9:D4:B8:90:52:
+		1D:03:DD:21:2E:5D:9D:A4:AD:EB:5E:73:AC:1D:CA:FB:0B:87:17:17:
+		50:92:4A:1A:70:B3:78:79:53:76:E5:75:14:F5:96:79:A0:5F:11:81:
+		AB:F0:7D:7A:F4:43:6C:1E:71:96:E5:76:E0:CB:5A:2F:A2:C9:94:FD:
+		49:8C:A7:B3:D3:DE:FB:DD:65:41:EB:67:AF:97:46:E1:38:D4:B6:6D:
+		8F:A5:89:0C:42:AF:23:A1:80:4E:2D:25:FF:9D:69:75:7E:04:B5:75:
+		18:B2:F0:45:DF:DC:FC:A8:07:FB:1F:19:85:38:6C:82:79:26:96:46:
+		C4:71:59:BF:93:56:E0:E9:6E:B7:44:57:24:2B:C6:5D:C7:A5:5F:BA:
+		3E:34:8E:42:E3:55:E7:9E:1F:FB:AA:1C:97:80:6C:06:EF:4B:6E:BD:
+		A5:A9:A5:A8:26:16:16:CC:09:F5:F4:F3:A3:87:3C:CF:D1:17:A5:05:
+		D3:D8:C4:B9:E8:E4:70:26:5A:95:EF:85:21:B1:F9:C1:D4:20:46:FA:
+		73:B2:E6:B7:63:E3:3D:9C:E2:F0:0A:AD:42:D1:82:83:4A:05:B2:1E:
+		70:99:54:80:8B:63:A6:FD:83:BB:0A:D3:FC:02:95:B8:62:C5:3A:A9:
+		06:D7:89:09:86:97:B8:65:C5:09:3B:86:9B:A5:78:91:7F:B3:10:94:
+		D1:EA:18:84:EF:71:40:17:2F:93:56:76:3E:06:3F:62:B0:26:7B:32:
+		31:29:7B:C6:89:8D:6D:67:D4:D9:32:3B:7E:05:05:03:15:E3:87:38:
+		0E:FC:3C:FA:0F:54:56:9C:E3:5F:2E:99:FA:4B:FF:1F:B8:89:79:E9:
+		C8:36:6D:D3:10:F4:EB:C9:9D:3E:3E:70:0F:5F:A0:9F:74:96:56:54:
+		B7:F6:AF:7F

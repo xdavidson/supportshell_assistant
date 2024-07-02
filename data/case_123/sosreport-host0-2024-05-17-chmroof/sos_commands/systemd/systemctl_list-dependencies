@@ -1,0 +1,108 @@
+default.target
+● ├─atd.service
+● ├─auditd.service
+● ├─chronyd.service
+● ├─crond.service
+● ├─firewalld.service
+○ ├─insights-client-boot.service
+● ├─irqbalance.service
+● ├─kdump.service
+● ├─libstoragemgmt.service
+× ├─mcelog.service
+○ ├─mdmonitor.service
+● ├─NetworkManager.service
+○ ├─nvmefc-boot-connections.service
+● ├─plymouth-quit-wait.service
+● ├─plymouth-quit.service
+● ├─rhsmcertd.service
+● ├─rsyslog.service
+○ ├─smartd.service
+● ├─sshd.service
+○ ├─sssd.service
+● ├─systemd-ask-password-wall.path
+● ├─systemd-logind.service
+○ ├─systemd-update-utmp-runlevel.service
+● ├─systemd-user-sessions.service
+● ├─basic.target
+● │ ├─-.mount
+○ │ ├─microcode.service
+● │ ├─paths.target
+● │ ├─slices.target
+● │ │ ├─-.slice
+● │ │ └─system.slice
+● │ ├─sockets.target
+● │ │ ├─dbus.socket
+● │ │ ├─dm-event.socket
+● │ │ ├─iscsid.socket
+● │ │ ├─iscsiuio.socket
+○ │ │ ├─multipathd.socket
+● │ │ ├─sssd-kcm.socket
+● │ │ ├─systemd-coredump.socket
+● │ │ ├─systemd-initctl.socket
+● │ │ ├─systemd-journald-dev-log.socket
+● │ │ ├─systemd-journald.socket
+● │ │ ├─systemd-udevd-control.socket
+● │ │ └─systemd-udevd-kernel.socket
+● │ ├─sysinit.target
+● │ │ ├─dev-hugepages.mount
+● │ │ ├─dev-mqueue.mount
+● │ │ ├─dracut-shutdown.service
+○ │ │ ├─iscsi-onboot.service
+● │ │ ├─kmod-static-nodes.service
+○ │ │ ├─ldconfig.service
+● │ │ ├─lvm2-lvmpolld.socket
+● │ │ ├─lvm2-monitor.service
+○ │ │ ├─multipathd.service
+● │ │ ├─nis-domainname.service
+● │ │ ├─plymouth-read-write.service
+● │ │ ├─plymouth-start.service
+● │ │ ├─proc-sys-fs-binfmt_misc.automount
+○ │ │ ├─selinux-autorelabel-mark.service
+● │ │ ├─sys-fs-fuse-connections.mount
+● │ │ ├─sys-kernel-config.mount
+● │ │ ├─sys-kernel-debug.mount
+● │ │ ├─sys-kernel-tracing.mount
+○ │ │ ├─systemd-ask-password-console.path
+○ │ │ ├─systemd-binfmt.service
+○ │ │ ├─systemd-boot-system-token.service
+○ │ │ ├─systemd-firstboot.service
+○ │ │ ├─systemd-hwdb-update.service
+○ │ │ ├─systemd-journal-catalog-update.service
+● │ │ ├─systemd-journal-flush.service
+● │ │ ├─systemd-journald.service
+○ │ │ ├─systemd-machine-id-commit.service
+● │ │ ├─systemd-modules-load.service
+● │ │ ├─systemd-network-generator.service
+○ │ │ ├─systemd-pcrphase-sysinit.service
+○ │ │ ├─systemd-pcrphase.service
+● │ │ ├─systemd-random-seed.service
+○ │ │ ├─systemd-repart.service
+● │ │ ├─systemd-sysctl.service
+○ │ │ ├─systemd-sysusers.service
+● │ │ ├─systemd-tmpfiles-setup-dev.service
+● │ │ ├─systemd-tmpfiles-setup.service
+● │ │ ├─systemd-udev-trigger.service
+● │ │ ├─systemd-udevd.service
+○ │ │ ├─systemd-update-done.service
+● │ │ ├─systemd-update-utmp.service
+● │ │ ├─cryptsetup.target
+● │ │ ├─integritysetup.target
+● │ │ ├─local-fs.target
+● │ │ │ ├─-.mount
+● │ │ │ ├─boot.mount
+● │ │ │ ├─systemd-fsck-root.service
+● │ │ │ ├─systemd-remount-fs.service
+● │ │ │ └─tmp.mount
+● │ │ ├─swap.target
+● │ │ │ └─dev-mapper-root_vg\x2dlv_swap.swap
+● │ │ └─veritysetup.target
+● │ └─timers.target
+● │   ├─dnf-makecache.timer
+● │   ├─insights-client.timer
+● │   ├─logrotate.timer
+● │   ├─mlocate-updatedb.timer
+● │   └─systemd-tmpfiles-clean.timer
+● ├─getty.target
+● │ └─getty@tty1.service
+● └─remote-fs.target
+○   └─iscsi.service

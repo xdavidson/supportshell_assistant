@@ -1,0 +1,22 @@
+0xffffffffc0239db0:
+   0:	nopl   0x0(%rax,%rax,1)
+   5:	xchg   %ax,%ax
+   7:	push   %rbp
+   8:	mov    %rsp,%rbp
+   b:	push   %rbx
+   c:	push   %r13
+   e:	push   %r14
+  10:	mov    %rdi,%rbx
+  13:	movzwq 0xb0(%rbx),%r13
+  1b:	xor    %r14d,%r14d
+  1e:	or     $0x2,%r14d
+  22:	mov    $0x1,%eax
+  27:	cmp    $0x2,%r14
+  2b:	jne    0x000000000000002f
+  2d:	xor    %eax,%eax
+  2f:	pop    %r14
+  31:	pop    %r13
+  33:	pop    %rbx
+  34:	leaveq 
+  35:	jmpq   0xffffffffcac2da50
+

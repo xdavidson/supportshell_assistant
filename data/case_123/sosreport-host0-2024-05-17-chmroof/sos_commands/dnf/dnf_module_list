@@ -1,0 +1,19 @@
+Updating Subscription Management repositories.
+Last metadata expiration check: 2:18:35 ago on Fri May 17 12:26:58 2024.
+Red Hat Enterprise Linux 9 for x86_64 - AppStream (RPMs)
+Name       Stream Profiles                              Summary                                               
+mariadb    10.11  client, galera, server [d]            MariaDB Module                                        
+maven      3.8    common [d]                            Java project management and project comprehension tool
+nginx      1.22   common [d]                            nginx webserver                                       
+nginx      1.24   common [d]                            nginx webserver                                       
+nodejs     18     common [d], development, minimal, s2i Javascript runtime                                    
+nodejs     20     common [d], development, minimal, s2i Javascript runtime                                    
+php        8.1    common [d], devel, minimal            PHP scripting language                                
+php        8.2    common [d], devel, minimal            PHP scripting language                                
+postgresql 15     client, server [d]                    PostgreSQL server and client module                   
+postgresql 16     client, server [d]                    PostgreSQL server and client module                   
+redis      7      common [d]                            Redis persistent key-value database                   
+ruby       3.1    common [d]                            An interpreter of object-oriented scripting language  
+ruby       3.3    common [d]                            An interpreter of object-oriented scripting language  
+
+Hint: [d]efault, [e]nabled, [x]disabled, [i]nstalled

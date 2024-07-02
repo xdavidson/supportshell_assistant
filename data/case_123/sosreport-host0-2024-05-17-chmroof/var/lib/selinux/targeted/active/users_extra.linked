@@ -1,0 +1,7 @@
+user user_u prefix user;
+user staff_u prefix user;
+user sysadm_u prefix user;
+user root prefix user;
+user unconfined_u prefix user;
+user guest_u prefix user;
+user xguest_u prefix user;

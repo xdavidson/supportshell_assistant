@@ -1,0 +1,5 @@
+# LVM uses devices listed in this file.
+# Created by LVM command vgcreate pid 3324 at Thu May 25 16:17:06 2023
+VERSION=1.1.3
+IDTYPE=devname IDNAME=/dev/vda2 DEVNAME=/dev/vda2 PVID=vPDur2IuHbbvHdJMtSYKXhlrwAMaEGb7 PART=2
+IDTYPE=devname IDNAME=/dev/vdb DEVNAME=/dev/vdb PVID=TWwaBzKpPLw72JurTd1fm75BaZ9QNlUL

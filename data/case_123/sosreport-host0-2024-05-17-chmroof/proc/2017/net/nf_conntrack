@@ -1,0 +1,19 @@
+ipv4     2 udp      17 27 src=100.0.0.1 dst=100.0.0.2/24 sport=56137 dport=53 src=100.0.0.2/24 dst=100.0.0.1 sport=53 dport=56137 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 20 src=100.0.0.1 dst=100.0.0.2/24 sport=60821 dport=53 src=100.0.0.2/24 dst=100.0.0.1 sport=53 dport=60821 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 16 src=100.0.0.1 dst=100.0.0.2/24 sport=45728 dport=53 src=100.0.0.2/24 dst=100.0.0.1 sport=53 dport=45728 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 tcp      6 6 CLOSE src=100.0.0.1 dst=63.74.79.51 sport=49202 dport=443 src=63.74.79.51 dst=100.0.0.1 sport=443 dport=49202 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 24 src=100.0.0.1 dst=100.0.0.2/24 sport=52386 dport=53 src=100.0.0.2/24 dst=100.0.0.1 sport=53 dport=52386 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 26 src=100.0.0.1 dst=100.0.0.2/24 sport=41001 dport=53 src=100.0.0.2/24 dst=100.0.0.1 sport=53 dport=41001 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 tcp      6 431999 ESTABLISHED src=100.0.0.3/24 dst=100.0.0.1 sport=48228 dport=22 src=100.0.0.1 dst=100.0.0.3/24 sport=22 dport=48228 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 tcp      6 4 CLOSE src=100.0.0.1 dst=63.74.79.51 sport=51126 dport=443 src=63.74.79.51 dst=100.0.0.1 sport=443 dport=51126 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 tcp      6 119 SYN_SENT src=100.0.0.1 dst=45.93.12.82 sport=46548 dport=443 [UNREPLIED] src=45.93.12.82 dst=100.0.0.1 sport=443 dport=46548 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 19 src=100.0.0.1 dst=100.0.0.2/24 sport=38068 dport=53 src=100.0.0.2/24 dst=100.0.0.1 sport=53 dport=38068 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 19 src=100.0.0.1 dst=100.0.0.2/24 sport=47741 dport=53 src=100.0.0.2/24 dst=100.0.0.1 sport=53 dport=47741 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 29 src=100.0.0.1 dst=100.0.0.2/24 sport=47430 dport=53 src=100.0.0.2/24 dst=100.0.0.1 sport=53 dport=47430 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 tcp      6 8 CLOSE src=100.0.0.1 dst=63.74.79.51 sport=49210 dport=443 src=63.74.79.51 dst=100.0.0.1 sport=443 dport=49210 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 19 src=100.0.0.1 dst=100.0.0.2/24 sport=38036 dport=53 src=100.0.0.2/24 dst=100.0.0.1 sport=53 dport=38036 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 27 src=100.0.0.1 dst=100.0.0.2/24 sport=58663 dport=53 src=100.0.0.2/24 dst=100.0.0.1 sport=53 dport=58663 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 19 src=100.0.0.1 dst=100.0.0.2/24 sport=60554 dport=53 src=100.0.0.2/24 dst=100.0.0.1 sport=53 dport=60554 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 tcp      6 1 CLOSE src=100.0.0.1 dst=63.74.79.51 sport=51112 dport=443 src=63.74.79.51 dst=100.0.0.1 sport=443 dport=51112 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 28 src=100.0.0.1 dst=100.0.0.2/24 sport=43527 dport=53 src=100.0.0.2/24 dst=100.0.0.1 sport=53 dport=43527 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 19 src=100.0.0.1 dst=100.0.0.2/24 sport=54857 dport=53 src=100.0.0.2/24 dst=100.0.0.1 sport=53 dport=54857 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2

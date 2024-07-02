@@ -1,0 +1,112 @@
+
+Remote address  : 41.11.88.34 (2D20CF88)
+Remote port     : 123
+Local address   : 100.0.0.1 (0A00001D)
+Leap status     : Normal
+Version         : 4
+Mode            : Server
+Stratum         : 2
+Poll interval   : 10 (1024 seconds)
+Precision       : -25 (0.000000030 seconds)
+Root delay      : 0.000351 seconds
+Root dispersion : 0.000214 seconds
+Reference ID    : 11FD7E7D ()
+Reference time  : Fri May 17 18:34:47 2024
+Offset          : +0.004261126 seconds
+Peer delay      : 0.055769451 seconds
+Peer dispersion : 0.000000051 seconds
+Response time   : 0.000043395 seconds
+Jitter asymmetry: -0.47
+NTP tests       : 111 111 1111
+Interleaved     : No
+Authenticated   : No
+TX timestamping : Kernel
+RX timestamping : Kernel
+Total TX        : 66
+Total RX        : 66
+Total valid RX  : 66
+Total good RX   : 52
+
+Remote address  : 86.16.71.63 (05A16FBE)
+Remote port     : 123
+Local address   : 100.0.0.1 (0A00001D)
+Leap status     : Normal
+Version         : 4
+Mode            : Server
+Stratum         : 4
+Poll interval   : 10 (1024 seconds)
+Precision       : -25 (0.000000030 seconds)
+Root delay      : 0.003845 seconds
+Root dispersion : 0.000961 seconds
+Reference ID    : CFC5577C ()
+Reference time  : Fri May 17 18:39:33 2024
+Offset          : -0.003385113 seconds
+Peer delay      : 0.050952248 seconds
+Peer dispersion : 0.000000059 seconds
+Response time   : 0.000083420 seconds
+Jitter asymmetry: +0.00
+NTP tests       : 111 111 1111
+Interleaved     : No
+Authenticated   : No
+TX timestamping : Kernel
+RX timestamping : Kernel
+Total TX        : 49
+Total RX        : 49
+Total valid RX  : 49
+Total good RX   : 49
+
+Remote address  : 44.46.52.34 (4A326283)
+Remote port     : 123
+Local address   : 100.0.0.1 (0A00001D)
+Leap status     : Normal
+Version         : 4
+Mode            : Server
+Stratum         : 2
+Poll interval   : 10 (1024 seconds)
+Precision       : -24 (0.000000060 seconds)
+Root delay      : 0.020096 seconds
+Root dispersion : 0.019806 seconds
+Reference ID    : 48EF7339 ()
+Reference time  : Fri May 17 18:36:49 2024
+Offset          : +0.002007716 seconds
+Peer delay      : 0.050443269 seconds
+Peer dispersion : 0.000000085 seconds
+Response time   : 0.000013411 seconds
+Jitter asymmetry: +0.00
+NTP tests       : 111 111 1111
+Interleaved     : No
+Authenticated   : No
+TX timestamping : Kernel
+RX timestamping : Kernel
+Total TX        : 49
+Total RX        : 49
+Total valid RX  : 49
+Total good RX   : 48
+
+Remote address  : 33.67.61.50 (32CD3926)
+Remote port     : 123
+Local address   : 100.0.0.1 (0A00001D)
+Leap status     : Normal
+Version         : 4
+Mode            : Server
+Stratum         : 1
+Poll interval   : 10 (1024 seconds)
+Precision       : -25 (0.000000030 seconds)
+Root delay      : 0.000000 seconds
+Root dispersion : 0.000000 seconds
+Reference ID    : 47505300 (GPS)
+Reference time  : Fri May 17 18:29:04 2024
+Offset          : +0.000336823 seconds
+Peer delay      : 0.059113774 seconds
+Peer dispersion : 0.000000052 seconds
+Response time   : 0.000004814 seconds
+Jitter asymmetry: -0.50
+NTP tests       : 111 111 1111
+Interleaved     : No
+Authenticated   : No
+TX timestamping : Kernel
+RX timestamping : Kernel
+Total TX        : 108
+Total RX        : 108
+Total valid RX  : 108
+Total good RX   : 66

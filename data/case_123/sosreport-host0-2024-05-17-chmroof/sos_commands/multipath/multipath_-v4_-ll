@@ -1,0 +1,31 @@
+22908.619505 | /etc/multipath.conf does not exist, blacklisting all devices.
+22908.619513 | You can run "/sbin/mpathconf --enable" to create
+22908.619514 | /etc/multipath.conf. See man mpathconf(8) for more details
+22908.619601 | set open fds limit to 1073741816/1073741816
+22908.619605 | loading /lib64/multipath/libchecktur.so checker
+22908.619651 | checker tur: message table size = 3
+22908.619655 | loading /lib64/multipath/libprioconst.so prioritizer
+22908.619692 | _init_foreign: found libforeign-nvme.so
+22908.619694 | _init_foreign: foreign library "nvme" is not enabled
+22908.621278 | Discover device /sys/devices/pci0000:00/0000:00:02.3/0000:04:00.0/virtio2/block/vda
+22908.621321 | 252:0: dev_t not found in pathvec
+22908.621342 | vda: device node name blacklisted
+22908.621352 | Discover device /sys/devices/pci0000:00/0000:00:02.3/0000:04:00.0/virtio2/block/vda/vda1
+22908.622108 | Discover device /sys/devices/pci0000:00/0000:00:02.3/0000:04:00.0/virtio2/block/vda/vda2
+22908.622148 | Discover device /sys/devices/pci0000:00/0000:00:1f.2/ata1/host1/target1:0:0/1:0:0:0/block/sr0
+22908.622186 | 11:0: dev_t not found in pathvec
+22908.622417 | sr0: device node name blacklisted
+22908.622427 | Discover device /sys/devices/virtual/block/dm-0
+22908.622458 | 253:0: dev_t not found in pathvec
+22908.622474 | dm-0: device node name blacklisted
+22908.622484 | Discover device /sys/devices/virtual/block/dm-1
+22908.622511 | 253:1: dev_t not found in pathvec
+22908.622527 | dm-1: device node name blacklisted
+22908.622536 | Discovered 0/4 paths
+22908.622575 | multipath-tools v0.8.7 (09/08, 2021)
+22908.622589 | libdevmapper version 1.02.195
+22908.622664 | kernel device mapper v4.48.0
+22908.623402 | DM multipath kernel driver not loaded
+22908.623433 | unloading tur checker
+22908.623451 | unloading const prioritizer
+===== no paths =====

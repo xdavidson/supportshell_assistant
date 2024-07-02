@@ -1,0 +1,109 @@
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       User       Inode      PID/Program name     Timer
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      0          15278      797/sshd: /usr/sbin  off (0.00/0/0)
+tcp        0      0 100.0.0.1:22            100.0.0.3/24:48228         ESTABLISHED 0          20765      1966/sshd: root [pr  keepalive (7135.05/0/0)
+tcp        0   2700 100.0.0.1:46548         45.93.12.82:443        ESTABLISHED 0          37054      4590/platform-pytho  on (0.03/0/0)
+tcp6       0      0 :::22                   :::*                    LISTEN      0          15280      797/sshd: /usr/sbin  off (0.00/0/0)
+udp        0      0 100.0.0.1:68            100.0.0.2/24:67             ESTABLISHED 0          17219      767/NetworkManager   off (0.00/0/0)
+udp        0      0 127.0.0.1:323           0.0.0.0:*                           0          15024      763/chronyd          off (0.00/0/0)
+udp6       0      0 ::1:323                 :::*                                0          15025      763/chronyd          off (0.00/0/0)
+raw6       0      0 :::58                   :::*                    7           0          18666      767/NetworkManager   off (0.00/0/0)
+Active UNIX dohost1 sockets (servers and established)
+Proto RefCnt Flags       Type       State         I-Node   PID/Program name     Path
+unix  2      [ ACC ]     SEQPACKET  LISTENING     16052    1/systemd            /run/udev/control
+unix  2      [ ACC ]     STREAM     LISTENING     14943    1/systemd            /run/dbus/system_bus_socket
+unix  2      [ ACC ]     STREAM     LISTENING     14946    1/systemd            /run/.heim_org.h5l.kcm-socket
+unix  2      [ ]         DGRAM                    20197    1970/systemd         /run/user/0/systemd/notify
+unix  2      [ ACC ]     STREAM     LISTENING     20200    1970/systemd         /run/user/0/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     20210    1970/systemd         /run/user/0/bus
+unix  2      [ ACC ]     STREAM     LISTENING     14575    638/systemd-journal  /run/systemd/journal/io.systemd.journal
+unix  3      [ ]         DGRAM      CONNECTED     528      1/systemd            /run/systemd/notify
+unix  2      [ ACC ]     STREAM     LISTENING     16650    750/irqbalance       /run/irqbalance/irqbalance750.sock
+unix  2      [ ACC ]     STREAM     LISTENING     15007    751/lsmd             /var/run/lsm/ipc/sim
+unix  2      [ ACC ]     STREAM     LISTENING     533      1/systemd            /run/systemd/userdb/io.systemd.DynamicUser
+unix  2      [ ACC ]     STREAM     LISTENING     16651    751/lsmd             /var/run/lsm/ipc/simc
+unix  2      [ ACC ]     STREAM     LISTENING     534      1/systemd            /run/systemd/io.system.ManagedOOM
+unix  2      [ ]         DGRAM      CONNECTED     15026    763/chronyd          /run/chrony/chronyd.sock
+unix  10     [ ]         DGRAM      CONNECTED     541      1/systemd            /run/systemd/journal/dev-log
+unix  8      [ ]         DGRAM      CONNECTED     543      1/systemd            /run/systemd/journal/socket
+unix  2      [ ACC ]     STREAM     LISTENING     545      1/systemd            /run/systemd/journal/stdout
+unix  2      [ ACC ]     STREAM     LISTENING     14945    1/systemd            @ISCSID_UIP_ABSTRACT_NAMESPACE
+unix  2      [ ACC ]     STREAM     LISTENING     14944    1/systemd            @ISCSIADM_ABSTRACT_NAMESPACE
+unix  2      [ ACC ]     STREAM     LISTENING     16034    1/systemd            /run/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     16048    1/systemd            /run/lvm/lvmpolld.socket
+unix  2      [ ACC ]     SEQPACKET  LISTENING     16050    1/systemd            /run/systemd/coredump
+unix  2      [ ]         DGRAM      CONNECTED     17508    870/rsyslogd         
+unix  3      [ ]         DGRAM      CONNECTED     20198    1970/systemd         
+unix  3      [ ]         STREAM     CONNECTED     17258    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     15068    746/dbus-broker      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     14898    722/auditd           
+unix  3      [ ]         STREAM     CONNECTED     15099    746/dbus-broker      /run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM      CONNECTED     15050    754/systemd-logind   
+unix  3      [ ]         STREAM     CONNECTED     16539    746/dbus-broker      
+unix  3      [ ]         STREAM     CONNECTED     34562    4348/systemd-hostna  
+unix  3      [ ]         STREAM     CONNECTED     17433    749/python3          
+unix  3      [ ]         STREAM     CONNECTED     14624    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     14987    754/systemd-logind   
+unix  3      [ ]         STREAM     CONNECTED     16525    745/dbus-broker-lau  
+unix  3      [ ]         STREAM     CONNECTED     16703    767/NetworkManager   
+unix  3      [ ]         STREAM     CONNECTED     16828    746/dbus-broker      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     15086    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     14952    1/systemd            
+unix  3      [ ]         STREAM     CONNECTED     15227    767/NetworkManager   
+unix  3      [ ]         STREAM     CONNECTED     14972    750/irqbalance       
+unix  3      [ ]         DGRAM      CONNECTED     530      1/systemd            
+unix  2      [ ]         DGRAM      CONNECTED     17471    873/crond            
+unix  3      [ ]         STREAM     CONNECTED     16580    1/systemd            /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM      CONNECTED     14576    638/systemd-journal  
+unix  3      [ ]         STREAM     CONNECTED     14996    746/dbus-broker      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     15065    754/systemd-logind   
+unix  2      [ ]         DGRAM      CONNECTED     15019    763/chronyd          
+unix  2      [ ]         DGRAM      CONNECTED     16536    745/dbus-broker-lau  
+unix  3      [ ]         STREAM     CONNECTED     14955    746/dbus-broker      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     16574    753/qemu-ga          
+unix  3      [ ]         STREAM     CONNECTED     15066    746/dbus-broker      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     16849    797/sshd: /usr/sbin  
+unix  3      [ ]         STREAM     CONNECTED     14602    654/systemd-udevd    
+unix  3      [ ]         STREAM     CONNECTED     20148    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         DGRAM      CONNECTED     529      1/systemd            
+unix  3      [ ]         STREAM     CONNECTED     20828    1966/sshd: root [pr  
+unix  3      [ ]         STREAM     CONNECTED     34592    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     14896    722/auditd           
+unix  3      [ ]         DGRAM      CONNECTED     35281    1/systemd            
+unix  3      [ ]         STREAM     CONNECTED     17428    746/dbus-broker      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     14977    751/lsmd             
+unix  2      [ ]         DGRAM                    15090    767/NetworkManager   
+unix  3      [ ]         STREAM     CONNECTED     16538    745/dbus-broker-lau  
+unix  3      [ ]         STREAM     CONNECTED     14895    724/sedispatch       
+unix  2      [ ]         DGRAM      CONNECTED     20185    1970/systemd         
+unix  2      [ ]         DGRAM      CONNECTED     14897    722/auditd           
+unix  3      [ ]         STREAM     CONNECTED     20145    1970/systemd         
+unix  3      [ ]         STREAM     CONNECTED     16859    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     17462    873/crond            
+unix  2      [ ]         DGRAM      CONNECTED     20170    1973/(sd-pam)        
+unix  2      [ ]         DGRAM      CONNECTED     17430    855/polkitd          
+unix  3      [ ]         STREAM     CONNECTED     20202    1970/systemd         
+unix  3      [ ]         STREAM     CONNECTED     16569    1/systemd            /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM      CONNECTED     14614    654/systemd-udevd    
+unix  2      [ ]         DGRAM      CONNECTED     18679    750/irqbalance       
+unix  3      [ ]         STREAM     CONNECTED     20827    1985/sshd: root@pts  
+unix  3      [ ]         STREAM     CONNECTED     17427    855/polkitd          
+unix  3      [ ]         STREAM     CONNECTED     14899    722/auditd           
+unix  3      [ ]         STREAM     CONNECTED     16531    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     16590    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         DGRAM      CONNECTED     14619    654/systemd-udevd    
+unix  3      [ ]         STREAM     CONNECTED     17434    749/python3          
+unix  2      [ ]         DGRAM      CONNECTED     16230    1/systemd            
+unix  3      [ ]         STREAM     CONNECTED     16589    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         DGRAM      CONNECTED     14618    654/systemd-udevd    
+unix  2      [ ]         STREAM     CONNECTED     20096    1966/sshd: root [pr  
+unix  3      [ ]         DGRAM      CONNECTED     35280    1/systemd            
+unix  3      [ ]         STREAM     CONNECTED     20812    746/dbus-broker      /run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM      CONNECTED     20824    1966/sshd: root [pr  
+unix  3      [ ]         STREAM     CONNECTED     15098    767/NetworkManager   
+unix  3      [ ]         STREAM     CONNECTED     16699    749/python3          
+unix  3      [ ]         DGRAM      CONNECTED     20199    1970/systemd         
+unix  3      [ ]         STREAM     CONNECTED     16547    745/dbus-broker-lau  
+Active Bluetooth connections (servers and established)
+Proto  Destination       Source            State         PSM DCID   SCID      IMTU    OMTU Security
+Proto  Destination       Source            State     Channel

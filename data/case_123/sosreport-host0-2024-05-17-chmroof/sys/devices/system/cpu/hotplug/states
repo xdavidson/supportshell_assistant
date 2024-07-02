@@ -1,0 +1,81 @@
+  0: offline
+  1: threads:prepare
+  2: perf:prepare
+  3: perf/x86:prepare
+  4: perf/x86/amd/uncore:prepare
+  9: x86/mce:dead
+ 10: virtio/net:dead
+ 11: slub:dead
+ 13: mm/writeback:dead
+ 15: mm/vmstat:dead
+ 16: softirq:dead
+ 21: irq_poll:dead
+ 22: block/softirq:dead
+ 23: block/bio:dead
+ 24: acpi/cpu-drv:dead
+ 26: block/mq:dead
+ 27: fs/buffer:dead
+ 28: printk:dead
+ 29: mm/memctrl:dead
+ 31: lib/percpu_cnt:dead
+ 32: lib/radix:dead
+ 33: mm/page_alloc:pcp
+ 34: net/dev:dead
+ 36: iommu/iova:dead
+ 39: padata:dead
+ 41: random:prepare
+ 42: workqueue:prepare
+ 44: hrtimers:prepare
+ 47: smpcfd:prepare
+ 48: relay:prepare
+ 49: slab:prepare
+ 51: RCU/tree:prepare
+ 60: base/topology:prepare
+ 63: trace/RB:preapre
+ 64: mm/zsmalloc:prepare
+ 65: mm/zswap:prepare
+ 66: mm/zswap_pool:prepare
+ 69: timers:prepare
+ 71: kvmclock:setup_percpu
+ 72: fork:vm_stack_cache
+ 92: cpu:bringup
+ 93: idle:dead
+ 94: ap:offline
+ 95: sched:starting
+ 96: RCU/tree:dying
+108: perf/x86/amd/uncore:starting
+109: perf/x86:starting
+143: smpcfd:dying
+146: ap:online
+147: cpu:teardown
+151: sched:waitempty
+152: smpboot/threads:online
+154: irq/affinity:online
+155: block/mq:online
+158: perf:online
+159: perf/x86:online
+161: perf/x86/amd/uncore:online
+192: lockup_detector:online
+193: workqueue:online
+194: random:online
+195: RCU/tree:online
+196: base/cacheinfo:online
+197: x86/kvm:online
+198: mm/writeback:online
+199: mm/vmstat:online
+200: padata:online
+201: pci/amd_bus:online
+202: mm/compaction:online
+203: io-wq/online
+204: x86/msr:online
+205: x86/cpuid:online
+206: lib/percpu_cnt:online
+207: acpi/cpu-drv:online
+208: x86/mce:online
+209: printk:online
+210: trace/hwlat:online
+211: trace/osnoise:online
+212: virtio/net:online
+213: swap_slots_cache
+231: sched:active
+232: online

@@ -1,0 +1,19 @@
+Updating Subscription Management repositories.
+Last metadata expiration check: 2:18:38 ago on Fri May 17 12:26:58 2024.
+Extra Packages
+allspark.noarch                              0.0.0-1.el9           @@commandline
+allspark-hooks.noarch                        0.0.0-1.el9           @@commandline
+insights-core.noarch                         3.0.305-1.el9         @System      
+insights-core.noarch                         3.1.0-1.el9           @System      
+insights-core.noarch                         3.1.10-1.el9          @System      
+insights-core.noarch                         3.1.11-1.el9          @System      
+insights-core.noarch                         3.1.15-1.el9          @System      
+insights-core.noarch                         3.1.16-1.el9          @System      
+insights-core.noarch                         3.1.20-1.el9          @System      
+insights-core.noarch                         3.1.26-1.el9          @System      
+insights-core.noarch                         3.2.26-1.el9          @@commandline
+insights-facts.noarch                        1.2-1.el9             @@commandline
+python-crash.noarch                          0.0.0-1.el9           @@commandline
+python3-CacheControl.noarch                  0.12.10-1.el9         @@commandline
+python3-CacheControl+filecache.noarch        0.12.10-1.el9         @@commandline
+python3-CacheControl+redis.noarch            0.12.10-1.el9         @@commandline

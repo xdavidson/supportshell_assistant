@@ -1,0 +1,351 @@
+2024-05-07T09:18:51-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2024-05-07T09:18:52-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2024-05-07T09:18:52-0400 INFO Downloading: https://mirrors.iu13.net/epel/9/Everything/x86_64/repodata/repomd.xml
+2024-05-07T09:18:52-0400 INFO Downloading: https://mirrors.iu13.net/epel/9/Everything/x86_64/repodata/c0a07cf820298bb2c6dcea0ce27db4677bcdb4c55da5bc56d4fcd5161963e331-primary.xml.gz
+2024-05-07T09:18:52-0400 INFO Downloading: https://mirrors.iu13.net/epel/9/Everything/x86_64/repodata/19e43c25773383a856992a0d68c03e803460e86e5ff0c7eef369dab49befe7d3-filelists.xml.gz
+2024-05-07T09:18:52-0400 INFO Downloading: https://mirrors.iu13.net/epel/9/Everything/x86_64/repodata/8768391f4f5cb0daebfd4f6103704b325933733c458df8f261b1e47601f81afc-comps-Everything.x86_64.xml.gz
+2024-05-07T09:18:52-0400 INFO Downloading: https://mirrors.iu13.net/epel/9/Everything/x86_64/repodata/27ef19ed65c9bd95f5aa1cd75e7b1aebc8d7f374df18be7801f7f956a2896c9f-prestodelta.xml.gz
+2024-05-07T09:18:53-0400 INFO Downloading: https://mirrors.iu13.net/epel/9/Everything/x86_64/repodata/642ebfa01e14aa54f856d1aefdb16ffee554a7d810dfcd172a3f97f746c3dc86-updateinfo.xml.bz2
+2024-05-07T09:18:57-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64
+2024-05-07T09:18:58-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-07T09:18:58-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-07T09:18:58-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/afa9e60a807f0e069afb2136aaa7a07150a431d692ce8904308cec77a68c3ab9-primary.xml.gz
+2024-05-07T09:18:58-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/662ac366d8d20e400590cda9bc37c85314cc184f697f548212638eb7ed155198-filelists.xml.gz
+2024-05-07T09:18:58-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/b7ec2a73d18b398d4febf9f94137aaaff57a8416aa58b473fcbc0e17a44ffc72-comps.xml
+2024-05-07T09:18:59-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/2549d66a61d5ad3e063c7f9dc0b0689e86bca9968bfd5daa6afdf08188f703e5-modules.yaml.gz
+2024-05-07T09:18:59-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/e753:4f:53:82:cd:3c80c51cefb9
+2024-05-07T09:18:59-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/e980322f26bbce9abdc0bc72a00a288e225538e71ac65c734a89fe12b8d4a153-updateinfo.xml.gz
+2024-05-07T09:19:04-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2024-05-07T10:22:39-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-07T11:26:49-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-07T12:41:49-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-07T12:41:51-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2024-05-07T12:41:51-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2024-05-07T12:41:51-0400 INFO Downloading: http://nnenix.mm.fcix.net/epel/9/Everything/x86_64/repodata/repomd.xml
+2024-05-07T12:41:52-0400 INFO Downloading: http://nnenix.mm.fcix.net/epel/9/Everything/x86_64/repodata/b2b0e219afb4b31db6144c053141877b3d3ada97b43050315c8b6bdc209bb3e2-primary.xml.gz
+2024-05-07T12:41:52-0400 INFO Downloading: http://nnenix.mm.fcix.net/epel/9/Everything/x86_64/repodata/70475df5e27548d5ffdbc2ed85fe601082d5ebdb603abec855eb339111c6eb08-filelists.xml.gz
+2024-05-07T12:41:52-0400 INFO Downloading: http://nnenix.mm.fcix.net/epel/9/Everything/x86_64/repodata/8768391f4f5cb0daebfd4f6103704b325933733c458df8f261b1e47601f81afc-comps-Everything.x86_64.xml.gz
+2024-05-07T12:41:52-0400 INFO Downloading: http://nnenix.mm.fcix.net/epel/9/Everything/x86_64/repodata/87c1ab8a0520919627c83cdf7d5f2290cee3987fdd3c63a1e279949278b39ef9-prestodelta.xml.gz
+2024-05-07T12:41:52-0400 INFO Downloading: http://nnenix.mm.fcix.net/epel/9/Everything/x86_64/repodata/04531d1d140268f9e30b35c1fa69f011c606cfd45e0432b7462a26b53a79bdf9-updateinfo.xml.bz2
+2024-05-07T12:41:57-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64
+2024-05-07T12:41:57-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-07T12:41:57-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-07T12:41:58-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/a37434794aeca058c096d94d68b04b587870a9088cf1a332149ea9d5d3036a49-primary.xml.gz
+2024-05-07T12:41:58-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/990224623b6b061902089fda348160e6db487d196e4d0b342e6564af50e3a044-filelists.xml.gz
+2024-05-07T12:41:58-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/b7ec2a73d18b398d4febf9f94137aaaff57a8416aa58b473fcbc0e17a44ffc72-comps.xml
+2024-05-07T12:41:58-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/69054b952dddcd642410bfa32a63d87e3eb73ed49a599f6a8eed12426e0661c8-modules.yaml.gz
+2024-05-07T12:41:58-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/e753:4f:53:82:cd:3c80c51cefb9
+2024-05-07T12:41:58-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/6c762fdc4fe34e338fd4a76496dc4b8d5e5bed3c0f6924a24daf84e410d49da6-updateinfo.xml.gz
+2024-05-07T12:42:04-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2024-05-07T14:19:49-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-07T15:39:49-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-07T17:20:49-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-07T17:20:51-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2024-05-07T17:20:51-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64
+2024-05-07T17:20:51-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-07T17:20:52-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2024-05-08T09:02:17-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-08T09:02:18-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2024-05-08T09:02:19-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64
+2024-05-08T09:02:19-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-08T09:02:19-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-08T09:02:19-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/759ef26ae13f17d3128c83221f53de2ef72295b7f9a694a3b1b34fcc93aeb9bc-primary.xml.gz
+2024-05-08T09:02:19-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/838192d7ed1e103b5fc7e9813591c62fb9edceb25c2e0535293bec583bb336b0-filelists.xml.gz
+2024-05-08T09:02:19-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/b7ec2a73d18b398d4febf9f94137aaaff57a8416aa58b473fcbc0e17a44ffc72-comps.xml
+2024-05-08T09:02:20-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/2e4c12cb6673d39ff6bbf5147948bf2e50d1100de3130325bd86ae8c6ecbd147-modules.yaml.gz
+2024-05-08T09:02:20-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/e753:4f:53:82:cd:3c80c51cefb9
+2024-05-08T09:02:20-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/45be74f76e2fb787fa6bb8ed1aab5a73fd6815019e7dd5303e3e8ec7bd6ec8e4-updateinfo.xml.gz
+2024-05-08T09:02:26-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2024-05-08T09:02:26-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2024-05-08T09:02:26-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/817e6b923692eaa9a67714c75b9ce8018b9e55808a4853aad2aefc25bf2d0705-primary.xml.gz
+2024-05-08T09:02:26-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/2a8508b4a4f8fc3b8d15ad79523846ca751dd013d4b77389b876eb9ff12afe27-filelists.xml.gz
+2024-05-08T09:02:26-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/87e1364258ed232261b1f003639bee3e57914d66b99271bf32536d1d043b567b-comps.xml
+2024-05-08T09:02:27-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/bc53:4f:53:9d:03:118d3a35ed93
+2024-05-08T09:02:27-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/8d8a1696ea3160ca49a57eed60f0af297e4dc05ff58cb09278dcc742d663ad30-updateinfo.xml.gz
+2024-05-08T10:05:17-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-08T11:17:17-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-08T12:35:27-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-08T12:35:28-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2024-05-08T12:35:29-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64
+2024-05-08T12:35:29-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-08T12:35:29-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-08T12:35:30-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/30c0b17a92e91f20fb38e4345c5921679368d84a4f7f2f0e632e2da19cb57e33-primary.xml.gz
+2024-05-08T12:35:30-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/208705a1e981f4157ed0c9eda9f13dda233ff3212dad6d6de4896cf2e3f07554-filelists.xml.gz
+2024-05-08T12:35:30-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/b7ec2a73d18b398d4febf9f94137aaaff57a8416aa58b473fcbc0e17a44ffc72-comps.xml
+2024-05-08T12:35:30-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/c6814c9536c33a8596c32493c5923883c69f86084123d0ac56a73feea929d7fe-modules.yaml.gz
+2024-05-08T12:35:30-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/e753:4f:53:82:cd:3c80c51cefb9
+2024-05-08T12:35:31-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/32b7b9a092e3c15abab7dc339ce5876ffdf8f3dbd91bd4c81a82a2eecf743f1c-updateinfo.xml.gz
+2024-05-08T12:35:36-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2024-05-08T14:32:17-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-08T15:41:17-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-08T15:41:18-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2024-05-08T15:41:18-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64
+2024-05-08T15:41:19-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-08T15:41:19-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2024-05-08T16:51:27-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-09T08:37:12-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-09T08:37:13-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2024-05-09T08:37:13-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2024-05-09T08:37:13-0400 INFO Downloading: http://volico.mm.fcix.net/epel/9/Everything/x86_64/repodata/repomd.xml
+2024-05-09T08:37:14-0400 INFO Downloading: http://volico.mm.fcix.net/epel/9/Everything/x86_64/repodata/0fc7559688935bc6d6e51350265668614247b241edbbb0dd04809807abaea53a-primary.xml.gz
+2024-05-09T08:37:14-0400 INFO Downloading: http://volico.mm.fcix.net/epel/9/Everything/x86_64/repodata/f2e12c7592fc390db8d0e35fe3fd80bcd75f128d7a401460fa14b82a5642e0a1-filelists.xml.gz
+2024-05-09T08:37:14-0400 INFO Downloading: http://volico.mm.fcix.net/epel/9/Everything/x86_64/repodata/17b9f859a0f6bb4e35ae6b5971469504d7f599960bedbc0141acb2aaa7a2e3fb-comps-Everything.x86_64.xml
+2024-05-09T08:37:14-0400 INFO Downloading: http://volico.mm.fcix.net/epel/9/Everything/x86_64/repodata/52108faf91730e49b6f34b35c8023a11a3cd7e8e9d88bd5983ff491da0ea3eec-prestodelta.xml.gz
+2024-05-09T08:37:14-0400 INFO Downloading: http://volico.mm.fcix.net/epel/9/Everything/x86_64/repodata/1561fd360810e820204272ceeb991df97b2853f45e331a88ae52612e84f2a841-updateinfo.xml.bz2
+2024-05-09T08:37:19-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64
+2024-05-09T08:37:19-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-09T08:37:19-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-09T08:37:19-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3fadaf1494e8a5da49f00d1b8f3e7a2ef98db0c62985951127c5b473f22f4414-primary.xml.gz
+2024-05-09T08:37:19-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/10c0837dde96b69b41c4fd6249c14f154443b1bdf2bb893c823a4e435cd7bfa1-filelists.xml.gz
+2024-05-09T08:37:19-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/b7ec2a73d18b398d4febf9f94137aaaff57a8416aa58b473fcbc0e17a44ffc72-comps.xml
+2024-05-09T08:37:20-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/15445612aeb3d895ce129310e0fe0bd115e6019d270fc0f709510545881f6237-modules.yaml.gz
+2024-05-09T08:37:20-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/e753:4f:53:82:cd:3c80c51cefb9
+2024-05-09T08:37:20-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/51068249c4ac2cd52441179769ecd3fad4fafb5f6eff5a8dc994245bdcf2b50d-updateinfo.xml.gz
+2024-05-09T08:37:26-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2024-05-09T10:26:11-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-09T12:01:11-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-09T12:01:13-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2024-05-09T12:01:13-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64
+2024-05-09T12:01:14-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-09T12:01:14-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-09T12:01:14-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/79cb43646e569baf1fab9f37cd85f711bc7f884d5054d9da84ed4fcf036d025f-primary.xml.gz
+2024-05-09T12:01:14-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/9329c153e059bc81e657b8a6a4f82a0a11e7fbfbfd893b3cb72a06633b2f9159-filelists.xml.gz
+2024-05-09T12:01:14-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/b7ec2a73d18b398d4febf9f94137aaaff57a8416aa58b473fcbc0e17a44ffc72-comps.xml
+2024-05-09T12:01:15-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/ae8b09e3741d37942059f2cf90e04c374980db3cfa0989970591c67613a0161d-modules.yaml.gz
+2024-05-09T12:01:15-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/e753:4f:53:82:cd:3c80c51cefb9
+2024-05-09T12:01:15-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/61e32b7bc6c56fda761af5f6321668ccc3e9bf76a6566d1f5d8f5fdd7cbdc628-updateinfo.xml.gz
+2024-05-09T12:01:20-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2024-05-09T12:01:21-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2024-05-09T12:01:21-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/1a1a3485f9baaa7c9b55693c3dfd7dc72bf6a6cf42387aa0353177646a3093b1-primary.xml.gz
+2024-05-09T12:01:21-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/b73aa32d1956f94bf7f08bca083c16770782181de53f7421919ad4313cd09198-filelists.xml.gz
+2024-05-09T12:01:21-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/87e1364258ed232261b1f003639bee3e57914d66b99271bf32536d1d043b567b-comps.xml
+2024-05-09T12:01:22-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/bc53:4f:53:9d:03:118d3a35ed93
+2024-05-09T12:01:22-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/36d07dbbf10b4dca0e12ed705839a770ad6316acd33cd346cd6b89051e4f9dcd-updateinfo.xml.gz
+2024-05-09T14:01:11-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-09T15:54:11-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-09T15:54:13-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2024-05-09T15:54:13-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64
+2024-05-09T15:54:14-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-09T15:54:14-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-09T15:54:14-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/fbdd0a4ac9e040643b9eb563be300c677e5a500347ba4e8a5ec32b6427c48219-primary.xml.gz
+2024-05-09T15:54:14-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/cdd90dcf2d037608afd755fce90a0d1c1d02d683d2aa48c95151ae101c41da81-filelists.xml.gz
+2024-05-09T15:54:14-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/b7ec2a73d18b398d4febf9f94137aaaff57a8416aa58b473fcbc0e17a44ffc72-comps.xml
+2024-05-09T15:54:15-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/be6ba3956cc61c70dfd3fe3e92d43f122469899ab6610ed7b8aea88a3636bc21-modules.yaml.gz
+2024-05-09T15:54:15-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/e753:4f:53:82:cd:3c80c51cefb9
+2024-05-09T15:54:15-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/bed29befe24ff088e52514dd614065e4eef9e9626eb396b0e95bb6cce464181b-updateinfo.xml.gz
+2024-05-09T15:54:21-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2024-05-09T17:24:11-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-10T09:20:41-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-10T09:20:43-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2024-05-10T09:20:43-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2024-05-10T09:20:43-0400 INFO Downloading: https://mnvoip.mm.fcix.net/epel/9/Everything/x86_64/repodata/repomd.xml
+2024-05-10T09:20:44-0400 INFO Downloading: https://mnvoip.mm.fcix.net/epel/9/Everything/x86_64/repodata/c6c4b41bd1347834afc52db49ef4277d5a1065841e027ca6d4d090fe598c4085-primary.xml.gz
+2024-05-10T09:20:44-0400 INFO Downloading: https://mnvoip.mm.fcix.net/epel/9/Everything/x86_64/repodata/4210120b48a3c3bf02292098e939166f0ecc3baba49cf567b107a489b66e907b-filelists.xml.gz
+2024-05-10T09:20:44-0400 INFO Downloading: https://mnvoip.mm.fcix.net/epel/9/Everything/x86_64/repodata/17b9f859a0f6bb4e35ae6b5971469504d7f599960bedbc0141acb2aaa7a2e3fb-comps-Everything.x86_64.xml
+2024-05-10T09:20:44-0400 INFO Downloading: https://mnvoip.mm.fcix.net/epel/9/Everything/x86_64/repodata/565eae743e5262862b83197cf06e9cbe8668efaf4192bd62c14467bfcd9bfbff-prestodelta.xml.gz
+2024-05-10T09:20:44-0400 INFO Downloading: https://mnvoip.mm.fcix.net/epel/9/Everything/x86_64/repodata/a037f85961100c53cb180afd41be85be7e980da5801e5096617a168be0d9cc41-updateinfo.xml.bz2
+2024-05-10T09:20:49-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64
+2024-05-10T09:20:49-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-10T09:20:50-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2024-05-10T10:37:41-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-10T12:30:21-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-10T12:30:23-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2024-05-10T12:30:23-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64
+2024-05-10T12:30:23-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-10T12:30:24-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2024-05-10T14:24:21-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-10T15:37:41-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-10T15:37:43-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2024-05-10T15:37:43-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64
+2024-05-10T15:37:43-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-10T15:37:44-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2024-05-13T09:19:05-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-13T09:19:07-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2024-05-13T09:19:07-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir&countme=4
+2024-05-13T09:19:07-0400 INFO Downloading: http://lolhost.mm.fcix.net/epel/9/Everything/x86_64/repodata/repomd.xml
+2024-05-13T09:19:08-0400 INFO Downloading: http://lolhost.mm.fcix.net/epel/9/Everything/x86_64/repodata/a6988150bce6bd89f68b171569fb0809ac243ae64ca3d0d107ac2c2faa4bda22-primary.xml.gz
+2024-05-13T09:19:08-0400 INFO Downloading: http://lolhost.mm.fcix.net/epel/9/Everything/x86_64/repodata/8110a3b07dadd80809505f87ecc2ce48cf86a57941c96dea1499b595247cd03d-filelists.xml.gz
+2024-05-13T09:19:08-0400 INFO Downloading: http://lolhost.mm.fcix.net/epel/9/Everything/x86_64/repodata/17b9f859a0f6bb4e35ae6b5971469504d7f599960bedbc0141acb2aaa7a2e3fb-comps-Everything.x86_64.xml
+2024-05-13T09:19:08-0400 INFO Downloading: http://lolhost.mm.fcix.net/epel/9/Everything/x86_64/repodata/2193ecf9d27bff96e01a203f478a4d8e0e18e1f38fad9e98825acd8ef35c2f57-prestodelta.xml.gz
+2024-05-13T09:19:08-0400 INFO Downloading: http://lolhost.mm.fcix.net/epel/9/Everything/x86_64/repodata/5414d7577acb4f2b2062142db7ff4ab9612434895fb95a0fff86fe1416dd81cc-updateinfo.xml.bz2
+2024-05-13T09:19:13-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64
+2024-05-13T09:19:14-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-13T09:19:14-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2024-05-13T10:46:15-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-13T11:52:05-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-13T13:04:05-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-13T13:04:06-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2024-05-13T13:04:06-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64
+2024-05-13T13:04:07-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-13T13:04:07-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2024-05-13T14:37:05-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-13T16:23:15-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-13T16:23:16-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2024-05-13T16:23:16-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64
+2024-05-13T16:23:17-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-13T16:23:17-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2024-05-13T17:25:05-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-14T08:58:27-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-14T08:58:29-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2024-05-14T08:58:29-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2024-05-14T08:58:29-0400 INFO Downloading: https://ziply.mm.fcix.net/epel/9/Everything/x86_64/repodata/repomd.xml
+2024-05-14T08:58:30-0400 INFO Downloading: https://ziply.mm.fcix.net/epel/9/Everything/x86_64/repodata/788953f6ebf9e4d713c55c169118201b27594f9a4808df8b17bd7edf47b9426a-primary.xml.gz
+2024-05-14T08:58:30-0400 INFO Downloading: https://ziply.mm.fcix.net/epel/9/Everything/x86_64/repodata/11845e43f55c014d0e33218b413b74a823129e7ada7bb163e3e6c7b6014c7add-filelists.xml.gz
+2024-05-14T08:58:30-0400 INFO Downloading: https://ziply.mm.fcix.net/epel/9/Everything/x86_64/repodata/17b9f859a0f6bb4e35ae6b5971469504d7f599960bedbc0141acb2aaa7a2e3fb-comps-Everything.x86_64.xml
+2024-05-14T08:58:30-0400 INFO Downloading: https://ziply.mm.fcix.net/epel/9/Everything/x86_64/repodata/78b037b34841867e5e2039adb6954e162bde093386294e3220805524bf175885-prestodelta.xml.gz
+2024-05-14T08:58:30-0400 INFO Downloading: https://ziply.mm.fcix.net/epel/9/Everything/x86_64/repodata/93179da9d64869cd90902ceb18ae4d3fa2a9557bf7e41dc8a29a076d9a462980-updateinfo.xml.bz2
+2024-05-14T08:58:35-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64
+2024-05-14T08:58:36-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-14T08:58:36-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-14T08:58:37-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/63168fe30c5e5b91e4d3366d29d7a1238dd4c266893783b4fc92a5a920d60d99-primary.xml.gz
+2024-05-14T08:58:37-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/22a60cf59d6801bfd24facb30d479bf3409aa90d88ff82089516e36fbc62bedb-filelists.xml.gz
+2024-05-14T08:58:37-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/b7ec2a73d18b398d4febf9f94137aaaff57a8416aa58b473fcbc0e17a44ffc72-comps.xml
+2024-05-14T08:58:38-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/4306e2e795e57b57d7f77cb36f75200ae61618f3b476f556b0e2b90958b4af52-modules.yaml.gz
+2024-05-14T08:58:38-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/e753:4f:53:82:cd:3c80c51cefb9
+2024-05-14T08:58:38-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/a76a7b03fd9eea2ff5440ed9ec966b1bd51daa634d8a679e2c53cd5afcd896c6-updateinfo.xml.gz
+2024-05-14T08:58:44-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2024-05-14T10:04:27-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-14T12:01:01-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-14T12:01:02-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2024-05-14T12:01:03-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64
+2024-05-14T12:01:03-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-14T12:01:04-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-14T12:01:04-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/62cd805e5d14f6f2e7f55ebbc7e9bf1893c0b584374c65b8601de0ead7d7868a-primary.xml.gz
+2024-05-14T12:01:04-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/16358ad0f74d85b24a9de111771797a9b5193b9d6022c8070a4e619c00fe18ed-filelists.xml.gz
+2024-05-14T12:01:04-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/b7ec2a73d18b398d4febf9f94137aaaff57a8416aa58b473fcbc0e17a44ffc72-comps.xml
+2024-05-14T12:01:05-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/45b75fd73ebfb338c192e1954feefaadbb07b63d18fe3c262029212ba73d87c4-modules.yaml.gz
+2024-05-14T12:01:05-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/e753:4f:53:82:cd:3c80c51cefb9
+2024-05-14T12:01:05-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/b1513b8cb08703b16facd3d6e0a0cf688284c0fcaab4d70103089ebd4b2c5733-updateinfo.xml.gz
+2024-05-14T12:01:10-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2024-05-14T13:49:27-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-14T15:48:27-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-14T15:48:28-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2024-05-14T15:48:29-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64
+2024-05-14T15:48:29-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-14T15:48:30-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-14T15:48:30-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/da924cfff5cc255eca7ba47c010e640d8920ed628f4ff961c87c88d507c55327-primary.xml.gz
+2024-05-14T15:48:30-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/be6a784062bf4de0633e1680316693f318f5f51423f085864c366db79283abd5-filelists.xml.gz
+2024-05-14T15:48:30-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/b7ec2a73d18b398d4febf9f94137aaaff57a8416aa58b473fcbc0e17a44ffc72-comps.xml
+2024-05-14T15:48:30-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/0a1f659899e6f2939ad349c49e72941ee9c11e43aedd44bc29f46d77229b7277-modules.yaml.gz
+2024-05-14T15:48:31-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/e753:4f:53:82:cd:3c80c51cefb9
+2024-05-14T15:48:31-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/569843d87a207de27b3550475d2c0e611dde95ae287c5537eb7d9d677c538429-updateinfo.xml.gz
+2024-05-14T15:48:36-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2024-05-14T16:52:27-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-15T09:31:13-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-15T09:31:14-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2024-05-15T09:31:15-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64
+2024-05-15T09:31:15-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-15T09:31:15-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-15T09:31:16-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/c7f06cff7391e2beaba338fa45ebca5fae2b3df361685df351e4c0096a563c58-primary.xml.gz
+2024-05-15T09:31:16-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/24b9ec11729fbd7f15e291c1d00ffbece88740e1cb72b08e5633e6aabd800b0e-filelists.xml.gz
+2024-05-15T09:31:16-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/b7ec2a73d18b398d4febf9f94137aaaff57a8416aa58b473fcbc0e17a44ffc72-comps.xml
+2024-05-15T09:31:16-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/cb6cc664a9d3c5cc3cbcca70fe59a645201b8deccae1a1301f25ec7de5ca8fad-modules.yaml.gz
+2024-05-15T09:31:17-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/e753:4f:53:82:cd:3c80c51cefb9
+2024-05-15T09:31:17-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/5c335509a7b0cb76b03fdf54462252b4979d6fefcaffb0ec2588c5c39547a733-updateinfo.xml.gz
+2024-05-15T09:31:22-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2024-05-15T11:31:13-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-15T12:45:03-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-15T12:45:04-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2024-05-15T12:45:05-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2024-05-15T12:45:05-0400 INFO Downloading: https://mirror.pilotfiber.com/epel/9/Everything/x86_64/repodata/repomd.xml
+2024-05-15T12:45:05-0400 INFO Downloading: https://mirror.pilotfiber.com/epel/9/Everything/x86_64/repodata/788953f6ebf9e4d713c55c169118201b27594f9a4808df8b17bd7edf47b9426a-primary.xml.gz
+2024-05-15T12:45:05-0400 INFO Downloading: https://mirror.pilotfiber.com/epel/9/Everything/x86_64/repodata/11845e43f55c014d0e33218b413b74a823129e7ada7bb163e3e6c7b6014c7add-filelists.xml.gz
+2024-05-15T12:45:05-0400 INFO Downloading: https://mirror.pilotfiber.com/epel/9/Everything/x86_64/repodata/17b9f859a0f6bb4e35ae6b5971469504d7f599960bedbc0141acb2aaa7a2e3fb-comps-Everything.x86_64.xml
+2024-05-15T12:45:06-0400 INFO Downloading: https://mirror.pilotfiber.com/epel/9/Everything/x86_64/repodata/78b037b34841867e5e2039adb6954e162bde093386294e3220805524bf175885-prestodelta.xml.gz
+2024-05-15T12:45:06-0400 INFO Downloading: https://mirror.pilotfiber.com/epel/9/Everything/x86_64/repodata/93179da9d64869cd90902ceb18ae4d3fa2a9557bf7e41dc8a29a076d9a462980-updateinfo.xml.bz2
+2024-05-15T12:45:07-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64
+2024-05-15T12:45:07-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-15T12:45:08-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-15T12:45:08-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/6df3736df73dbc63a23430bec277a63a38faa547e464d455815934185a5b0220-primary.xml.gz
+2024-05-15T12:45:08-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/0db45de0b9c732f3c279927fca03e08c74e2f28074f3d1bd228bfe965864bf71-filelists.xml.gz
+2024-05-15T12:45:08-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/b7ec2a73d18b398d4febf9f94137aaaff57a8416aa58b473fcbc0e17a44ffc72-comps.xml
+2024-05-15T12:45:09-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/653bfeccf18bf3a1ffb0dc9bbde57195a63e8cf2ea5b2e84c7af2c7dd11ca24b-modules.yaml.gz
+2024-05-15T12:45:09-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/e753:4f:53:82:cd:3c80c51cefb9
+2024-05-15T12:45:09-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/2673d42a439319106fec37870d3c9d1df9594b6e9a5ff5d2f912fc7e7f14ea77-updateinfo.xml.gz
+2024-05-15T12:45:15-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2024-05-15T14:17:13-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-15T15:59:13-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-15T15:59:14-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2024-05-15T15:59:15-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2024-05-15T15:59:15-0400 INFO Downloading: https://ix-denver.mm.fcix.net/epel/9/Everything/x86_64/repodata/repomd.xml
+2024-05-15T15:59:15-0400 INFO Downloading: https://ix-denver.mm.fcix.net/epel/9/Everything/x86_64/repodata/3dc2bd426f98b1b4c5402e67e15d237a89490fcde6c74b76393c102472294ce3-primary.xml.gz
+2024-05-15T15:59:15-0400 INFO Downloading: https://ix-denver.mm.fcix.net/epel/9/Everything/x86_64/repodata/d81518fd637d2738ad1957acffbd586baafd615ca5f9522bcee9979e98c78b31-filelists.xml.gz
+2024-05-15T15:59:15-0400 INFO Downloading: https://ix-denver.mm.fcix.net/epel/9/Everything/x86_64/repodata/17b9f859a0f6bb4e35ae6b5971469504d7f599960bedbc0141acb2aaa7a2e3fb-comps-Everything.x86_64.xml
+2024-05-15T15:59:16-0400 INFO Downloading: https://ix-denver.mm.fcix.net/epel/9/Everything/x86_64/repodata/1640aa22814ba9177070dbfc550bdd2077e68ec9302fbc47add470e094116c57-prestodelta.xml.gz
+2024-05-15T15:59:16-0400 INFO Downloading: https://ix-denver.mm.fcix.net/epel/9/Everything/x86_64/repodata/f584681b56b5dc935e63a8013cff2c23ea978b1045e672df7fe01d1db307086d-updateinfo.xml.bz2
+2024-05-15T15:59:21-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64
+2024-05-15T15:59:21-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-15T15:59:21-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2024-05-16T08:30:17-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-16T08:30:19-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2024-05-16T08:30:19-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2024-05-16T08:30:19-0400 INFO Downloading: http://ohioix.mm.fcix.net/epel/9/Everything/x86_64/repodata/repomd.xml
+2024-05-16T08:30:20-0400 INFO Downloading: http://ohioix.mm.fcix.net/epel/9/Everything/x86_64/repodata/d40bccdf52eea798ebfee5532f28b5bccc7b34f3fbbe0dd2bc9ee9a2418de117-primary.xml.gz
+2024-05-16T08:30:20-0400 INFO Downloading: http://ohioix.mm.fcix.net/epel/9/Everything/x86_64/repodata/007322e0ae080dbad029ac1f5d81626f527c26a42885d915a570048cef2b3248-filelists.xml.gz
+2024-05-16T08:30:20-0400 INFO Downloading: http://ohioix.mm.fcix.net/epel/9/Everything/x86_64/repodata/17b9f859a0f6bb4e35ae6b5971469504d7f599960bedbc0141acb2aaa7a2e3fb-comps-Everything.x86_64.xml
+2024-05-16T08:30:20-0400 INFO Downloading: http://ohioix.mm.fcix.net/epel/9/Everything/x86_64/repodata/89590ee5af37e314efc4e0ef80f617c88929acb948cceafdc8385b9da91a5f9a-prestodelta.xml.gz
+2024-05-16T08:30:20-0400 INFO Downloading: http://ohioix.mm.fcix.net/epel/9/Everything/x86_64/repodata/6211b1bdfcea766c890e204ca6b960eb26e0fd70b737d3603353f9e1d842fcdf-updateinfo.xml.bz2
+2024-05-16T08:30:25-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64
+2024-05-16T08:30:25-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-16T08:30:25-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-16T08:30:26-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/d8c14c8ea384010c8a58df94fe399adad31b39e065fac120de9c7a7eda53a6bb-primary.xml.gz
+2024-05-16T08:30:26-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/84283e2d64e1558af4698d9184b29a59d6c581b0c9db572f31374a19e7d5c4b4-filelists.xml.gz
+2024-05-16T08:30:26-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/b7ec2a73d18b398d4febf9f94137aaaff57a8416aa58b473fcbc0e17a44ffc72-comps.xml
+2024-05-16T08:30:26-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/a59b510938c5f25afbc1c0584a25c923b4695b61220aaebfbaa005970f06a2b6-modules.yaml.gz
+2024-05-16T08:30:26-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/e753:4f:53:82:cd:3c80c51cefb9
+2024-05-16T08:30:26-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/4c5ab0b8282f59828e83be6464c9b69daac2432d19ef0081258fe70e136a3bd1-updateinfo.xml.gz
+2024-05-16T08:30:32-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2024-05-16T09:32:07-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-16T10:43:17-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-16T12:04:17-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-16T12:04:19-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2024-05-16T12:04:19-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64
+2024-05-16T12:04:49-0400 INFO Serious error - Curl code (28): Timeout was reached for https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64 [Operation timed out after 30001 milliseconds with 0 out of 0 bytes received]
+2024-05-16T12:04:49-0400 INFO Error during transfer: Curl error (28): Timeout was reached for https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64 [Operation timed out after 30001 milliseconds with 0 out of 0 bytes received]
+2024-05-16T12:04:49-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64
+2024-05-16T12:05:19-0400 INFO Serious error - Curl code (28): Timeout was reached for https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64 [Operation timed out after 30000 milliseconds with 0 out of 0 bytes received]
+2024-05-16T12:05:19-0400 INFO Error during transfer: Curl error (28): Timeout was reached for https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64 [Operation timed out after 30000 milliseconds with 0 out of 0 bytes received]
+2024-05-16T12:05:19-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64
+2024-05-16T12:05:20-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-16T12:05:20-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-16T12:05:20-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/cc83c31d81b5dc2e28fac2cbbef12b48ed913c2e2836e73dc49d969434007702-primary.xml.gz
+2024-05-16T12:05:20-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/324a5c677665eb9a9297e738fa64838eea573a071390ab079f16bcacaa5a5867-filelists.xml.gz
+2024-05-16T12:05:20-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/b7ec2a73d18b398d4febf9f94137aaaff57a8416aa58b473fcbc0e17a44ffc72-comps.xml
+2024-05-16T12:05:21-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/b48ea9643af44bcb417ad144b1126d51a5cf024ce447cb0a52f34feab86b5457-modules.yaml.gz
+2024-05-16T12:05:21-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/e753:4f:53:82:cd:3c80c51cefb9
+2024-05-16T12:05:21-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/2f6684f7dfd1f2d86173fa5f91b030219446678356f308204a33f77acda94312-updateinfo.xml.gz
+2024-05-16T12:05:26-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2024-05-16T13:56:17-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-16T15:44:07-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-16T15:44:08-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2024-05-16T15:44:09-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64
+2024-05-16T15:44:09-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-16T15:44:09-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-16T15:44:10-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/39397a1a9a5955b93101eda93497373a6644c8b380acb2d85d3e3a821cf2c544-primary.xml.gz
+2024-05-16T15:44:10-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/66b0e711fdf3492d544dcb0eaeffba7ff1c5322b2fc6d989e088947471e4b1fd-filelists.xml.gz
+2024-05-16T15:44:10-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/b7ec2a73d18b398d4febf9f94137aaaff57a8416aa58b473fcbc0e17a44ffc72-comps.xml
+2024-05-16T15:44:10-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/51d5d5ce4df3fd65517cc23da30cbe1c4fcc5e34a4fa8bbffb74a0ee367fa026-modules.yaml.gz
+2024-05-16T15:44:10-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/e753:4f:53:82:cd:3c80c51cefb9
+2024-05-16T15:44:10-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/fd65dc5d16f8c663b08f4fec491f104bd748f881014ec46e7c1a3ea9836d22d1-updateinfo.xml.gz
+2024-05-16T15:44:16-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2024-05-16T16:51:17-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-17T09:18:55-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-17T09:18:56-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2024-05-17T09:18:57-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2024-05-17T09:18:57-0400 INFO Downloading: https://mirror.facebook.net/fedora/epel/9/Everything/x86_64/repodata/repomd.xml
+2024-05-17T09:18:57-0400 INFO Downloading: https://mirror.facebook.net/fedora/epel/9/Everything/x86_64/repodata/06a12e1adf80d4b08254b59e0a5ec801786decdceabdb9fabab2cd697a220fa1-primary.xml.gz
+2024-05-17T09:18:57-0400 INFO Downloading: https://mirror.facebook.net/fedora/epel/9/Everything/x86_64/repodata/e587815d1d5d80bf7ee3985c59663a5f0fa9fc3269b216ff65ccda4ca0be7b88-filelists.xml.gz
+2024-05-17T09:18:57-0400 INFO Downloading: https://mirror.facebook.net/fedora/epel/9/Everything/x86_64/repodata/17b9f859a0f6bb4e35ae6b5971469504d7f599960bedbc0141acb2aaa7a2e3fb-comps-Everything.x86_64.xml
+2024-05-17T09:18:58-0400 INFO Downloading: https://mirror.facebook.net/fedora/epel/9/Everything/x86_64/repodata/7144644b8dec6e165b24bd2cd82ae209cea07a7b9a749bb265a40aa9231707d3-prestodelta.xml.gz
+2024-05-17T09:18:59-0400 INFO Downloading: https://mirror.facebook.net/fedora/epel/9/Everything/x86_64/repodata/ace6c6d3c91ada3af6e523118df136fadd3bf6f556cc1f55f00e795c6f4b7dd9-updateinfo.xml.bz2
+2024-05-17T09:19:15-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64
+2024-05-17T09:19:15-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-17T09:19:15-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2024-05-17T11:14:55-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-17T12:26:55-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-17T12:26:57-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2024-05-17T12:26:57-0400 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64
+2024-05-17T12:26:57-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2024-05-17T12:26:58-0400 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2024-05-17T14:21:55-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2024-05-17T14:45:27-0400 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.0.7 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)

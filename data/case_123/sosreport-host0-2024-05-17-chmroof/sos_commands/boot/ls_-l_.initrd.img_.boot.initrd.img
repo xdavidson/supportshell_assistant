@@ -1,0 +1,2 @@
+ls: cannot access '/initrd.img': No such file or directory
+ls: cannot access '/boot/initrd.img': No such file or directory

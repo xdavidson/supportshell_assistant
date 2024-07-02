@@ -1,0 +1,4 @@
+cifs-idmap-plugin - status is auto.
+ link currently points to /usr/lib64/cifs-utils/cifs_idmap_sss.so
+/usr/lib64/cifs-utils/cifs_idmap_sss.so - priority 20
+Current `best' version is /usr/lib64/cifs-utils/cifs_idmap_sss.so.

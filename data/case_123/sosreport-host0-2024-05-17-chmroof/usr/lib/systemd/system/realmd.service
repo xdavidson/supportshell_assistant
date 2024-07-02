@@ -1,0 +1,8 @@
+[Unit]
+Description=Realm and Dohost1 Configuration
+Documentation=man:realm(8) man:realmd.conf(5)
+
+[Service]
+Type=dbus
+BusName=org.freedesktop.realmd
+ExecStart=/usr/libexec/realmd

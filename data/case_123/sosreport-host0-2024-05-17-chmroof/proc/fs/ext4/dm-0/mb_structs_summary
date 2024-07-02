@@ -1,0 +1,31 @@
+optimize_scan: 1
+max_free_order_lists:
+	list_order_0_groups: 0
+	list_order_1_groups: 0
+	list_order_2_groups: 0
+	list_order_3_groups: 0
+	list_order_4_groups: 0
+	list_order_5_groups: 0
+	list_order_6_groups: 0
+	list_order_7_groups: 0
+	list_order_8_groups: 7
+	list_order_9_groups: 2
+	list_order_10_groups: 4
+	list_order_11_groups: 4
+	list_order_12_groups: 6
+	list_order_13_groups: 20
+avg_fragment_size_lists:
+	list_order_0_groups: 0
+	list_order_1_groups: 0
+	list_order_2_groups: 0
+	list_order_3_groups: 0
+	list_order_4_groups: 6
+	list_order_5_groups: 3
+	list_order_6_groups: 2
+	list_order_7_groups: 6
+	list_order_8_groups: 3
+	list_order_9_groups: 5
+	list_order_10_groups: 1
+	list_order_11_groups: 2
+	list_order_12_groups: 3
+	list_order_13_groups: 12

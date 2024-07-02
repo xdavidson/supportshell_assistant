@@ -1,0 +1,99 @@
+  Reloading config files
+  Loading config file: /etc/lvm/lvm.conf
+  log/syslog not found in config: defaulting to 0
+  log/level not found in config: defaulting to 0
+  log/silent not found in config: defaulting to 0
+  log/verbose not found in config: defaulting to 0
+  activation/monitoring not found in config: defaulting to 1
+  global/locking_type not found in config: defaulting to 1
+  devices/md_component_detection not found in config: defaulting to 1
+  devices/md_component_checks not found in config: defaulting to "auto"
+  devices/multipath_wwids_file not found in config: defaulting to "/etc/multipath/wwids"
+  global/use_lvmlockd not found in config: defaulting to 0
+  devices/use_devicesfile not found in config: defaulting to 1
+  devices/devicesfile not found in config: defaulting to "system.devices"
+  Devices file PVID TWwaBzKpPLw72JurTd1fm75BaZ9QNlUL last seen on /dev/vdb not found.
+  /dev/vda2: size is 18872320 sectors
+  /dev/vda2: using cached size 18872320 sectors
+  /dev/vda2: using cached size 18872320 sectors
+  Obtaining the complete list of VGs to process
+  report/output_format not found in config: defaulting to "basic"
+  log/report_command_log not found in config: defaulting to 0
+  Processing VG root_vg 0czQa6-vnpM-IdWS-sf2U-4s4t-43ed-qtiI84
+  metadata/lvs_history_retention_time not found in config: defaulting to 0
+  /dev/vda2: using cached size 18872320 sectors
+  Running command for VG root_vg 0czQa6-vnpM-IdWS-sf2U-4s4t-43ed-qtiI84
+  --- Volume group ---
+  VG Name               root_vg
+  System ID             
+  Format                lvm2
+  Metadata Areas        1
+  Metadata Sequence No  6
+  VG Access             read/write
+  VG Status             resizable
+  MAX LV                0
+  Cur LV                2
+  Open LV               2
+  Max PV                0
+  Cur PV                1
+  Act PV                1
+  VG Size               <9.00 GiB
+  PE Size               4.00 MiB
+  Total PE              2303
+  Alloc PE / Size       2303 / <9.00 GiB
+  Free  PE / Size       0 / 0   
+  VG UUID               0czQa6-vnpM-IdWS-sf2U-4s4t-43ed-qtiI84
+   
+  Adding root_vg/lv_root to the list of LVs to be processed.
+  Adding root_vg/lv_swap to the list of LVs to be processed.
+  Processing LV lv_root in VG root_vg.
+  --- Logical volume ---
+  global/lvdisplay_shows_full_device_path not found in config: defaulting to 0
+  LV Path                /dev/root_vg/lv_root
+  LV Name                lv_root
+  VG Name                root_vg
+  LV UUID                DMbXF6-VSQd-ng1Q-ah1V-JgoD-dDAa-3ramzg
+  LV Write Access        read/write
+  LV Creation host, time localhost.localdomain, 2021-11-02 15:21:48 -0400
+  LV Status              available
+  # open                 1
+  LV Size                <8.90 GiB
+  Current LE             2278
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:0
+   
+  Processing LV lv_swap in VG root_vg.
+  --- Logical volume ---
+  global/lvdisplay_shows_full_device_path not found in config: defaulting to 0
+  LV Path                /dev/root_vg/lv_swap
+  LV Name                lv_swap
+  VG Name                root_vg
+  LV UUID                gMlBWs-xIzw-82SA-QqxM-Txl5-NTLE-KuY47l
+  LV Write Access        read/write
+  LV Creation host, time localhost.localdomain, 2021-11-02 15:21:48 -0400
+  LV Status              available
+  # open                 2
+  LV Size                100.00 MiB
+  Current LE             25
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:1
+   
+  --- Physical volumes ---
+  PV Name               /dev/vda2     
+  PV UUID               vPDur2-IuHb-bvHd-JMtS-YKXh-lrwA-MaEGb7
+  PV Status             allocatable
+  Total PE / Free PE    2303 / 0
+   
+  global/notify_dbus not found in config: defaulting to 1
+  Reloading config files
+  Loading config file: /etc/lvm/lvm.conf
+  log/syslog not found in config: defaulting to 0
+  log/level not found in config: defaulting to 0
+  log/silent not found in config: defaulting to 0
+  log/verbose not found in config: defaulting to 0

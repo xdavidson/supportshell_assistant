@@ -1,0 +1,160 @@
+  Version: 2.03.21(2) (2023-04-21)
+  Parsing: vgscan -vvv --config=global{metadata_read_only=1} --nolocking
+  Recognised command vgscan_general (id 170 / enum 150).
+  Reloading config files
+  Syncing device names
+  Destroy lvmcache content
+  Freeing VG #orphans_lvm2 at 0x55c925b98e70.
+  Loading config file: /etc/lvm/lvm.conf
+  Opened /etc/lvm/lvm.conf RO
+  Closed /etc/lvm/lvm.conf
+  log/syslog not found in config: defaulting to 0
+  log/level not found in config: defaulting to 0
+  log/silent not found in config: defaulting to 0
+  log/verbose not found in config: defaulting to 0
+  DEGRADED MODE. Incomplete RAID LVs will be processed.
+  activation/monitoring not found in config: defaulting to 1
+  Processing command: vgscan -vvv --config=global{metadata_read_only=1} --nolocking
+  Command pid: 4638
+  System ID: 
+  O_DIRECT will be used
+  global/locking_type not found in config: defaulting to 1
+  devices/md_component_detection not found in config: defaulting to 1
+  devices/md_component_checks not found in config: defaulting to "auto"
+  Using md_component_checks auto use_full_md_check 0
+  devices/multipath_wwids_file not found in config: defaulting to "/etc/multipath/wwids"
+  multipath wwids file not found
+  global/use_lvmlockd not found in config: defaulting to 0
+  Processing each VG
+  lvmcache label scan begin
+  Finding devices to scan
+  devices/use_devicesfile not found in config: defaulting to 1
+  devices/devicesfile not found in config: defaulting to "system.devices"
+  device_ids_read /etc/lvm/devices/system.devices
+  read devices file version 1.1.3
+  Creating list of system devices.
+  Found dev 11:0 /dev/block/11:0 - new.
+  Found dev 252:0 /dev/block/252:0 - new.
+  Found dev 252:1 /dev/block/252:1 - new.
+  Found dev 252:2 /dev/block/252:2 - new.
+  Found dev 253:0 /dev/block/253:0 - new.
+  Found dev 253:1 /dev/block/253:1 - new.
+  Found dev 11:0 /dev/cdrom - new alias.
+  Found dev 252:0 /dev/disk/by-diskseq/1 - new alias.
+  Found dev 11:0 /dev/disk/by-diskseq/3 - new alias.
+  Found dev 11:0 /dev/disk/by-id/ata-QEMU_DVD-ROM_QM00001 - new alias.
+  Found dev 253:0 /dev/disk/by-id/dm-name-root_vg-lv_root - new alias.
+  Found dev 253:1 /dev/disk/by-id/dm-name-root_vg-lv_swap - new alias.
+  Found dev 253:0 /dev/disk/by-id/dm-uuid-LVM-0czQa6vnpMIdWSsf2U4s4t43edqtiI84DMbXF6VSQdng1Qah1VJgoDdDAa3ramzg - new alias.
+  Found dev 253:1 /dev/disk/by-id/dm-uuid-LVM-0czQa6vnpMIdWSsf2U4s4t43edqtiI84gMlBWsxIzw82SAQqxMTxl5NTLEKuY47l - new alias.
+  Found dev 252:2 /dev/disk/by-id/lvm-pv-uuid-vPDur2-IuHb-bvHd-JMtS-YKXh-lrwA-MaEGb7 - new alias.
+  Found dev 252:1 /dev/disk/by-label/boot - new alias.
+  Found dev 253:0 /dev/disk/by-label/lv_root - new alias.
+  Found dev 253:1 /dev/disk/by-label/lv_swap - new alias.
+  Found dev 252:1 /dev/disk/by-partuuid/2b0740da-01 - new alias.
+  Found dev 252:2 /dev/disk/by-partuuid/2b0740da-02 - new alias.
+  Found dev 11:0 /dev/disk/by-path/pci-0000:00:1f.2-ata-1 - new alias.
+  Found dev 11:0 /dev/disk/by-path/pci-0000:00:1f.2-ata-1.0 - new alias.
+  Found dev 252:0 /dev/disk/by-path/pci-0000:04:00.0 - new alias.
+  Found dev 252:1 /dev/disk/by-path/pci-0000:04:00.0-part1 - new alias.
+  Found dev 252:2 /dev/disk/by-path/pci-0000:04:00.0-part2 - new alias.
+  Found dev 252:0 /dev/disk/by-path/virtio-pci-0000:04:00.0 - new alias.
+  Found dev 252:1 /dev/disk/by-path/virtio-pci-0000:04:00.0-part1 - new alias.
+  Found dev 252:2 /dev/disk/by-path/virtio-pci-0000:04:00.0-part2 - new alias.
+  Found dev 253:1 /dev/disk/by-uuid/4a53:4f:53:9d:a6:2f729ba56fdd - new alias.
+  Found dev 253:0 /dev/disk/by-uuid/5d53:4f:53:1a:9b:455bfac8954c - new alias.
+  Found dev 252:1 /dev/disk/by-uuid/6253:4f:53:99:54:0247767a441d - new alias.
+  Found dev 253:0 /dev/dm-0 - new alias.
+  Found dev 253:1 /dev/dm-1 - new alias.
+  /dev/fd: Symbolic link to directory
+  /dev/hugepages: Different filesystem in directory
+  Found dev 253:0 /dev/mapper/root_vg-lv_root - new alias.
+  Found dev 253:1 /dev/mapper/root_vg-lv_swap - new alias.
+  /dev/mqueue: Different filesystem in directory
+  /dev/pts: Different filesystem in directory
+  Found dev 253:0 /dev/root_vg/lv_root - new alias.
+  Found dev 253:1 /dev/root_vg/lv_swap - new alias.
+  /dev/shm: Different filesystem in directory
+  Found dev 11:0 /dev/sr0 - new alias.
+  Found dev 252:0 /dev/vda - new alias.
+  Found dev 252:1 /dev/vda1 - new alias.
+  Found dev 252:2 /dev/vda2 - new alias.
+  compare devices file entries to devices
+  Match device_id devname /dev/vda2 to /dev/vda2
+  Devices file PVID TWwaBzKpPLw72JurTd1fm75BaZ9QNlUL last seen on /dev/vdb not found.
+  Filtering devices to scan (nodata)
+  /dev/cdrom: Skipping: Unrecognised LVM device type 11
+  /dev/vda: Skipping (deviceid)
+  /dev/root_vg/lv_root: Skipping (deviceid)
+  /dev/vda1: Skipping (deviceid)
+  /dev/root_vg/lv_swap: Skipping (deviceid)
+  /dev/vda2: size is 18872320 sectors
+  Closed /dev/vda2
+  filter caching good /dev/vda2
+  Filtering devices to scan done (nodata)
+  Checking fd limit for num_devs 1 want 33 soft 1024 hard 524288
+  Scanning 1 devices for VG info
+  open /dev/vda2 ro di 0 fd 3
+  Scanning submitted 1 reads
+  Processing data from device /dev/vda2 252:2 di 0
+  /dev/vda2: using cached size 18872320 sectors
+  /dev/vda2: using cached size 18872320 sectors
+  filter caching good /dev/vda2
+  Found label at sector 1 on /dev/vda2
+  Found PVID vPDur2IuHbbvHdJMtSYKXhlrwAMaEGb7 on /dev/vda2
+  lvmcache /dev/vda2: now in VG #orphans_lvm2 #orphans_lvm2
+  Scanning /dev/vda2 mda1 summary.
+  Reading mda header sector from /dev/vda2 at 4096
+  Reading metadata summary from /dev/vda2 at 12288 size 1384 (+0)
+  Found metadata summary on /dev/vda2 at 12288 size 1384 for VG root_vg
+  lvmcache adding vginfo for root_vg 0czQa6-vnpM-IdWS-sf2U-4s4t-43ed-qtiI84
+  lvmcache /dev/vda2: now in VG root_vg 0czQa6vnpMIdWSsf2U4s4t43edqtiI84
+  lvmcache /dev/vda2: VG root_vg: set VGID to 0czQa6vnpMIdWSsf2U4s4t43edqtiI84.
+  lvmcache /dev/vda2 mda1 VG root_vg set seqno 6 checksum e2fa09f0 mda_size 1384
+  lvmcache /dev/vda2: VG root_vg: set creation host to localhost.localdomain.
+  Found metadata seqno 6 in mda1 on /dev/vda2
+  Scanned devices: read errors 0 process errors 0 failed 0
+  validating devices file entries
+  /dev/vda2: filter cache using (cached good)
+  device ids validate checked 1 found no update is needed.
+  Search for PVID TWwaBzKpPLw72JurTd1fm75BaZ9QNlUL.
+  Search for PVIDs skipped for /run/lvm/searched_devnames
+  lvmcache label scan done
+  Obtaining the complete list of VGs to process
+  report/output_format not found in config: defaulting to "basic"
+  log/report_command_log not found in config: defaulting to 0
+  Processing VG root_vg 0czQa6-vnpM-IdWS-sf2U-4s4t-43ed-qtiI84
+  Reading VG root_vg 0czQa6vnpMIdWSsf2U4s4t43edqtiI84
+  Reading mda header sector from /dev/vda2 at 4096
+  Rescan skipped - unchanged offset 8192 checksum e2fa09f0.
+  Reading VG root_vg metadata from /dev/vda2 4096
+  Reading mda header sector from /dev/vda2 at 4096
+  Reading metadata from /dev/vda2 at 12288 size 1384 (+0)
+  Allocated VG root_vg at 0x55c9263c0820.
+  Importing logical volume root_vg/lv_root.
+  Importing logical volume root_vg/lv_swap.
+  Found metadata text at 12288 off 8192 size 1384 VG root_vg on /dev/vda2
+  lvmcache_update_vg root_vg for info /dev/vda2
+  metadata/lvs_history_retention_time not found in config: defaulting to 0
+  /dev/vda2 0:      0   2278: lv_root(0:0)
+  /dev/vda2 1:   2278     25: lv_swap(0:0)
+  /dev/vda2: using cached size 18872320 sectors
+  Running command for VG root_vg 0czQa6-vnpM-IdWS-sf2U-4s4t-43ed-qtiI84
+  Found volume group "root_vg" using metadata type lvm2
+  Freeing VG root_vg at 0x55c9263c8840.
+  Unlock: Memlock counters: prioritized:0 locked:0 critical:0 daemon:0 suspended:0
+  Syncing device names
+  Freeing VG root_vg at 0x55c9263c0820.
+  global/notify_dbus not found in config: defaulting to 1
+  Destroy lvmcache content
+  Reloading config files
+  Syncing device names
+  Destroy lvmcache content
+  Freeing VG #orphans_lvm2 at 0x55c925baa8a0.
+  Loading config file: /etc/lvm/lvm.conf
+  Opened /etc/lvm/lvm.conf RO
+  Closed /etc/lvm/lvm.conf
+  log/syslog not found in config: defaulting to 0
+  log/level not found in config: defaulting to 0
+  log/silent not found in config: defaulting to 0
+  log/verbose not found in config: defaulting to 0

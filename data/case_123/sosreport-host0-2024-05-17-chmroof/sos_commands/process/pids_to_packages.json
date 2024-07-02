@@ -1,0 +1,140 @@
+{
+    "1": {
+        "path": "/usr/lib/systemd/systemd",
+        "package": [
+            "systemd-252-18.el9.x86_64"
+        ]
+    },
+    "638": {
+        "path": "/usr/lib/systemd/systemd-journald",
+        "package": [
+            "systemd-252-18.el9.x86_64"
+        ]
+    },
+    "654": {
+        "path": "/usr/lib/systemd/systemd-udevd",
+        "package": [
+            "systemd-udev-252-18.el9.x86_64"
+        ]
+    },
+    "722": {
+        "path": "/sbin/auditd",
+        "package": [
+            "audit-3.0.7-104.el9.x86_64"
+        ]
+    },
+    "724": {
+        "path": "/usr/sbin/sedispatch",
+        "package": [
+            "setroubleshoot-server-3.3.32-1.el9.x86_64"
+        ]
+    },
+    "745": {
+        "path": "/usr/bin/dbus-broker-launch",
+        "package": [
+            "dbus-broker-28-7.el9.x86_64"
+        ]
+    },
+    "749": {
+        "path": "/usr/bin/python3",
+        "package": [
+            "python3-3.9.18-1.el9_3.x86_64"
+        ]
+    },
+    "750": {
+        "path": "/usr/sbin/irqbalance",
+        "package": [
+            "irqbalance-1.9.2-3.el9.x86_64"
+        ]
+    },
+    "751": {
+        "path": "/usr/bin/lsmd",
+        "package": [
+            "libstoragemgmt-1.9.7-2.el9.x86_64"
+        ]
+    },
+    "753": {
+        "path": "/usr/bin/qemu-ga",
+        "package": [
+            "qemu-guest-agent-8.0.0-16.el9_3.1.x86_64"
+        ]
+    },
+    "754": {
+        "path": "/usr/lib/systemd/systemd-logind",
+        "package": [
+            "systemd-252-18.el9.x86_64"
+        ]
+    },
+    "763": {
+        "path": "/usr/sbin/chronyd",
+        "package": [
+            "chrony-4.3-1.el9.x86_64"
+        ]
+    },
+    "767": {
+        "path": "/usr/sbin/NetworkManager",
+        "package": [
+            "NetworkManager-1.44.0-3.el9.x86_64"
+        ]
+    },
+    "798": {
+        "path": "/usr/bin/rhsmcertd",
+        "package": [
+            "subscription-manager-1.29.38-1.el9_3.x86_64"
+        ]
+    },
+    "855": {
+        "path": "/usr/lib/polkit-1/polkitd",
+        "package": [
+            "polkit-0.117-11.el9.x86_64"
+        ]
+    },
+    "870": {
+        "path": "/usr/sbin/rsyslogd",
+        "package": [
+            "rsyslog-8.2102.0-117.el9.x86_64"
+        ]
+    },
+    "872": {
+        "path": "/usr/sbin/atd",
+        "package": [
+            "at-3.1.23-11.el9.x86_64"
+        ]
+    },
+    "873": {
+        "path": "/usr/sbin/crond",
+        "package": [
+            "cronie-1.5.7-8.el9.x86_64"
+        ]
+    },
+    "880": {
+        "path": "/sbin/agetty",
+        "package": [
+            "util-linux-core-2.37.4-15.el9.x86_64"
+        ]
+    },
+    "1970": {
+        "path": "/usr/lib/systemd/systemd",
+        "package": [
+            "systemd-252-18.el9.x86_64"
+        ]
+    },
+    "2017": {
+        "path": "/usr/bin/python3",
+        "package": [
+            "python3-3.9.18-1.el9_3.x86_64"
+        ]
+    },
+    "4348": {
+        "path": "/usr/lib/systemd/systemd-hostnamed",
+        "package": [
+            "systemd-252-18.el9.x86_64"
+        ]
+    },
+    "4659": {
+        "path": "/usr/bin/python3.9",
+        "package": [
+            "python3-3.9.18-1.el9_3.x86_64"
+        ]
+    }
+}

@@ -1,0 +1,93 @@
+   0: (61) r2 = *(u32 *)(r1 +0)
+   1: (54) w2 &= 65535
+   2: (61) r3 = *(u32 *)(r1 +0)
+   3: (74) w3 >>= 16
+   4: (61) r4 = *(u32 *)(r1 +4)
+   5: (61) r5 = *(u32 *)(r1 +8)
+   6: (55) if r2 != 0x2 goto pc+3
+   7: (55) if r4 != 0x1 goto pc+2
+   8: (55) if r5 != 0x3 goto pc+1
+   9: (05) goto pc+81
+  10: (55) if r2 != 0x2 goto pc+3
+  11: (55) if r4 != 0x1 goto pc+2
+  12: (55) if r5 != 0x5 goto pc+1
+  13: (05) goto pc+77
+  14: (55) if r2 != 0x2 goto pc+3
+  15: (55) if r4 != 0x1 goto pc+2
+  16: (55) if r5 != 0x7 goto pc+1
+  17: (05) goto pc+73
+  18: (55) if r2 != 0x2 goto pc+3
+  19: (55) if r4 != 0x1 goto pc+2
+  20: (55) if r5 != 0x8 goto pc+1
+  21: (05) goto pc+69
+  22: (55) if r2 != 0x2 goto pc+3
+  23: (55) if r4 != 0x1 goto pc+2
+  24: (55) if r5 != 0x9 goto pc+1
+  25: (05) goto pc+65
+  26: (55) if r2 != 0x2 goto pc+3
+  27: (55) if r4 != 0x5 goto pc+2
+  28: (55) if r5 != 0x0 goto pc+1
+  29: (05) goto pc+61
+  30: (55) if r2 != 0x2 goto pc+3
+  31: (55) if r4 != 0x5 goto pc+2
+  32: (55) if r5 != 0x2 goto pc+1
+  33: (05) goto pc+57
+  34: (55) if r2 != 0x2 goto pc+3
+  35: (55) if r4 != 0x0 goto pc+2
+  36: (55) if r5 != 0x0 goto pc+1
+  37: (05) goto pc+53
+  38: (55) if r2 != 0x1 goto pc+3
+  39: (55) if r4 != 0x0 goto pc+2
+  40: (55) if r5 != 0x0 goto pc+1
+  41: (05) goto pc+49
+  42: (bc) w1 = w3
+  43: (54) w1 &= 6
+  44: (5d) if r1 != r3 goto pc+3
+  45: (55) if r2 != 0x2 goto pc+2
+  46: (55) if r4 != 0x88 goto pc+1
+  47: (05) goto pc+43
+  48: (bc) w1 = w3
+  49: (54) w1 &= 2
+  50: (5d) if r1 != r3 goto pc+3
+  51: (55) if r2 != 0x2 goto pc+2
+  52: (55) if r4 != 0xfa goto pc+1
+  53: (05) goto pc+37
+  54: (bc) w1 = w3
+  55: (54) w1 &= 6
+  56: (5d) if r1 != r3 goto pc+3
+  57: (55) if r2 != 0x2 goto pc+2
+  58: (55) if r4 != 0x7 goto pc+1
+  59: (05) goto pc+31
+  60: (bc) w1 = w3
+  61: (54) w1 &= 6
+  62: (5d) if r1 != r3 goto pc+3
+  63: (55) if r2 != 0x2 goto pc+2
+  64: (55) if r4 != 0x4 goto pc+1
+  65: (05) goto pc+25
+  66: (bc) w1 = w3
+  67: (54) w1 &= 6
+  68: (5d) if r1 != r3 goto pc+3
+  69: (55) if r2 != 0x2 goto pc+2
+  70: (55) if r4 != 0xd goto pc+1
+  71: (05) goto pc+19
+  72: (bc) w1 = w3
+  73: (54) w1 &= 6
+  74: (5d) if r1 != r3 goto pc+3
+  75: (55) if r2 != 0x2 goto pc+2
+  76: (55) if r4 != 0xe2 goto pc+1
+  77: (05) goto pc+13
+  78: (bc) w1 = w3
+  79: (54) w1 &= 6
+  80: (5d) if r1 != r3 goto pc+3
+  81: (55) if r2 != 0x2 goto pc+2
+  82: (55) if r4 != 0x5 goto pc+1
+  83: (05) goto pc+7
+  84: (bc) w1 = w3
+  85: (54) w1 &= 2
+  86: (5d) if r1 != r3 goto pc+2
+  87: (55) if r2 != 0x1 goto pc+1
+  88: (05) goto pc+2
+  89: (b7) r0 = 0
+  90: (05) goto pc+1
+  91: (b7) r0 = 1
+  92: (95) exit

@@ -1,0 +1,28 @@
+TARGET                                                  SOURCE                      FSTYPE      OPTIONS
+/                                                       /dev/mapper/root_vg-lv_root ext4        rw,relatime,seclabel
+├─/proc                                                 proc                        proc        rw,nosuid,nodev,noexec,relatime
+│ └─/proc/sys/fs/binfmt_misc                            systemd-1                   autofs      rw,relatime,fd=29,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=16045
+│   └─/proc/sys/fs/binfmt_misc                          binfmt_misc                 binfmt_misc rw,nosuid,nodev,noexec,relatime
+├─/sys                                                  sysfs                       sysfs       rw,nosuid,nodev,noexec,relatime,seclabel
+│ ├─/sys/kernel/security                                securityfs                  securityfs  rw,nosuid,nodev,noexec,relatime
+│ ├─/sys/fs/cgroup                                      cgroup2                     cgroup2     rw,nosuid,nodev,noexec,relatime,seclabel,nsdelegate,memory_recursiveprot
+│ ├─/sys/fs/pstore                                      pstore                      pstore      rw,nosuid,nodev,noexec,relatime,seclabel
+│ ├─/sys/fs/bpf                                         bpf                         bpf         rw,nosuid,nodev,noexec,relatime,mode=700
+│ ├─/sys/fs/selinux                                     selinuxfs                   selinuxfs   rw,nosuid,noexec,relatime
+│ ├─/sys/kernel/debug                                   debugfs                     debugfs     rw,nosuid,nodev,noexec,relatime,seclabel
+│ │ └─/sys/kernel/debug/tracing                         tracefs                     tracefs     rw,nosuid,nodev,noexec,relatime,seclabel
+│ ├─/sys/kernel/tracing                                 tracefs                     tracefs     rw,nosuid,nodev,noexec,relatime,seclabel
+│ ├─/sys/kernel/config                                  configfs                    configfs    rw,nosuid,nodev,noexec,relatime
+│ └─/sys/fs/fuse/connections                            fusectl                     fusectl     rw,nosuid,nodev,noexec,relatime
+├─/dev                                                  devtmpfs                    devtmpfs    rw,nosuid,seclabel,size=4096k,nr_inodes=977200,mode=755,inode64
+│ ├─/dev/shm                                            tmpfs                       tmpfs       rw,nosuid,nodev,seclabel,inode64
+│ ├─/dev/pts                                            devpts                      devpts      rw,nosuid,noexec,relatime,seclabel,gid=5,mode=620,ptmxmode=000
+│ ├─/dev/mqueue                                         mqueue                      mqueue      rw,nosuid,nodev,noexec,relatime,seclabel
+│ └─/dev/hugepages                                      hugetlbfs                   hugetlbfs   rw,relatime,seclabel,pagesize=2M
+├─/run                                                  tmpfs                       tmpfs       rw,nosuid,nodev,seclabel,size=1571616k,nr_inodes=819200,mode=755,inode64
+│ ├─/run/credentials/systemd-sysctl.service             none                        ramfs       ro,nosuid,nodev,noexec,relatime,seclabel,mode=700
+│ ├─/run/credentials/systemd-tmpfiles-setup-dev.service none                        ramfs       ro,nosuid,nodev,noexec,relatime,seclabel,mode=700
+│ ├─/run/credentials/systemd-tmpfiles-setup.service     none                        ramfs       ro,nosuid,nodev,noexec,relatime,seclabel,mode=700
+│ └─/run/user/0                                         tmpfs                       tmpfs       rw,nosuid,nodev,relatime,seclabel,size=785804k,nr_inodes=196451,mode=700,inode64
+├─/tmp                                                  tmpfs                       tmpfs       rw,nosuid,nodev,seclabel,nr_inodes=1048576,inode64
+└─/boot                                                 /dev/vda1                   ext4        rw,relatime,seclabel

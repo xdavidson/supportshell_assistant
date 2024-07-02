@@ -1,0 +1,195 @@
+/var/log/:
+total 7.1M
+drwxr-xr-x. 13 root   root            4.0K May 17 08:23 .
+drwxr-xr-x. 20 root   root            4.0K Dec 12 10:54 ..
+lrwxrwxrwx.  1 root   root              39 May 24  2023 README -> ../../usr/share/doc/systemd/README.logs
+drwxr-xr-x.  2 root   root            4.0K May 24  2023 anaconda
+drwx------.  2 root   root            4.0K Jun 29  2023 audit
+-rw-------.  1 root   root            2.2K May 17 08:23 boot.log
+-rw-------.  1 root   root             16K May  9 08:13 boot.log-20240509
+-rw-------.  1 root   root             16K May 10 08:17 boot.log-20240510
+-rw-------.  1 root   root             16K May 13 08:16 boot.log-20240513
+-rw-------.  1 root   root             16K May 14 08:05 boot.log-20240514
+-rw-------.  1 root   root             16K May 15 08:33 boot.log-20240515
+-rw-------.  1 root   root             16K May 16 08:14 boot.log-20240516
+-rw-------.  1 root   root             16K May 17 08:23 boot.log-20240517
+-rw-rw----.  1 root   utmp               0 May  1 08:25 btmp
+-rw-rw----.  1 root   utmp               0 Apr  1 09:24 btmp-20240501
+drwxr-x---.  2 chrony chrony          4.0K Oct 13  2022 chrony
+-rw-------.  1 root   root             11K May 17 14:45 cron
+-rw-------.  1 root   root             18K Apr 23 17:01 cron-20240424
+-rw-------.  1 root   root             18K Apr 30 17:01 cron-20240501
+-rw-------.  1 root   root             17K May  7 17:01 cron-20240508
+-rw-------.  1 root   root             17K May 14 17:01 cron-20240515
+-rw-r--r--.  1 root   root             60K May 17 14:45 dnf.librepo.log
+-rw-r--r--.  1 root   root            1.0M May  7 09:18 dnf.librepo.log.1
+-rw-r--r--.  1 root   root            670K May 17 14:45 dnf.log
+-rw-r--r--.  1 root   root            1.0M Feb 16 13:02 dnf.log.1
+-rw-r--r--.  1 root   root            1.0M Nov 15  2023 dnf.log.2
+-rw-r--r--.  1 root   root            214K May 17 14:45 dnf.rpm.log
+-rw-r-----.  1 root   root              52 May 24  2023 firewalld
+-rw-r--r--.  1 root   root            1.2K May 17 14:45 hawkey.log
+-rw-r--r--.  1 root   root            1.6K Apr 23 16:58 hawkey.log-20240424
+-rw-r--r--.  1 root   root            1.5K Apr 30 16:47 hawkey.log-20240501
+-rw-r--r--.  1 root   root            1.5K May  7 17:20 hawkey.log-20240508
+-rw-r--r--.  1 root   root            1.6K May 14 15:48 hawkey.log-20240515
+drwx------.  2 root   root            4.0K Jul 20  2023 httpd
+drwx------.  2 root   root            4.0K May 15 08:33 insights-client
+drwxr-sr-x+  3 root   systemd-journal 4.0K Jan 30 08:11 journal
+-rw-------.  1 root   root            115K May 17 08:23 kdump.log
+-rw-rw-r--.  1 root   utmp            286K May 17 14:44 lastlog
+-rw-------.  1 root   root               0 May 15 08:33 maillog
+-rw-------.  1 root   root               0 Apr 17 08:20 maillog-20240424
+-rw-------.  1 root   root               0 Apr 24 08:55 maillog-20240501
+-rw-------.  1 root   root               0 May  1 08:25 maillog-20240508
+-rw-------.  1 root   root               0 May  8 08:12 maillog-20240515
+-rw-------.  1 root   root            306K May 17 14:45 messages
+-rw-------.  1 root   root            509K Apr 23 16:37 messages-20240424
+-rw-------.  1 root   root            509K Apr 30 16:47 messages-20240501
+-rw-------.  1 root   root            526K May  7 17:20 messages-20240508
+-rw-------.  1 root   root            513K May 14 16:52 messages-20240515
+drwx------.  2 root   root            4.0K May 24  2023 private
+drwxr-xr-x.  2 root   root            4.0K Oct  9  2023 qemu-ga
+drwxr-xr-x.  2 root   root            4.0K May 15 08:33 rhsm
+drwx------.  3 root   root            4.0K Oct  9  2023 samba
+-rw-------.  1 root   root            1.8K May 17 14:44 secure
+-rw-------.  1 root   root            2.4K Apr 23 08:36 secure-20240424
+-rw-------.  1 root   root            2.4K Apr 30 08:29 secure-20240501
+-rw-------.  1 root   root            2.4K May  7 08:28 secure-20240508
+-rw-------.  1 root   root            3.0K May 14 08:05 secure-20240515
+-rw-------.  1 root   root               0 May 15 08:33 spooler
+-rw-------.  1 root   root               0 Apr 17 08:20 spooler-20240424
+-rw-------.  1 root   root               0 Apr 24 08:55 spooler-20240501
+-rw-------.  1 root   root               0 May  1 08:25 spooler-20240508
+-rw-------.  1 root   root               0 May  8 08:12 spooler-20240515
+drwxr-x---.  2 sssd   sssd            4.0K Oct  2  2023 sssd
+-rw-------.  1 root   root               0 May 24  2023 tallylog
+-rw-rw-r--.  1 root   utmp            295K May 17 14:44 wtmp
+
+/var/log/anaconda:
+total 5.2M
+drwxr-xr-x.  2 root root 4.0K May 24  2023 .
+drwxr-xr-x. 13 root root 4.0K May 17 08:23 ..
+-rw-------.  1 root root  21K May 24  2023 X.log
+-rw-------.  1 root root  58K May 24  2023 anaconda.log
+-rw-------.  1 root root 3.6K May 24  2023 dbus.log
+-rw-------.  1 root root 1.8K May 24  2023 dnf.librepo.log
+-rw-------.  1 root root  120 May 24  2023 hawkey.log
+-rw-------.  1 root root 3.2M May 24  2023 journal.log
+-rw-------.  1 root root   63 May 24  2023 ks-script-9jpl7gmj.log
+-rw-------.  1 root root    0 May 24  2023 ks-script-_6ggb7ly.log
+-rw-------.  1 root root   40 May 24  2023 ks-script-itaysenn.log
+-rw-r--r--.  1 root root  27K May 24  2023 lorax-packages.log
+-rw-------.  1 root root 448K May 24  2023 lvm.log
+-rw-------.  1 root root 273K May 24  2023 packaging.log
+-rw-------.  1 root root 9.9K May 24  2023 program.log
+-rw-------.  1 root root 296K May 24  2023 storage.log
+-rw-------.  1 root root 887K May 24  2023 syslog
+
+/var/log/audit:
+total 5.0M
+drwx------.  2 root root 4.0K Jun 29  2023 .
+drwxr-xr-x. 13 root root 4.0K May 17 08:23 ..
+-rw-------.  1 root root 5.0M May 17 14:45 audit.log
+
+/var/log/chrony:
+total 8.0K
+drwxr-x---.  2 chrony chrony 4.0K Oct 13  2022 .
+drwxr-xr-x. 13 root   root   4.0K May 17 08:23 ..
+
+/var/log/httpd:
+total 48K
+drwx------.  2 root root 4.0K Jul 20  2023 .
+drwxr-xr-x. 13 root root 4.0K May 17 08:23 ..
+-rw-r--r--.  1 root root    0 May 24  2023 access_log
+-rw-r--r--.  1 root root 3.2K Dec 12 10:54 error_log
+-rw-r--r--.  1 root root 3.3K Nov 15  2023 error_log-20231116
+-rw-r--r--.  1 root root 1.5K Nov 17 07:55 error_log-20231127
+-rw-r--r--.  1 root root 4.3K Dec  2 07:58 error_log-20231204
+-rw-r--r--.  1 root root 3.6K Dec  8 07:56 error_log-20231211
+-rw-r--r--.  1 root root    0 Jun 13  2023 ssl_access_log
+-rw-r--r--.  1 root root  899 May 31  2023 ssl_access_log-20230613
+-rw-r--r--.  1 root root    0 Jun 13  2023 ssl_error_log
+-rw-r--r--.  1 root root 6.9K May 31  2023 ssl_error_log-20230613
+-rw-r--r--.  1 root root    0 Jun 13  2023 ssl_request_log
+-rw-r--r--.  1 root root 1.2K May 31  2023 ssl_request_log-20230613
+
+/var/log/insights-client:
+total 748K
+drwx------.  2 root root 4.0K May 15 08:33 .
+drwxr-xr-x. 13 root root 4.0K May 17 08:23 ..
+-rw-r--r--.  1 root root  34K May 17 14:45 insights-client.log
+-rw-r--r--.  1 root root  55K Apr 24 08:55 insights-client.log-20240424
+-rw-r--r--.  1 root root  55K May  1 08:25 insights-client.log-20240501
+-rw-r--r--.  1 root root  55K May  8 08:12 insights-client.log-20240508
+-rw-r--r--.  1 root root  55K May 15 08:33 insights-client.log-20240515
+-rw-r--r--.  1 root root 223K Dec 12 09:17 insights-client.log.1
+-rw-r--r--.  1 root root  17K Dec 11 08:54 insights-client.log.2
+-rw-r--r--.  1 root root 223K Dec 11 08:54 insights-client.log.3
+
+/var/log/journal:
+total 20K
+drwxr-sr-x+  3 root systemd-journal 4.0K Jan 30 08:11 .
+drwxr-xr-x. 13 root root            4.0K May 17 08:23 ..
+drwxr-sr-x+  2 root systemd-journal 4.0K May 13 08:16 9d450dda0eb545b4851a4dc8aa51f0de
+
+/var/log/journal/9d450dda0eb545b4851a4dc8aa51f0de:
+total 145M
+drwxr-sr-x+ 2 root systemd-journal 4.0K May 13 08:16 .
+drwxr-sr-x+ 3 root systemd-journal 4.0K Jan 30 08:11 ..
+-rw-r-----+ 1 root systemd-journal 8.0M May 17 14:45 system.journal
+-rw-r-----+ 1 root systemd-journal  16M Feb 12 17:32 system@00061142f26f7026-1290eb87e8f58caa.journal~
+-rw-r-----+ 1 root systemd-journal 8.0M Feb 13 18:01 system@0006115713e9bcf5-b056faa742c4caba.journal~
+-rw-r-----+ 1 root systemd-journal 8.0M Feb 20 13:01 system@000611d42b2b81ad-0ad2a8bb6e429350.journal~
+-rw-r-----+ 1 root systemd-journal 8.0M Feb 20 13:22 system@000612132572d03e-e2c6d6a54aa1360f.journal~
+-rw-r-----+ 1 root systemd-journal 8.0M Feb 23 17:01 system@00061248d61b2a92-d1bfcd4871842c67.journal~
+-rw-r-----+ 1 root systemd-journal 8.0M Feb 26 17:51 system@0006125cfdc5a41f-61dbd432dc35d614.journal~
+-rw-r-----+ 1 root systemd-journal  16M Mar 15 17:20 system@000613ee4d3d2bdd-388f6bf78ece574a.journal~
+-rw-r-----+ 1 root systemd-journal 8.0M Mar 22 17:50 system@0006147b3eea2f8b-4cc9b62957d46b7b.journal~
+-rw-r-----+ 1 root systemd-journal 8.0M Mar 28 17:21 system@000614cb95ba1925-0b5ff31ab9ddb539.journal~
+-rw-r-----+ 1 root systemd-journal  16M Apr 25 17:27 system@000616ff0d25652a-80eee9b24d4dd103.journal~
+-rw-r-----+ 1 root systemd-journal 8.0M May  1 16:42 system@00061777b1a5b6b9-7be4637d9199f859.journal~
+-rw-r-----+ 1 root systemd-journal 8.0M May  8 17:01 system@00061804597638d3-d5b511e7300ddf5d.journal~
+-rw-r-----+ 1 root systemd-journal 8.0M May  9 17:24 system@0006181885cc5f77-a48d9b6f22a67f4c.journal~
+-rw-r-----+ 1 root systemd-journal 8.0M May 10 17:01 system@00061854dc2a9422-6995ca8b88bb8723.journal~
+
+/var/log/private:
+total 8.0K
+drwx------.  2 root root 4.0K May 24  2023 .
+drwxr-xr-x. 13 root root 4.0K May 17 08:23 ..
+
+/var/log/qemu-ga:
+total 8.0K
+drwxr-xr-x.  2 root root 4.0K Oct  9  2023 .
+drwxr-xr-x. 13 root root 4.0K May 17 08:23 ..
+
+/var/log/rhsm:
+total 76K
+drwxr-xr-x.  2 root root 4.0K May 15 08:33 .
+drwxr-xr-x. 13 root root 4.0K May 17 08:23 ..
+-rw-r--r--.  1 root root 3.0K May 17 12:53 rhsm.log
+-rw-r--r--.  1 root root 5.0K Apr 24 08:55 rhsm.log-20240424
+-rw-r--r--.  1 root root 5.0K May  1 08:25 rhsm.log-20240501
+-rw-r--r--.  1 root root  22K May  8 08:12 rhsm.log-20240508
+-rw-r--r--.  1 root root 4.0K May 15 08:33 rhsm.log-20240515
+-rw-r--r--.  1 root root 2.0K May 17 12:53 rhsmcertd.log
+-rw-r--r--.  1 root root 3.4K Apr 24 08:55 rhsmcertd.log-20240424
+-rw-r--r--.  1 root root 3.2K May  1 08:25 rhsmcertd.log-20240501
+-rw-r--r--.  1 root root 3.3K May  8 08:12 rhsmcertd.log-20240508
+-rw-r--r--.  1 root root 3.2K May 15 08:33 rhsmcertd.log-20240515
+
+/var/log/samba:
+total 12K
+drwx------.  3 root root 4.0K Oct  9  2023 .
+drwxr-xr-x. 13 root root 4.0K May 17 08:23 ..
+drwx------.  2 root root 4.0K Oct  9  2023 old
+
+/var/log/samba/old:
+total 8.0K
+drwx------. 2 root root 4.0K Oct  9  2023 .
+drwx------. 3 root root 4.0K Oct  9  2023 ..
+
+/var/log/sssd:
+total 8.0K
+drwxr-x---.  2 sssd sssd 4.0K Oct  2  2023 .
+drwxr-xr-x. 13 root root 4.0K May 17 08:23 ..

@@ -1,0 +1,12 @@
+[1:0:0:0]    cd/dvd  QEMU     QEMU DVD-ROM     2.5+  /dev/sr0 
+  device_blocked=0
+  iocounterbits=32
+  iodone_cnt=0x2c35
+  ioerr_cnt=0x3
+  iorequest_cnt=0x2c35
+  queue_depth=1
+  queue_type=none
+  scsi_level=6
+  state=running
+  timeout=30
+  type=5

@@ -1,0 +1,9 @@
+2: prog_array  name hid_jmp_table  flags 0x0
+	key 4B  value 4B  max_entries 1024  memlock 8192B
+	owner_prog_type tracing  owner jited
+17: array  name pid_iter.rodata  flags 0x480
+	key 4B  value 4B  max_entries 1  memlock 4096B
+	btf_id 105  frozen
+	pids bpftool(4192)
+18: array  name libbpf_det_bind  flags 0x0
+	key 4B  value 32B  max_entries 1  memlock 4096B

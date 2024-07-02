@@ -1,0 +1,27 @@
+Filesystem                   Inodes IUsed   IFree IUse% Mounted on
+proc                              0     0       0     - /proc
+sysfs                             0     0       0     - /sys
+devtmpfs                     977200   401  976799    1% /dev
+securityfs                        0     0       0     - /sys/kernel/security
+tmpfs                        982259     2  982257    1% /dev/shm
+devpts                            0     0       0     - /dev/pts
+tmpfs                        819200   676  818524    1% /run
+cgroup2                           0     0       0     - /sys/fs/cgroup
+pstore                            0     0       0     - /sys/fs/pstore
+bpf                               0     0       0     - /sys/fs/bpf
+/dev/mapper/root_vg-lv_root  584064 69879  514185   12% /
+selinuxfs                         0     0       0     - /sys/fs/selinux
+mqueue                            0     0       0     - /dev/mqueue
+hugetlbfs                         0     0       0     - /dev/hugepages
+debugfs                           0     0       0     - /sys/kernel/debug
+tracefs                           0     0       0     - /sys/kernel/tracing
+configfs                          0     0       0     - /sys/kernel/config
+fusectl                           0     0       0     - /sys/fs/fuse/connections
+tmpfs                       1048576    13 1048563    1% /tmp
+none                              0     0       0     - /run/credentials/systemd-sysctl.service
+none                              0     0       0     - /run/credentials/systemd-tmpfiles-setup-dev.service
+/dev/vda1                     65536   382   65154    1% /boot
+none                              0     0       0     - /run/credentials/systemd-tmpfiles-setup.service
+tmpfs                        196451    15  196436    1% /run/user/0
+tracefs                           0     0       0     - /sys/kernel/debug/tracing
+binfmt_misc                       0     0       0     - /proc/sys/fs/binfmt_misc

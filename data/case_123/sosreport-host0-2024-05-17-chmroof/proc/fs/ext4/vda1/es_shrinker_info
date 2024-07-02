@@ -1,0 +1,11 @@
+stats:
+  18 objects
+  18 reclaimable objects
+  1223/16 cache hits/misses
+  16 inodes on list
+average:
+  0 us scan time
+  0 shrunk objects
+maximum:
+  16 inode (2 objects, 2 reclaimable)
+  0 us max scan time

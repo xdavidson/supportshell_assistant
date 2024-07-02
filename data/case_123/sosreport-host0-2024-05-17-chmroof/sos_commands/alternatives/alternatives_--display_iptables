@@ -1,0 +1,9 @@
+iptables - status is auto.
+ link currently points to /usr/sbin/iptables-nft
+/usr/sbin/iptables-nft - priority 10
+ follower ip6tables: /usr/sbin/ip6tables-nft
+ follower ip6tables-restore: /usr/sbin/ip6tables-nft-restore
+ follower ip6tables-save: /usr/sbin/ip6tables-nft-save
+ follower iptables-restore: /usr/sbin/iptables-nft-restore
+ follower iptables-save: /usr/sbin/iptables-nft-save
+Current `best' version is /usr/sbin/iptables-nft.

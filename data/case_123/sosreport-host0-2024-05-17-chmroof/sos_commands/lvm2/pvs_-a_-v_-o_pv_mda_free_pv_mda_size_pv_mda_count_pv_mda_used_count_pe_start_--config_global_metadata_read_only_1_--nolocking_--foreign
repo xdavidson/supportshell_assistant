@@ -1,0 +1,5 @@
+  Reloading config files
+  Devices file PVID TWwaBzKpPLw72JurTd1fm75BaZ9QNlUL last seen on /dev/vdb not found.
+  PV         VG      Fmt  Attr PSize  PFree DevSize PV UUID                                PMdaFree  PMdaSize  #PMda #PMdaUse 1st PE 
+  /dev/vda2  root_vg lvm2 a--  <9.00g    0   <9.00g vPDur2-IuHb-bvHd-JMtS-YKXh-lrwA-MaEGb7   507.50k  1020.00k     1        1   1.00m
+  Reloading config files

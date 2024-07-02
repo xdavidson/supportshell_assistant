@@ -1,0 +1,57 @@
+Name:	firewalld
+Umask:	0022
+State:	S (sleeping)
+Tgid:	749
+Ngid:	0
+Pid:	749
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Groups:	 
+NStgid:	749
+NSpid:	749
+NSpgid:	749
+NSsid:	749
+VmPeak:	  193188 kB
+VmSize:	  129196 kB
+VmLck:	       0 kB
+VmPin:	       0 kB
+VmHWM:	   43236 kB
+VmRSS:	   43236 kB
+RssAnon:	   25624 kB
+RssFile:	   17604 kB
+RssShmem:	       8 kB
+VmData:	   33572 kB
+VmStk:	     132 kB
+VmExe:	       4 kB
+VmLib:	   15572 kB
+VmPTE:	     156 kB
+VmSwap:	       0 kB
+HugetlbPages:	       0 kB
+CoreDumping:	0
+THP_enabled:	1
+Threads:	2
+SigQ:	4/30537
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000000000000
+SigIgn:	0000000001001000
+SigCgt:	0000000100004003
+CapInh:	0000000000000000
+CapPrm:	0000000000013000
+CapEff:	0000000000013000
+CapBnd:	0000000000013000
+CapAmb:	0000000000000000
+NoNewPrivs:	0
+Seccomp:	0
+Seccomp_filters:	0
+Speculation_Store_Bypass:	thread vulnerable
+SpeculationIndirectBranch:	conditional enabled
+Cpus_allowed:	3
+Cpus_allowed_list:	0-1
+Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+Mems_allowed_list:	0
+voluntary_ctxt_switches:	1018
+nonvoluntary_ctxt_switches:	693

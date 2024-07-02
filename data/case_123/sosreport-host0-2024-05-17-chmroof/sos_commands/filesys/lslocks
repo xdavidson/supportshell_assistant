@@ -1,0 +1,8 @@
+COMMAND           PID  TYPE   SIZE MODE  M      START        END PATH
+rhsmcertd         798 FLOCK    11B WRITE 0          0          0 /run/lock/subsys/rhsmcertd
+lsmd              751 FLOCK        WRITE 0          0          0 /run/lsm/ipc/.lsmd-ipc-lock
+crond             873 FLOCK     4B WRITE 0          0          0 /run/crond.pid
+atd               872 POSIX     4B WRITE 0          0          0 /run/atd.pid
+dnf              3146 POSIX 159.2M READ  0 1073741826 1073742335 /var/lib/rpm/rpmdb.sqlite
+dnf              3146 POSIX    32K READ  0        128        128 /var/lib/rpm/rpmdb.sqlite-shm
+dnf              3146 POSIX    32K READ  0        123        123 /var/lib/rpm/rpmdb.sqlite-shm

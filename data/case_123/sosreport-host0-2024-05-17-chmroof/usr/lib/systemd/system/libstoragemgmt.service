@@ -1,0 +1,10 @@
+[Unit]
+Description=libstoragemgmt plug-in server daemon
+
+[Service]
+ExecStart=/usr/bin/lsmd -d
+ExecReload=/bin/kill -HUP $host1PID
+User=root
+
+[Install]
+WantedBy=multi-user.target

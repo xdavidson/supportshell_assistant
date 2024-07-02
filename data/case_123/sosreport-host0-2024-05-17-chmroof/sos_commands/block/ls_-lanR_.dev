@@ -1,0 +1,560 @@
+/dev:
+total 4
+drwxr-xr-x. 21 0  0     3320 May 17 08:23 .
+dr-xr-xr-x. 20 0  0     4096 May 31  2023 ..
+crw-r--r--.  1 0  0  10, 235 May 17 08:23 autofs
+drwxr-xr-x.  2 0  0      160 May 17 08:23 block
+drwxr-xr-x.  2 0  0       60 May 17 08:23 bsg
+drwxr-xr-x.  3 0  0       60 May 17 08:23 bus
+lrwxrwxrwx.  1 0  0        3 May 17 08:23 cdrom -> sr0
+drwxr-xr-x.  2 0  0     2880 May 17 08:23 char
+crw--w----.  1 0  5   5,   1 May 17 08:23 console
+lrwxrwxrwx.  1 0  0       11 May 17 08:23 core -> /proc/kcore
+drwxr-xr-x.  4 0  0       80 May 17 08:23 cpu
+crw-------.  1 0  0  10, 124 May 17 08:23 cpu_dma_latency
+drwxr-xr-x.  8 0  0      160 May 17 08:23 disk
+brw-rw----.  1 0  6 253,   0 May 17 08:23 dm-0
+brw-rw----.  1 0  6 253,   1 May 17 08:23 dm-1
+drwxr-xr-x.  2 0  0       60 May 17 08:23 dma_heap
+drwxr-xr-x.  3 0  0       80 May 17 08:23 dri
+crw-rw----.  1 0 39  29,   0 May 17 08:23 fb0
+lrwxrwxrwx.  1 0  0       13 May 17 08:23 fd -> /proc/self/fd
+crw-rw-rw-.  1 0  0   1,   7 May 17 08:23 full
+crw-rw-rw-.  1 0  0  10, 229 May 17 08:23 fuse
+crw-------.  1 0  0 242,   0 May 17 08:23 hidraw0
+crw-------.  1 0  0  10, 228 May 17 08:23 hpet
+drwxr-xr-x.  2 0  0        0 May 17 08:23 hugepages
+crw-------.  1 0  0  10, 183 May 17 08:23 hwrng
+lrwxrwxrwx.  1 0  0       12 May 17 08:23 initctl -> /run/initctl
+drwxr-xr-x.  4 0  0      240 May 17 08:23 input
+crw-r--r--.  1 0  0   1,  11 May 17 08:23 kmsg
+lrwxrwxrwx.  1 0  0       28 May 17 08:23 log -> /run/systemd/journal/dev-log
+crw-rw----.  1 0  6  10, 237 May 17 08:23 loop-control
+drwxr-xr-x.  2 0  0      100 May 17 08:23 mapper
+crw-------.  1 0  0  10, 227 May 17 08:23 mcelog
+crw-r-----.  1 0  9   1,   1 May 17 08:23 mem
+drwxrwxrwt.  2 0  0       40 May 17 08:23 mqueue
+drwxr-xr-x.  2 0  0       60 May 17 08:23 net
+crw-rw-rw-.  1 0  0   1,   3 May 17 08:23 null
+crw-------.  1 0  0  10, 144 May 17 08:23 nvram
+crw-r-----.  1 0  9   1,   4 May 17 08:23 port
+crw-------.  1 0  0 108,   0 May 17 08:23 ppp
+crw-rw-rw-.  1 0  5   5,   2 May 17 14:45 ptmx
+drwxr-xr-x.  2 0  0        0 May 17 08:23 pts
+crw-rw-rw-.  1 0  0   1,   8 May 17 08:23 random
+crw-rw-r--.  1 0  0  10, 242 May 17 08:23 rfkill
+drwxr-xr-x.  2 0  0       80 May 17 08:23 root_vg
+lrwxrwxrwx.  1 0  0        4 May 17 08:23 rtc -> rtc0
+crw-------.  1 0  0 250,   0 May 17 08:23 rtc0
+crw-rw----.  1 0 11  21,   0 May 17 08:23 sg0
+drwxrwxrwt.  2 0  0       60 May 17 14:45 shm
+crw-------.  1 0  0  10, 231 May 17 08:23 snapshot
+drwxr-xr-x.  2 0  0       80 May 17 08:23 snd
+brw-rw----.  1 0 11  11,   0 May 17 08:23 sr0
+lrwxrwxrwx.  1 0  0       15 May 17 08:23 stderr -> /proc/self/fd/2
+lrwxrwxrwx.  1 0  0       15 May 17 08:23 stdin -> /proc/self/fd/0
+lrwxrwxrwx.  1 0  0       15 May 17 08:23 stdout -> /proc/self/fd/1
+crw-rw-rw-.  1 0  5   5,   0 May 17 08:23 tty
+crw--w----.  1 0  5   4,   0 May 17 08:23 tty0
+crw--w----.  1 0  5   4,   1 May 17 08:23 tty1
+crw--w----.  1 0  5   4,  10 May 17 08:23 tty10
+crw--w----.  1 0  5   4,  11 May 17 08:23 tty11
+crw--w----.  1 0  5   4,  12 May 17 08:23 tty12
+crw--w----.  1 0  5   4,  13 May 17 08:23 tty13
+crw--w----.  1 0  5   4,  14 May 17 08:23 tty14
+crw--w----.  1 0  5   4,  15 May 17 08:23 tty15
+crw--w----.  1 0  5   4,  16 May 17 08:23 tty16
+crw--w----.  1 0  5   4,  17 May 17 08:23 tty17
+crw--w----.  1 0  5   4,  18 May 17 08:23 tty18
+crw--w----.  1 0  5   4,  19 May 17 08:23 tty19
+crw--w----.  1 0  5   4,   2 May 17 08:23 tty2
+crw--w----.  1 0  5   4,  20 May 17 08:23 tty20
+crw--w----.  1 0  5   4,  21 May 17 08:23 tty21
+crw--w----.  1 0  5   4,  22 May 17 08:23 tty22
+crw--w----.  1 0  5   4,  23 May 17 08:23 tty23
+crw--w----.  1 0  5   4,  24 May 17 08:23 tty24
+crw--w----.  1 0  5   4,  25 May 17 08:23 tty25
+crw--w----.  1 0  5   4,  26 May 17 08:23 tty26
+crw--w----.  1 0  5   4,  27 May 17 08:23 tty27
+crw--w----.  1 0  5   4,  28 May 17 08:23 tty28
+crw--w----.  1 0  5   4,  29 May 17 08:23 tty29
+crw--w----.  1 0  5   4,   3 May 17 08:23 tty3
+crw--w----.  1 0  5   4,  30 May 17 08:23 tty30
+crw--w----.  1 0  5   4,  31 May 17 08:23 tty31
+crw--w----.  1 0  5   4,  32 May 17 08:23 tty32
+crw--w----.  1 0  5   4,  33 May 17 08:23 tty33
+crw--w----.  1 0  5   4,  34 May 17 08:23 tty34
+crw--w----.  1 0  5   4,  35 May 17 08:23 tty35
+crw--w----.  1 0  5   4,  36 May 17 08:23 tty36
+crw--w----.  1 0  5   4,  37 May 17 08:23 tty37
+crw--w----.  1 0  5   4,  38 May 17 08:23 tty38
+crw--w----.  1 0  5   4,  39 May 17 08:23 tty39
+crw--w----.  1 0  5   4,   4 May 17 08:23 tty4
+crw--w----.  1 0  5   4,  40 May 17 08:23 tty40
+crw--w----.  1 0  5   4,  41 May 17 08:23 tty41
+crw--w----.  1 0  5   4,  42 May 17 08:23 tty42
+crw--w----.  1 0  5   4,  43 May 17 08:23 tty43
+crw--w----.  1 0  5   4,  44 May 17 08:23 tty44
+crw--w----.  1 0  5   4,  45 May 17 08:23 tty45
+crw--w----.  1 0  5   4,  46 May 17 08:23 tty46
+crw--w----.  1 0  5   4,  47 May 17 08:23 tty47
+crw--w----.  1 0  5   4,  48 May 17 08:23 tty48
+crw--w----.  1 0  5   4,  49 May 17 08:23 tty49
+crw--w----.  1 0  5   4,   5 May 17 08:23 tty5
+crw--w----.  1 0  5   4,  50 May 17 08:23 tty50
+crw--w----.  1 0  5   4,  51 May 17 08:23 tty51
+crw--w----.  1 0  5   4,  52 May 17 08:23 tty52
+crw--w----.  1 0  5   4,  53 May 17 08:23 tty53
+crw--w----.  1 0  5   4,  54 May 17 08:23 tty54
+crw--w----.  1 0  5   4,  55 May 17 08:23 tty55
+crw--w----.  1 0  5   4,  56 May 17 08:23 tty56
+crw--w----.  1 0  5   4,  57 May 17 08:23 tty57
+crw--w----.  1 0  5   4,  58 May 17 08:23 tty58
+crw--w----.  1 0  5   4,  59 May 17 08:23 tty59
+crw--w----.  1 0  5   4,   6 May 17 08:23 tty6
+crw--w----.  1 0  5   4,  60 May 17 08:23 tty60
+crw--w----.  1 0  5   4,  61 May 17 08:23 tty61
+crw--w----.  1 0  5   4,  62 May 17 08:23 tty62
+crw--w----.  1 0  5   4,  63 May 17 08:23 tty63
+crw--w----.  1 0  5   4,   7 May 17 08:23 tty7
+crw--w----.  1 0  5   4,   8 May 17 08:23 tty8
+crw--w----.  1 0  5   4,   9 May 17 08:23 tty9
+crw-rw----.  1 0 18   4,  64 May 17 08:23 ttyS0
+crw-rw----.  1 0 18   4,  65 May 17 08:23 ttyS1
+crw-rw----.  1 0 18   4,  66 May 17 08:23 ttyS2
+crw-rw----.  1 0 18   4,  67 May 17 08:23 ttyS3
+crw-rw----.  1 0 36  10, 125 May 17 08:23 udmabuf
+crw-------.  1 0  0  10, 239 May 17 08:23 uhid
+crw-------.  1 0  0  10, 223 May 17 08:23 uinput
+crw-rw-rw-.  1 0  0   1,   9 May 17 08:23 urandom
+crw-------.  1 0  0 244,   0 May 17 08:23 usbmon0
+crw-------.  1 0  0 244,   1 May 17 08:23 usbmon1
+crw-------.  1 0  0 244,   2 May 17 08:23 usbmon2
+crw-------.  1 0  0  10, 126 May 17 08:23 userfaultfd
+crw-rw----.  1 0  5   7,   0 May 17 08:23 vcs
+crw-rw----.  1 0  5   7,   1 May 17 08:23 vcs1
+crw-rw----.  1 0  5   7,   2 May 17 08:23 vcs2
+crw-rw----.  1 0  5   7,   3 May 17 08:23 vcs3
+crw-rw----.  1 0  5   7,   4 May 17 08:23 vcs4
+crw-rw----.  1 0  5   7,   5 May 17 08:23 vcs5
+crw-rw----.  1 0  5   7,   6 May 17 08:23 vcs6
+crw-rw----.  1 0  5   7, 128 May 17 08:23 vcsa
+crw-rw----.  1 0  5   7, 129 May 17 08:23 vcsa1
+crw-rw----.  1 0  5   7, 130 May 17 08:23 vcsa2
+crw-rw----.  1 0  5   7, 131 May 17 08:23 vcsa3
+crw-rw----.  1 0  5   7, 132 May 17 08:23 vcsa4
+crw-rw----.  1 0  5   7, 133 May 17 08:23 vcsa5
+crw-rw----.  1 0  5   7, 134 May 17 08:23 vcsa6
+crw-rw----.  1 0  5   7,  64 May 17 08:23 vcsu
+crw-rw----.  1 0  5   7,  65 May 17 08:23 vcsu1
+crw-rw----.  1 0  5   7,  66 May 17 08:23 vcsu2
+crw-rw----.  1 0  5   7,  67 May 17 08:23 vcsu3
+crw-rw----.  1 0  5   7,  68 May 17 08:23 vcsu4
+crw-rw----.  1 0  5   7,  69 May 17 08:23 vcsu5
+crw-rw----.  1 0  5   7,  70 May 17 08:23 vcsu6
+brw-rw----.  1 0  6 252,   0 May 17 08:23 vda
+brw-rw----.  1 0  6 252,   1 May 17 08:23 vda1
+brw-rw----.  1 0  6 252,   2 May 17 08:23 vda2
+drwxr-xr-x.  2 0  0       60 May 17 08:23 vfio
+crw-------.  1 0  0  10, 127 May 17 08:23 vga_arbiter
+crw-------.  1 0  0  10, 137 May 17 08:23 vhci
+crw-rw-rw-.  1 0 36  10, 238 May 17 08:23 vhost-net
+crw-rw-rw-.  1 0 36  10, 241 May 17 08:23 vhost-vsock
+drwxr-xr-x.  2 0  0       80 May 17 08:23 virtio-ports
+crw-------.  1 0  0 241,   1 May 17 08:23 vport1p1
+crw-------.  1 0  0 241,   2 May 17 08:23 vport1p2
+crw-------.  1 0  0  10, 130 May 17 08:23 watchdog
+crw-------.  1 0  0 247,   0 May 17 08:23 watchdog0
+crw-rw-rw-.  1 0  0   1,   5 May 17 08:23 zero
+
+/dev/block:
+total 0
+drwxr-xr-x.  2 0 0  160 May 17 08:23 .
+drwxr-xr-x. 21 0 0 3320 May 17 08:23 ..
+lrwxrwxrwx.  1 0 0    6 May 17 08:23 11:0 -> ../sr0
+lrwxrwxrwx.  1 0 0    6 May 17 08:23 252:0 -> ../vda
+lrwxrwxrwx.  1 0 0    7 May 17 08:23 252:1 -> ../vda1
+lrwxrwxrwx.  1 0 0    7 May 17 08:23 252:2 -> ../vda2
+lrwxrwxrwx.  1 0 0    7 May 17 08:23 253:0 -> ../dm-0
+lrwxrwxrwx.  1 0 0    7 May 17 08:23 253:1 -> ../dm-1
+
+/dev/bsg:
+total 0
+drwxr-xr-x.  2 0 0     60 May 17 08:23 .
+drwxr-xr-x. 21 0 0   3320 May 17 08:23 ..
+crw-------.  1 0 0 246, 0 May 17 08:23 1:0:0:0
+
+/dev/bus:
+total 0
+drwxr-xr-x.  3 0 0   60 May 17 08:23 .
+drwxr-xr-x. 21 0 0 3320 May 17 08:23 ..
+drwxr-xr-x.  4 0 0   80 May 17 08:23 usb
+
+/dev/bus/usb:
+total 0
+drwxr-xr-x. 4 0 0 80 May 17 08:23 .
+drwxr-xr-x. 3 0 0 60 May 17 08:23 ..
+drwxr-xr-x. 2 0 0 80 May 17 08:23 001
+drwxr-xr-x. 2 0 0 60 May 17 08:23 002
+
+/dev/bus/usb/001:
+total 0
+drwxr-xr-x. 2 0 0     80 May 17 08:23 .
+drwxr-xr-x. 4 0 0     80 May 17 08:23 ..
+crw-rw-r--. 1 0 0 189, 0 May 17 08:23 001
+crw-rw-r--. 1 0 0 189, 1 May 17 08:23 002
+
+/dev/bus/usb/002:
+total 0
+drwxr-xr-x. 2 0 0       60 May 17 08:23 .
+drwxr-xr-x. 4 0 0       80 May 17 08:23 ..
+crw-rw-r--. 1 0 0 189, 128 May 17 08:23 001
+
+/dev/char:
+total 0
+drwxr-xr-x.  2 0 0 2880 May 17 08:23 .
+drwxr-xr-x. 21 0 0 3320 May 17 08:23 ..
+lrwxrwxrwx.  1 0 0   18 May 17 08:23 10:124 -> ../cpu_dma_latency
+lrwxrwxrwx.  1 0 0   10 May 17 08:23 10:125 -> ../udmabuf
+lrwxrwxrwx.  1 0 0   14 May 17 08:23 10:126 -> ../userfaultfd
+lrwxrwxrwx.  1 0 0   14 May 17 08:23 10:127 -> ../vga_arbiter
+lrwxrwxrwx.  1 0 0   11 May 17 08:23 10:130 -> ../watchdog
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 10:144 -> ../nvram
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 10:183 -> ../hwrng
+lrwxrwxrwx.  1 0 0    9 May 17 08:23 10:227 -> ../mcelog
+lrwxrwxrwx.  1 0 0    7 May 17 08:23 10:228 -> ../hpet
+lrwxrwxrwx.  1 0 0    7 May 17 08:23 10:229 -> ../fuse
+lrwxrwxrwx.  1 0 0   11 May 17 08:23 10:231 -> ../snapshot
+lrwxrwxrwx.  1 0 0    9 May 17 08:23 10:235 -> ../autofs
+lrwxrwxrwx.  1 0 0   17 May 17 08:23 10:236 -> ../mapper/control
+lrwxrwxrwx.  1 0 0    9 May 17 08:23 10:242 -> ../rfkill
+lrwxrwxrwx.  1 0 0   15 May 17 08:23 13:32 -> ../input/mouse0
+lrwxrwxrwx.  1 0 0   15 May 17 08:23 13:33 -> ../input/mouse1
+lrwxrwxrwx.  1 0 0   13 May 17 08:23 13:63 -> ../input/mice
+lrwxrwxrwx.  1 0 0   15 May 17 08:23 13:64 -> ../input/event0
+lrwxrwxrwx.  1 0 0   15 May 17 08:23 13:65 -> ../input/event1
+lrwxrwxrwx.  1 0 0   15 May 17 08:23 13:66 -> ../input/event2
+lrwxrwxrwx.  1 0 0   15 May 17 08:23 13:67 -> ../input/event3
+lrwxrwxrwx.  1 0 0   15 May 17 08:23 13:68 -> ../input/event4
+lrwxrwxrwx.  1 0 0   18 May 17 08:23 189:0 -> ../bus/usb/001/001
+lrwxrwxrwx.  1 0 0   18 May 17 08:23 189:1 -> ../bus/usb/001/002
+lrwxrwxrwx.  1 0 0   18 May 17 08:23 189:128 -> ../bus/usb/002/001
+lrwxrwxrwx.  1 0 0    6 May 17 08:23 1:1 -> ../mem
+lrwxrwxrwx.  1 0 0    7 May 17 08:23 1:11 -> ../kmsg
+lrwxrwxrwx.  1 0 0    7 May 17 08:23 1:3 -> ../null
+lrwxrwxrwx.  1 0 0    7 May 17 08:23 1:4 -> ../port
+lrwxrwxrwx.  1 0 0    7 May 17 08:23 1:5 -> ../zero
+lrwxrwxrwx.  1 0 0    7 May 17 08:23 1:7 -> ../full
+lrwxrwxrwx.  1 0 0    9 May 17 08:23 1:8 -> ../random
+lrwxrwxrwx.  1 0 0   10 May 17 08:23 1:9 -> ../urandom
+lrwxrwxrwx.  1 0 0   12 May 17 08:23 202:0 -> ../cpu/0/msr
+lrwxrwxrwx.  1 0 0   12 May 17 08:23 202:1 -> ../cpu/1/msr
+lrwxrwxrwx.  1 0 0   14 May 17 08:23 203:0 -> ../cpu/0/cpuid
+lrwxrwxrwx.  1 0 0   14 May 17 08:23 203:1 -> ../cpu/1/cpuid
+lrwxrwxrwx.  1 0 0    6 May 17 08:23 21:0 -> ../sg0
+lrwxrwxrwx.  1 0 0   12 May 17 08:23 226:0 -> ../dri/card0
+lrwxrwxrwx.  1 0 0   11 May 17 08:23 241:1 -> ../vport1p1
+lrwxrwxrwx.  1 0 0   11 May 17 08:23 241:2 -> ../vport1p2
+lrwxrwxrwx.  1 0 0   10 May 17 08:23 242:0 -> ../hidraw0
+lrwxrwxrwx.  1 0 0   10 May 17 08:23 244:0 -> ../usbmon0
+lrwxrwxrwx.  1 0 0   10 May 17 08:23 244:1 -> ../usbmon1
+lrwxrwxrwx.  1 0 0   10 May 17 08:23 244:2 -> ../usbmon2
+lrwxrwxrwx.  1 0 0   14 May 17 08:23 246:0 -> ../bsg/1:0:0:0
+lrwxrwxrwx.  1 0 0   12 May 17 08:23 247:0 -> ../watchdog0
+lrwxrwxrwx.  1 0 0    7 May 17 08:23 250:0 -> ../rtc0
+lrwxrwxrwx.  1 0 0   18 May 17 08:23 251:0 -> ../dma_heap/system
+lrwxrwxrwx.  1 0 0    6 May 17 08:23 29:0 -> ../fb0
+lrwxrwxrwx.  1 0 0    7 May 17 08:23 4:0 -> ../tty0
+lrwxrwxrwx.  1 0 0    7 May 17 08:23 4:1 -> ../tty1
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:10 -> ../tty10
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:11 -> ../tty11
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:12 -> ../tty12
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:13 -> ../tty13
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:14 -> ../tty14
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:15 -> ../tty15
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:16 -> ../tty16
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:17 -> ../tty17
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:18 -> ../tty18
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:19 -> ../tty19
+lrwxrwxrwx.  1 0 0    7 May 17 08:23 4:2 -> ../tty2
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:20 -> ../tty20
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:21 -> ../tty21
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:22 -> ../tty22
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:23 -> ../tty23
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:24 -> ../tty24
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:25 -> ../tty25
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:26 -> ../tty26
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:27 -> ../tty27
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:28 -> ../tty28
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:29 -> ../tty29
+lrwxrwxrwx.  1 0 0    7 May 17 08:23 4:3 -> ../tty3
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:30 -> ../tty30
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:31 -> ../tty31
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:32 -> ../tty32
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:33 -> ../tty33
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:34 -> ../tty34
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:35 -> ../tty35
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:36 -> ../tty36
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:37 -> ../tty37
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:38 -> ../tty38
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:39 -> ../tty39
+lrwxrwxrwx.  1 0 0    7 May 17 08:23 4:4 -> ../tty4
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:40 -> ../tty40
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:41 -> ../tty41
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:42 -> ../tty42
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:43 -> ../tty43
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:44 -> ../tty44
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:45 -> ../tty45
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:46 -> ../tty46
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:47 -> ../tty47
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:48 -> ../tty48
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:49 -> ../tty49
+lrwxrwxrwx.  1 0 0    7 May 17 08:23 4:5 -> ../tty5
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:50 -> ../tty50
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:51 -> ../tty51
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:52 -> ../tty52
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:53 -> ../tty53
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:54 -> ../tty54
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:55 -> ../tty55
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:56 -> ../tty56
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:57 -> ../tty57
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:58 -> ../tty58
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:59 -> ../tty59
+lrwxrwxrwx.  1 0 0    7 May 17 08:23 4:6 -> ../tty6
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:60 -> ../tty60
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:61 -> ../tty61
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:62 -> ../tty62
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:63 -> ../tty63
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:64 -> ../ttyS0
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:65 -> ../ttyS1
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:66 -> ../ttyS2
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 4:67 -> ../ttyS3
+lrwxrwxrwx.  1 0 0    7 May 17 08:23 4:7 -> ../tty7
+lrwxrwxrwx.  1 0 0    7 May 17 08:23 4:8 -> ../tty8
+lrwxrwxrwx.  1 0 0    7 May 17 08:23 4:9 -> ../tty9
+lrwxrwxrwx.  1 0 0    6 May 17 08:23 5:0 -> ../tty
+lrwxrwxrwx.  1 0 0   10 May 17 08:23 5:1 -> ../console
+lrwxrwxrwx.  1 0 0    7 May 17 08:23 5:2 -> ../ptmx
+lrwxrwxrwx.  1 0 0    6 May 17 08:23 7:0 -> ../vcs
+lrwxrwxrwx.  1 0 0    7 May 17 08:23 7:1 -> ../vcs1
+lrwxrwxrwx.  1 0 0    7 May 17 08:23 7:128 -> ../vcsa
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 7:129 -> ../vcsa1
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 7:130 -> ../vcsa2
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 7:131 -> ../vcsa3
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 7:132 -> ../vcsa4
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 7:133 -> ../vcsa5
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 7:134 -> ../vcsa6
+lrwxrwxrwx.  1 0 0    7 May 17 08:23 7:2 -> ../vcs2
+lrwxrwxrwx.  1 0 0    7 May 17 08:23 7:3 -> ../vcs3
+lrwxrwxrwx.  1 0 0    7 May 17 08:23 7:4 -> ../vcs4
+lrwxrwxrwx.  1 0 0    7 May 17 08:23 7:5 -> ../vcs5
+lrwxrwxrwx.  1 0 0    7 May 17 08:23 7:6 -> ../vcs6
+lrwxrwxrwx.  1 0 0    7 May 17 08:23 7:64 -> ../vcsu
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 7:65 -> ../vcsu1
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 7:66 -> ../vcsu2
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 7:67 -> ../vcsu3
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 7:68 -> ../vcsu4
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 7:69 -> ../vcsu5
+lrwxrwxrwx.  1 0 0    8 May 17 08:23 7:70 -> ../vcsu6
+
+/dev/cpu:
+total 0
+drwxr-xr-x.  4 0 0   80 May 17 08:23 .
+drwxr-xr-x. 21 0 0 3320 May 17 08:23 ..
+drwxr-xr-x.  2 0 0   80 May 17 08:23 0
+drwxr-xr-x.  2 0 0   80 May 17 08:23 1
+
+/dev/cpu/0:
+total 0
+drwxr-xr-x. 2 0 0     80 May 17 08:23 .
+drwxr-xr-x. 4 0 0     80 May 17 08:23 ..
+crw-------. 1 0 0 203, 0 May 17 08:23 cpuid
+crw-------. 1 0 0 202, 0 May 17 08:23 msr
+
+/dev/cpu/1:
+total 0
+drwxr-xr-x. 2 0 0     80 May 17 08:23 .
+drwxr-xr-x. 4 0 0     80 May 17 08:23 ..
+crw-------. 1 0 0 203, 1 May 17 08:23 cpuid
+crw-------. 1 0 0 202, 1 May 17 08:23 msr
+
+/dev/disk:
+total 0
+drwxr-xr-x.  8 0 0  160 May 17 08:23 .
+drwxr-xr-x. 21 0 0 3320 May 17 08:23 ..
+drwxr-xr-x.  2 0 0   80 May 17 08:23 by-diskseq
+drwxr-xr-x.  2 0 0  160 May 17 08:23 by-id
+drwxr-xr-x.  2 0 0  100 May 17 08:23 by-label
+drwxr-xr-x.  2 0 0   80 May 17 08:23 by-partuuid
+drwxr-xr-x.  2 0 0  200 May 17 08:23 by-path
+drwxr-xr-x.  2 0 0  100 May 17 08:23 by-uuid
+
+/dev/disk/by-diskseq:
+total 0
+drwxr-xr-x. 2 0 0  80 May 17 08:23 .
+drwxr-xr-x. 8 0 0 160 May 17 08:23 ..
+lrwxrwxrwx. 1 0 0   9 May 17 08:23 1 -> ../../vda
+lrwxrwxrwx. 1 0 0   9 May 17 08:23 3 -> ../../sr0
+
+/dev/disk/by-id:
+total 0
+drwxr-xr-x. 2 0 0 160 May 17 08:23 .
+drwxr-xr-x. 8 0 0 160 May 17 08:23 ..
+lrwxrwxrwx. 1 0 0   9 May 17 08:23 ata-QEMU_DVD-ROM_QM00001 -> ../../sr0
+lrwxrwxrwx. 1 0 0  10 May 17 08:23 dm-name-root_vg-lv_root -> ../../dm-0
+lrwxrwxrwx. 1 0 0  10 May 17 08:23 dm-name-root_vg-lv_swap -> ../../dm-1
+lrwxrwxrwx. 1 0 0  10 May 17 08:23 dm-uuid-LVM-0czQa6vnpMIdWSsf2U4s4t43edqtiI84DMbXF6VSQdng1Qah1VJgoDdDAa3ramzg -> ../../dm-0
+lrwxrwxrwx. 1 0 0  10 May 17 08:23 dm-uuid-LVM-0czQa6vnpMIdWSsf2U4s4t43edqtiI84gMlBWsxIzw82SAQqxMTxl5NTLEKuY47l -> ../../dm-1
+lrwxrwxrwx. 1 0 0  10 May 17 08:23 lvm-pv-uuid-vPDur2-IuHb-bvHd-JMtS-YKXh-lrwA-MaEGb7 -> ../../vda2
+
+/dev/disk/by-label:
+total 0
+drwxr-xr-x. 2 0 0 100 May 17 08:23 .
+drwxr-xr-x. 8 0 0 160 May 17 08:23 ..
+lrwxrwxrwx. 1 0 0  10 May 17 08:23 boot -> ../../vda1
+lrwxrwxrwx. 1 0 0  10 May 17 08:23 lv_root -> ../../dm-0
+lrwxrwxrwx. 1 0 0  10 May 17 08:23 lv_swap -> ../../dm-1
+
+/dev/disk/by-partuuid:
+total 0
+drwxr-xr-x. 2 0 0  80 May 17 08:23 .
+drwxr-xr-x. 8 0 0 160 May 17 08:23 ..
+lrwxrwxrwx. 1 0 0  10 May 17 08:23 2b0740da-01 -> ../../vda1
+lrwxrwxrwx. 1 0 0  10 May 17 08:23 2b0740da-02 -> ../../vda2
+
+/dev/disk/by-path:
+total 0
+drwxr-xr-x. 2 0 0 200 May 17 08:23 .
+drwxr-xr-x. 8 0 0 160 May 17 08:23 ..
+lrwxrwxrwx. 1 0 0   9 May 17 08:23 pci-0000:00:1f.2-ata-1 -> ../../sr0
+lrwxrwxrwx. 1 0 0   9 May 17 08:23 pci-0000:00:1f.2-ata-1.0 -> ../../sr0
+lrwxrwxrwx. 1 0 0   9 May 17 08:23 pci-0000:04:00.0 -> ../../vda
+lrwxrwxrwx. 1 0 0  10 May 17 08:23 pci-0000:04:00.0-part1 -> ../../vda1
+lrwxrwxrwx. 1 0 0  10 May 17 08:23 pci-0000:04:00.0-part2 -> ../../vda2
+lrwxrwxrwx. 1 0 0   9 May 17 08:23 virtio-pci-0000:04:00.0 -> ../../vda
+lrwxrwxrwx. 1 0 0  10 May 17 08:23 virtio-pci-0000:04:00.0-part1 -> ../../vda1
+lrwxrwxrwx. 1 0 0  10 May 17 08:23 virtio-pci-0000:04:00.0-part2 -> ../../vda2
+
+/dev/disk/by-uuid:
+total 0
+drwxr-xr-x. 2 0 0 100 May 17 08:23 .
+drwxr-xr-x. 8 0 0 160 May 17 08:23 ..
+lrwxrwxrwx. 1 0 0  10 May 17 08:23 4a53:4f:53:9d:a6:2f729ba56fdd -> ../../dm-1
+lrwxrwxrwx. 1 0 0  10 May 17 08:23 5d53:4f:53:1a:9b:455bfac8954c -> ../../dm-0
+lrwxrwxrwx. 1 0 0  10 May 17 08:23 6253:4f:53:99:54:0247767a441d -> ../../vda1
+
+/dev/dma_heap:
+total 0
+drwxr-xr-x.  2 0 0     60 May 17 08:23 .
+drwxr-xr-x. 21 0 0   3320 May 17 08:23 ..
+crw-------.  1 0 0 251, 0 May 17 08:23 system
+
+/dev/dri:
+total 0
+drwxr-xr-x.  3 0  0     80 May 17 08:23 .
+drwxr-xr-x. 21 0  0   3320 May 17 08:23 ..
+drwxr-xr-x.  2 0  0     60 May 17 08:23 by-path
+crw-rw----.  1 0 39 226, 0 May 17 08:23 card0
+
+/dev/dri/by-path:
+total 0
+drwxr-xr-x. 2 0 0 60 May 17 08:23 .
+drwxr-xr-x. 3 0 0 80 May 17 08:23 ..
+lrwxrwxrwx. 1 0 0  8 May 17 08:23 pci-0000:00:01.0-card -> ../card0
+
+/dev/hugepages:
+total 0
+drwxr-xr-x.  2 0 0    0 May 17 08:23 .
+drwxr-xr-x. 21 0 0 3320 May 17 08:23 ..
+
+/dev/input:
+total 0
+drwxr-xr-x.  4 0   0    240 May 17 08:23 .
+drwxr-xr-x. 21 0   0   3320 May 17 08:23 ..
+drwxr-xr-x.  2 0   0     80 May 17 08:23 by-id
+drwxr-xr-x.  2 0   0    160 May 17 08:23 by-path
+crw-rw----.  1 0 999 13, 64 May 17 08:23 event0
+crw-rw----.  1 0 999 13, 65 May 17 08:23 event1
+crw-rw----.  1 0 999 13, 66 May 17 08:23 event2
+crw-rw----.  1 0 999 13, 67 May 17 08:23 event3
+crw-rw----.  1 0 999 13, 68 May 17 08:23 event4
+crw-rw----.  1 0 999 13, 63 May 17 08:23 mice
+crw-rw----.  1 0 999 13, 32 May 17 08:23 mouse0
+crw-rw----.  1 0 999 13, 33 May 17 08:23 mouse1
+
+/dev/input/by-id:
+total 0
+drwxr-xr-x. 2 0 0  80 May 17 08:23 .
+drwxr-xr-x. 4 0 0 240 May 17 08:23 ..
+lrwxrwxrwx. 1 0 0   9 May 17 08:23 usb-QEMU_QEMU_USB_Tablet_28754-0000:00:02.1:00.0-1-event-mouse -> ../event2
+lrwxrwxrwx. 1 0 0   9 May 17 08:23 usb-QEMU_QEMU_USB_Tablet_28754-0000:00:02.1:00.0-1-mouse -> ../mouse0
+
+/dev/input/by-path:
+total 0
+drwxr-xr-x. 2 0 0 160 May 17 08:23 .
+drwxr-xr-x. 4 0 0 240 May 17 08:23 ..
+lrwxrwxrwx. 1 0 0   9 May 17 08:23 pci-0000:02:00.0-usb-0:1:1.0-event-mouse -> ../event2
+lrwxrwxrwx. 1 0 0   9 May 17 08:23 pci-0000:02:00.0-usb-0:1:1.0-mouse -> ../mouse0
+lrwxrwxrwx. 1 0 0   9 May 17 08:23 platform-i8042-serio-0-event-kbd -> ../event1
+lrwxrwxrwx. 1 0 0   9 May 17 08:23 platform-i8042-serio-1-event-mouse -> ../event3
+lrwxrwxrwx. 1 0 0   9 May 17 08:23 platform-i8042-serio-1-mouse -> ../mouse1
+lrwxrwxrwx. 1 0 0   9 May 17 08:23 platform-pcspkr-event-spkr -> ../event4
+
+/dev/mapper:
+total 0
+drwxr-xr-x.  2 0 0     100 May 17 08:23 .
+drwxr-xr-x. 21 0 0    3320 May 17 08:23 ..
+crw-------.  1 0 0 10, 236 May 17 08:23 control
+lrwxrwxrwx.  1 0 0       7 May 17 08:23 root_vg-lv_root -> ../dm-0
+lrwxrwxrwx.  1 0 0       7 May 17 08:23 root_vg-lv_swap -> ../dm-1
+
+/dev/mqueue:
+total 0
+drwxrwxrwt.  2 0 0   40 May 17 08:23 .
+drwxr-xr-x. 21 0 0 3320 May 17 08:23 ..
+
+/dev/net:
+total 0
+drwxr-xr-x.  2 0 0      60 May 17 08:23 .
+drwxr-xr-x. 21 0 0    3320 May 17 08:23 ..
+crw-rw-rw-.  1 0 0 10, 200 May 17 08:23 tun
+
+/dev/pts:
+total 0
+drwxr-xr-x.  2 0 0      0 May 17 08:23 .
+drwxr-xr-x. 21 0 0   3320 May 17 08:23 ..
+crw--w----.  1 0 5 136, 0 May 17 14:45 0
+c---------.  1 0 0   5, 2 May 17 08:23 ptmx
+
+/dev/root_vg:
+total 0
+drwxr-xr-x.  2 0 0   80 May 17 08:23 .
+drwxr-xr-x. 21 0 0 3320 May 17 08:23 ..
+lrwxrwxrwx.  1 0 0    7 May 17 08:23 lv_root -> ../dm-0
+lrwxrwxrwx.  1 0 0    7 May 17 08:23 lv_swap -> ../dm-1
+
+/dev/shm:
+total 84
+drwxrwxrwt.  2 0 0    60 May 17 14:45 .
+drwxr-xr-x. 21 0 0  3320 May 17 08:23 ..
+-rw-------.  1 0 0 82488 May 17 14:45 libpod_lock
+
+/dev/snd:
+total 0
+drwxr-xr-x.  2 0  0      80 May 17 08:23 .
+drwxr-xr-x. 21 0  0    3320 May 17 08:23 ..
+crw-rw----.  1 0 63 116,  1 May 17 08:23 seq
+crw-rw----.  1 0 63 116, 33 May 17 08:23 timer
+
+/dev/vfio:
+total 0
+drwxr-xr-x.  2 0 0      60 May 17 08:23 .
+drwxr-xr-x. 21 0 0    3320 May 17 08:23 ..
+crw-rw-rw-.  1 0 0 10, 196 May 17 08:23 vfio
+
+/dev/virtio-ports:
+total 0
+drwxr-xr-x.  2 0 0   80 May 17 08:23 .
+drwxr-xr-x. 21 0 0 3320 May 17 08:23 ..
+lrwxrwxrwx.  1 0 0   11 May 17 08:23 com.redhat.spice.0 -> ../vport1p2
+lrwxrwxrwx.  1 0 0   11 May 17 08:23 org.qemu.guest_agent.0 -> ../vport1p1

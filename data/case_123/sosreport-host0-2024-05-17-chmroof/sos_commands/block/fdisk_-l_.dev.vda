@@ -1,0 +1,10 @@
+Disk /dev/vda: 10 GiB, 10737418240 bytes, 20971520 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x2b0740da
+
+Device     Boot   Start      End  Sectors Size Id Type
+/dev/vda1  *       2048  2099199  2097152   1G 83 Linux
+/dev/vda2       2099200 20971519 18872320   9G 8e Linux LVM

@@ -1,0 +1,33 @@
+222 189 253:0 / / rw,relatime shared:142 master:1 - ext4 /dev/mapper/root_vg-lv_root rw,seclabel
+223 222 0:21 / /sys ro,nosuid,nodev,noexec,relatime shared:148 master:2 - sysfs sysfs rw,seclabel
+224 223 0:6 / /sys/kernel/security ro,nosuid,nodev,noexec,relatime shared:149 master:3 - securityfs securityfs rw
+225 223 0:25 / /sys/fs/cgroup ro,nosuid,nodev,noexec,relatime shared:150 master:4 - cgroup2 cgroup2 rw,seclabel,nsdelegate,memory_recursiveprot
+226 223 0:26 / /sys/fs/pstore ro,nosuid,nodev,noexec,relatime shared:151 master:5 - pstore pstore rw,seclabel
+227 223 0:27 / /sys/fs/bpf ro,nosuid,nodev,noexec,relatime shared:152 master:6 - bpf bpf rw,mode=700
+228 223 0:19 / /sys/fs/selinux rw,nosuid,noexec,relatime shared:153 master:7 - selinuxfs selinuxfs rw
+229 223 0:7 / /sys/kernel/debug ro,nosuid,nodev,noexec,relatime shared:154 master:16 - debugfs debugfs rw,seclabel
+230 223 0:12 / /sys/kernel/tracing ro,nosuid,nodev,noexec,relatime shared:155 master:17 - tracefs tracefs rw,seclabel
+231 223 0:30 / /sys/kernel/config ro,nosuid,nodev,noexec,relatime shared:156 master:18 - configfs configfs rw
+232 223 0:31 / /sys/fs/fuse/connections ro,nosuid,nodev,noexec,relatime shared:157 master:19 - fusectl fusectl rw
+233 222 0:5 / /dev rw,nosuid shared:158 master:8 - devtmpfs devtmpfs rw,seclabel,size=4096k,nr_inodes=977200,mode=755,inode64
+234 233 0:22 / /dev/shm rw,nosuid,nodev shared:159 master:9 - tmpfs tmpfs rw,seclabel,inode64
+235 233 0:23 / /dev/pts rw,nosuid,noexec,relatime shared:160 master:10 - devpts devpts rw,seclabel,gid=5,mode=620,ptmxmode=000
+236 233 0:18 / /dev/mqueue rw,nosuid,nodev,noexec,relatime shared:161 master:14 - mqueue mqueue rw,seclabel
+237 233 0:29 / /dev/hugepages rw,relatime shared:162 master:15 - hugetlbfs hugetlbfs rw,seclabel,pagesize=2M
+238 222 0:24 / /run rw,nosuid,nodev shared:164 master:11 - tmpfs tmpfs rw,seclabel,size=1571616k,nr_inodes=819200,mode=755,inode64
+244 222 0:33 / /tmp rw,nosuid,nodev shared:168 master:20 - tmpfs tmpfs rw,seclabel,nr_inodes=1048576,inode64
+245 222 252:1 / /boot ro,relatime shared:170 master:41 - ext4 /dev/vda1 rw,seclabel
+246 233 0:24 /systemd/inaccessible/chr /dev/kmsg ro,nosuid,nodev,noexec shared:163 master:11 - tmpfs tmpfs rw,seclabel,size=1571616k,nr_inodes=819200,mode=755,inode64
+247 222 253:0 /etc /etc ro,relatime shared:171 master:1 - ext4 /dev/mapper/root_vg-lv_root rw,seclabel
+248 222 0:24 /systemd/inaccessible/dir /home ro,nosuid,nodev,noexec shared:172 master:11 - tmpfs tmpfs rw,seclabel,size=1571616k,nr_inodes=819200,mode=755,inode64
+242 222 0:39 / /proc rw,nosuid,nodev,noexec,relatime shared:173 - proc proc rw,hidepid=invisible,subset=pid
+446 222 0:24 /systemd/inaccessible/dir /root ro,nosuid,nodev,noexec shared:174 master:11 - tmpfs tmpfs rw,seclabel,size=1571616k,nr_inodes=819200,mode=755,inode64
+239 238 0:24 /systemd/inaccessible/dir /run/credentials ro,nosuid,nodev,noexec shared:165 master:11 - tmpfs tmpfs rw,seclabel,size=1571616k,nr_inodes=819200,mode=755,inode64
+240 238 0:24 /systemd/propagate/chronyd.service /run/systemd/incoming ro,nosuid,nodev master:11 - tmpfs tmpfs rw,seclabel,size=1571616k,nr_inodes=819200,mode=755,inode64
+241 238 0:24 /systemd/inaccessible/dir /run/user ro,nosuid,nodev,noexec shared:167 master:11 - tmpfs tmpfs rw,seclabel,size=1571616k,nr_inodes=819200,mode=755,inode64
+339 244 0:33 /systemd-private-098b80264a054738963026d738ef8a54-chronyd.service-UuUPRN/tmp /tmp rw,nosuid,nodev shared:169 master:20 - tmpfs tmpfs rw,seclabel,nr_inodes=1048576,inode64
+340 222 253:0 /usr /usr ro,relatime shared:175 master:1 - ext4 /dev/mapper/root_vg-lv_root rw,seclabel
+465 340 0:24 /systemd/inaccessible/dir /usr/lib/modules ro,nosuid,nodev,noexec shared:176 master:11 - tmpfs tmpfs rw,seclabel,size=1571616k,nr_inodes=819200,mode=755,inode64
+466 222 253:0 /var/tmp/systemd-private-098b80264a054738963026d738ef8a54-chronyd.service-zDMbPZ/tmp /var/tmp rw,relatime shared:177 master:1 - ext4 /dev/mapper/root_vg-lv_root rw,seclabel
+408 238 0:40 / /run/user/0 rw,nosuid,nodev,relatime shared:105 master:85 - tmpfs tmpfs rw,seclabel,size=785804k,nr_inodes=196451,mode=700,inode64
+425 229 0:12 / /sys/kernel/debug/tracing rw,nosuid,nodev,noexec,relatime shared:115 master:109 - tracefs tracefs rw,seclabel

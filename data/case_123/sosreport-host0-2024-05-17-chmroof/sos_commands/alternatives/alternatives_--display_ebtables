@@ -1,0 +1,7 @@
+ebtables - status is auto.
+ link currently points to /usr/sbin/ebtables-nft
+/usr/sbin/ebtables-nft - priority 10
+ follower ebtables-restore: /usr/sbin/ebtables-nft-restore
+ follower ebtables-save: /usr/sbin/ebtables-nft-save
+ follower ebtables-man: /usr/share/man/man8/ebtables-nft.8.gz
+Current `best' version is /usr/sbin/ebtables-nft.

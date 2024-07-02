@@ -1,0 +1,37 @@
+int hid_tail_call(unsigned long long * ctx):
+0xffffffffc023796c:
+; int BPF_PROG(hid_tail_call, struct hid_bpf_ctx *hctx)
+   0:	nopl   0x0(%rax,%rax,1)
+   5:	xor    %eax,%eax
+   7:	push   %rbp
+   8:	mov    %rsp,%rbp
+   b:	push   %rax
+   c:	mov    0x0(%rdi),%rsi
+; bpf_tail_call(ctx, &hid_jmp_table, hctx->index);
+  10:	movabs $0x800000000000,%r11
+  1a:	cmp    %r11,%rsi
+  1d:	jae    0x0000000000000023
+  1f:	xor    %edx,%edx
+  21:	jmp    0x0000000000000026
+  23:	mov    0x0(%rsi),%edx
+  26:	movabs $0xffffa08d86a38000,%rsi
+  30:	mov    %edx,%edx
+  32:	cmp    %edx,0x24(%rsi)
+  35:	jbe    0x0000000000000066
+  37:	mov    -0x4(%rbp),%eax
+  3d:	cmp    $0x21,%eax
+  40:	jae    0x0000000000000066
+  42:	add    $0x1,%eax
+  45:	mov    %eax,-0x4(%rbp)
+  4b:	mov    0x110(%rsi,%rdx,8),%rcx
+  53:	test   %rcx,%rcx
+  56:	je     0x0000000000000066
+  58:	pop    %rax
+  59:	mov    0x30(%rcx),%rcx
+  5d:	add    $0xb,%rcx
+  61:	jmpq   0xffffffffcac2f874
+; int BPF_PROG(hid_tail_call, struct hid_bpf_ctx *hctx)
+  66:	xor    %eax,%eax
+  68:	leaveq 
+  69:	jmpq   0xffffffffcac2fe94
+

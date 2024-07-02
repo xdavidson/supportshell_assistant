@@ -1,0 +1,21 @@
+[
+     {
+          "name": "podman",
+          "id": "2f259bab93aaaaa2542ba43ef33eb990d0999ee1b9924b557b7be53c0b7a1bb9",
+          "driver": "bridge",
+          "network_interface": "cni-podman0",
+          "created": "2024-05-17T14:45:42.626819613-04:00",
+          "subnets": [
+               {
+                    "subnet": "106.0.0.1/16",
+                    "gateway": "106.0.0.2/16"
+               }
+          ],
+          "ipv6_enabled": false,
+          "internal": false,
+          "dns_enabled": false,
+          "ipam_options": {
+               "driver": "host-local"
+          }
+     }
+]

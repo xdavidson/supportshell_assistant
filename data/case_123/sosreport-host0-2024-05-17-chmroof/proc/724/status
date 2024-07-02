@@ -1,0 +1,57 @@
+Name:	sedispatch
+Umask:	0022
+State:	S (sleeping)
+Tgid:	724
+Ngid:	0
+Pid:	724
+PPid:	722
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Groups:	 
+NStgid:	724
+NSpid:	724
+NSpgid:	722
+NSsid:	722
+VmPeak:	    7784 kB
+VmSize:	    7780 kB
+VmLck:	       0 kB
+VmPin:	       0 kB
+VmHWM:	    3240 kB
+VmRSS:	    3240 kB
+RssAnon:	     316 kB
+RssFile:	    2924 kB
+RssShmem:	       0 kB
+VmData:	     384 kB
+VmStk:	     132 kB
+VmExe:	       4 kB
+VmLib:	    5116 kB
+VmPTE:	      48 kB
+VmSwap:	       0 kB
+HugetlbPages:	       0 kB
+CoreDumping:	0
+THP_enabled:	1
+Threads:	1
+SigQ:	4/30537
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000000000000
+SigIgn:	fffffffe7ffabefe
+SigCgt:	0000000000004001
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+CapAmb:	0000000000000000
+NoNewPrivs:	0
+Seccomp:	2
+Seccomp_filters:	12
+Speculation_Store_Bypass:	thread vulnerable
+SpeculationIndirectBranch:	conditional enabled
+Cpus_allowed:	3
+Cpus_allowed_list:	0-1
+Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+Mems_allowed_list:	0
+voluntary_ctxt_switches:	287
+nonvoluntary_ctxt_switches:	1

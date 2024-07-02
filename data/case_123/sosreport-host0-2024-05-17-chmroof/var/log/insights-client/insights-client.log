@@ -1,0 +1,333 @@
+2024-05-15 10:30:09,095    DEBUG insights.client.client Logging initialized
+2024-05-15 10:30:09,096    DEBUG root Loaded initial egg: /var/lib/insights/last_stable.egg/insights
+2024-05-15 10:30:09,096    DEBUG insights.client /usr/bin/gpg --verify --keyring /etc/insights-client/redhattools.pub.gpg /var/lib/insights/newest.egg.asc /var/lib/insights/newest.egg
+2024-05-15 10:30:09,177    DEBUG insights.client GPG return code: 0
+2024-05-15 10:30:10,996    DEBUG insights.client.client Logging initialized
+2024-05-15 10:30:10,996    DEBUG insights.client.auto_config Trying to autoconfigure...
+2024-05-15 10:30:11,076    DEBUG rhsm.https Using standard libs to provide httplib and ssl
+2024-05-15 10:30:11,081    DEBUG insights.client.auto_config Checking if system is subscription-manager registered
+2024-05-15 10:30:11,081    DEBUG insights.client.auto_config System is subscription-manager registered
+2024-05-15 10:30:11,081    DEBUG insights.client.auto_config Found Host: subscription.rhsm.redhat.com, Port: 443
+2024-05-15 10:30:11,081    DEBUG insights.client.auto_config Found CA: /etc/rhsm/ca/redhat-uep.pem
+2024-05-15 10:30:11,082    DEBUG insights.client.auto_config Setting authmethod to CERT
+2024-05-15 10:30:11,082    DEBUG insights.client.auto_config Connected to Red Hat Directly, using cert-api
+2024-05-15 10:30:11,082    DEBUG insights.client.auto_config Trying to set auto_configuration
+2024-05-15 10:30:11,082    DEBUG insights.client.auto_config Attempting to auto configure!
+2024-05-15 10:30:11,082    DEBUG insights.client.auto_config Attempting to auto configure hostname: cert-api.access.redhat.com
+2024-05-15 10:30:11,082    DEBUG insights.client.auto_config Attempting to auto configure CA cert: None
+2024-05-15 10:30:11,082    DEBUG insights.client.auto_config Attempting to auto configure proxy: None
+2024-05-15 10:30:11,082    DEBUG insights.client.auto_config Attempting to auto configure no_proxy: None
+2024-05-15 10:30:11,082    DEBUG insights.client.auto_config Auto-configured base_url: cert-api.access.redhat.com/r/insights
+2024-05-15 10:30:11,082    DEBUG insights.client.auto_config Not connected to Satellite, skipping branch_info
+2024-05-15 10:30:11,082    DEBUG insights.client.auto_config Updated base_url: cert-api.access.redhat.com/r/insights
+2024-05-15 10:30:11,192    DEBUG insights.client /usr/bin/gpg --verify --keyring /etc/insights-client/redhattools.pub.gpg /var/lib/insights/newest.egg.asc /var/lib/insights/newest.egg
+2024-05-15 10:30:11,276    DEBUG insights.client GPG return code: 0
+2024-05-15 10:30:12,972    DEBUG insights.client.client Logging initialized
+2024-05-15 10:30:12,972    DEBUG insights.client.auto_config Trying to autoconfigure...
+2024-05-15 10:30:12,980    DEBUG rhsm.https Using standard libs to provide httplib and ssl
+2024-05-15 10:30:12,985    DEBUG insights.client.auto_config Checking if system is subscription-manager registered
+2024-05-15 10:30:12,986    DEBUG insights.client.auto_config System is subscription-manager registered
+2024-05-15 10:30:12,986    DEBUG insights.client.auto_config Found Host: subscription.rhsm.redhat.com, Port: 443
+2024-05-15 10:30:12,986    DEBUG insights.client.auto_config Found CA: /etc/rhsm/ca/redhat-uep.pem
+2024-05-15 10:30:12,986    DEBUG insights.client.auto_config Setting authmethod to CERT
+2024-05-15 10:30:12,986    DEBUG insights.client.auto_config Connected to Red Hat Directly, using cert-api
+2024-05-15 10:30:12,986    DEBUG insights.client.auto_config Trying to set auto_configuration
+2024-05-15 10:30:12,986    DEBUG insights.client.auto_config Attempting to auto configure!
+2024-05-15 10:30:12,986    DEBUG insights.client.auto_config Attempting to auto configure hostname: cert-api.access.redhat.com
+2024-05-15 10:30:12,986    DEBUG insights.client.auto_config Attempting to auto configure CA cert: None
+2024-05-15 10:30:12,986    DEBUG insights.client.auto_config Attempting to auto configure proxy: None
+2024-05-15 10:30:12,986    DEBUG insights.client.auto_config Attempting to auto configure no_proxy: None
+2024-05-15 10:30:12,986    DEBUG insights.client.auto_config Auto-configured base_url: cert-api.access.redhat.com/r/insights
+2024-05-15 10:30:12,986    DEBUG insights.client.auto_config Not connected to Satellite, skipping branch_info
+2024-05-15 10:30:12,986    DEBUG insights.client.auto_config Updated base_url: cert-api.access.redhat.com/r/insights
+2024-05-15 10:30:12,986    DEBUG insights.client Egg update enabled
+2024-05-15 10:30:12,987    DEBUG insights.client Beginning core fetch.
+2024-05-15 10:30:13,308  NETWORK insights.client.connection GET https://cert-api.access.redhat.com/r/insights/platform/module-update-router/v1/channel?module=insights-core
+2024-05-15 10:30:14,672  NETWORK insights.client.connection HTTP Status: 200 OK
+2024-05-15 10:30:14,673  NETWORK insights.client.connection HTTP Response Text: {"url":"/release"}
+2024-05-15 10:30:14,677    DEBUG insights.client Found etag "51f49e237ea0e18f1307399eb239313f:1715646641.424015"
+2024-05-15 10:30:14,678    DEBUG insights.client Making request to https://cert-api.access.redhat.com/r/insights/v1/static/release/insights-core.egg for new core
+2024-05-15 10:30:14,678  NETWORK insights.client GET https://cert-api.access.redhat.com/r/insights/v1/static/release/insights-core.egg
+2024-05-15 10:30:14,678    DEBUG insights.client Requesting new file with etag "51f49e237ea0e18f1307399eb239313f:1715646641.424015"
+2024-05-15 10:30:14,678  NETWORK insights.client.connection GET https://cert-api.access.redhat.com/r/insights/v1/static/release/insights-core.egg
+2024-05-15 10:30:14,732  NETWORK insights.client.connection HTTP Status: 304 Not Modified
+2024-05-15 10:30:14,732  NETWORK insights.client.connection HTTP Response Text: 
+2024-05-15 10:30:14,732    DEBUG insights.client Status code: 304
+2024-05-15 10:30:14,732    DEBUG insights.client Last-Modified: Tue, 14 May 2024 00:30:33 GMT
+2024-05-15 10:30:14,732    DEBUG insights.client ETag: "51f49e237ea0e18f1307399eb239313f:1715646641.424015"
+2024-05-15 10:30:14,732    DEBUG insights.client Vary: Accept-Encoding
+2024-05-15 10:30:14,732    DEBUG insights.client Date: Wed, 15 May 2024 14:30:14 GMT
+2024-05-15 10:30:14,732    DEBUG insights.client Connection: keep-alive
+2024-05-15 10:30:14,732    DEBUG insights.client content-disposition: attachment
+2024-05-15 10:30:14,732    DEBUG insights.client Content-Type: application/zip
+2024-05-15 10:30:14,732    DEBUG insights.client ETag: "51f49e237ea0e18f1307399eb239313f:1715646641.424015"
+2024-05-15 10:30:14,732    DEBUG insights.client No data received
+2024-05-15 10:30:14,732    DEBUG insights.client Tags match, not updating core
+2024-05-15 10:30:14,732    DEBUG insights.client Deleting temp directory /tmp/tmpal9whd89.
+2024-05-15 10:30:14,786    DEBUG insights.client /usr/bin/gpg --verify --keyring /etc/insights-client/redhattools.pub.gpg /var/lib/insights/newest.egg.asc /var/lib/insights/newest.egg
+2024-05-15 10:30:14,798    DEBUG insights.client GPG return code: 0
+2024-05-15 10:30:16,578    DEBUG insights.client.client Logging initialized
+2024-05-15 10:30:16,578    DEBUG insights.client.auto_config Trying to autoconfigure...
+2024-05-15 10:30:16,587    DEBUG rhsm.https Using standard libs to provide httplib and ssl
+2024-05-15 10:30:16,592    DEBUG insights.client.auto_config Checking if system is subscription-manager registered
+2024-05-15 10:30:16,592    DEBUG insights.client.auto_config System is subscription-manager registered
+2024-05-15 10:30:16,592    DEBUG insights.client.auto_config Found Host: subscription.rhsm.redhat.com, Port: 443
+2024-05-15 10:30:16,592    DEBUG insights.client.auto_config Found CA: /etc/rhsm/ca/redhat-uep.pem
+2024-05-15 10:30:16,592    DEBUG insights.client.auto_config Setting authmethod to CERT
+2024-05-15 10:30:16,592    DEBUG insights.client.auto_config Connected to Red Hat Directly, using cert-api
+2024-05-15 10:30:16,592    DEBUG insights.client.auto_config Trying to set auto_configuration
+2024-05-15 10:30:16,592    DEBUG insights.client.auto_config Attempting to auto configure!
+2024-05-15 10:30:16,592    DEBUG insights.client.auto_config Attempting to auto configure hostname: cert-api.access.redhat.com
+2024-05-15 10:30:16,592    DEBUG insights.client.auto_config Attempting to auto configure CA cert: None
+2024-05-15 10:30:16,592    DEBUG insights.client.auto_config Attempting to auto configure proxy: None
+2024-05-15 10:30:16,592    DEBUG insights.client.auto_config Attempting to auto configure no_proxy: None
+2024-05-15 10:30:16,592    DEBUG insights.client.auto_config Auto-configured base_url: cert-api.access.redhat.com/r/insights
+2024-05-15 10:30:16,593    DEBUG insights.client.auto_config Not connected to Satellite, skipping branch_info
+2024-05-15 10:30:16,593    DEBUG insights.client.auto_config Updated base_url: cert-api.access.redhat.com/r/insights
+2024-05-15 10:30:16,593    DEBUG insights.client.utilities Client version: 3.2.2
+2024-05-15 10:30:16,593    DEBUG insights.client.utilities Core version: 3.3.7-1
+2024-05-15 10:30:16,593    DEBUG insights.client.utilities All egg versions:
+2024-05-15 10:30:16,593    DEBUG insights.client.utilities ENV egg not defined.
+2024-05-15 10:30:17,486    DEBUG insights.client.utilities /var/lib/insights/newest.egg: 3.3.7-1
+2024-05-15 10:30:18,296    DEBUG insights.client.utilities /var/lib/insights/last_stable.egg: 3.2.27-1
+2024-05-15 10:30:19,296    DEBUG insights.client.utilities /etc/insights-client/rpm.egg: 3.2.15-1
+2024-05-15 10:30:19,600    DEBUG insights.client.client Trying registration.
+2024-05-15 10:30:19,600    DEBUG insights.client.connection Checking registration status...
+2024-05-15 10:30:19,600    DEBUG insights.client.utilities Found /etc/insights-client/machine-id
+2024-05-15 10:30:19,600  NETWORK insights.client.connection GET https://cert-api.access.redhat.com/r/insights/v1/systems/3c53:4f:53:6b:a6:6bfe59fa2735
+2024-05-15 10:30:19,900  NETWORK insights.client.connection HTTP Status: 404 Not Found
+2024-05-15 10:30:19,900  NETWORK insights.client.connection HTTP Response Text: {"detail":"System with insights_id 3c53:4f:53:6b:a6:6bfe59fa2735 not found"}
+2024-05-15 10:30:19,901    DEBUG insights.client.connection No HTTP Response message present.
+2024-05-15 10:30:19,901    DEBUG insights.client.connection Debug Information:
+HTTP Status Code: 404
+2024-05-15 10:30:19,901    DEBUG insights.client.connection HTTP Status Text: Not Found
+2024-05-15 10:30:19,904    DEBUG insights.client.support Registration status: None
+2024-05-15 10:30:19,905    DEBUG insights.client.utilities Could not find machine-id file, creating
+2024-05-15 10:30:19,905    DEBUG insights.client.utilities Creating /etc/insights-client/machine-id
+2024-05-15 10:30:19,905    DEBUG insights.client.client Machine-id: f753:4f:53:0c:17:145f3c38f38d
+2024-05-15 10:30:19,905    DEBUG insights.client.client System is NOT registered locally via .registered file. Unregistered at 2024-01-03T07:57:26.045187
+2024-05-15 10:30:19,905    DEBUG insights.client.client Insights API says this machine is NOT registered.
+2024-05-15 10:30:19,905    DEBUG insights.client.client System unregistered locally via .unregistered file
+2024-05-15 10:30:19,905     INFO insights.client.client This machine has not yet been registered. Use --register to register this machine.
+2024-05-16 11:33:22,794    DEBUG insights.client.client Logging initialized
+2024-05-16 11:33:22,795    DEBUG root Loaded initial egg: /var/lib/insights/last_stable.egg/insights
+2024-05-16 11:33:22,795    DEBUG insights.client /usr/bin/gpg --verify --keyring /etc/insights-client/redhattools.pub.gpg /var/lib/insights/newest.egg.asc /var/lib/insights/newest.egg
+2024-05-16 11:33:22,808    DEBUG insights.client GPG return code: 0
+2024-05-16 11:33:24,581    DEBUG insights.client.client Logging initialized
+2024-05-16 11:33:24,581    DEBUG insights.client.auto_config Trying to autoconfigure...
+2024-05-16 11:33:24,589    DEBUG rhsm.https Using standard libs to provide httplib and ssl
+2024-05-16 11:33:24,594    DEBUG insights.client.auto_config Checking if system is subscription-manager registered
+2024-05-16 11:33:24,594    DEBUG insights.client.auto_config System is subscription-manager registered
+2024-05-16 11:33:24,594    DEBUG insights.client.auto_config Found Host: subscription.rhsm.redhat.com, Port: 443
+2024-05-16 11:33:24,595    DEBUG insights.client.auto_config Found CA: /etc/rhsm/ca/redhat-uep.pem
+2024-05-16 11:33:24,595    DEBUG insights.client.auto_config Setting authmethod to CERT
+2024-05-16 11:33:24,595    DEBUG insights.client.auto_config Connected to Red Hat Directly, using cert-api
+2024-05-16 11:33:24,595    DEBUG insights.client.auto_config Trying to set auto_configuration
+2024-05-16 11:33:24,595    DEBUG insights.client.auto_config Attempting to auto configure!
+2024-05-16 11:33:24,595    DEBUG insights.client.auto_config Attempting to auto configure hostname: cert-api.access.redhat.com
+2024-05-16 11:33:24,595    DEBUG insights.client.auto_config Attempting to auto configure CA cert: None
+2024-05-16 11:33:24,595    DEBUG insights.client.auto_config Attempting to auto configure proxy: None
+2024-05-16 11:33:24,595    DEBUG insights.client.auto_config Attempting to auto configure no_proxy: None
+2024-05-16 11:33:24,595    DEBUG insights.client.auto_config Auto-configured base_url: cert-api.access.redhat.com/r/insights
+2024-05-16 11:33:24,595    DEBUG insights.client.auto_config Not connected to Satellite, skipping branch_info
+2024-05-16 11:33:24,595    DEBUG insights.client.auto_config Updated base_url: cert-api.access.redhat.com/r/insights
+2024-05-16 11:33:24,704    DEBUG insights.client /usr/bin/gpg --verify --keyring /etc/insights-client/redhattools.pub.gpg /var/lib/insights/newest.egg.asc /var/lib/insights/newest.egg
+2024-05-16 11:33:24,783    DEBUG insights.client GPG return code: 0
+2024-05-16 11:33:26,582    DEBUG insights.client.client Logging initialized
+2024-05-16 11:33:26,582    DEBUG insights.client.auto_config Trying to autoconfigure...
+2024-05-16 11:33:26,590    DEBUG rhsm.https Using standard libs to provide httplib and ssl
+2024-05-16 11:33:26,595    DEBUG insights.client.auto_config Checking if system is subscription-manager registered
+2024-05-16 11:33:26,595    DEBUG insights.client.auto_config System is subscription-manager registered
+2024-05-16 11:33:26,595    DEBUG insights.client.auto_config Found Host: subscription.rhsm.redhat.com, Port: 443
+2024-05-16 11:33:26,595    DEBUG insights.client.auto_config Found CA: /etc/rhsm/ca/redhat-uep.pem
+2024-05-16 11:33:26,596    DEBUG insights.client.auto_config Setting authmethod to CERT
+2024-05-16 11:33:26,596    DEBUG insights.client.auto_config Connected to Red Hat Directly, using cert-api
+2024-05-16 11:33:26,596    DEBUG insights.client.auto_config Trying to set auto_configuration
+2024-05-16 11:33:26,596    DEBUG insights.client.auto_config Attempting to auto configure!
+2024-05-16 11:33:26,596    DEBUG insights.client.auto_config Attempting to auto configure hostname: cert-api.access.redhat.com
+2024-05-16 11:33:26,596    DEBUG insights.client.auto_config Attempting to auto configure CA cert: None
+2024-05-16 11:33:26,596    DEBUG insights.client.auto_config Attempting to auto configure proxy: None
+2024-05-16 11:33:26,596    DEBUG insights.client.auto_config Attempting to auto configure no_proxy: None
+2024-05-16 11:33:26,596    DEBUG insights.client.auto_config Auto-configured base_url: cert-api.access.redhat.com/r/insights
+2024-05-16 11:33:26,596    DEBUG insights.client.auto_config Not connected to Satellite, skipping branch_info
+2024-05-16 11:33:26,596    DEBUG insights.client.auto_config Updated base_url: cert-api.access.redhat.com/r/insights
+2024-05-16 11:33:26,596    DEBUG insights.client Egg update enabled
+2024-05-16 11:33:26,596    DEBUG insights.client Beginning core fetch.
+2024-05-16 11:33:26,908  NETWORK insights.client.connection GET https://cert-api.access.redhat.com/r/insights/platform/module-update-router/v1/channel?module=insights-core
+2024-05-16 11:33:27,247  NETWORK insights.client.connection HTTP Status: 200 OK
+2024-05-16 11:33:27,247  NETWORK insights.client.connection HTTP Response Text: {"url":"/release"}
+2024-05-16 11:33:27,251    DEBUG insights.client Found etag "51f49e237ea0e18f1307399eb239313f:1715646641.424015"
+2024-05-16 11:33:27,251    DEBUG insights.client Making request to https://cert-api.access.redhat.com/r/insights/v1/static/release/insights-core.egg for new core
+2024-05-16 11:33:27,251  NETWORK insights.client GET https://cert-api.access.redhat.com/r/insights/v1/static/release/insights-core.egg
+2024-05-16 11:33:27,252    DEBUG insights.client Requesting new file with etag "51f49e237ea0e18f1307399eb239313f:1715646641.424015"
+2024-05-16 11:33:27,252  NETWORK insights.client.connection GET https://cert-api.access.redhat.com/r/insights/v1/static/release/insights-core.egg
+2024-05-16 11:33:27,296  NETWORK insights.client.connection HTTP Status: 304 Not Modified
+2024-05-16 11:33:27,296  NETWORK insights.client.connection HTTP Response Text: 
+2024-05-16 11:33:27,296    DEBUG insights.client Status code: 304
+2024-05-16 11:33:27,296    DEBUG insights.client Last-Modified: Tue, 14 May 2024 00:30:33 GMT
+2024-05-16 11:33:27,296    DEBUG insights.client ETag: "51f49e237ea0e18f1307399eb239313f:1715646641.424015"
+2024-05-16 11:33:27,296    DEBUG insights.client Vary: Accept-Encoding
+2024-05-16 11:33:27,296    DEBUG insights.client Date: Thu, 16 May 2024 15:33:27 GMT
+2024-05-16 11:33:27,296    DEBUG insights.client Connection: keep-alive
+2024-05-16 11:33:27,296    DEBUG insights.client content-disposition: attachment
+2024-05-16 11:33:27,296    DEBUG insights.client Content-Type: application/zip
+2024-05-16 11:33:27,296    DEBUG insights.client ETag: "51f49e237ea0e18f1307399eb239313f:1715646641.424015"
+2024-05-16 11:33:27,296    DEBUG insights.client No data received
+2024-05-16 11:33:27,296    DEBUG insights.client Tags match, not updating core
+2024-05-16 11:33:27,297    DEBUG insights.client Deleting temp directory /tmp/tmpn2e1mmlc.
+2024-05-16 11:33:27,386    DEBUG insights.client /usr/bin/gpg --verify --keyring /etc/insights-client/redhattools.pub.gpg /var/lib/insights/newest.egg.asc /var/lib/insights/newest.egg
+2024-05-16 11:33:27,393    DEBUG insights.client GPG return code: 0
+2024-05-16 11:33:28,997    DEBUG insights.client.client Logging initialized
+2024-05-16 11:33:28,997    DEBUG insights.client.auto_config Trying to autoconfigure...
+2024-05-16 11:33:29,005    DEBUG rhsm.https Using standard libs to provide httplib and ssl
+2024-05-16 11:33:29,080    DEBUG insights.client.auto_config Checking if system is subscription-manager registered
+2024-05-16 11:33:29,080    DEBUG insights.client.auto_config System is subscription-manager registered
+2024-05-16 11:33:29,080    DEBUG insights.client.auto_config Found Host: subscription.rhsm.redhat.com, Port: 443
+2024-05-16 11:33:29,080    DEBUG insights.client.auto_config Found CA: /etc/rhsm/ca/redhat-uep.pem
+2024-05-16 11:33:29,080    DEBUG insights.client.auto_config Setting authmethod to CERT
+2024-05-16 11:33:29,080    DEBUG insights.client.auto_config Connected to Red Hat Directly, using cert-api
+2024-05-16 11:33:29,081    DEBUG insights.client.auto_config Trying to set auto_configuration
+2024-05-16 11:33:29,081    DEBUG insights.client.auto_config Attempting to auto configure!
+2024-05-16 11:33:29,081    DEBUG insights.client.auto_config Attempting to auto configure hostname: cert-api.access.redhat.com
+2024-05-16 11:33:29,081    DEBUG insights.client.auto_config Attempting to auto configure CA cert: None
+2024-05-16 11:33:29,081    DEBUG insights.client.auto_config Attempting to auto configure proxy: None
+2024-05-16 11:33:29,081    DEBUG insights.client.auto_config Attempting to auto configure no_proxy: None
+2024-05-16 11:33:29,081    DEBUG insights.client.auto_config Auto-configured base_url: cert-api.access.redhat.com/r/insights
+2024-05-16 11:33:29,081    DEBUG insights.client.auto_config Not connected to Satellite, skipping branch_info
+2024-05-16 11:33:29,081    DEBUG insights.client.auto_config Updated base_url: cert-api.access.redhat.com/r/insights
+2024-05-16 11:33:29,081    DEBUG insights.client.utilities Client version: 3.2.2
+2024-05-16 11:33:29,081    DEBUG insights.client.utilities Core version: 3.3.7-1
+2024-05-16 11:33:29,081    DEBUG insights.client.utilities All egg versions:
+2024-05-16 11:33:29,081    DEBUG insights.client.utilities ENV egg not defined.
+2024-05-16 11:33:29,908    DEBUG insights.client.utilities /var/lib/insights/newest.egg: 3.3.7-1
+2024-05-16 11:33:30,898    DEBUG insights.client.utilities /var/lib/insights/last_stable.egg: 3.2.27-1
+2024-05-16 11:33:31,893    DEBUG insights.client.utilities /etc/insights-client/rpm.egg: 3.2.15-1
+2024-05-16 11:33:32,195    DEBUG insights.client.client Trying registration.
+2024-05-16 11:33:32,195    DEBUG insights.client.connection Checking registration status...
+2024-05-16 11:33:32,195    DEBUG insights.client.utilities Found /etc/insights-client/machine-id
+2024-05-16 11:33:32,195  NETWORK insights.client.connection GET https://cert-api.access.redhat.com/r/insights/v1/systems/f753:4f:53:0c:17:145f3c38f38d
+2024-05-16 11:33:32,482  NETWORK insights.client.connection HTTP Status: 404 Not Found
+2024-05-16 11:33:32,482  NETWORK insights.client.connection HTTP Response Text: {"detail":"System with insights_id f753:4f:53:0c:17:145f3c38f38d not found"}
+2024-05-16 11:33:32,482    DEBUG insights.client.connection No HTTP Response message present.
+2024-05-16 11:33:32,482    DEBUG insights.client.connection Debug Information:
+HTTP Status Code: 404
+2024-05-16 11:33:32,482    DEBUG insights.client.connection HTTP Status Text: Not Found
+2024-05-16 11:33:32,487    DEBUG insights.client.support Registration status: None
+2024-05-16 11:33:32,487    DEBUG insights.client.utilities Could not find machine-id file, creating
+2024-05-16 11:33:32,487    DEBUG insights.client.utilities Creating /etc/insights-client/machine-id
+2024-05-16 11:33:32,487    DEBUG insights.client.client Machine-id: e453:4f:53:05:91:1f0417a87eb2
+2024-05-16 11:33:32,487    DEBUG insights.client.client System is NOT registered locally via .registered file. Unregistered at 2024-01-03T07:57:26.045187
+2024-05-16 11:33:32,487    DEBUG insights.client.client Insights API says this machine is NOT registered.
+2024-05-16 11:33:32,487    DEBUG insights.client.client System unregistered locally via .unregistered file
+2024-05-16 11:33:32,487     INFO insights.client.client This machine has not yet been registered. Use --register to register this machine.
+2024-05-17 08:43:01,085    DEBUG insights.client.client Logging initialized
+2024-05-17 08:43:01,085    DEBUG root Loaded initial egg: /var/lib/insights/last_stable.egg/insights
+2024-05-17 08:43:01,085    DEBUG insights.client /usr/bin/gpg --verify --keyring /etc/insights-client/redhattools.pub.gpg /var/lib/insights/newest.egg.asc /var/lib/insights/newest.egg
+2024-05-17 08:43:01,093    DEBUG insights.client GPG return code: 0
+2024-05-17 08:43:02,696    DEBUG insights.client.client Logging initialized
+2024-05-17 08:43:02,696    DEBUG insights.client.auto_config Trying to autoconfigure...
+2024-05-17 08:43:02,713    DEBUG rhsm.https Using standard libs to provide httplib and ssl
+2024-05-17 08:43:02,783    DEBUG insights.client.auto_config Checking if system is subscription-manager registered
+2024-05-17 08:43:02,783    DEBUG insights.client.auto_config System is subscription-manager registered
+2024-05-17 08:43:02,783    DEBUG insights.client.auto_config Found Host: subscription.rhsm.redhat.com, Port: 443
+2024-05-17 08:43:02,783    DEBUG insights.client.auto_config Found CA: /etc/rhsm/ca/redhat-uep.pem
+2024-05-17 08:43:02,784    DEBUG insights.client.auto_config Setting authmethod to CERT
+2024-05-17 08:43:02,784    DEBUG insights.client.auto_config Connected to Red Hat Directly, using cert-api
+2024-05-17 08:43:02,784    DEBUG insights.client.auto_config Trying to set auto_configuration
+2024-05-17 08:43:02,784    DEBUG insights.client.auto_config Attempting to auto configure!
+2024-05-17 08:43:02,784    DEBUG insights.client.auto_config Attempting to auto configure hostname: cert-api.access.redhat.com
+2024-05-17 08:43:02,784    DEBUG insights.client.auto_config Attempting to auto configure CA cert: None
+2024-05-17 08:43:02,784    DEBUG insights.client.auto_config Attempting to auto configure proxy: None
+2024-05-17 08:43:02,784    DEBUG insights.client.auto_config Attempting to auto configure no_proxy: None
+2024-05-17 08:43:02,784    DEBUG insights.client.auto_config Auto-configured base_url: cert-api.access.redhat.com/r/insights
+2024-05-17 08:43:02,784    DEBUG insights.client.auto_config Not connected to Satellite, skipping branch_info
+2024-05-17 08:43:02,784    DEBUG insights.client.auto_config Updated base_url: cert-api.access.redhat.com/r/insights
+2024-05-17 08:43:02,897    DEBUG insights.client /usr/bin/gpg --verify --keyring /etc/insights-client/redhattools.pub.gpg /var/lib/insights/newest.egg.asc /var/lib/insights/newest.egg
+2024-05-17 08:43:02,910    DEBUG insights.client GPG return code: 0
+2024-05-17 08:43:04,686    DEBUG insights.client.client Logging initialized
+2024-05-17 08:43:04,686    DEBUG insights.client.auto_config Trying to autoconfigure...
+2024-05-17 08:43:04,694    DEBUG rhsm.https Using standard libs to provide httplib and ssl
+2024-05-17 08:43:04,699    DEBUG insights.client.auto_config Checking if system is subscription-manager registered
+2024-05-17 08:43:04,699    DEBUG insights.client.auto_config System is subscription-manager registered
+2024-05-17 08:43:04,700    DEBUG insights.client.auto_config Found Host: subscription.rhsm.redhat.com, Port: 443
+2024-05-17 08:43:04,700    DEBUG insights.client.auto_config Found CA: /etc/rhsm/ca/redhat-uep.pem
+2024-05-17 08:43:04,700    DEBUG insights.client.auto_config Setting authmethod to CERT
+2024-05-17 08:43:04,700    DEBUG insights.client.auto_config Connected to Red Hat Directly, using cert-api
+2024-05-17 08:43:04,700    DEBUG insights.client.auto_config Trying to set auto_configuration
+2024-05-17 08:43:04,700    DEBUG insights.client.auto_config Attempting to auto configure!
+2024-05-17 08:43:04,700    DEBUG insights.client.auto_config Attempting to auto configure hostname: cert-api.access.redhat.com
+2024-05-17 08:43:04,700    DEBUG insights.client.auto_config Attempting to auto configure CA cert: None
+2024-05-17 08:43:04,700    DEBUG insights.client.auto_config Attempting to auto configure proxy: None
+2024-05-17 08:43:04,700    DEBUG insights.client.auto_config Attempting to auto configure no_proxy: None
+2024-05-17 08:43:04,700    DEBUG insights.client.auto_config Auto-configured base_url: cert-api.access.redhat.com/r/insights
+2024-05-17 08:43:04,700    DEBUG insights.client.auto_config Not connected to Satellite, skipping branch_info
+2024-05-17 08:43:04,700    DEBUG insights.client.auto_config Updated base_url: cert-api.access.redhat.com/r/insights
+2024-05-17 08:43:04,700    DEBUG insights.client Egg update enabled
+2024-05-17 08:43:04,701    DEBUG insights.client Beginning core fetch.
+2024-05-17 08:43:05,008  NETWORK insights.client.connection GET https://cert-api.access.redhat.com/r/insights/platform/module-update-router/v1/channel?module=insights-core
+2024-05-17 08:43:05,282  NETWORK insights.client.connection HTTP Status: 200 OK
+2024-05-17 08:43:05,282  NETWORK insights.client.connection HTTP Response Text: {"url":"/release"}
+2024-05-17 08:43:05,287    DEBUG insights.client Found etag "51f49e237ea0e18f1307399eb239313f:1715646641.424015"
+2024-05-17 08:43:05,287    DEBUG insights.client Making request to https://cert-api.access.redhat.com/r/insights/v1/static/release/insights-core.egg for new core
+2024-05-17 08:43:05,287  NETWORK insights.client GET https://cert-api.access.redhat.com/r/insights/v1/static/release/insights-core.egg
+2024-05-17 08:43:05,287    DEBUG insights.client Requesting new file with etag "51f49e237ea0e18f1307399eb239313f:1715646641.424015"
+2024-05-17 08:43:05,287  NETWORK insights.client.connection GET https://cert-api.access.redhat.com/r/insights/v1/static/release/insights-core.egg
+2024-05-17 08:43:05,339  NETWORK insights.client.connection HTTP Status: 304 Not Modified
+2024-05-17 08:43:05,339  NETWORK insights.client.connection HTTP Response Text: 
+2024-05-17 08:43:05,339    DEBUG insights.client Status code: 304
+2024-05-17 08:43:05,339    DEBUG insights.client Last-Modified: Tue, 14 May 2024 00:30:33 GMT
+2024-05-17 08:43:05,339    DEBUG insights.client ETag: "51f49e237ea0e18f1307399eb239313f:1715646641.424015"
+2024-05-17 08:43:05,339    DEBUG insights.client Vary: Accept-Encoding
+2024-05-17 08:43:05,339    DEBUG insights.client Date: Fri, 17 May 2024 12:43:05 GMT
+2024-05-17 08:43:05,339    DEBUG insights.client Connection: keep-alive
+2024-05-17 08:43:05,339    DEBUG insights.client content-disposition: attachment
+2024-05-17 08:43:05,339    DEBUG insights.client Content-Type: application/zip
+2024-05-17 08:43:05,339    DEBUG insights.client ETag: "51f49e237ea0e18f1307399eb239313f:1715646641.424015"
+2024-05-17 08:43:05,339    DEBUG insights.client No data received
+2024-05-17 08:43:05,339    DEBUG insights.client Tags match, not updating core
+2024-05-17 08:43:05,339    DEBUG insights.client Deleting temp directory /tmp/tmph2wh5tsq.
+2024-05-17 08:43:05,367    DEBUG insights.client /usr/bin/gpg --verify --keyring /etc/insights-client/redhattools.pub.gpg /var/lib/insights/newest.egg.asc /var/lib/insights/newest.egg
+2024-05-17 08:43:05,390    DEBUG insights.client GPG return code: 0
+2024-05-17 08:43:07,200    DEBUG insights.client.client Logging initialized
+2024-05-17 08:43:07,200    DEBUG insights.client.auto_config Trying to autoconfigure...
+2024-05-17 08:43:07,204    DEBUG rhsm.https Using standard libs to provide httplib and ssl
+2024-05-17 08:43:07,207    DEBUG insights.client.auto_config Checking if system is subscription-manager registered
+2024-05-17 08:43:07,207    DEBUG insights.client.auto_config System is subscription-manager registered
+2024-05-17 08:43:07,207    DEBUG insights.client.auto_config Found Host: subscription.rhsm.redhat.com, Port: 443
+2024-05-17 08:43:07,207    DEBUG insights.client.auto_config Found CA: /etc/rhsm/ca/redhat-uep.pem
+2024-05-17 08:43:07,207    DEBUG insights.client.auto_config Setting authmethod to CERT
+2024-05-17 08:43:07,207    DEBUG insights.client.auto_config Connected to Red Hat Directly, using cert-api
+2024-05-17 08:43:07,207    DEBUG insights.client.auto_config Trying to set auto_configuration
+2024-05-17 08:43:07,207    DEBUG insights.client.auto_config Attempting to auto configure!
+2024-05-17 08:43:07,207    DEBUG insights.client.auto_config Attempting to auto configure hostname: cert-api.access.redhat.com
+2024-05-17 08:43:07,207    DEBUG insights.client.auto_config Attempting to auto configure CA cert: None
+2024-05-17 08:43:07,207    DEBUG insights.client.auto_config Attempting to auto configure proxy: None
+2024-05-17 08:43:07,207    DEBUG insights.client.auto_config Attempting to auto configure no_proxy: None
+2024-05-17 08:43:07,207    DEBUG insights.client.auto_config Auto-configured base_url: cert-api.access.redhat.com/r/insights
+2024-05-17 08:43:07,207    DEBUG insights.client.auto_config Not connected to Satellite, skipping branch_info
+2024-05-17 08:43:07,207    DEBUG insights.client.auto_config Updated base_url: cert-api.access.redhat.com/r/insights
+2024-05-17 08:43:07,207    DEBUG insights.client.utilities Client version: 3.2.2
+2024-05-17 08:43:07,207    DEBUG insights.client.utilities Core version: 3.3.7-1
+2024-05-17 08:43:07,207    DEBUG insights.client.utilities All egg versions:
+2024-05-17 08:43:07,208    DEBUG insights.client.utilities ENV egg not defined.
+2024-05-17 08:43:07,802    DEBUG insights.client.utilities /var/lib/insights/newest.egg: 3.3.7-1
+2024-05-17 08:43:08,382    DEBUG insights.client.utilities /var/lib/insights/last_stable.egg: 3.2.27-1
+2024-05-17 08:43:08,888    DEBUG insights.client.utilities /etc/insights-client/rpm.egg: 3.2.15-1
+2024-05-17 08:43:09,188    DEBUG insights.client.client Trying registration.
+2024-05-17 08:43:09,188    DEBUG insights.client.connection Checking registration status...
+2024-05-17 08:43:09,188    DEBUG insights.client.utilities Found /etc/insights-client/machine-id
+2024-05-17 08:43:09,188  NETWORK insights.client.connection GET https://cert-api.access.redhat.com/r/insights/v1/systems/e453:4f:53:05:91:1f0417a87eb2
+2024-05-17 08:43:09,535  NETWORK insights.client.connection HTTP Status: 404 Not Found
+2024-05-17 08:43:09,535  NETWORK insights.client.connection HTTP Response Text: {"detail":"System with insights_id e453:4f:53:05:91:1f0417a87eb2 not found"}
+2024-05-17 08:43:09,535    DEBUG insights.client.connection No HTTP Response message present.
+2024-05-17 08:43:09,535    DEBUG insights.client.connection Debug Information:
+HTTP Status Code: 404
+2024-05-17 08:43:09,535    DEBUG insights.client.connection HTTP Status Text: Not Found
+2024-05-17 08:43:09,540    DEBUG insights.client.support Registration status: None
+2024-05-17 08:43:09,540    DEBUG insights.client.utilities Could not find machine-id file, creating
+2024-05-17 08:43:09,540    DEBUG insights.client.utilities Creating /etc/insights-client/machine-id
+2024-05-17 08:43:09,541    DEBUG insights.client.client Machine-id: 0a53:4f:53:36:6d:0578fd46de98
+2024-05-17 08:43:09,541    DEBUG insights.client.client System is NOT registered locally via .registered file. Unregistered at 2024-01-03T07:57:26.045187
+2024-05-17 08:43:09,541    DEBUG insights.client.client Insights API says this machine is NOT registered.
+2024-05-17 08:43:09,541    DEBUG insights.client.client System unregistered locally via .unregistered file
+2024-05-17 08:43:09,541     INFO insights.client.client This machine has not yet been registered. Use --register to register this machine.

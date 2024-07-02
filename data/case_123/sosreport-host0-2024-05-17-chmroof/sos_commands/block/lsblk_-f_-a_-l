@@ -1,0 +1,7 @@
+NAME            FSTYPE      FSVER    LABEL   UUID                                   FSAVAIL FSUSE% MOUNTPOINTS
+sr0                                                                                                
+vda                                                                                                
+vda1            ext4        1.0      boot    6253:4f:53:99:54:0247767a441d    555.6M    36% /boot
+vda2            LVM2_member LVM2 001         vPDur2-IuHb-bvHd-JMtS-YKXh-lrwA-MaEGb7                
+root_vg-lv_root ext4        1.0      lv_root 5d53:4f:53:1a:9b:455bfac8954c      4.9G    38% /
+root_vg-lv_swap swap        1        lv_swap 4a53:4f:53:9d:a6:2f729ba56fdd                  [SWAP]

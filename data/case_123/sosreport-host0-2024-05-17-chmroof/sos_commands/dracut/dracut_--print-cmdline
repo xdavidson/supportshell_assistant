@@ -1,0 +1,1 @@
+ rd.lvm.lv=root_vg/lv_root   rd.lvm.lv=root_vg/lv_swap   resume=/dev/mapper/root_vg-lv_swap root=/dev/mapper/root_vg-lv_root rootfstype=ext4 rootflags=rw,relatime,seclabel

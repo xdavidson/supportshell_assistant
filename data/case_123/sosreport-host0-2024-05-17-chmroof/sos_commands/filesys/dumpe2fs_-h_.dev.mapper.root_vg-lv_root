@@ -1,0 +1,58 @@
+dumpe2fs 1.46.5 (30-Dec-2021)
+Filesystem volume name:   lv_root
+Last mounted on:          /
+Filesystem UUID:          5d53:4f:53:1a:9b:455bfac8954c
+Filesystem magic number:  0xEF53
+Filesystem revision #:    1 (dynamic)
+Filesystem features:      has_journal ext_attr resize_inode dir_index filetype needs_recovery extent 64bit flex_bg sparse_super large_file huge_file dir_nlink extra_isize metadata_csum
+Filesystem flags:         signed_directory_hash 
+Default mount options:    user_xattr acl
+Filesystem state:         clean
+Errors behavior:          Continue
+Filesystem OS type:       Linux
+Inode count:              584064
+Block count:              2332672
+Reserved block count:     116633
+Overhead clusters:        62275
+Free blocks:              1410168
+Free inodes:              516843
+First block:              0
+Block size:               4096
+Fragment size:            4096
+Group descriptor size:    64
+Reserved GDT blocks:      1024
+Blocks per group:         32768
+Fragments per group:      32768
+Inodes per group:         8112
+Inode blocks per group:   507
+Flex block group size:    16
+Filesystem created:       Wed May 24 13:48:35 2023
+Last mount time:          Fri May 17 08:23:55 2024
+Last write time:          Fri May 17 08:23:54 2024
+Mount count:              169
+Maximum mount count:      -1
+Last checked:             Wed May 24 13:48:35 2023
+Check interval:           0 (<none>)
+Lifetime writes:          16 GB
+Reserved blocks uid:      0 (user root)
+Reserved blocks gid:      0 (group root)
+First inode:              11
+Inode size:	          256
+Required extra isize:     32
+Desired extra isize:      32
+Journal inode:            8
+Default directory hash:   half_md4
+Directory Hash Seed:      4053:4f:53:c6:6f:ab6313054342
+Journal backup:           inode blocks
+Checksum type:            crc32c
+Checksum:                 0xb28a758e
+Journal features:         journal_incompat_revoke journal_64bit journal_checksum_v3
+Total journal size:       64M
+Total journal blocks:     16384
+Max transaction length:   16384
+Fast commit length:       0
+Journal sequence:         0x00006bd1
+Journal start:            1
+Journal checksum type:    crc32c
+Journal checksum:         0x63290daf
+

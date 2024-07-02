@@ -1,0 +1,2 @@
+__hid_bpf_tail_call (1) R   D	tramp: ftrace_regs_caller+0x0/0x62 (call_direct_funcs+0x0/0x30)
+	direct-->bpf_trampoline_6442511572_0+0x0/0x1000

@@ -1,0 +1,10 @@
+man.7.gz            	manual	/usr/share/man/man7/man.man-pages.7.gz
+iptables            	auto  	/usr/sbin/iptables-nft
+cifs-idmap-plugin   	auto  	/usr/lib64/cifs-utils/cifs_idmap_sss.so
+soelim              	auto  	/usr/bin/soelim.groff
+libnssckbi.so.x86_64	auto  	/usr/lib64/pkcs11/p11-kit-trust.so
+nc                  	auto  	/usr/bin/ncat
+arptables           	auto  	/usr/sbin/arptables-nft
+ebtables            	auto  	/usr/sbin/ebtables-nft
+man                 	manual	/usr/bin/man.man-db
+ld                  	auto  	/usr/bin/ld.bfd

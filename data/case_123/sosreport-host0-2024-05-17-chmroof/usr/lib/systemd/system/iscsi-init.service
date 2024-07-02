@@ -1,0 +1,10 @@
+[Unit]
+Description=One time configuration for iscsi.service
+ConditionPathExists=!/etc/iscsi/initiatorname.iscsi
+DefaultDependencies=no
+Before=iscsid.service
+
+[Service]
+Type=oneshot
+Rehost1AfterExit=no
+ExecStart=/usr/bin/sh -c 'echo "InitiatorName=`/usr/sbin/iscsi-iname`" > /etc/iscsi/initiatorname.iscsi'

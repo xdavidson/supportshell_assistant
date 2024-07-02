@@ -1,0 +1,18 @@
+[Unit]
+Description=Login and scanning of iSCSI devices
+Documentation=man:iscsiadm(8) man:iscsid(8)
+DefaultDependencies=no
+Before=remote-fs-pre.target
+After=network.target network-online.target iscsid.service iscsiuio.service systemd-remount-fs.service
+Wants=remote-fs-pre.target
+ConditionDirectoryNotEmpty=/var/lib/iscsi/nodes
+
+[Service]
+Type=oneshot
+Rehost1AfterExit=true
+ExecStart=-/usr/sbin/iscsiadm -m node --loginall=automatic
+ExecReload=-/usr/sbin/iscsiadm -m node --loginall=automatic
+SuccessExitStatus=21
+
+[Install]
+WantedBy=remote-fs.target

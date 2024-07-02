@@ -1,0 +1,6 @@
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/0/bus
+PATH=/usr/sbin:/usr/bin:/root/bin:/usr/local/bin:/usr/local/sbin
+XDG_SESSION_TYPE=tty
+XDG_SESSION_ID=1
+TERM=xterm-256color
+XDG_RUNTIME_DIR=/run/user/0

@@ -1,0 +1,36 @@
+filename:       /lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/net/netfilter/nfnetlink.ko.xz
+description:    Netfilter messages via netlink socket
+alias:          net-pf-16-proto-12
+author:         Harald Welte <laforge@netfilter.org>
+license:        GPL
+rhelversion:    9.3
+srcversion:     F83A97F4F61F25CEE1E94A5
+depends:        
+retpoline:      Y
+intree:         Y
+name:           nfnetlink
+vermagic:       5.14.0-362.8.1.el9_3.x86_64 SMP preempt mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        1F:F0:D0:D7:72:A6:ED:12:E3:1B:CC:C9:E0:49:15:03:79:D5:1F:69
+sig_hashalgo:   sha256
+signature:      87:7E:D5:39:AA:6D:61:2B:50:A6:CA:02:7E:F8:B6:53:7C:26:02:20:
+		FA:70:D9:D6:12:A3:41:28:89:37:8F:7C:FB:D7:C7:BF:8E:AE:E4:C2:
+		69:73:EF:40:7A:27:BB:2D:E7:E2:3D:6B:75:AA:1A:A1:A8:98:6C:FA:
+		91:89:0E:FB:11:D1:D2:BC:2D:96:48:47:02:55:C0:47:79:6B:DD:73:
+		21:ED:9C:24:14:02:9E:65:90:31:B2:64:3B:31:16:B7:98:11:42:E5:
+		8A:ED:08:74:EC:E6:70:E7:34:C1:79:27:55:2B:92:24:88:A3:DD:3B:
+		B0:4C:8D:3F:C4:53:14:D8:DB:02:CB:A4:32:69:C1:49:2C:8B:26:B0:
+		B1:21:01:86:77:F7:AD:60:E0:EC:8B:52:8B:3F:5A:41:4C:50:34:98:
+		8D:C1:E0:4C:63:27:66:D6:7C:13:B2:F7:C5:65:90:09:60:C3:B8:93:
+		81:0C:DA:AD:D2:2E:31:9F:B8:B2:EE:9C:9A:20:FA:8E:62:48:A8:88:
+		B5:8E:73:58:39:7C:0E:EC:ED:50:93:23:52:8C:74:02:C0:DE:94:AF:
+		A8:2F:E3:5D:BB:BD:D0:BF:4C:9F:E7:FD:EB:55:58:BA:A8:9B:8D:7E:
+		27:1E:7D:3C:91:C4:84:87:70:94:98:0B:EC:75:2B:14:86:1E:AA:70:
+		C8:38:B0:7C:19:14:22:9C:58:85:E8:F4:1B:7E:A6:14:A7:97:A6:85:
+		F5:A3:A3:B8:57:B1:18:7D:CB:A9:22:14:C3:DF:87:59:A3:30:69:EB:
+		C5:59:DC:91:18:23:EB:3B:97:BB:A3:5C:79:B5:FA:63:78:C9:CA:FD:
+		EB:E6:C7:8A:28:81:BE:1F:90:75:DB:43:3C:FE:DE:6B:8E:22:F1:76:
+		15:7A:74:11:FC:34:99:65:37:6E:AF:2C:9E:CE:96:10:F1:75:E8:4B:
+		BE:F5:AC:28:8F:1A:8A:A8:08:DA:91:4C:20:43:39:46:63:45:EB:30:
+		00:D7:79:FA

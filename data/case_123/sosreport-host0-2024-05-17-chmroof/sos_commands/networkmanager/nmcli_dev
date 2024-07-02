@@ -1,0 +1,3 @@
+DEVICE  TYPE      STATE                   CONNECTION 
+enp1s0  ethernet  connected               enp1s0     
+lo      loopback  connected (externally)  lo         

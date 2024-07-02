@@ -1,0 +1,36 @@
+May  8 08:12:04 host0 sshd[796]: Server listening on 0.0.0.0 port 22.
+May  8 08:12:04 host0 sshd[796]: Server listening on :: port 22.
+May  8 08:12:05 host0 polkitd[857]: Loading rules from directory /etc/polkit-1/rules.d
+May  8 08:12:05 host0 polkitd[857]: Loading rules from directory /usr/share/polkit-1/rules.d
+May  8 08:12:05 host0 polkitd[857]: Finished loading, compiling and executing 4 rules
+May  8 08:12:05 host0 polkitd[857]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+May  9 08:13:41 host0 sshd[793]: Server listening on 0.0.0.0 port 22.
+May  9 08:13:41 host0 sshd[793]: Server listening on :: port 22.
+May  9 08:13:41 host0 polkitd[855]: Loading rules from directory /etc/polkit-1/rules.d
+May  9 08:13:41 host0 polkitd[855]: Loading rules from directory /usr/share/polkit-1/rules.d
+May  9 08:13:41 host0 polkitd[855]: Finished loading, compiling and executing 4 rules
+May  9 08:13:41 host0 polkitd[855]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+May 10 08:17:44 host0 sshd[792]: Server listening on 0.0.0.0 port 22.
+May 10 08:17:44 host0 sshd[792]: Server listening on :: port 22.
+May 10 08:17:44 host0 polkitd[855]: Loading rules from directory /etc/polkit-1/rules.d
+May 10 08:17:44 host0 polkitd[855]: Loading rules from directory /usr/share/polkit-1/rules.d
+May 10 08:17:44 host0 polkitd[855]: Finished loading, compiling and executing 4 rules
+May 10 08:17:44 host0 polkitd[855]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+May 10 12:04:02 host0 sshd[1663]: Accepted publickey for root from 100.0.0.3/24 port 59510 ssh2: RSA SHA256:JZov33Udepn/HGn9HVQVmDBHz886ImgmSH8Sbeiwfoc
+May 10 12:04:02 host0 systemd[1667]: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+May 10 12:04:02 host0 sshd[1663]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+May 10 12:08:25 host0 sshd[1683]: Received disconnect from 100.0.0.3/24 port 59510:11: disconnected by user
+May 10 12:08:25 host0 sshd[1683]: Disconnected from user root 100.0.0.3/24 port 59510
+May 10 12:08:25 host0 sshd[1663]: pam_unix(sshd:session): session closed for user root
+May 13 08:16:51 host0 sshd[793]: Server listening on 0.0.0.0 port 22.
+May 13 08:16:51 host0 sshd[793]: Server listening on :: port 22.
+May 13 08:16:52 host0 polkitd[855]: Loading rules from directory /etc/polkit-1/rules.d
+May 13 08:16:52 host0 polkitd[855]: Loading rules from directory /usr/share/polkit-1/rules.d
+May 13 08:16:52 host0 polkitd[855]: Finished loading, compiling and executing 4 rules
+May 13 08:16:52 host0 polkitd[855]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+May 14 08:05:23 host0 sshd[790]: Server listening on 0.0.0.0 port 22.
+May 14 08:05:23 host0 sshd[790]: Server listening on :: port 22.
+May 14 08:05:23 host0 polkitd[856]: Loading rules from directory /etc/polkit-1/rules.d
+May 14 08:05:23 host0 polkitd[856]: Loading rules from directory /usr/share/polkit-1/rules.d
+May 14 08:05:23 host0 polkitd[856]: Finished loading, compiling and executing 4 rules
+May 14 08:05:23 host0 polkitd[856]: Acquired the name org.freedesktop.PolicyKit1 on the system bus

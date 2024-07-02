@@ -1,0 +1,33 @@
+     2221      0 lrwxrwxrwx   1 root     root           13 Aug 22  2023 /etc/rc.local -> rc.d/rc.local
+      982      0 lrwxrwxrwx   1 root     root           29 Dec 12 10:47 /etc/nsswitch.conf -> /etc/authselect/nsswitch.conf
+     3134      0 lrwxrwxrwx   1 root     root           38 May 24  2023 /etc/localtime -> ../usr/share/zoneinfo/America/New_York
+       88      0 lrwxrwxrwx   1 root     root           14 Sep 27  2023 /etc/system-release -> redhat-release
+     2894      0 lrwxrwxrwx   1 root     root           22 Sep  7  2023 /etc/grub2.cfg -> ../boot/grub2/grub.cfg
+     5674      0 lrwxrwxrwx   1 root     root           12 Jun 29  2023 /etc/yum.conf -> dnf/dnf.conf
+     6147      0 lrwxrwxrwx   1 root     root           56 May 15  2023 /etc/favicon.png -> /usr/share/icons/hicolor/16x16/apps/fedora-logo-icon.png
+     2301      0 lrwxrwxrwx   1 root     root           19 May 24  2023 /etc/mtab -> ../proc/self/mounts
+       79      0 lrwxrwxrwx   1 root     root           21 Sep 27  2023 /etc/os-release -> ../usr/lib/os-release
+       24      0 lrwxrwxrwx   1 root     root            9 Aug  9  2021 /lib64 -> usr/lib64
+      141      0 lrwxrwxrwx   1 root     root            7 Aug  9  2021 /lib -> usr/lib
+       25      0 lrwxrwxrwx   1 root     root            8 Aug  9  2021 /sbin -> usr/sbin
+4026531845      0 lrwxrwxrwx   1 root     root            8 May 17 08:23 /proc/net -> self/net
+4026531844      0 lrwxrwxrwx   1 root     root           11 May 17 08:23 /proc/mounts -> self/mounts
+4026531842      0 lrwxrwxrwx   1 root     root            0 May 17 08:23 /proc/self -> 4334
+4026531843      0 lrwxrwxrwx   1 root     root            0 May 17 08:23 /proc/thread-self -> 4334/task/4334
+       124      0 lrwxrwxrwx   1 root     root            7 Aug  9  2021 /bin -> usr/bin
+       539      0 lrwxrwxrwx   1 root     root            3 May 17 08:23 /dev/cdrom -> sr0
+       495      0 lrwxrwxrwx   1 root     root            4 May 17 08:23 /dev/rtc -> rtc0
+       353      0 lrwxrwxrwx   1 root     root           12 May 17 08:23 /dev/initctl -> /run/initctl
+       133      0 lrwxrwxrwx   1 root     root           28 May 17 08:23 /dev/log -> /run/systemd/journal/dev-log
+       132      0 lrwxrwxrwx   1 root     root           15 May 17 08:23 /dev/stderr -> /proc/self/fd/2
+       131      0 lrwxrwxrwx   1 root     root           15 May 17 08:23 /dev/stdout -> /proc/self/fd/1
+       130      0 lrwxrwxrwx   1 root     root           15 May 17 08:23 /dev/stdin -> /proc/self/fd/0
+       129      0 lrwxrwxrwx   1 root     root           13 May 17 08:23 /dev/fd -> /proc/self/fd
+       128      0 lrwxrwxrwx   1 root     root           11 May 17 08:23 /dev/core -> /proc/kcore
+       377      0 lrwxrwxrwx   1 root     root           52 Aug 31  2023 /boot/symvers-5.14.0-284.25.1.el9_2.x86_64.gz -> /lib/modules/5.14.0-284.25.1.el9_2.x86_64/symvers.gz
+       369      0 lrwxrwxrwx   1 root     root           52 May 24  2023 /boot/symvers-5.14.0-284.11.1.el9_2.x86_64.gz -> /lib/modules/5.14.0-284.11.1.el9_2.x86_64/symvers.gz
+        20      0 lrwxrwxrwx   1 root     root           51 Dec 12 10:47 /boot/symvers-5.14.0-362.8.1.el9_3.x86_64.gz -> /lib/modules/5.14.0-362.8.1.el9_3.x86_64/symvers.gz
+    390205      0 lrwxrwxrwx   1 root     root           10 Aug  9  2021 /var/mail -> spool/mail
+    389391      0 lrwxrwxrwx   1 root     root            6 May 24  2023 /var/run -> ../run
+    389392      0 lrwxrwxrwx   1 root     root           11 May 24  2023 /var/lock -> ../run/lock
+    264258      0 lrwxrwxrwx   1 root     root           10 Aug  9  2021 /usr/tmp -> ../var/tmp

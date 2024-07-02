@@ -1,0 +1,8 @@
+/var/lib/rpm:
+total 163052
+drwxr-xr-x.  2 0 0      4096 Jun 30  2023 .
+drwxr-xr-x. 39 0 0      4096 Dec 12 10:54 ..
+-rw-r--r--.  1 0 0         0 May 24  2023 .rpm.lock
+-rw-r--r--.  1 0 0 166920192 Mar 28 16:30 rpmdb.sqlite
+-rw-r--r--.  1 0 0     32768 May 17 14:45 rpmdb.sqlite-shm
+-rw-r--r--.  1 0 0         0 Mar 28 16:30 rpmdb.sqlite-wal

@@ -1,0 +1,4 @@
+/dev/mapper/root_vg-lv_swap: LABEL="lv_swap" UUID="4a53:4f:53:9d:a6:2f729ba56fdd" TYPE="swap"
+/dev/mapper/root_vg-lv_root: LABEL="lv_root" UUID="5d53:4f:53:1a:9b:455bfac8954c" TYPE="ext4"
+/dev/vda2: UUID="vPDur2-IuHb-bvHd-JMtS-YKXh-lrwA-MaEGb7" TYPE="LVM2_member" PARTUUID="2b0740da-02"
+/dev/vda1: LABEL="boot" UUID="6253:4f:53:99:54:0247767a441d" TYPE="ext4" PARTUUID="2b0740da-01"

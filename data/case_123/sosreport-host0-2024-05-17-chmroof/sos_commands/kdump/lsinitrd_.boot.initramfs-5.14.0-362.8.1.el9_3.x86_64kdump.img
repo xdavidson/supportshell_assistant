@@ -1,0 +1,809 @@
+Image: /boot/initramfs-5.14.0-362.8.1.el9_3.x86_64kdump.img: 32M
+========================================================================
+Early CPIO image
+========================================================================
+drwxr-xr-x   3 root     root            0 Aug 22  2023 .
+-rw-r--r--   1 root     root            2 Aug 22  2023 early_cpio
+drwxr-xr-x   3 root     root            0 Aug 22  2023 kernel
+drwxr-xr-x   3 root     root            0 Aug 22  2023 kernel/x86
+drwxr-xr-x   2 root     root            0 Aug 22  2023 kernel/x86/microcode
+-rw-r--r--   1 root     root        12924 Aug 22  2023 kernel/x86/microcode/AuthenticAMD.bin
+========================================================================
+Version: dracut-057-44.git20230822.el9
+
+Arguments:  --add 'kdumpbase' --quiet --hostonly --hostonly-cmdline --hostonly-i18n --hostonly-mode 'strict' --hostonly-nics '' -o 'plymouth resume ifcfg earlykdump' --mount '/dev/mapper/root_vg-lv_root /sysroot ext4 rw,relatime,seclabel' --squash-compressor 'zstd' --no-hostonly-default-device -f
+
+dracut modules:
+systemd
+systemd-initrd
+nss-softokn
+i18n
+drm
+prefixdevname
+dm
+kernel-modules
+kernel-modules-extra
+lvm
+qemu
+fstab-sys
+rootfs-block
+terminfo
+udev-rules
+virtiofs
+dracut-systemd
+usrmount
+base
+fs-lib
+kdumpbase
+microcode_ctl-fw_dir_override
+shutdown
+squash
+========================================================================
+drwxr-xr-x   5 root     root            0 Aug 22  2023 .
+lrwxrwxrwx   1 root     root            7 Aug 22  2023 bin -> usr/bin
+drwxr-xr-x   2 root     root            0 Aug 22  2023 etc
+-rw-r--r--   1 root     root          755 Aug 22  2023 etc/ld.so.cache
+-rw-r--r--   1 root     root           28 Aug  2  2021 etc/ld.so.conf
+-rwxr-xr-x   1 root     root         1154 Jun 19  2022 init
+lrwxrwxrwx   1 root     root            7 Aug 22  2023 lib -> usr/lib
+lrwxrwxrwx   1 root     root            9 Aug 22  2023 lib64 -> usr/lib64
+lrwxrwxrwx   1 root     root            8 Aug 22  2023 sbin -> usr/sbin
+drwxr-xr-x   2 root     root            0 Aug 22  2023 squash
+-rw-r--r--   1 root     root     20000768 Aug 22  2023 squash-root.img
+drwxr-xr-x   6 root     root            0 Aug 22  2023 usr
+drwxr-xr-x   2 root     root            0 Aug 22  2023 usr/bin
+-rwxr-xr-x   1 root     root      1388904 Nov 24  2022 usr/bin/bash
+-rwxr-xr-x   1 root     root       158176 Aug  9  2021 usr/bin/grep
+-rwxr-xr-x   1 root     root       169536 May 19  2023 usr/bin/kmod
+-rwxr-xr-x   1 root     root        69752 Jan  6  2023 usr/bin/mkdir
+-rwsr-xr-x   1 root     root        48480 Aug 22  2023 usr/bin/mount
+lrwxrwxrwx   1 root     root            4 Aug 22  2023 usr/bin/sh -> bash
+-rwsr-xr-x   1 root     root        36112 Aug 22  2023 usr/bin/umount
+drwxr-xr-x   4 root     root            0 Aug 22  2023 usr/lib
+drwxr-xr-x   2 root     root            0 Aug 22  2023 usr/lib/dracut
+-rw-r--r--   1 root     root          287 Aug 22  2023 usr/lib/dracut/build-parameter.txt
+-rw-r--r--   1 root     root           30 Aug 22  2023 usr/lib/dracut/dracut-057-44.git20230822.el9
+-rw-r--r--   1 root     root          572 Aug 22  2023 usr/lib/dracut/hostonly-files
+-rw-r--r--   1 root     root          688 Aug 22  2023 usr/lib/dracut/hostonly-kernel-modules.txt
+-rw-r--r--   1 root     root          250 Aug 22  2023 usr/lib/dracut/modules.txt
+-rw-r--r--   1 root     root            0 Aug 22  2023 usr/lib/dracut/need-initqueue
+-rw-r--r--   1 root     root            0 Aug 22  2023 usr/lib/dracut/no-switch-root
+drwxr-xr-x   3 root     root            0 Aug 22  2023 usr/lib/modules
+drwxr-xr-x   3 root     root            0 Aug 22  2023 usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64
+drwxr-xr-x   4 root     root            0 Aug 22  2023 usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel
+drwxr-xr-x   3 root     root            0 Aug 22  2023 usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers
+drwxr-xr-x   2 root     root            0 Aug 22  2023 usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/block
+-rw-r--r--   1 root     root        18996 Aug 22  2023 usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/block/loop.ko.xz
+drwxr-xr-x   4 root     root            0 Aug 22  2023 usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/fs
+drwxr-xr-x   2 root     root            0 Aug 22  2023 usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/fs/overlayfs
+-rw-r--r--   1 root     root        74536 Aug 22  2023 usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/fs/overlayfs/overlay.ko.xz
+drwxr-xr-x   2 root     root            0 Aug 22  2023 usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/fs/squashfs
+-rw-r--r--   1 root     root        33672 Aug 22  2023 usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/fs/squashfs/squashfs.ko.xz
+-rw-r--r--   1 root     root          185 Aug 22  2023 usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/modules.alias
+-rw-r--r--   1 root     root          198 Aug 22  2023 usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/modules.alias.bin
+-rw-r--r--   1 root     root         9424 Aug 22  2023 usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/modules.builtin
+-rw-r--r--   1 root     root            0 Aug 22  2023 usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/modules.builtin.alias.bin
+-rw-r--r--   1 root     root        11839 Aug 22  2023 usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/modules.builtin.bin
+-rw-r--r--   1 root     root        74646 Aug 22  2023 usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/modules.builtin.modinfo
+-rw-r--r--   1 root     root          103 Aug 22  2023 usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/modules.dep
+-rw-r--r--   1 root     root          192 Aug 22  2023 usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/modules.dep.bin
+-rw-r--r--   1 root     root           78 Aug 22  2023 usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/modules.devname
+-rw-r--r--   1 root     root        89561 Aug 22  2023 usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/modules.order
+-rw-r--r--   1 root     root           55 Aug 22  2023 usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/modules.softdep
+-rw-r--r--   1 root     root           49 Aug 22  2023 usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/modules.symbols
+-rw-r--r--   1 root     root           12 Aug 22  2023 usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/modules.symbols.bin
+drwxr-xr-x   2 root     root            0 Aug 22  2023 usr/lib64
+-rwxr-xr-x   1 root     root       246464 Aug 22  2023 usr/lib64/ld-linux-x86-64.so.2
+lrwxrwxrwx   1 root     root           29 Aug 22  2023 usr/lib64/libblkid.so.1 -> ../../lib64/libblkid.so.1.1.0
+-rwxr-xr-x   1 root     root       229360 Aug 22  2023 usr/lib64/libblkid.so.1.1.0
+-rwxr-xr-x   1 root     root      2386952 Aug 22  2023 usr/lib64/libc.so.6
+lrwxrwxrwx   1 root     root           30 Aug 22  2023 usr/lib64/libcrypto.so.3 -> ../../lib64/libcrypto.so.3.0.7
+-rwxr-xr-x   1 root     root      4483280 Jul 13  2023 usr/lib64/libcrypto.so.3.0.7
+-rwxr-xr-x   1 root     root       108136 Jun 26  2023 usr/lib64/libgcc_s-11-20230605.so.1
+lrwxrwxrwx   1 root     root           37 Aug 22  2023 usr/lib64/libgcc_s.so.1 -> ../../lib64/libgcc_s-11-20230605.so.1
+lrwxrwxrwx   1 root     root           28 Aug 22  2023 usr/lib64/liblzma.so.5 -> ../../lib64/liblzma.so.5.2.5
+-rwxr-xr-x   1 root     root       178744 May 31  2022 usr/lib64/liblzma.so.5.2.5
+lrwxrwxrwx   1 root     root           29 Aug 22  2023 usr/lib64/libmount.so.1 -> ../../lib64/libmount.so.1.1.0
+-rwxr-xr-x   1 root     root       283152 Aug 22  2023 usr/lib64/libmount.so.1.1.0
+lrwxrwxrwx   1 root     root           29 Aug 22  2023 usr/lib64/libpcre.so.1 -> ../../lib64/libpcre.so.1.2.12
+-rwxr-xr-x   1 root     root       489696 Aug 10  2021 usr/lib64/libpcre.so.1.2.12
+lrwxrwxrwx   1 root     root           32 Aug 22  2023 usr/lib64/libpcre2-8.so.0 -> ../../lib64/libpcre2-8.so.0.11.0
+-rwxr-xr-x   1 root     root       637872 May 18  2022 usr/lib64/libpcre2-8.so.0.11.0
+-rwxr-xr-x   1 root     root       175552 Feb 23  2023 usr/lib64/libselinux.so.1
+lrwxrwxrwx   1 root     root           31 Aug 22  2023 usr/lib64/libsigsegv.so.2 -> ../../lib64/libsigsegv.so.2.0.6
+-rwxr-xr-x   1 root     root        20192 Aug 10  2021 usr/lib64/libsigsegv.so.2.0.6
+lrwxrwxrwx   1 root     root           27 Aug 22  2023 usr/lib64/libtinfo.so.6 -> ../../lib64/libtinfo.so.6.2
+-rwxr-xr-x   1 root     root       195080 Aug 21  2023 usr/lib64/libtinfo.so.6.2
+lrwxrwxrwx   1 root     root           26 Aug 22  2023 usr/lib64/libz.so.1 -> ../../lib64/libz.so.1.2.11
+-rwxr-xr-x   1 root     root       102552 May  9  2023 usr/lib64/libz.so.1.2.11
+lrwxrwxrwx   1 root     root           28 Aug 22  2023 usr/lib64/libzstd.so.1 -> ../../lib64/libzstd.so.1.5.1
+-rwxr-xr-x   1 root     root       882376 Feb  8  2022 usr/lib64/libzstd.so.1.5.1
+drwxr-xr-x   2 root     root            0 Aug 22  2023 usr/sbin
+lrwxrwxrwx   1 root     root           11 Aug 22  2023 usr/sbin/modprobe -> ../bin/kmod
+-rwxr-xr-x   1 root     root        23760 Aug 22  2023 usr/sbin/switch_root
+========================================================================
+Squashed content (squash-root.img):
+========================================================================
+drwxr-xr-x root/root               252 2023-12-12 10:56 squashfs-root
+lrwxrwxrwx root/root                 7 2023-12-12 10:56 squashfs-root/bin -> usr/bin
+drwxr-xr-x root/root                83 2023-12-12 10:56 squashfs-root/dev
+crw-r--r-- root/root             5,  1 2023-12-12 10:56 squashfs-root/dev/console
+crw-r--r-- root/root             1, 11 2023-12-12 10:56 squashfs-root/dev/kmsg
+crw-r--r-- root/root             1,  3 2023-12-12 10:56 squashfs-root/dev/null
+crw-r--r-- root/root             1,  8 2023-12-12 10:56 squashfs-root/dev/random
+crw-r--r-- root/root             1,  9 2023-12-12 10:56 squashfs-root/dev/urandom
+drwxr-xr-x root/root               454 2023-12-12 10:56 squashfs-root/etc
+-rw-r--r-- root/root                16 2023-05-24 13:51 squashfs-root/etc/adjtime
+drwxr-xr-x root/root                36 2023-12-12 10:56 squashfs-root/etc/authselect
+-rw-r--r-- root/root              2980 2023-12-12 10:47 squashfs-root/etc/authselect/nsswitch.conf
+drwxr-xr-x root/root                33 2023-12-12 10:56 squashfs-root/etc/cmdline.d
+-rw-r--r-- root/root                29 2023-12-12 10:56 squashfs-root/etc/cmdline.d/90lvm.conf
+drwxr-xr-x root/root                35 2023-12-12 10:56 squashfs-root/etc/conf.d
+-rw-r--r-- root/root               124 2023-12-12 10:56 squashfs-root/etc/conf.d/systemd.conf
+drwxr-xr-x root/root                49 2023-12-12 10:56 squashfs-root/etc/depmod.d
+-rw-r--r-- root/root               116 2023-05-19 11:33 squashfs-root/etc/depmod.d/dist.conf
+-rw-r--r-- root/root                58 2023-08-24 15:22 squashfs-root/etc/depmod.d/kvdo.conf
+-rw-r--r-- root/root                67 2023-12-12 10:56 squashfs-root/etc/fstab
+-rw-r--r-- root/root                 0 2023-12-12 10:56 squashfs-root/etc/fstab.empty
+-rw-r--r-- root/root               228 2023-12-12 10:56 squashfs-root/etc/group
+-rw-r--r-- root/root                15 2023-05-24 14:07 squashfs-root/etc/hostname
+-rw-r--r-- root/root               158 2020-06-23 02:11 squashfs-root/etc/hosts
+lrwxrwxrwx root/root                25 2023-12-12 10:56 squashfs-root/etc/initrd-release -> ../usr/lib/initrd-release
+-rw-r--r-- root/root               131 2023-12-12 10:56 squashfs-root/etc/kdump.conf
+-rw-r--r-- root/root              3347 2023-12-12 10:56 squashfs-root/etc/ld.so.cache
+-rw-r--r-- root/root                28 2021-08-02 08:28 squashfs-root/etc/ld.so.conf
+-rw-r--r-- root/root                19 2023-05-24 13:51 squashfs-root/etc/locale.conf
+lrwxrwxrwx root/root                38 2023-12-12 10:56 squashfs-root/etc/localtime -> ../usr/share/zoneinfo/America/New_York
+drwxr-xr-x root/root                52 2023-12-12 10:56 squashfs-root/etc/lvm
+-rw-r--r-- root/root            111996 2023-12-12 10:56 squashfs-root/etc/lvm/lvm.conf
+-rw-r--r-- root/root              2299 2023-07-13 14:50 squashfs-root/etc/lvm/lvmlocal.conf
+-r--r--r-- root/root                33 2023-05-24 13:49 squashfs-root/etc/machine-id
+drwxr-xr-x root/root                45 2023-12-12 10:56 squashfs-root/etc/modprobe.d
+-rw-r--r-- root/root               158 2022-12-13 17:01 squashfs-root/etc/modprobe.d/firewalld-sysctls.conf
+lrwxrwxrwx root/root                17 2023-12-12 10:56 squashfs-root/etc/mtab -> /proc/self/mounts
+lrwxrwxrwx root/root                24 2023-12-12 10:56 squashfs-root/etc/nsswitch.conf -> authselect/nsswitch.conf
+lrwxrwxrwx root/root                14 2023-12-12 10:56 squashfs-root/etc/os-release -> initrd-release
+-rw-r--r-- root/root               121 2023-12-12 10:56 squashfs-root/etc/passwd
+drwxr-xr-x root/root               113 2023-12-12 10:56 squashfs-root/etc/systemd
+-rw-r--r-- root/root              1342 2023-12-12 10:56 squashfs-root/etc/systemd/journald.conf
+drwxr-xr-x root/root                33 2023-12-12 10:56 squashfs-root/etc/systemd/journald.conf.d
+-rw-r--r-- root/root                60 2023-12-12 10:56 squashfs-root/etc/systemd/journald.conf.d/kdump.conf
+drwxr-xr-x root/root               268 2023-12-12 10:56 squashfs-root/etc/systemd/system
+lrwxrwxrwx root/root                37 2023-12-12 10:56 squashfs-root/etc/systemd/system/default.target -> /usr/lib/systemd/system/initrd.target
+drwxr-xr-x root/root                35 2023-12-12 10:56 squashfs-root/etc/systemd/system/dev-mapper-root_vg\x2dlv_root.device.d
+-rw-r--r-- root/root                46 2023-12-12 10:56 squashfs-root/etc/systemd/system/dev-mapper-root_vg\x2dlv_root.device.d/timeout.conf
+drwxr-xr-x root/root                53 2023-12-12 10:56 squashfs-root/etc/systemd/system/emergency.target.wants
+lrwxrwxrwx root/root                54 2023-12-12 10:56 squashfs-root/etc/systemd/system/emergency.target.wants/systemd-vconsole-setup.service -> /usr/lib/systemd/system/systemd-vconsole-setup.service
+drwxr-xr-x root/root               341 2023-12-12 10:56 squashfs-root/etc/systemd/system/initrd.target.wants
+lrwxrwxrwx root/root                39 2023-12-12 10:56 squashfs-root/etc/systemd/system/initrd.target.wants/dev-mapper-root_vg\x2dlv_root.device -> ../dev-mapper-root_vg\x2dlv_root.device
+lrwxrwxrwx root/root                50 2023-12-12 10:56 squashfs-root/etc/systemd/system/initrd.target.wants/dracut-cmdline-ask.service -> /usr/lib/systemd/system/dracut-cmdline-ask.service
+lrwxrwxrwx root/root                46 2023-12-12 10:56 squashfs-root/etc/systemd/system/initrd.target.wants/dracut-cmdline.service -> /usr/lib/systemd/system/dracut-cmdline.service
+lrwxrwxrwx root/root                48 2023-12-12 10:56 squashfs-root/etc/systemd/system/initrd.target.wants/dracut-initqueue.service -> /usr/lib/systemd/system/dracut-initqueue.service
+lrwxrwxrwx root/root                44 2023-12-12 10:56 squashfs-root/etc/systemd/system/initrd.target.wants/dracut-mount.service -> /usr/lib/systemd/system/dracut-mount.service
+lrwxrwxrwx root/root                48 2023-12-12 10:56 squashfs-root/etc/systemd/system/initrd.target.wants/dracut-pre-mount.service -> /usr/lib/systemd/system/dracut-pre-mount.service
+lrwxrwxrwx root/root                48 2023-12-12 10:56 squashfs-root/etc/systemd/system/initrd.target.wants/dracut-pre-pivot.service -> /usr/lib/systemd/system/dracut-pre-pivot.service
+lrwxrwxrwx root/root                50 2023-12-12 10:56 squashfs-root/etc/systemd/system/initrd.target.wants/dracut-pre-trigger.service -> /usr/lib/systemd/system/dracut-pre-trigger.service
+lrwxrwxrwx root/root                47 2023-12-12 10:56 squashfs-root/etc/systemd/system/initrd.target.wants/dracut-pre-udev.service -> /usr/lib/systemd/system/dracut-pre-udev.service
+lrwxrwxrwx root/root                45 2023-12-12 10:56 squashfs-root/etc/systemd/system/initrd.target.wants/kdump-capture.service -> /usr/lib/systemd/system/kdump-capture.service
+drwxr-xr-x root/root                53 2023-12-12 10:56 squashfs-root/etc/systemd/system/rescue.target.wants
+lrwxrwxrwx root/root                54 2023-12-12 10:56 squashfs-root/etc/systemd/system/rescue.target.wants/systemd-vconsole-setup.service -> /usr/lib/systemd/system/systemd-vconsole-setup.service
+drwxr-xr-x root/root                53 2023-12-12 10:56 squashfs-root/etc/systemd/system/systemd-ask-password-console.service.wants
+lrwxrwxrwx root/root                54 2023-12-12 10:56 squashfs-root/etc/systemd/system/systemd-ask-password-console.service.wants/systemd-vconsole-setup.service -> /usr/lib/systemd/system/systemd-vconsole-setup.service
+drwxr-xr-x root/root                53 2023-12-12 10:56 squashfs-root/etc/systemd/system/systemd-ask-password-plymouth.service.wants
+lrwxrwxrwx root/root                54 2023-12-12 10:56 squashfs-root/etc/systemd/system/systemd-ask-password-plymouth.service.wants/systemd-vconsole-setup.service -> /usr/lib/systemd/system/systemd-vconsole-setup.service
+-rw-r--r-- root/root              2091 2023-08-22 08:49 squashfs-root/etc/systemd/system.conf
+drwxr-xr-x root/root                33 2023-12-12 10:56 squashfs-root/etc/systemd/system.conf.d
+-rw-r--r-- root/root                38 2023-12-12 10:56 squashfs-root/etc/systemd/system.conf.d/kdump.conf
+drwxr-xr-x root/root                47 2023-12-12 10:56 squashfs-root/etc/udev
+drwxr-xr-x root/root               162 2023-12-12 10:56 squashfs-root/etc/udev/rules.d
+-rw-r--r-- root/root               142 2022-06-19 18:35 squashfs-root/etc/udev/rules.d/11-dm.rules
+-rw-r--r-- root/root               680 2023-12-12 10:56 squashfs-root/etc/udev/rules.d/59-persistent-storage-dm.rules
+-rw-r--r-- root/root               297 2023-12-12 10:56 squashfs-root/etc/udev/rules.d/59-persistent-storage.rules
+-rw-r--r-- root/root              1030 2023-12-12 10:56 squashfs-root/etc/udev/rules.d/61-persistent-storage.rules
+-rw-r--r-- root/root              1308 2022-06-19 18:35 squashfs-root/etc/udev/rules.d/64-lvm.rules
+-rw-r--r-- root/root               305 2022-10-31 14:59 squashfs-root/etc/udev/udev.conf
+-rw-r--r-- root/root                28 2023-05-24 13:51 squashfs-root/etc/vconsole.conf
+-rw-r--r-- root/root              1184 2023-02-09 11:43 squashfs-root/etc/virc
+lrwxrwxrwx root/root                23 2023-12-12 10:56 squashfs-root/init -> usr/lib/systemd/systemd
+drwxr-xr-x root/root                42 2023-12-12 10:56 squashfs-root/kdumpscripts
+-rwxr-xr-x root/root               482 2023-07-04 06:13 squashfs-root/kdumpscripts/monitor_dd_progress
+lrwxrwxrwx root/root                 7 2023-12-12 10:56 squashfs-root/lib -> usr/lib
+lrwxrwxrwx root/root                 9 2023-12-12 10:56 squashfs-root/lib64 -> usr/lib64
+drwxr-xr-x root/root                 3 2023-12-12 10:56 squashfs-root/proc
+drwxr-xr-x root/root                 3 2023-12-12 10:56 squashfs-root/root
+drwxr-xr-x root/root                 3 2023-12-12 10:56 squashfs-root/run
+lrwxrwxrwx root/root                 8 2023-12-12 10:56 squashfs-root/sbin -> usr/sbin
+-rwxr-xr-x root/root              4631 2022-06-19 18:35 squashfs-root/shutdown
+drwxr-xr-x root/root                 3 2023-12-12 10:56 squashfs-root/squash
+drwxr-xr-x root/root                 3 2023-12-12 10:56 squashfs-root/sys
+drwxr-xr-x root/root                 3 2023-12-12 10:56 squashfs-root/sysroot
+drwxr-xr-x root/root                 3 2023-12-12 10:56 squashfs-root/tmp
+drwxr-xr-x root/root               114 2023-12-12 10:56 squashfs-root/usr
+drwxr-xr-x root/root              1075 2023-12-12 10:56 squashfs-root/usr/bin
+lrwxrwxrwx root/root                14 2023-12-12 10:56 squashfs-root/usr/bin/awk -> ../../bin/gawk
+-rwxr-xr-x root/root           1388904 2022-11-24 09:29 squashfs-root/usr/bin/bash
+-rwxr-xr-x root/root             36320 2023-01-06 06:50 squashfs-root/usr/bin/cat
+-rwxr-xr-x root/root             57328 2023-01-06 06:50 squashfs-root/usr/bin/chmod
+-rwxr-xr-x root/root             61448 2023-01-06 06:50 squashfs-root/usr/bin/chown
+-rwxr-xr-x root/root            152632 2023-01-06 06:50 squashfs-root/usr/bin/cp
+-rwxr-xr-x root/root             48760 2023-01-06 06:50 squashfs-root/usr/bin/cut
+-rwxr-xr-x root/root            106344 2023-01-06 06:50 squashfs-root/usr/bin/date
+-rwxr-xr-x root/root             69576 2023-01-06 06:50 squashfs-root/usr/bin/dd
+-rwxr-xr-x root/root             73496 2023-08-24 16:42 squashfs-root/usr/bin/dmesg
+-rwxr-xr-x root/root              2250 2022-06-19 18:35 squashfs-root/usr/bin/dracut-cmdline
+-rwxr-xr-x root/root               431 2022-06-19 18:35 squashfs-root/usr/bin/dracut-cmdline-ask
+-rwxr-xr-x root/root              1638 2023-08-22 14:27 squashfs-root/usr/bin/dracut-emergency
+lrwxrwxrwx root/root                11 2023-12-12 10:56 squashfs-root/usr/bin/dracut-getarg -> dracut-util
+lrwxrwxrwx root/root                11 2023-12-12 10:56 squashfs-root/usr/bin/dracut-getargs -> dracut-util
+-rwxr-xr-x root/root              2678 2022-06-19 18:35 squashfs-root/usr/bin/dracut-initqueue
+-rwxr-xr-x root/root              1095 2022-06-19 18:35 squashfs-root/usr/bin/dracut-mount
+-rwxr-xr-x root/root               508 2022-06-19 18:35 squashfs-root/usr/bin/dracut-pre-mount
+-rwxr-xr-x root/root               903 2022-06-19 18:35 squashfs-root/usr/bin/dracut-pre-pivot
+-rwxr-xr-x root/root               474 2022-06-19 18:35 squashfs-root/usr/bin/dracut-pre-trigger
+-rwxr-xr-x root/root              1415 2022-06-19 18:35 squashfs-root/usr/bin/dracut-pre-udev
+-rwxr-xr-x root/root             15512 2023-08-22 14:27 squashfs-root/usr/bin/dracut-util
+-rwxr-xr-x root/root             36136 2023-01-06 06:50 squashfs-root/usr/bin/echo
+-rwxr-xr-x root/root             66304 2023-08-24 16:42 squashfs-root/usr/bin/findmnt
+-rwxr-xr-x root/root             23928 2023-08-24 16:42 squashfs-root/usr/bin/flock
+-rwxr-xr-x root/root            714976 2022-02-16 13:49 squashfs-root/usr/bin/gawk
+-rwxr-xr-x root/root            158176 2021-08-09 20:49 squashfs-root/usr/bin/grep
+-rwxr-xr-x root/root             44656 2023-01-06 06:50 squashfs-root/usr/bin/head
+-rwxr-xr-x root/root             90216 2023-08-22 08:50 squashfs-root/usr/bin/journalctl
+-rwxr-xr-x root/root             15880 2023-06-21 10:52 squashfs-root/usr/bin/kbd_mode
+-rwxr-xr-x root/root             13899 2023-07-04 06:13 squashfs-root/usr/bin/kdump.sh
+-rwxr-xr-x root/root            169536 2023-05-19 11:33 squashfs-root/usr/bin/kmod
+-rwxr-xr-x root/root            202424 2023-05-10 06:37 squashfs-root/usr/bin/less
+-rwxr-xr-x root/root             61408 2023-01-06 06:50 squashfs-root/usr/bin/ln
+-rwxr-xr-x root/root            205168 2023-06-21 10:52 squashfs-root/usr/bin/loadkeys
+lrwxrwxrwx root/root                 4 2023-12-12 10:56 squashfs-root/usr/bin/loginctl -> true
+-rwxr-xr-x root/root            140760 2023-01-06 06:50 squashfs-root/usr/bin/ls
+-rwxr-xr-x root/root             69752 2023-01-06 06:50 squashfs-root/usr/bin/mkdir
+-rwxr-xr-x root/root             40592 2023-01-06 06:50 squashfs-root/usr/bin/mkfifo
+-rwxr-xr-x root/root             44736 2023-01-06 06:50 squashfs-root/usr/bin/mknod
+-rwsr-xr-x root/root             48480 2023-08-24 16:42 squashfs-root/usr/bin/mount
+-rwxr-xr-x root/root            144360 2023-01-06 06:50 squashfs-root/usr/bin/mv
+-rwxr-xr-x root/root            144464 2023-08-14 08:54 squashfs-root/usr/bin/ps
+-rwxr-xr-x root/root             40456 2023-01-06 06:50 squashfs-root/usr/bin/readlink
+-rwxr-xr-x root/root             61464 2023-01-06 06:50 squashfs-root/usr/bin/rm
+-rwxr-xr-x root/root            116728 2021-08-10 18:33 squashfs-root/usr/bin/sed
+-rwxr-xr-x root/root             52880 2023-06-21 10:52 squashfs-root/usr/bin/setfont
+-rwxr-xr-x root/root             15512 2023-08-24 16:42 squashfs-root/usr/bin/setsid
+lrwxrwxrwx root/root                14 2023-12-12 10:56 squashfs-root/usr/bin/sh -> ../../bin/bash
+-rwxr-xr-x root/root             36312 2023-01-06 06:50 squashfs-root/usr/bin/sleep
+-rwxr-xr-x root/root             81792 2023-01-06 06:50 squashfs-root/usr/bin/stat
+-rwxr-xr-x root/root             77456 2023-01-06 06:50 squashfs-root/usr/bin/stty
+-rwxr-xr-x root/root             36192 2023-01-06 06:50 squashfs-root/usr/bin/sync
+-rwxr-xr-x root/root            305552 2023-08-22 08:50 squashfs-root/usr/bin/systemctl
+-rwxr-xr-x root/root             19920 2023-08-22 08:50 squashfs-root/usr/bin/systemd-ask-password
+-rwxr-xr-x root/root             24024 2023-08-22 08:50 squashfs-root/usr/bin/systemd-cgls
+-rwxr-xr-x root/root             23800 2023-08-22 08:50 squashfs-root/usr/bin/systemd-escape
+-rwxr-xr-x root/root             65544 2023-08-22 08:50 squashfs-root/usr/bin/systemd-run
+-rwxr-xr-x root/root            127512 2023-08-22 08:50 squashfs-root/usr/bin/systemd-tmpfiles
+-rwxr-xr-x root/root             40304 2023-08-22 08:50 squashfs-root/usr/bin/systemd-tty-ask-password-agent
+-rwxr-xr-x root/root             69536 2023-01-06 06:50 squashfs-root/usr/bin/tail
+-rwxr-xr-x root/root             40944 2023-01-06 06:50 squashfs-root/usr/bin/timeout
+-rwxr-xr-x root/root             48824 2023-01-06 06:50 squashfs-root/usr/bin/tr
+-rwxr-xr-x root/root             27936 2023-01-06 06:50 squashfs-root/usr/bin/true
+-rwxr-xr-x root/root            597744 2023-08-22 08:50 squashfs-root/usr/bin/udevadm
+-rwsr-xr-x root/root             36112 2023-08-24 16:42 squashfs-root/usr/bin/umount
+-rwxr-xr-x root/root             32232 2023-01-06 06:50 squashfs-root/usr/bin/uname
+-rwxr-xr-x root/root               691 2023-02-09 11:43 squashfs-root/usr/bin/vi
+drwxr-xr-x root/root               320 2023-12-12 10:56 squashfs-root/usr/lib
+drwxr-xr-x root/root               212 2023-12-12 10:56 squashfs-root/usr/lib/dracut
+-rw-r--r-- root/root               287 2023-12-12 10:56 squashfs-root/usr/lib/dracut/build-parameter.txt
+-rw-r--r-- root/root                30 2023-12-12 10:56 squashfs-root/usr/lib/dracut/dracut-057-44.git20230822.el9
+drwxr-xr-x root/root               238 2023-12-12 10:56 squashfs-root/usr/lib/dracut/hooks
+drwxr-xr-x root/root                 3 2023-12-12 10:56 squashfs-root/usr/lib/dracut/hooks/cleanup
+drwxr-xr-x root/root                66 2023-12-12 10:56 squashfs-root/usr/lib/dracut/hooks/cmdline
+-rwxr-xr-x root/root               491 2022-06-19 18:35 squashfs-root/usr/lib/dracut/hooks/cmdline/30-parse-lvm.sh
+-rwxr-xr-x root/root               208 2022-06-19 18:35 squashfs-root/usr/lib/dracut/hooks/cmdline/95-parse-virtiofs.sh
+drwxr-xr-x root/root                65 2023-12-12 10:56 squashfs-root/usr/lib/dracut/hooks/emergency
+-rw-r--r-- root/root                92 2023-12-12 10:56 squashfs-root/usr/lib/dracut/hooks/emergency/80-\x2fdev\x2fmapper\x2froot_vg-lv_root.sh
+drwxr-xr-x root/root                75 2023-12-12 10:56 squashfs-root/usr/lib/dracut/hooks/initqueue
+drwxr-xr-x root/root                72 2023-12-12 10:56 squashfs-root/usr/lib/dracut/hooks/initqueue/finished
+-rw-r--r-- root/root                37 2023-12-12 10:56 squashfs-root/usr/lib/dracut/hooks/initqueue/finished/devexists-\x2fdev\x2fmapper\x2froot_vg-lv_root.sh
+drwxr-xr-x root/root                 3 2023-12-12 10:56 squashfs-root/usr/lib/dracut/hooks/initqueue/online
+drwxr-xr-x root/root                 3 2023-12-12 10:56 squashfs-root/usr/lib/dracut/hooks/initqueue/settled
+drwxr-xr-x root/root                41 2023-12-12 10:56 squashfs-root/usr/lib/dracut/hooks/initqueue/timeout
+-rwxr-xr-x root/root               463 2022-06-19 18:35 squashfs-root/usr/lib/dracut/hooks/initqueue/timeout/99-rootfallback.sh
+drwxr-xr-x root/root                 3 2023-12-12 10:56 squashfs-root/usr/lib/dracut/hooks/mount
+drwxr-xr-x root/root                 3 2023-12-12 10:56 squashfs-root/usr/lib/dracut/hooks/netroot
+drwxr-xr-x root/root                43 2023-12-12 10:56 squashfs-root/usr/lib/dracut/hooks/pre-mount
+-rwxr-xr-x root/root               637 2022-06-19 18:35 squashfs-root/usr/lib/dracut/hooks/pre-mount/99-mount-virtiofs.sh
+drwxr-xr-x root/root                38 2023-12-12 10:56 squashfs-root/usr/lib/dracut/hooks/pre-pivot
+-rwxr-xr-x root/root              1300 2022-06-19 18:35 squashfs-root/usr/lib/dracut/hooks/pre-pivot/00-mount-sys.sh
+drwxr-xr-x root/root                 3 2023-12-12 10:56 squashfs-root/usr/lib/dracut/hooks/pre-shutdown
+drwxr-xr-x root/root                 3 2023-12-12 10:56 squashfs-root/usr/lib/dracut/hooks/pre-trigger
+drwxr-xr-x root/root                40 2023-12-12 10:56 squashfs-root/usr/lib/dracut/hooks/pre-udev
+-rwxr-xr-x root/root               107 2022-06-19 18:35 squashfs-root/usr/lib/dracut/hooks/pre-udev/30-dm-pre-udev.sh
+drwxr-xr-x root/root                40 2023-12-12 10:56 squashfs-root/usr/lib/dracut/hooks/shutdown
+-rwxr-xr-x root/root              1261 2022-06-19 18:35 squashfs-root/usr/lib/dracut/hooks/shutdown/25-dm-shutdown.sh
+drwxr-xr-x root/root                 3 2023-12-12 10:56 squashfs-root/usr/lib/dracut/hooks/shutdown-emergency
+-rw-r--r-- root/root               572 2023-12-12 10:56 squashfs-root/usr/lib/dracut/hostonly-files
+-rw-r--r-- root/root               688 2023-12-12 10:56 squashfs-root/usr/lib/dracut/hostonly-kernel-modules.txt
+-rw-r--r-- root/root               250 2023-12-12 10:56 squashfs-root/usr/lib/dracut/modules.txt
+-rw-r--r-- root/root                 0 2023-12-12 10:56 squashfs-root/usr/lib/dracut/need-initqueue
+-rw-r--r-- root/root                 0 2023-12-12 10:56 squashfs-root/usr/lib/dracut/no-switch-root
+-rwxr-xr-x root/root              4069 2022-06-19 18:35 squashfs-root/usr/lib/dracut-dev-lib.sh
+-rwxr-xr-x root/root             28857 2022-06-19 18:35 squashfs-root/usr/lib/dracut-lib.sh
+-rwxr-xr-x root/root              6695 2022-06-19 18:35 squashfs-root/usr/lib/fs-lib.sh
+-rw-r--r-- root/root               731 2023-12-12 10:56 squashfs-root/usr/lib/initrd-release
+drwxr-xr-x root/root                50 2023-12-12 10:56 squashfs-root/usr/lib/kbd
+drwxr-xr-x root/root                36 2023-12-12 10:56 squashfs-root/usr/lib/kbd/consolefonts
+-rw-r--r-- root/root             10558 2023-06-21 10:51 squashfs-root/usr/lib/kbd/consolefonts/eurlatgr.psfu
+drwxr-xr-x root/root                40 2023-12-12 10:56 squashfs-root/usr/lib/kbd/keymaps
+drwxr-xr-x root/root                27 2023-12-12 10:56 squashfs-root/usr/lib/kbd/keymaps/legacy
+drwxr-xr-x root/root                29 2023-12-12 10:56 squashfs-root/usr/lib/kbd/keymaps/legacy/i386
+drwxr-xr-x root/root                29 2023-12-12 10:56 squashfs-root/usr/lib/kbd/keymaps/legacy/i386/qwerty
+-rw-r--r-- root/root              2004 2023-06-21 10:51 squashfs-root/usr/lib/kbd/keymaps/legacy/i386/qwerty/us.map
+drwxr-xr-x root/root                29 2023-12-12 10:56 squashfs-root/usr/lib/kbd/keymaps/xkb
+-rw-r--r-- root/root            121011 2023-06-21 10:52 squashfs-root/usr/lib/kbd/keymaps/xkb/us.map
+-rwxr-xr-x root/root              3995 2023-07-04 06:13 squashfs-root/usr/lib/kdump-lib-initramfs.sh
+-rwxr-xr-x root/root              9969 2023-07-04 06:13 squashfs-root/usr/lib/kdump-logger.sh
+drwxr-xr-x root/root                62 2023-12-12 10:56 squashfs-root/usr/lib/modprobe.d
+-rw-r--r-- root/root               884 2023-08-21 04:01 squashfs-root/usr/lib/modprobe.d/dist-blacklist.conf
+-rw-r--r-- root/root               773 2022-10-31 14:59 squashfs-root/usr/lib/modprobe.d/systemd.conf
+drwxr-xr-x root/root                50 2023-12-12 10:56 squashfs-root/usr/lib/modules
+drwxr-xr-x root/root               348 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64
+drwxr-xr-x root/root               102 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel
+drwxr-xr-x root/root                26 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/arch
+drwxr-xr-x root/root                29 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/arch/x86
+drwxr-xr-x root/root               130 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/arch/x86/crypto
+-rw-r--r-- root/root              3588 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/arch/x86/crypto/crc32-pclmul.ko.xz
+-rw-r--r-- root/root              6420 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/arch/x86/crypto/crc32c-intel.ko.xz
+-rw-r--r-- root/root              3656 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/arch/x86/crypto/crct10dif-pclmul.ko.xz
+-rw-r--r-- root/root              4780 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/arch/x86/crypto/ghash-clmulni-intel.ko.xz
+drwxr-xr-x root/root                35 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/block
+-rw-r--r-- root/root              6500 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/block/t10-pi.ko.xz
+drwxr-xr-x root/root               890 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto
+-rw-r--r-- root/root              6228 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/adiantum.ko.xz
+-rw-r--r-- root/root              5532 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/ansi_cprng.ko.xz
+drwxr-xr-x root/root                67 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/asymmetric_keys
+-rw-r--r-- root/root              9056 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/asymmetric_keys/asym_tpm.ko.xz
+-rw-r--r-- root/root              3588 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/asymmetric_keys/pkcs8_key_parser.ko.xz
+drwxr-xr-x root/root               174 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/async_tx
+-rw-r--r-- root/root              3368 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/async_tx/async_memcpy.ko.xz
+-rw-r--r-- root/root              6504 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/async_tx/async_pq.ko.xz
+-rw-r--r-- root/root              7160 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/async_tx/async_raid6_recov.ko.xz
+-rw-r--r-- root/root              3944 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/async_tx/async_tx.ko.xz
+-rw-r--r-- root/root              5576 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/async_tx/async_xor.ko.xz
+-rw-r--r-- root/root              5468 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/async_tx/raid6test.ko.xz
+-rw-r--r-- root/root              6832 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/blake2b_generic.ko.xz
+-rw-r--r-- root/root              7004 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/blowfish_common.ko.xz
+-rw-r--r-- root/root              2620 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/blowfish_generic.ko.xz
+-rw-r--r-- root/root             11920 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/camellia_generic.ko.xz
+-rw-r--r-- root/root              9784 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/cast5_generic.ko.xz
+-rw-r--r-- root/root              5368 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/cast6_generic.ko.xz
+-rw-r--r-- root/root              5828 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/cast_common.ko.xz
+-rw-r--r-- root/root              6868 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/chacha20poly1305.ko.xz
+-rw-r--r-- root/root              3052 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/chacha_generic.ko.xz
+-rw-r--r-- root/root              2580 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/crc32_generic.ko.xz
+-rw-r--r-- root/root              2816 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/curve25519-generic.ko.xz
+-rw-r--r-- root/root              2748 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/des_generic.ko.xz
+-rw-r--r-- root/root              3156 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/echainiv.ko.xz
+-rw-r--r-- root/root              7192 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/essiv.ko.xz
+-rw-r--r-- root/root              4840 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/fcrypt.ko.xz
+-rw-r--r-- root/root              4880 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/lrw.ko.xz
+-rw-r--r-- root/root              4164 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/md4.ko.xz
+-rw-r--r-- root/root              2892 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/michael_mic.ko.xz
+-rw-r--r-- root/root              4616 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/nhpoly1305.ko.xz
+-rw-r--r-- root/root              3140 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/pcbc.ko.xz
+-rw-r--r-- root/root              4944 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/pcrypt.ko.xz
+-rw-r--r-- root/root              2944 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/poly1305_generic.ko.xz
+-rw-r--r-- root/root              5744 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/rmd160.ko.xz
+-rw-r--r-- root/root              8760 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/serpent_generic.ko.xz
+-rw-r--r-- root/root             29140 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/tcrypt.ko.xz
+-rw-r--r-- root/root             10180 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/twofish_common.ko.xz
+-rw-r--r-- root/root              3724 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/twofish_generic.ko.xz
+-rw-r--r-- root/root              6072 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/vmac.ko.xz
+-rw-r--r-- root/root              9184 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/wp512.ko.xz
+-rw-r--r-- root/root              3916 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/xcbc.ko.xz
+-rw-r--r-- root/root              2576 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/xxhash_generic.ko.xz
+-rw-r--r-- root/root              4128 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/crypto/zstd.ko.xz
+drwxr-xr-x root/root               164 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers
+drwxr-xr-x root/root               121 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/ata
+-rw-r--r-- root/root             18156 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/ata/ahci.ko.xz
+-rw-r--r-- root/root              7376 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/ata/ata_generic.ko.xz
+-rw-r--r-- root/root             14676 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/ata/ata_piix.ko.xz
+-rw-r--r-- root/root             26372 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/ata/libahci.ko.xz
+-rw-r--r-- root/root            153540 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/ata/libata.ko.xz
+drwxr-xr-x root/root                39 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/block
+-rw-r--r-- root/root             16108 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/block/virtio_blk.ko.xz
+drwxr-xr-x root/root                34 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/cdrom
+-rw-r--r-- root/root             30140 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/cdrom/cdrom.ko.xz
+drwxr-xr-x root/root                43 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/char
+-rw-r--r-- root/root             18688 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/char/virtio_console.ko.xz
+drwxr-xr-x root/root                26 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/gpu
+drwxr-xr-x root/root               110 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/gpu/drm
+-rw-r--r-- root/root            240044 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/gpu/drm/drm.ko.xz
+-rw-r--r-- root/root             94372 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/gpu/drm/drm_kms_helper.ko.xz
+-rw-r--r-- root/root              6824 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/gpu/drm/drm_ttm_helper.ko.xz
+drwxr-xr-x root/root                32 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/gpu/drm/qxl
+-rw-r--r-- root/root             52216 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/gpu/drm/qxl/qxl.ko.xz
+drwxr-xr-x root/root                32 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/gpu/drm/ttm
+-rw-r--r-- root/root             40316 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/gpu/drm/ttm/ttm.ko.xz
+drwxr-xr-x root/root                28 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/input
+drwxr-xr-x root/root                38 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/input/serio
+-rw-r--r-- root/root              6200 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/input/serio/serio_raw.ko.xz
+drwxr-xr-x root/root               153 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/md
+-rw-r--r-- root/root             20920 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/md/dm-bufio.ko.xz
+-rw-r--r-- root/root             10496 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/md/dm-log.ko.xz
+-rw-r--r-- root/root             15732 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/md/dm-mirror.ko.xz
+-rw-r--r-- root/root             93152 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/md/dm-mod.ko.xz
+-rw-r--r-- root/root              9988 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/md/dm-region-hash.ko.xz
+-rw-r--r-- root/root             30076 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/md/dm-snapshot.ko.xz
+drwxr-xr-x root/root                96 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/scsi
+-rw-r--r-- root/root             37944 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/scsi/sd_mod.ko.xz
+-rw-r--r-- root/root             23796 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/scsi/sg.ko.xz
+-rw-r--r-- root/root             13904 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/scsi/sr_mod.ko.xz
+-rw-r--r-- root/root             11260 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/scsi/virtio_scsi.ko.xz
+drwxr-xr-x root/root                27 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/usb
+drwxr-xr-x root/root                42 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/usb/host
+-rw-r--r-- root/root              6316 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/usb/host/xhci-plat-hcd.ko.xz
+drwxr-xr-x root/root                28 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/video
+drwxr-xr-x root/root                27 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/video/fbdev
+drwxr-xr-x root/root                88 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/video/fbdev/core
+-rw-r--r-- root/root              3784 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/video/fbdev/core/syscopyarea.ko.xz
+-rw-r--r-- root/root              4416 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/video/fbdev/core/sysfillrect.ko.xz
+-rw-r--r-- root/root              3096 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/video/fbdev/core/sysimgblt.ko.xz
+drwxr-xr-x root/root                39 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/virtio
+-rw-r--r-- root/root             19564 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/virtio/virtio_mem.ko.xz
+drwxr-xr-x root/root                70 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/watchdog
+-rw-r--r-- root/root              3088 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/watchdog/iTCO_vendor_support.ko.xz
+-rw-r--r-- root/root              6304 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/drivers/watchdog/iTCO_wdt.ko.xz
+drwxr-xr-x root/root                72 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/fs
+drwxr-xr-x root/root                33 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/fs/ext4
+-rw-r--r-- root/root            388740 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/fs/ext4/ext4.ko.xz
+drwxr-xr-x root/root                33 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/fs/fuse
+-rw-r--r-- root/root             90820 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/fs/fuse/fuse.ko.xz
+drwxr-xr-x root/root                33 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/fs/jbd2
+-rw-r--r-- root/root             70560 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/fs/jbd2/jbd2.ko.xz
+-rw-r--r-- root/root              6436 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/fs/mbcache.ko.xz
+drwxr-xr-x root/root                54 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/lib
+drwxr-xr-x root/root                70 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/lib/crypto
+-rw-r--r-- root/root             12612 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/lib/crypto/libcurve25519-generic.ko.xz
+-rw-r--r-- root/root              7852 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/lib/crypto/libdes.ko.xz
+drwxr-xr-x root/root                37 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/lib/raid6
+-rw-r--r-- root/root             74848 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/lib/raid6/raid6_pq.ko.xz
+drwxr-xr-x root/root                42 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/lib/zstd
+-rw-r--r-- root/root            128620 2023-10-03 12:34 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/kernel/lib/zstd/zstd_compress.ko.xz
+-rw-r--r-- root/root             26352 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/modules.alias
+-rw-r--r-- root/root             26200 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/modules.alias.bin
+-rw-r--r-- root/root              9424 2023-10-03 12:01 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/modules.builtin
+-rw-r--r-- root/root                 0 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/modules.builtin.alias.bin
+-rw-r--r-- root/root             11839 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/modules.builtin.bin
+-rw-r--r-- root/root             74646 2023-10-03 12:01 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/modules.builtin.modinfo
+-rw-r--r-- root/root              5171 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/modules.dep
+-rw-r--r-- root/root              9127 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/modules.dep.bin
+-rw-r--r-- root/root               100 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/modules.devname
+-rw-r--r-- root/root             89561 2023-10-03 12:01 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/modules.order
+-rw-r--r-- root/root                80 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/modules.softdep
+-rw-r--r-- root/root             58144 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/modules.symbols
+-rw-r--r-- root/root             65995 2023-12-12 10:56 squashfs-root/usr/lib/modules/5.14.0-362.8.1.el9_3.x86_64/modules.symbols.bin
+drwxr-xr-x root/root                42 2023-12-12 10:56 squashfs-root/usr/lib/modules-load.d
+-rw-r--r-- root/root                 5 2023-05-12 11:18 squashfs-root/usr/lib/modules-load.d/fuse-overlayfs.conf
+lrwxrwxrwx root/root                14 2023-12-12 10:56 squashfs-root/usr/lib/os-release -> initrd-release
+drwxr-xr-x root/root               350 2023-12-12 10:56 squashfs-root/usr/lib/systemd
+drwxr-xr-x root/root              2509 2023-12-12 10:56 squashfs-root/usr/lib/systemd/system
+-rw-r--r-- root/root               964 2023-08-22 08:49 squashfs-root/usr/lib/systemd/system/basic.target
+-rw-r--r-- root/root               473 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/cryptsetup-pre.target
+-rw-r--r-- root/root               420 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/cryptsetup.target
+lrwxrwxrwx root/root                13 2023-12-12 10:56 squashfs-root/usr/lib/systemd/system/ctrl-alt-del.target -> reboot.target
+-rw-r--r-- root/root              1063 2023-08-22 08:50 squashfs-root/usr/lib/systemd/system/debug-shell.service
+lrwxrwxrwx root/root                13 2023-12-12 10:56 squashfs-root/usr/lib/systemd/system/default.target -> initrd.target
+-rw-r--r-- root/root               843 2022-06-19 18:35 squashfs-root/usr/lib/systemd/system/dracut-cmdline-ask.service
+-rw-r--r-- root/root               867 2022-06-19 18:35 squashfs-root/usr/lib/systemd/system/dracut-cmdline.service
+lrwxrwxrwx root/root                17 2023-12-12 10:56 squashfs-root/usr/lib/systemd/system/dracut-emergency.service -> emergency.service
+-rw-r--r-- root/root               784 2022-06-19 18:35 squashfs-root/usr/lib/systemd/system/dracut-initqueue.service
+-rw-r--r-- root/root               756 2022-06-19 18:35 squashfs-root/usr/lib/systemd/system/dracut-mount.service
+-rw-r--r-- root/root               785 2022-06-19 18:35 squashfs-root/usr/lib/systemd/system/dracut-pre-mount.service
+-rw-r--r-- root/root              1107 2022-06-19 18:35 squashfs-root/usr/lib/systemd/system/dracut-pre-pivot.service
+-rw-r--r-- root/root               877 2022-06-19 18:35 squashfs-root/usr/lib/systemd/system/dracut-pre-trigger.service
+-rw-r--r-- root/root               956 2022-06-19 18:35 squashfs-root/usr/lib/systemd/system/dracut-pre-udev.service
+-rw-r--r-- root/root               688 2023-12-12 10:56 squashfs-root/usr/lib/systemd/system/emergency.service
+-rw-r--r-- root/root               451 2023-12-12 10:56 squashfs-root/usr/lib/systemd/system/emergency.target
+-rw-r--r-- root/root               500 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/final.target
+-rw-r--r-- root/root               542 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/halt.target
+-rw-r--r-- root/root               670 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/initrd-cleanup.service
+-rw-r--r-- root/root               598 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/initrd-fs.target
+-rw-r--r-- root/root              1255 2023-08-22 08:50 squashfs-root/usr/lib/systemd/system/initrd-parse-etc.service
+-rw-r--r-- root/root               566 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/initrd-root-device.target
+-rw-r--r-- root/root               571 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/initrd-root-fs.target
+-rw-r--r-- root/root               623 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/initrd-switch-root.service
+-rw-r--r-- root/root               779 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/initrd-switch-root.target
+-rw-r--r-- root/root               823 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/initrd-udevadm-cleanup-db.service
+-rw-r--r-- root/root               571 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/initrd-usr-fs.target
+-rw-r--r-- root/root               810 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/initrd.target
+-rw-r--r-- root/root               945 2023-07-04 06:13 squashfs-root/usr/lib/systemd/system/kdump-capture.service
+-rw-r--r-- root/root               549 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/kexec.target
+-rw-r--r-- root/root               705 2023-08-22 08:50 squashfs-root/usr/lib/systemd/system/kmod-static-nodes.service
+-rw-r--r-- root/root               453 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/local-fs-pre.target
+-rw-r--r-- root/root               555 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/local-fs.target
+-rw-r--r-- root/root               540 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/multi-user.target
+-rw-r--r-- root/root               483 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/network-online.target
+-rw-r--r-- root/root               490 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/network-pre.target
+-rw-r--r-- root/root               499 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/network.target
+-rw-r--r-- root/root               562 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/nss-lookup.target
+-rw-r--r-- root/root               521 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/nss-user-lookup.target
+-rw-r--r-- root/root               407 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/paths.target
+-rw-r--r-- root/root               607 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/poweroff.target
+-rw-r--r-- root/root               598 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/reboot.target
+-rw-r--r-- root/root               557 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/remote-cryptsetup.target
+-rw-r--r-- root/root               454 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/remote-fs-pre.target
+-rw-r--r-- root/root               530 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/remote-fs.target
+-rw-r--r-- root/root               690 2022-06-19 18:35 squashfs-root/usr/lib/systemd/system/rescue.service
+-rw-r--r-- root/root               500 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/rescue.target
+-rw-r--r-- root/root               548 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/rpcbind.target
+-rw-r--r-- root/root               457 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/shutdown.target
+-rw-r--r-- root/root               410 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/sigpwr.target
+-rw-r--r-- root/root               462 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/slices.target
+-rw-r--r-- root/root               409 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/sockets.target
+drwxr-xr-x root/root               156 2023-12-12 10:56 squashfs-root/usr/lib/systemd/system/sockets.target.wants
+lrwxrwxrwx root/root                34 2023-12-12 10:56 squashfs-root/usr/lib/systemd/system/sockets.target.wants/systemd-journald-dev-log.socket -> ../systemd-journald-dev-log.socket
+lrwxrwxrwx root/root                26 2023-12-12 10:56 squashfs-root/usr/lib/systemd/system/sockets.target.wants/systemd-journald.socket -> ../systemd-journald.socket
+lrwxrwxrwx root/root                31 2023-12-12 10:56 squashfs-root/usr/lib/systemd/system/sockets.target.wants/systemd-udevd-control.socket -> ../systemd-udevd-control.socket
+lrwxrwxrwx root/root                30 2023-12-12 10:56 squashfs-root/usr/lib/systemd/system/sockets.target.wants/systemd-udevd-kernel.socket -> ../systemd-udevd-kernel.socket
+-rw-r--r-- root/root               402 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/swap.target
+-rw-r--r-- root/root              1111 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/sys-kernel-config.mount
+-rw-r--r-- root/root               574 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/sysinit.target
+drwxr-xr-x root/root               332 2023-12-12 10:56 squashfs-root/usr/lib/systemd/system/sysinit.target.wants
+lrwxrwxrwx root/root                28 2023-12-12 10:56 squashfs-root/usr/lib/systemd/system/sysinit.target.wants/kmod-static-nodes.service -> ../kmod-static-nodes.service
+lrwxrwxrwx root/root                36 2023-12-12 10:56 squashfs-root/usr/lib/systemd/system/sysinit.target.wants/systemd-ask-password-console.path -> ../systemd-ask-password-console.path
+lrwxrwxrwx root/root                27 2023-12-12 10:56 squashfs-root/usr/lib/systemd/system/sysinit.target.wants/systemd-journald.service -> ../systemd-journald.service
+lrwxrwxrwx root/root                31 2023-12-12 10:56 squashfs-root/usr/lib/systemd/system/sysinit.target.wants/systemd-modules-load.service -> ../systemd-modules-load.service
+lrwxrwxrwx root/root                25 2023-12-12 10:56 squashfs-root/usr/lib/systemd/system/sysinit.target.wants/systemd-sysctl.service -> ../systemd-sysctl.service
+lrwxrwxrwx root/root                37 2023-12-12 10:56 squashfs-root/usr/lib/systemd/system/sysinit.target.wants/systemd-tmpfiles-setup-dev.service -> ../systemd-tmpfiles-setup-dev.service
+lrwxrwxrwx root/root                33 2023-12-12 10:56 squashfs-root/usr/lib/systemd/system/sysinit.target.wants/systemd-tmpfiles-setup.service -> ../systemd-tmpfiles-setup.service
+lrwxrwxrwx root/root                31 2023-12-12 10:56 squashfs-root/usr/lib/systemd/system/sysinit.target.wants/systemd-udev-trigger.service -> ../systemd-udev-trigger.service
+lrwxrwxrwx root/root                24 2023-12-12 10:56 squashfs-root/usr/lib/systemd/system/sysinit.target.wants/systemd-udevd.service -> ../systemd-udevd.service
+-rw-r--r-- root/root              1415 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/syslog.socket
+-rw-r--r-- root/root               771 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/systemd-ask-password-console.path
+-rw-r--r-- root/root               834 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/systemd-ask-password-console.service
+-rw-r--r-- root/root               454 2023-07-14 17:03 squashfs-root/usr/lib/systemd/system/systemd-ask-password-plymouth.path
+-rw-r--r-- root/root               435 2023-07-14 17:03 squashfs-root/usr/lib/systemd/system/systemd-ask-password-plymouth.service
+-rw-r--r-- root/root               712 2023-08-22 08:50 squashfs-root/usr/lib/systemd/system/systemd-fsck@.service
+-rw-r--r-- root/root               594 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/systemd-halt.service
+-rw-r--r-- root/root               655 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/systemd-journald-audit.socket
+-rw-r--r-- root/root              1182 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/systemd-journald-dev-log.socket
+-rw-r--r-- root/root              2001 2023-08-22 08:50 squashfs-root/usr/lib/systemd/system/systemd-journald.service
+-rw-r--r-- root/root               934 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/systemd-journald.socket
+-rw-r--r-- root/root               601 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/systemd-kexec.service
+-rw-r--r-- root/root              1019 2023-08-22 08:50 squashfs-root/usr/lib/systemd/system/systemd-modules-load.service
+-rw-r--r-- root/root               575 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/systemd-poweroff.service
+-rw-r--r-- root/root              1175 2023-08-22 08:50 squashfs-root/usr/lib/systemd/system/systemd-random-seed.service
+-rw-r--r-- root/root               568 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/systemd-reboot.service
+-rw-r--r-- root/root               733 2023-08-22 08:50 squashfs-root/usr/lib/systemd/system/systemd-sysctl.service
+-rw-r--r-- root/root               837 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/systemd-tmpfiles-setup-dev.service
+-rw-r--r-- root/root               999 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/systemd-tmpfiles-setup.service
+-rw-r--r-- root/root               863 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/systemd-udev-settle.service
+-rw-r--r-- root/root               758 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/systemd-udev-trigger.service
+-rw-r--r-- root/root               650 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/systemd-udevd-control.socket
+-rw-r--r-- root/root               624 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/systemd-udevd-kernel.socket
+-rw-r--r-- root/root              1343 2023-08-22 08:50 squashfs-root/usr/lib/systemd/system/systemd-udevd.service
+-rw-r--r-- root/root               650 2023-08-22 08:50 squashfs-root/usr/lib/systemd/system/systemd-vconsole-setup.service
+-rw-r--r-- root/root               743 2023-08-22 08:50 squashfs-root/usr/lib/systemd/system/systemd-volatile-root.service
+-rw-r--r-- root/root               458 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/timers.target
+-rw-r--r-- root/root               465 2022-10-31 14:59 squashfs-root/usr/lib/systemd/system/umount.target
+drwxr-xr-x root/root               142 2023-12-12 10:56 squashfs-root/usr/lib/systemd/system-generators
+-rwxr-xr-x root/root              3726 2022-06-19 18:35 squashfs-root/usr/lib/systemd/system-generators/dracut-rootfs-generator
+-rwxr-xr-x root/root             24128 2023-08-22 08:50 squashfs-root/usr/lib/systemd/system-generators/systemd-debug-generator
+-rwxr-xr-x root/root             57512 2023-08-22 08:50 squashfs-root/usr/lib/systemd/system-generators/systemd-fstab-generator
+-rwxr-xr-x root/root             36296 2023-08-22 08:50 squashfs-root/usr/lib/systemd/system-generators/systemd-gpt-auto-generator
+-rwxr-xr-x root/root            102120 2023-08-22 08:50 squashfs-root/usr/lib/systemd/systemd
+-rwxr-xr-x root/root             15600 2023-08-22 08:50 squashfs-root/usr/lib/systemd/systemd-cgroups-agent
+-rwxr-xr-x root/root             69328 2023-08-22 08:50 squashfs-root/usr/lib/systemd/systemd-coredump
+-rwxr-xr-x root/root             32056 2023-08-22 08:50 squashfs-root/usr/lib/systemd/systemd-fsck
+-rwxr-xr-x root/root            185496 2023-08-22 08:50 squashfs-root/usr/lib/systemd/systemd-journald
+-rwxr-xr-x root/root             24096 2023-08-22 08:50 squashfs-root/usr/lib/systemd/systemd-modules-load
+-rwxr-xr-x root/root             15632 2023-08-22 08:50 squashfs-root/usr/lib/systemd/systemd-reply-password
+-rwxr-xr-x root/root             52736 2023-08-22 08:50 squashfs-root/usr/lib/systemd/systemd-shutdown
+-rwxr-xr-x root/root             28200 2023-08-22 08:50 squashfs-root/usr/lib/systemd/systemd-sysctl
+lrwxrwxrwx root/root                17 2023-12-12 10:56 squashfs-root/usr/lib/systemd/systemd-udevd -> ../../bin/udevadm
+-rwxr-xr-x root/root             19760 2023-08-22 08:50 squashfs-root/usr/lib/systemd/systemd-vconsole-setup
+-rwxr-xr-x root/root             23848 2023-08-22 08:50 squashfs-root/usr/lib/systemd/systemd-volatile-root
+drwxr-xr-x root/root                63 2023-12-12 10:56 squashfs-root/usr/lib/tmpfiles.d
+-rw-r--r-- root/root               135 2022-06-19 18:35 squashfs-root/usr/lib/tmpfiles.d/dracut-tmpfiles.conf
+-rw-r--r-- root/root              2001 2023-08-22 08:50 squashfs-root/usr/lib/tmpfiles.d/systemd.conf
+drwxr-xr-x root/root                75 2023-12-12 10:56 squashfs-root/usr/lib/udev
+-rwxr-xr-x root/root             19720 2023-08-22 08:50 squashfs-root/usr/lib/udev/ata_id
+-rwxr-xr-x root/root             32168 2023-08-22 08:50 squashfs-root/usr/lib/udev/cdrom_id
+drwxr-xr-x root/root               470 2023-12-12 10:56 squashfs-root/usr/lib/udev/rules.d
+-r--r--r-- root/root              7218 2023-07-13 14:50 squashfs-root/usr/lib/udev/rules.d/10-dm.rules
+-r--r--r-- root/root              2424 2023-07-13 14:50 squashfs-root/usr/lib/udev/rules.d/11-dm-lvm.rules
+-r--r--r-- root/root              2217 2023-07-13 14:50 squashfs-root/usr/lib/udev/rules.d/13-dm-disk.rules
+-rw-r--r-- root/root              2014 2023-08-22 08:49 squashfs-root/usr/lib/udev/rules.d/40-redhat.rules
+-rw-r--r-- root/root              5315 2023-08-22 08:49 squashfs-root/usr/lib/udev/rules.d/50-udev-default.rules
+-rw-r--r-- root/root               703 2022-10-31 14:59 squashfs-root/usr/lib/udev/rules.d/60-block.rules
+-rw-r--r-- root/root              1071 2022-10-31 14:59 squashfs-root/usr/lib/udev/rules.d/60-cdrom_id.rules
+-rw-r--r-- root/root             10901 2023-08-22 08:49 squashfs-root/usr/lib/udev/rules.d/60-persistent-storage.rules
+-rw-r--r-- root/root               616 2023-08-22 08:49 squashfs-root/usr/lib/udev/rules.d/64-btrfs.rules
+-rw-r--r-- root/root              3311 2023-08-22 08:49 squashfs-root/usr/lib/udev/rules.d/70-uaccess.rules
+-rw-r--r-- root/root              3818 2023-08-22 08:49 squashfs-root/usr/lib/udev/rules.d/71-seat.rules
+-rw-r--r-- root/root               643 2023-08-22 08:49 squashfs-root/usr/lib/udev/rules.d/73-seat-late.rules
+-rw-r--r-- root/root               452 2022-10-31 14:59 squashfs-root/usr/lib/udev/rules.d/75-net-description.rules
+-rw-r--r-- root/root               600 2022-10-31 14:59 squashfs-root/usr/lib/udev/rules.d/80-drivers.rules
+-rw-r--r-- root/root               295 2022-10-31 14:59 squashfs-root/usr/lib/udev/rules.d/80-net-setup-link.rules
+-rw-r--r-- root/root               489 2023-08-22 08:49 squashfs-root/usr/lib/udev/rules.d/90-vconsole.rules
+-r--r--r-- root/root               483 2023-07-13 14:50 squashfs-root/usr/lib/udev/rules.d/95-dm-notify.rules
+-rw-r--r-- root/root              5039 2023-08-22 08:49 squashfs-root/usr/lib/udev/rules.d/99-systemd.rules
+-rwxr-xr-x root/root             36800 2023-08-22 08:50 squashfs-root/usr/lib/udev/scsi_id
+drwxr-xr-x root/root              2804 2023-12-12 10:56 squashfs-root/usr/lib64
+drwxr-xr-x root/root               210 2023-12-12 10:56 squashfs-root/usr/lib64/device-mapper
+-r-xr-xr-x root/root             15360 2023-07-13 14:51 squashfs-root/usr/lib64/device-mapper/libdevmapper-event-lvm2mirror.so
+-r-xr-xr-x root/root             15336 2023-07-13 14:51 squashfs-root/usr/lib64/device-mapper/libdevmapper-event-lvm2raid.so
+-r-xr-xr-x root/root             19472 2023-07-13 14:51 squashfs-root/usr/lib64/device-mapper/libdevmapper-event-lvm2snapshot.so
+-r-xr-xr-x root/root             23592 2023-07-13 14:51 squashfs-root/usr/lib64/device-mapper/libdevmapper-event-lvm2thin.so
+-r-xr-xr-x root/root             23688 2023-07-13 14:51 squashfs-root/usr/lib64/device-mapper/libdevmapper-event-lvm2vdo.so
+-rwxr-xr-x root/root            246464 2023-09-25 03:50 squashfs-root/usr/lib64/ld-linux-x86-64.so.2
+lrwxrwxrwx root/root                30 2023-12-12 10:56 squashfs-root/usr/lib64/libacl.so.1 -> ../../lib64/libacl.so.1.1.2301
+-rwxr-xr-x root/root             41120 2021-08-09 15:32 squashfs-root/usr/lib64/libacl.so.1.1.2301
+lrwxrwxrwx root/root                27 2023-12-12 10:56 squashfs-root/usr/lib64/libaio.so.1 -> ../../lib64/libaio.so.1.0.1
+-rwxr-xr-x root/root             16448 2021-08-09 22:48 squashfs-root/usr/lib64/libaio.so.1.0.1
+lrwxrwxrwx root/root                31 2023-12-12 10:56 squashfs-root/usr/lib64/libattr.so.1 -> ../../lib64/libattr.so.1.1.2501
+-rwxr-xr-x root/root             28552 2021-08-09 15:46 squashfs-root/usr/lib64/libattr.so.1.1.2501
+lrwxrwxrwx root/root                29 2023-12-12 10:56 squashfs-root/usr/lib64/libaudit.so.1 -> ../../lib64/libaudit.so.1.0.0
+-rwxr-xr-x root/root            134624 2023-06-29 02:11 squashfs-root/usr/lib64/libaudit.so.1.0.0
+lrwxrwxrwx root/root                29 2023-12-12 10:56 squashfs-root/usr/lib64/libblkid.so.1 -> ../../lib64/libblkid.so.1.1.0
+-rwxr-xr-x root/root            229360 2023-08-24 16:42 squashfs-root/usr/lib64/libblkid.so.1.1.0
+lrwxrwxrwx root/root                27 2023-12-12 10:56 squashfs-root/usr/lib64/libbz2.so.1 -> ../../lib64/libbz2.so.1.0.8
+-rwxr-xr-x root/root             76792 2021-08-09 16:13 squashfs-root/usr/lib64/libbz2.so.1.0.8
+-rwxr-xr-x root/root           2386952 2023-09-25 03:50 squashfs-root/usr/lib64/libc.so.6
+lrwxrwxrwx root/root                30 2023-12-12 10:56 squashfs-root/usr/lib64/libcap-ng.so.0 -> ../../lib64/libcap-ng.so.0.0.0
+-rwxr-xr-x root/root             32528 2022-02-15 08:16 squashfs-root/usr/lib64/libcap-ng.so.0.0.0
+lrwxrwxrwx root/root                26 2023-12-12 10:56 squashfs-root/usr/lib64/libcap.so.2 -> ../../lib64/libcap.so.2.48
+-rwxr-xr-x root/root             36304 2023-07-12 09:22 squashfs-root/usr/lib64/libcap.so.2.48
+lrwxrwxrwx root/root                29 2023-12-12 10:56 squashfs-root/usr/lib64/libcom_err.so.2 -> ../../lib64/libcom_err.so.2.1
+-rwxr-xr-x root/root             24400 2022-06-08 07:51 squashfs-root/usr/lib64/libcom_err.so.2.1
+lrwxrwxrwx root/root                29 2023-12-12 10:56 squashfs-root/usr/lib64/libcrypt.so.2 -> ../../lib64/libcrypt.so.2.0.0
+-rwxr-xr-x root/root            201808 2021-08-10 04:55 squashfs-root/usr/lib64/libcrypt.so.2.0.0
+lrwxrwxrwx root/root                30 2023-12-12 10:56 squashfs-root/usr/lib64/libcrypto.so.3 -> ../../lib64/libcrypto.so.3.0.7
+-rwxr-xr-x root/root           4483280 2023-07-13 04:37 squashfs-root/usr/lib64/libcrypto.so.3.0.7
+-r-xr-xr-x root/root             15496 2023-07-13 14:51 squashfs-root/usr/lib64/libdevmapper-event-lvm2.so.2.03
+lrwxrwxrwx root/root                58 2023-12-12 10:56 squashfs-root/usr/lib64/libdevmapper-event-lvm2mirror.so -> ../../lib64/device-mapper/libdevmapper-event-lvm2mirror.so
+lrwxrwxrwx root/root                56 2023-12-12 10:56 squashfs-root/usr/lib64/libdevmapper-event-lvm2raid.so -> ../../lib64/device-mapper/libdevmapper-event-lvm2raid.so
+lrwxrwxrwx root/root                60 2023-12-12 10:56 squashfs-root/usr/lib64/libdevmapper-event-lvm2snapshot.so -> ../../lib64/device-mapper/libdevmapper-event-lvm2snapshot.so
+lrwxrwxrwx root/root                56 2023-12-12 10:56 squashfs-root/usr/lib64/libdevmapper-event-lvm2thin.so -> ../../lib64/device-mapper/libdevmapper-event-lvm2thin.so
+lrwxrwxrwx root/root                55 2023-12-12 10:56 squashfs-root/usr/lib64/libdevmapper-event-lvm2vdo.so -> ../../lib64/device-mapper/libdevmapper-event-lvm2vdo.so
+-r-xr-xr-x root/root             32136 2023-07-13 14:51 squashfs-root/usr/lib64/libdevmapper-event.so.1.02
+-r-xr-xr-x root/root            384592 2023-07-13 14:51 squashfs-root/usr/lib64/libdevmapper.so.1.02
+-rwxr-xr-x root/root            631280 2023-06-28 08:43 squashfs-root/usr/lib64/libdw-0.189.so
+lrwxrwxrwx root/root                26 2023-12-12 10:56 squashfs-root/usr/lib64/libdw.so.1 -> ../../lib64/libdw-0.189.so
+lrwxrwxrwx root/root                25 2023-12-12 10:56 squashfs-root/usr/lib64/libe2p.so.2 -> ../../lib64/libe2p.so.2.3
+-rwxr-xr-x root/root             46888 2022-06-08 07:51 squashfs-root/usr/lib64/libe2p.so.2.3
+lrwxrwxrwx root/root                29 2023-12-12 10:56 squashfs-root/usr/lib64/libeconf.so.0 -> ../../lib64/libeconf.so.0.4.1
+-rwxr-xr-x root/root             40432 2023-06-07 06:20 squashfs-root/usr/lib64/libeconf.so.0.4.1
+lrwxrwxrwx root/root                29 2023-12-12 10:56 squashfs-root/usr/lib64/libedit.so.0 -> ../../lib64/libedit.so.0.0.64
+-rwxr-xr-x root/root            236272 2023-07-19 06:23 squashfs-root/usr/lib64/libedit.so.0.0.64
+-rwxr-xr-x root/root            111584 2023-06-28 08:43 squashfs-root/usr/lib64/libelf-0.189.so
+lrwxrwxrwx root/root                27 2023-12-12 10:56 squashfs-root/usr/lib64/libelf.so.1 -> ../../lib64/libelf-0.189.so
+lrwxrwxrwx root/root                28 2023-12-12 10:56 squashfs-root/usr/lib64/libext2fs.so.2 -> ../../lib64/libext2fs.so.2.4
+-rwxr-xr-x root/root            457608 2022-06-08 07:51 squashfs-root/usr/lib64/libext2fs.so.2.4
+lrwxrwxrwx root/root                27 2023-12-12 10:56 squashfs-root/usr/lib64/libffi.so.8 -> ../../lib64/libffi.so.8.1.0
+-rwxr-xr-x root/root             44784 2023-04-17 10:18 squashfs-root/usr/lib64/libffi.so.8.1.0
+-rwxr-xr-x root/root             15432 2023-08-05 16:59 squashfs-root/usr/lib64/libfreebl3.so
+-rw-r--r-- root/root                84 2023-08-05 16:59 squashfs-root/usr/lib64/libfreeblpriv3.chk
+-rwxr-xr-x root/root            747976 2023-08-05 16:59 squashfs-root/usr/lib64/libfreeblpriv3.so
+-rwxr-xr-x root/root            108136 2023-06-26 19:46 squashfs-root/usr/lib64/libgcc_s-11-20230605.so.1
+lrwxrwxrwx root/root                37 2023-12-12 10:56 squashfs-root/usr/lib64/libgcc_s.so.1 -> ../../lib64/libgcc_s-11-20230605.so.1
+lrwxrwxrwx root/root                31 2023-12-12 10:56 squashfs-root/usr/lib64/libgcrypt.so.20 -> ../../lib64/libgcrypt.so.20.4.0
+-rwxr-xr-x root/root           1288512 2023-03-24 06:16 squashfs-root/usr/lib64/libgcrypt.so.20.4.0
+lrwxrwxrwx root/root                28 2023-12-12 10:56 squashfs-root/usr/lib64/libgmp.so.10 -> ../../lib64/libgmp.so.10.4.0
+-rwxr-xr-x root/root            677824 2023-08-03 06:29 squashfs-root/usr/lib64/libgmp.so.10.4.0
+lrwxrwxrwx root/root                34 2023-12-12 10:56 squashfs-root/usr/lib64/libgpg-error.so.0 -> ../../lib64/libgpg-error.so.0.32.0
+-rwxr-xr-x root/root            153600 2021-12-07 10:12 squashfs-root/usr/lib64/libgpg-error.so.0.32.0
+lrwxrwxrwx root/root                28 2023-12-12 10:56 squashfs-root/usr/lib64/libkmod.so.2 -> ../../lib64/libkmod.so.2.3.6
+-rwxr-xr-x root/root            107424 2023-05-19 11:33 squashfs-root/usr/lib64/libkmod.so.2.3.6
+-r-xr-xr-x root/root           2720664 2023-07-13 14:51 squashfs-root/usr/lib64/liblvm2cmd.so.2.03
+lrwxrwxrwx root/root                27 2023-12-12 10:56 squashfs-root/usr/lib64/liblz4.so.1 -> ../../lib64/liblz4.so.1.9.3
+-rwxr-xr-x root/root            144120 2021-08-10 07:49 squashfs-root/usr/lib64/liblz4.so.1.9.3
+lrwxrwxrwx root/root                28 2023-12-12 10:56 squashfs-root/usr/lib64/liblzma.so.5 -> ../../lib64/liblzma.so.5.2.5
+-rwxr-xr-x root/root            178744 2022-05-31 10:31 squashfs-root/usr/lib64/liblzma.so.5.2.5
+lrwxrwxrwx root/root                28 2023-12-12 10:56 squashfs-root/usr/lib64/liblzo2.so.2 -> ../../lib64/liblzo2.so.2.0.0
+-rwxr-xr-x root/root            131176 2021-08-10 07:48 squashfs-root/usr/lib64/liblzo2.so.2.0.0
+-rwxr-xr-x root/root            904680 2023-09-25 03:50 squashfs-root/usr/lib64/libm.so.6
+lrwxrwxrwx root/root                29 2023-12-12 10:56 squashfs-root/usr/lib64/libmount.so.1 -> ../../lib64/libmount.so.1.1.0
+-rwxr-xr-x root/root            283152 2023-08-24 16:42 squashfs-root/usr/lib64/libmount.so.1.1.0
+lrwxrwxrwx root/root                28 2023-12-12 10:56 squashfs-root/usr/lib64/libmpfr.so.6 -> ../../lib64/libmpfr.so.6.1.0
+-rwxr-xr-x root/root            726864 2021-08-10 08:47 squashfs-root/usr/lib64/libmpfr.so.6.1.0
+-rwxr-xr-x root/root             45544 2023-09-25 03:50 squashfs-root/usr/lib64/libnss_compat.so.2
+-rwxr-xr-x root/root             15344 2023-09-25 03:50 squashfs-root/usr/lib64/libnss_dns.so.2
+-rwxr-xr-x root/root             15336 2023-09-25 03:50 squashfs-root/usr/lib64/libnss_files.so.2
+-rwxr-xr-x root/root            157072 2023-08-22 08:50 squashfs-root/usr/lib64/libnss_myhostname.so.2
+-rwxr-xr-x root/root            149128 2023-08-22 08:50 squashfs-root/usr/lib64/libnss_resolve.so.2
+-rwxr-xr-x root/root             53416 2023-10-02 09:56 squashfs-root/usr/lib64/libnss_sss.so.2
+-rwxr-xr-x root/root            357408 2023-08-22 08:50 squashfs-root/usr/lib64/libnss_systemd.so.2
+lrwxrwxrwx root/root                31 2023-12-12 10:56 squashfs-root/usr/lib64/libp11-kit.so.0 -> ../../lib64/libp11-kit.so.0.3.0
+-rwxr-xr-x root/root           1293840 2022-02-01 09:56 squashfs-root/usr/lib64/libp11-kit.so.0.3.0
+lrwxrwxrwx root/root                28 2023-12-12 10:56 squashfs-root/usr/lib64/libpam.so.0 -> ../../lib64/libpam.so.0.85.1
+-rwxr-xr-x root/root             69472 2023-06-26 03:56 squashfs-root/usr/lib64/libpam.so.0.85.1
+lrwxrwxrwx root/root                29 2023-12-12 10:56 squashfs-root/usr/lib64/libpcre.so.1 -> ../../lib64/libpcre.so.1.2.12
+-rwxr-xr-x root/root            489696 2021-08-10 12:05 squashfs-root/usr/lib64/libpcre.so.1.2.12
+lrwxrwxrwx root/root                32 2023-12-12 10:56 squashfs-root/usr/lib64/libpcre2-8.so.0 -> ../../lib64/libpcre2-8.so.0.11.0
+-rwxr-xr-x root/root            637872 2022-05-18 08:55 squashfs-root/usr/lib64/libpcre2-8.so.0.11.0
+lrwxrwxrwx root/root                30 2023-12-12 10:56 squashfs-root/usr/lib64/libprocps.so.8 -> ../../lib64/libprocps.so.8.0.3
+-rwxr-xr-x root/root             86016 2023-08-14 08:54 squashfs-root/usr/lib64/libprocps.so.8.0.3
+lrwxrwxrwx root/root                30 2023-12-12 10:56 squashfs-root/usr/lib64/libreadline.so.8 -> ../../lib64/libreadline.so.8.1
+-rwxr-xr-x root/root            358128 2021-08-10 17:13 squashfs-root/usr/lib64/libreadline.so.8.1
+-rwxr-xr-x root/root             70512 2023-09-25 03:50 squashfs-root/usr/lib64/libresolv.so.2
+lrwxrwxrwx root/root                31 2023-12-12 10:56 squashfs-root/usr/lib64/libseccomp.so.2 -> ../../lib64/libseccomp.so.2.5.2
+-rwxr-xr-x root/root            127680 2021-11-09 11:20 squashfs-root/usr/lib64/libseccomp.so.2.5.2
+-rwxr-xr-x root/root            175552 2023-02-23 12:54 squashfs-root/usr/lib64/libselinux.so.1
+lrwxrwxrwx root/root                31 2023-12-12 10:56 squashfs-root/usr/lib64/libsigsegv.so.2 -> ../../lib64/libsigsegv.so.2.0.6
+-rwxr-xr-x root/root             20192 2021-08-10 02:36 squashfs-root/usr/lib64/libsigsegv.so.2.0.6
+lrwxrwxrwx root/root                33 2023-12-12 10:56 squashfs-root/usr/lib64/libsmartcols.so.1 -> ../../lib64/libsmartcols.so.1.1.0
+-rwxr-xr-x root/root            107840 2023-08-24 16:42 squashfs-root/usr/lib64/libsmartcols.so.1.1.0
+lrwxrwxrwx root/root                30 2023-12-12 10:56 squashfs-root/usr/lib64/libsnappy.so.1 -> ../../lib64/libsnappy.so.1.1.8
+-rwxr-xr-x root/root             49744 2021-08-10 18:01 squashfs-root/usr/lib64/libsnappy.so.1.1.8
+lrwxrwxrwx root/root                31 2023-12-12 10:56 squashfs-root/usr/lib64/libstdc++.so.6 -> ../../lib64/libstdc++.so.6.0.29
+-rwxr-xr-x root/root           2306456 2023-06-26 19:46 squashfs-root/usr/lib64/libstdc++.so.6.0.29
+lrwxrwxrwx root/root                32 2023-12-12 10:56 squashfs-root/usr/lib64/libsystemd.so.0 -> ../../lib64/libsystemd.so.0.35.0
+-rwxr-xr-x root/root            915808 2023-08-22 08:50 squashfs-root/usr/lib64/libsystemd.so.0.35.0
+lrwxrwxrwx root/root                27 2023-12-12 10:56 squashfs-root/usr/lib64/libtinfo.so.6 -> ../../lib64/libtinfo.so.6.2
+-rwxr-xr-x root/root            195080 2023-08-21 10:15 squashfs-root/usr/lib64/libtinfo.so.6.2
+lrwxrwxrwx root/root                28 2023-12-12 10:56 squashfs-root/usr/lib64/libudev.so.1 -> ../../lib64/libudev.so.1.7.5
+-rwxr-xr-x root/root            200144 2023-08-22 08:50 squashfs-root/usr/lib64/libudev.so.1.7.5
+lrwxrwxrwx root/root                28 2023-12-12 10:56 squashfs-root/usr/lib64/libuuid.so.1 -> ../../lib64/libuuid.so.1.3.0
+-rwxr-xr-x root/root             36328 2023-08-24 16:42 squashfs-root/usr/lib64/libuuid.so.1.3.0
+lrwxrwxrwx root/root                26 2023-12-12 10:56 squashfs-root/usr/lib64/libz.so.1 -> ../../lib64/libz.so.1.2.11
+-rwxr-xr-x root/root            102552 2023-05-09 06:51 squashfs-root/usr/lib64/libz.so.1.2.11
+lrwxrwxrwx root/root                28 2023-12-12 10:56 squashfs-root/usr/lib64/libzstd.so.1 -> ../../lib64/libzstd.so.1.5.1
+-rwxr-xr-x root/root            882376 2022-02-08 11:04 squashfs-root/usr/lib64/libzstd.so.1.5.1
+drwxr-xr-x root/root                77 2023-12-12 10:56 squashfs-root/usr/lib64/systemd
+-rwxr-xr-x root/root           2174088 2023-08-22 08:50 squashfs-root/usr/lib64/systemd/libsystemd-core-252.so
+-rwxr-xr-x root/root           3645472 2023-08-22 08:50 squashfs-root/usr/lib64/systemd/libsystemd-shared-252.so
+drwxr-xr-x root/root                25 2023-12-12 10:56 squashfs-root/usr/libexec
+-rwxr-xr-x root/root           1452184 2023-02-09 11:43 squashfs-root/usr/libexec/vi
+drwxr-xr-x root/root               532 2023-12-12 10:56 squashfs-root/usr/sbin
+-rwxr-xr-x root/root             52840 2023-08-24 16:42 squashfs-root/usr/sbin/blkid
+-rwxr-xr-x root/root             57328 2023-01-06 06:50 squashfs-root/usr/sbin/chmod
+-rwxr-xr-x root/root             40496 2023-01-06 06:50 squashfs-root/usr/sbin/chroot
+lrwxrwxrwx root/root                11 2023-12-12 10:56 squashfs-root/usr/sbin/depmod -> ../bin/kmod
+-r-xr-xr-x root/root             48856 2023-07-13 14:51 squashfs-root/usr/sbin/dmeventd
+-r-xr-xr-x root/root            165200 2023-07-13 14:51 squashfs-root/usr/sbin/dmsetup
+-rwxr-xr-x root/root            365800 2022-06-08 07:51 squashfs-root/usr/sbin/e2fsck
+-rwxr-xr-x root/root             44592 2023-08-24 16:42 squashfs-root/usr/sbin/fsck
+-rwxr-xr-x root/root            365800 2022-06-08 07:51 squashfs-root/usr/sbin/fsck.ext4
+lrwxrwxrwx root/root                16 2023-12-12 10:56 squashfs-root/usr/sbin/halt -> ../bin/systemctl
+lrwxrwxrwx root/root                22 2023-12-12 10:56 squashfs-root/usr/sbin/init -> ../lib/systemd/systemd
+-rwxr-xr-x root/root              1345 2022-06-19 18:35 squashfs-root/usr/sbin/initqueue
+lrwxrwxrwx root/root                11 2023-12-12 10:56 squashfs-root/usr/sbin/insmod -> ../bin/kmod
+-rwxr-xr-x root/root               199 2022-06-19 18:35 squashfs-root/usr/sbin/insmodpost.sh
+-rwxr-xr-x root/root            193104 2023-07-04 06:13 squashfs-root/usr/sbin/kexec
+-rwxr-xr-x root/root             36840 2023-08-24 16:42 squashfs-root/usr/sbin/logger
+-rwxr-xr-x root/root               532 2022-06-19 18:35 squashfs-root/usr/sbin/loginit
+-rwxr-xr-x root/root             73816 2023-08-24 16:42 squashfs-root/usr/sbin/losetup
+lrwxrwxrwx root/root                11 2023-12-12 10:56 squashfs-root/usr/sbin/lsmod -> ../bin/kmod
+-r-xr-xr-x root/root           2999840 2023-07-13 14:51 squashfs-root/usr/sbin/lvm
+-rwxr-xr-x root/root              4766 2022-06-19 18:35 squashfs-root/usr/sbin/lvm_scan
+-rwxr-xr-x root/root            438136 2023-07-04 06:13 squashfs-root/usr/sbin/makedumpfile
+lrwxrwxrwx root/root                11 2023-12-12 10:56 squashfs-root/usr/sbin/modinfo -> ../bin/kmod
+lrwxrwxrwx root/root                11 2023-12-12 10:56 squashfs-root/usr/sbin/modprobe -> ../bin/kmod
+-rwxr-xr-x root/root             15520 2023-08-24 16:42 squashfs-root/usr/sbin/nologin
+lrwxrwxrwx root/root                16 2023-12-12 10:56 squashfs-root/usr/sbin/poweroff -> ../bin/systemctl
+-rwxr-xr-x root/root             52824 2023-01-06 06:50 squashfs-root/usr/sbin/printf
+-rwxr-xr-x root/root              1454 2022-06-19 18:35 squashfs-root/usr/sbin/rdsosreport
+lrwxrwxrwx root/root                16 2023-12-12 10:56 squashfs-root/usr/sbin/reboot -> ../bin/systemctl
+lrwxrwxrwx root/root                11 2023-12-12 10:56 squashfs-root/usr/sbin/rmmod -> ../bin/kmod
+-rwxr-xr-x root/root             23824 2023-08-24 16:42 squashfs-root/usr/sbin/swapoff
+lrwxrwxrwx root/root                14 2023-12-12 10:56 squashfs-root/usr/sbin/udevadm -> ../bin/udevadm
+-rwxr-xr-x root/root             27952 2023-07-04 06:13 squashfs-root/usr/sbin/vmcore-dmesg
+drwxr-xr-x root/root               129 2023-12-12 10:56 squashfs-root/usr/share
+lrwxrwxrwx root/root                25 2023-12-12 10:56 squashfs-root/usr/share/consolefonts -> /usr/lib/kbd/consolefonts
+lrwxrwxrwx root/root                25 2023-12-12 10:56 squashfs-root/usr/share/consoletrans -> /usr/lib/kbd/consoletrans
+lrwxrwxrwx root/root                20 2023-12-12 10:56 squashfs-root/usr/share/keymaps -> /usr/lib/kbd/keymaps
+drwxr-xr-x root/root                33 2023-12-12 10:56 squashfs-root/usr/share/terminfo
+drwxr-xr-x root/root                28 2023-12-12 10:56 squashfs-root/usr/share/terminfo/l
+-rw-r--r-- root/root              1728 2023-08-21 10:15 squashfs-root/usr/share/terminfo/l/linux
+drwxr-xr-x root/root                54 2023-12-12 10:56 squashfs-root/usr/share/terminfo/v
+-rw-r--r-- root/root              1190 2023-08-21 10:15 squashfs-root/usr/share/terminfo/v/vt100
+-rw-r--r-- root/root              1184 2023-08-21 10:15 squashfs-root/usr/share/terminfo/v/vt102
+-rw-r--r-- root/root              1391 2023-08-21 10:15 squashfs-root/usr/share/terminfo/v/vt220
+lrwxrwxrwx root/root                20 2023-12-12 10:56 squashfs-root/usr/share/unimaps -> /usr/lib/kbd/unimaps
+drwxr-xr-x root/root                30 2023-12-12 10:56 squashfs-root/usr/share/zoneinfo
+drwxr-xr-x root/root                31 2023-12-12 10:56 squashfs-root/usr/share/zoneinfo/America
+-rw-r--r-- root/root              3552 2023-03-28 19:10 squashfs-root/usr/share/zoneinfo/America/New_York
+drwxr-xr-x root/root                49 2023-12-12 10:56 squashfs-root/var
+lrwxrwxrwx root/root                11 2023-12-12 10:56 squashfs-root/var/lock -> ../run/lock
+lrwxrwxrwx root/root                 6 2023-12-12 10:56 squashfs-root/var/run -> ../run
+drwxr-xr-x root/root                 3 2023-12-12 10:56 squashfs-root/var/tmp
+========================================================================

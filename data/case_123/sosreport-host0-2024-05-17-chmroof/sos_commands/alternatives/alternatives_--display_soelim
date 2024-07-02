@@ -1,0 +1,5 @@
+soelim - status is auto.
+ link currently points to /usr/bin/soelim.groff
+/usr/bin/soelim.groff - priority 300
+ follower soelim.1.gz: /usr/share/man/man1/soelim.groff.1.gz
+Current `best' version is /usr/bin/soelim.groff.

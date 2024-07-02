@@ -1,0 +1,2 @@
+100.0.0.2/24 dev enp1s0 lladdr 53:4f:53:d3:9c:70  ref 1 used 9/0/8probes 1 REACHABLE 
+100.0.0.3/24 dev enp1s0 lladdr 53:4f:53:25:a8:d7  ref 1 used 65/0/60probes 1 REACHABLE 

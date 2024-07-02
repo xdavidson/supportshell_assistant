@@ -1,0 +1,30 @@
+May  1 08:25:35 host0 sshd[791]: Server listening on 0.0.0.0 port 22.
+May  1 08:25:35 host0 sshd[791]: Server listening on :: port 22.
+May  1 08:25:35 host0 polkitd[857]: Loading rules from directory /etc/polkit-1/rules.d
+May  1 08:25:35 host0 polkitd[857]: Loading rules from directory /usr/share/polkit-1/rules.d
+May  1 08:25:35 host0 polkitd[857]: Finished loading, compiling and executing 4 rules
+May  1 08:25:35 host0 polkitd[857]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+May  2 08:25:10 host0 sshd[788]: Server listening on 0.0.0.0 port 22.
+May  2 08:25:10 host0 sshd[788]: Server listening on :: port 22.
+May  2 08:25:11 host0 polkitd[855]: Loading rules from directory /etc/polkit-1/rules.d
+May  2 08:25:11 host0 polkitd[855]: Loading rules from directory /usr/share/polkit-1/rules.d
+May  2 08:25:11 host0 polkitd[855]: Finished loading, compiling and executing 4 rules
+May  2 08:25:11 host0 polkitd[855]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+May  3 08:32:34 host0 sshd[800]: Server listening on 0.0.0.0 port 22.
+May  3 08:32:34 host0 sshd[800]: Server listening on :: port 22.
+May  3 08:32:35 host0 polkitd[858]: Loading rules from directory /etc/polkit-1/rules.d
+May  3 08:32:35 host0 polkitd[858]: Loading rules from directory /usr/share/polkit-1/rules.d
+May  3 08:32:35 host0 polkitd[858]: Finished loading, compiling and executing 4 rules
+May  3 08:32:35 host0 polkitd[858]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+May  6 08:23:47 host0 sshd[792]: Server listening on 0.0.0.0 port 22.
+May  6 08:23:47 host0 sshd[792]: Server listening on :: port 22.
+May  6 08:23:48 host0 polkitd[855]: Loading rules from directory /etc/polkit-1/rules.d
+May  6 08:23:48 host0 polkitd[855]: Loading rules from directory /usr/share/polkit-1/rules.d
+May  6 08:23:48 host0 polkitd[855]: Finished loading, compiling and executing 4 rules
+May  6 08:23:48 host0 polkitd[855]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+May  7 08:28:04 host0 sshd[789]: Server listening on 0.0.0.0 port 22.
+May  7 08:28:04 host0 sshd[789]: Server listening on :: port 22.
+May  7 08:28:05 host0 polkitd[854]: Loading rules from directory /etc/polkit-1/rules.d
+May  7 08:28:05 host0 polkitd[854]: Loading rules from directory /usr/share/polkit-1/rules.d
+May  7 08:28:05 host0 polkitd[854]: Finished loading, compiling and executing 4 rules
+May  7 08:28:05 host0 polkitd[854]: Acquired the name org.freedesktop.PolicyKit1 on the system bus

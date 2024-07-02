@@ -1,0 +1,10 @@
+[Unit]
+Description=SETroubleshoot daemon for processing new SELinux denial logs
+
+[Service]
+Type=dbus
+BusName=org.fedoraproject.Setroubleshootd
+ExecStart=/usr/sbin/setroubleshootd -f
+User=setroubleshoot
+LimitAS=1G
+Nice=5

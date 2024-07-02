@@ -1,0 +1,13 @@
+ Static hostname: unknown.obfuscateddomain0.com
+       Icon name: computer-vm
+         Chassis: vm 🖴
+      Machine ID: 9d450dda0eb545b4851a4dc8aa51f0de
+         Boot ID: 098b80264a054738963026d738ef8a54
+  Virtualization: kvm
+Operating System: Red Hat Enterprise Linux 9.3 (Plow)
+     CPE OS Name: cpe:/o:redhat:enterprise_linux:9::baseos
+          Kernel: Linux 5.14.0-362.8.1.el9_3.x86_64
+    Architecture: x86-64
+ Hardware Vendor: QEMU
+  Hardware Model: Standard PC _Q35 + ICH9, 2009_
+Firmware Version: 1.16.2-1.fc38

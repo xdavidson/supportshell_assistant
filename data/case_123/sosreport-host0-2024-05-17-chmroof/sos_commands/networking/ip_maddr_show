@@ -1,0 +1,12 @@
+1:	lo
+	inet  25.18.18.47
+	inet6 5328::440c
+	inet6 53d7::5e5d
+2:	enp1s0
+	link  53:4f:53:a7:03:66
+	link  53:4f:53:4d:e3:4b
+	link  53:4f:53:64:6e:36
+	inet  25.18.18.47
+	inet6 5328::b6dd:3b65:fce4 users 2
+	inet6 5328::440c
+	inet6 53d7::5e5d
