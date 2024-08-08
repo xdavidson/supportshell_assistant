@@ -1,0 +1,9 @@
+venv/
+env36/
+*.egg-info/
+*.pyc
+.pytest_cache
+*.log
+*.log.*
+.coverage
+.vscode/

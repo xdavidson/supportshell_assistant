@@ -1,6 +1,10 @@
-instructlab
+pymilvus
+sentence-transformers
+langchain
 transformers
+langchain_milvus
+langchain_huggingface
+langchain_community
 datasets
 torch
-sentence-transformers
-pymilvus
+unstructured
