@@ -8,3 +8,4 @@ langchain_community
 datasets
 torch
 unstructured
+Flask

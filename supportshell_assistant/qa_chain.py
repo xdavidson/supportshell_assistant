@@ -81,17 +81,14 @@ def ask_question(chain, question):
         answer = response
         relevant_docs = []
 
-    logger.info(f"Question: {question}")
-    logger.info(f"Answer: {answer}\n")
-    logger.info("Sources:")
-
     printed_sources = set()
+    sources = []
+
     if relevant_docs:
         for doc in relevant_docs:
             source = doc.metadata.get("source", "unknown")
             if source not in printed_sources:
-                logger.info(doc)
-                logger.info(f"Filename: {source}")
+                sources.append(source)
                 printed_sources.add(source)
-    else:
-        logger.info("No sources found.")
+    
+    return {"answer": answer, "sources": sources}
